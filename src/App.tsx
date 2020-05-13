@@ -51,26 +51,25 @@ function App() {
     })
   );
 
+  const selectedEntries = entires.filter(
+    (e) => e.form === selectedForm && e.center === selectedCenter
+  );
+
   const updatedIn = new Date(
     1970,
     0,
-    entires.map((e) => Number.parseInt(e.updatedDay)).max()
+    selectedEntries.map((e) => Number.parseInt(e.updatedDay)).max()
   );
 
   const formTypes = entires.map((e) => e.form).toSet();
   const centerNames = entires.map((e) => e.center).toSet();
+  const existStatus = selectedEntries.map((e) => e.status).toSet();
 
-  const existStatus = new Set<string>();
-
-  const dataset = entires
-    .filter((e) => e.form === selectedForm && e.center === selectedCenter)
+  const dataset = selectedEntries
     .groupBy((e) => e.day)
     .map((e, day) => {
       const temp = new Map<string, number>();
-      e.forEach((x) => {
-        existStatus.add(x.status);
-        temp.set(x.status, x.count + (temp.get(x.status) ?? 0));
-      });
+      e.forEach((x) => temp.set(x.status, x.count + (temp.get(x.status) ?? 0)));
       return { day: day, ...Object.fromEntries(temp) };
     })
     .toList()
@@ -98,7 +97,10 @@ function App() {
   const introduction = (
     <div>
       <h1>USCIS case progress tracker</h1>
-      <h2>Last Update: {updatedIn.toDateString()}</h2>
+      <h2>
+        Current Form: {selectedForm}, location: {selectedCenter}, Last Update
+        for this form and location: {updatedIn.toDateString()}
+      </h2>
       <h3>Help needed for UI and clawer</h3>
       <p>GitHub project: https://github.com/vicdus/uscis-case-statistics/</p>
     </div>
