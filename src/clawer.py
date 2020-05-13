@@ -5,6 +5,7 @@ import re
 from collections import Counter
 import json
 from datetime import date
+import os
 
 BASE_URL = 'https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum='
 
@@ -54,9 +55,10 @@ def get_last_case_number(center_name: str, two_digit_yr: int, day: int, code: in
 
 
 def merge(counter: Counter):
-    with open('./data.json') as f:
+    file_path = os.path.dirname(os.path.realpath(__file__)) + '/data.json'
+    with open(file_path) as f:
         current_counter = Counter(json.loads(f.read()))
-    with open('./data.json', 'w') as f:
+    with open(file_path, 'w') as f:
         for k in counter:
             current_counter[k] += counter[k] - current_counter[k]
         f.write(json.dumps(current_counter, sort_keys=True, indent=4))
