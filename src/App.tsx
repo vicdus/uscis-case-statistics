@@ -35,7 +35,9 @@ function App() {
 
   const entires = Immutable.List(
     Object.entries(data).map(([key, count]) => {
-      const [center, year, day, code, form, status, timestamp] = key.split("|");
+      const [center, year, day, code, form, status, updatedDay] = key.split(
+        "|"
+      );
       return {
         center,
         year,
@@ -43,10 +45,16 @@ function App() {
         code,
         form,
         status,
-        timestamp,
+        updatedDay,
         count,
       };
     })
+  );
+
+  const updatedIn = new Date(
+    1970,
+    0,
+    entires.map((e) => Number.parseInt(e.updatedDay)).max()
   );
 
   const formTypes = entires.map((e) => e.form).toSet();
@@ -70,17 +78,7 @@ function App() {
     .toArray();
 
   const chart = (
-    <LineChart
-      width={1440}
-      height={810}
-      data={dataset}
-      margin={{
-        top: 5,
-        right: 30,
-        left: 20,
-        bottom: 5,
-      }}
-    >
+    <LineChart width={1440} height={810} data={dataset}>
       <CartesianGrid strokeDasharray='3 3' />
       <XAxis dataKey='day' />
       <YAxis />
@@ -97,8 +95,18 @@ function App() {
     </LineChart>
   );
 
+  const introduction = (
+    <div>
+      <h1>USCIS case progress tracker</h1>
+      <h2>Last Update: {updatedIn.toDateString()}</h2>
+      <h3>Help needed for UI and clawer</h3>
+      <p>GitHub project: https://github.com/vicdus/uscis-case-statistics/</p>
+    </div>
+  );
+
   return (
     <div>
+      {introduction}
       {chart}
       <FormControl fullWidth={true} component='fieldset'>
         <FormLabel component='legend'>Form Type</FormLabel>
