@@ -1,22 +1,24 @@
+import ColorHash from "color-hash";
+import Immutable from "immutable";
+import nullthrows from "nullthrows";
 import React, { useState } from "react";
-import data from "./data.json";
 import {
-  LineChart,
-  Line,
   CartesianGrid,
+  Legend,
+  Line,
+  LineChart,
+  Tooltip,
   XAxis,
   YAxis,
-  Legend,
-  Tooltip,
 } from "recharts";
-import ColorHash from "color-hash";
-import nullthrows from "nullthrows";
-import Immutable from "immutable";
+
+import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
+import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
-import FormControl from "@material-ui/core/FormControl";
-import FormLabel from "@material-ui/core/FormLabel";
+
+import data from "./data.json";
 
 function getColor(s: string): string {
   return (
