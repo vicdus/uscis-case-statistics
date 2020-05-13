@@ -1,11 +1,14 @@
-import requests
 import asyncio
-from bs4 import BeautifulSoup
+import itertools
+import json
+import os
 import re
 from collections import Counter
-import json
 from datetime import date
-import os
+
+import requests
+from bs4 import BeautifulSoup
+
 
 BASE_URL = 'https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum='
 
@@ -67,10 +70,11 @@ def merge(counter: Counter):
         f.write(json.dumps(current_counter, sort_keys=True, indent=4))
 
 
-def request_ignore_err(url):
+def request_ignore_err(url: str):
     try:
         return requests.get(url)
     except:
+        print(f'failed in {url}')
         return None
 
 
@@ -104,11 +108,7 @@ def run():
         for code in range(0, 10):
             for center in CENTER_NAMES:
                 loop = asyncio.get_event_loop()
-                try:
-                    loop.run_until_complete(
-                        claw(center, 20, day, code, counter))
-                except:
-                    print(f'failed in {day} {code} {center}')
+                loop.run_until_complete(claw(center, 20, day, code, counter))
 
 
 run()
