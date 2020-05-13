@@ -104,6 +104,18 @@ function App() {
     </div>
   );
 
+  const QA = (
+    <div>
+      <h3>Q and A</h3>
+      <h4>Q: 你是谁？</h4>
+      <p>A: 我今年抽中了h1b, 在等approve</p>
+      <h4>Q: 数据来源？</h4>
+      <p>A: 枚举号段下所有可能的case number并爬取USCIS, 保存成文件</p>
+      <h4>Q: 为什么是文件？为什么不用数据库？</h4>
+      <p>A: 穷、懒</p>
+    </div>
+  );
+
   return (
     <div>
       {introduction}
@@ -134,6 +146,7 @@ function App() {
           ))}
         </RadioGroup>
       </FormControl>
+      {QA}
     </div>
   );
 }
