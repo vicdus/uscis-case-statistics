@@ -727,5 +727,10 @@
     "YSC|20|170|5|I-539|Case Rejected Because I Sent An Incorrect Fee|18395": 2,
     "YSC|20|170|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted|18395": 2,
     "YSC|20|170|5|I-539|Case Was Received|18395": 56,
-    "YSC|20|170|5|I-751|Case Was Received|18395": 38
+    "YSC|20|170|5|I-751|Case Was Received|18395": 38,
+    "YSC|20|171|5|I-539|Case Rejected Because I Sent An Incorrect Fee|18395": 15,
+    "YSC|20|171|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted|18395": 2,
+    "YSC|20|171|5|I-539|Case Was Received|18395": 43,
+    "YSC|20|171|5|I-539|Fees Were Waived|18395": 2,
+    "YSC|20|171|5|I-751|Case Was Received|18395": 81
 }
