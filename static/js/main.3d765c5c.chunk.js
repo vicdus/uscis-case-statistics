@@ -1,0 +1,2 @@
+(this["webpackJsonpuscis-case-statistics"]=this["webpackJsonpuscis-case-statistics"]||[]).push([[0],{16:function(e,t,a){e.exports=a(26)},26:function(e,t,a){"use strict";a.r(t);var n=a(0),c=a.n(n),s=a(13),o=a.n(s);var i=function(){return c.a.createElement("div",null," hello world ")},r=a(14),l=a(1);o.a.render(c.a.createElement(c.a.StrictMode,null,c.a.createElement(r.a,{basename:window.location.pathname||""},c.a.createElement(l.a,{exact:!0,path:"/",component:i}))),document.getElementById("root"))}},[[16,1,2]]]);
+//# sourceMappingURL=main.3d765c5c.chunk.js.map
