@@ -67,6 +67,13 @@ def merge(counter: Counter):
         f.write(json.dumps(current_counter, sort_keys=True, indent=4))
 
 
+def request_ignore_err(url):
+    try:
+        return requests.get(url)
+    except:
+        return None
+
+
 async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter: Counter):
     current_day_since_1970 = (date.today() - date(1970, 1, 1)).days
     event_loop = asyncio.get_event_loop()
@@ -75,12 +82,15 @@ async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter
         center_name, two_digit_yr, day, code))
     ids = [get_case_id(center_name, two_digit_yr, day, code, number)
            for number in case_serial_numbers]
-
+    print(
+        f'clawing center {center_name}, day: {day}, code: {code}, total of {len(ids)} cases')
     futures = [event_loop.run_in_executor(
-        None, requests.get, BASE_URL + case_id) for case_id in ids]
+        None, request_ignore_err, BASE_URL + case_id) for case_id in ids]
     responses = [await f for f in futures]
 
     for response in responses:
+        if response is None:
+            continue
         parsed = parse_response(response)
         if parsed is not None:
             status, form_type = parsed
