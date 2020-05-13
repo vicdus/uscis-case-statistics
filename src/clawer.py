@@ -15,7 +15,7 @@ FORM_TYPES = [
     'I-539', 'I-600', 'I-600A', 'I-601', 'I-601A', 'I-612', 'I-730', 'I-751', 'I-765', 'I-765V', 'I-800', 'I-800A',
     'I-817', 'I-821', 'I-821D', 'I-824', 'I-829', 'I-914', 'I-918', 'I-924', 'I-929'
 ]
-CENTER_NAMES = ['EAC', 'VSC', 'WAC', 'CSC', 'LIN',
+CENTER_NAMES = ['WAC', 'EAC', 'VSC',  'CSC', 'LIN',
                 'NSC', 'SRC', 'TSC', 'MSC', 'NBC', 'IOE', 'YSC']
 
 
@@ -67,7 +67,7 @@ def merge(counter: Counter):
         f.write(json.dumps(current_counter, sort_keys=True, indent=4))
 
 
-async def main(center_name: str, two_digit_yr: int, day: int, code: int, counter: Counter):
+async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter: Counter):
     current_day_since_1970 = (date.today() - date(1970, 1, 1)).days
     event_loop = asyncio.get_event_loop()
 
@@ -90,10 +90,15 @@ async def main(center_name: str, two_digit_yr: int, day: int, code: int, counter
 
 def run():
     counter = Counter()
-    for day in range(173, 175):
+    for day in range(168, 180):
         for code in range(0, 10):
-            loop = asyncio.get_event_loop()
-            loop.run_until_complete(main('EAC', 20, day, code, counter))
+            for center in CENTER_NAMES:
+                loop = asyncio.get_event_loop()
+                try:
+                    loop.run_until_complete(
+                        claw(center, 20, day, code, counter))
+                except:
+                    print(f'failed in {day} {code} {center}')
 
 
 run()
