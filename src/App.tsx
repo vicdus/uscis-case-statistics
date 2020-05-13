@@ -35,9 +35,7 @@ function App() {
 
   const entires = Immutable.List(
     Object.entries(data).map(([key, count]) => {
-      const [center, year, day, code, form, status, updatedDay] = key.split(
-        "|"
-      );
+      const [center, year, day, code, form, status, updateDay] = key.split("|");
       return {
         center,
         year,
@@ -45,20 +43,22 @@ function App() {
         code,
         form,
         status,
-        updatedDay,
+        updateDay,
         count,
       };
     })
   );
 
-  const selectedEntries = entires.filter(
+  const selectedEntriesAllDate = entires.filter(
     (e) => e.form === selectedForm && e.center === selectedCenter
   );
 
-  const updatedIn = new Date(
-    1970,
-    0,
-    selectedEntries.map((e) => Number.parseInt(e.updatedDay)).max()
+  const latestUpdateDay = selectedEntriesAllDate
+    .map((e) => Number.parseInt(e.updateDay))
+    .max();
+
+  const selectedEntries = selectedEntriesAllDate.filter(
+    (e) => e.updateDay === latestUpdateDay?.toString()
   );
 
   const formTypes = entires.map((e) => e.form).toSet();
@@ -68,9 +68,15 @@ function App() {
   const dataset = selectedEntries
     .groupBy((e) => e.day)
     .map((e, day) => {
-      const temp = new Map<string, number>();
-      e.forEach((x) => temp.set(x.status, x.count + (temp.get(x.status) ?? 0)));
-      return { day: day, ...Object.fromEntries(temp) };
+      return {
+        day,
+        ...e
+          .reduce(
+            (counter, v) => counter.set(v.status, v.count),
+            Immutable.Map<string, number>()
+          )
+          .toObject(),
+      };
     })
     .toList()
     .sort((a, b) => Number.parseInt(a.day) - Number.parseInt(b.day))
@@ -88,8 +94,8 @@ function App() {
       <Legend />
       {Immutable.Set(existStatus)
         .toArray()
-        .map((s) => (
-          <Line type='linear' dataKey={s} stroke={getColor(s)} />
+        .map((s, ind) => (
+          <Line key={ind} type='linear' dataKey={s} stroke={getColor(s)} />
         ))}
     </LineChart>
   );
@@ -99,7 +105,8 @@ function App() {
       <h1>USCIS case progress tracker</h1>
       <h2>
         Current Form: {selectedForm}, location: {selectedCenter}, Last Update
-        for this form and location: {updatedIn.toDateString()}
+        for this form and location:{" "}
+        {new Date(1970, 0, latestUpdateDay).toDateString()}
       </h2>
       <h3>Help needed for UI and clawer</h3>
       <p>GitHub project: https://github.com/vicdus/uscis-case-statistics/</p>
@@ -134,8 +141,13 @@ function App() {
           value={selectedForm}
           onChange={(e) => setSelectedForm(e.target.value)}
         >
-          {formTypes.toArray().map((f) => (
-            <FormControlLabel value={f} control={<Radio />} label={f} />
+          {formTypes.toArray().map((f, ind) => (
+            <FormControlLabel
+              key={ind}
+              value={f}
+              control={<Radio />}
+              label={f}
+            />
           ))}
         </RadioGroup>
       </FormControl>
@@ -147,8 +159,13 @@ function App() {
           value={selectedCenter}
           onChange={(e) => setSelectedCenter(e.target.value)}
         >
-          {centerNames.toArray().map((f) => (
-            <FormControlLabel value={f} control={<Radio />} label={f} />
+          {centerNames.toArray().map((f, ind) => (
+            <FormControlLabel
+              key={ind}
+              value={f}
+              control={<Radio />}
+              label={f}
+            />
           ))}
         </RadioGroup>
       </FormControl>
