@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import data from "./data.json";
 import {
   LineChart,
@@ -12,6 +12,11 @@ import {
 import ColorHash from "color-hash";
 import nullthrows from "nullthrows";
 import Immutable from "immutable";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Radio from "@material-ui/core/Radio";
+import RadioGroup from "@material-ui/core/RadioGroup";
+import FormControl from "@material-ui/core/FormControl";
+import FormLabel from "@material-ui/core/FormLabel";
 
 function getColor(s: string): string {
   return (
@@ -25,6 +30,9 @@ function getColor(s: string): string {
 }
 
 function App() {
+  const [selectedForm, setSelectedForm] = useState<string>("I-129");
+  const [selectedCenter, setSelectedCenter] = useState<string>("WAC");
+
   const entires = Immutable.List(
     Object.entries(data).map(([key, count]) => {
       const [center, year, day, code, form, status, timestamp] = key.split("|");
@@ -41,10 +49,13 @@ function App() {
     })
   );
 
+  const formTypes = entires.map((e) => e.form).toSet();
+  const centerNames = entires.map((e) => e.center).toSet();
+
   const existStatus = new Set<string>();
 
   const dataset = entires
-    .filter((e) => e.form === "I-129")
+    .filter((e) => e.form === selectedForm && e.center === selectedCenter)
     .groupBy((e) => e.day)
     .map((e, day) => {
       const temp = new Map<string, number>();
@@ -86,7 +97,37 @@ function App() {
     </LineChart>
   );
 
-  return <div>{chart}</div>;
+  return (
+    <div>
+      {chart}
+      <FormControl fullWidth={true} component='fieldset'>
+        <FormLabel component='legend'>Form Type</FormLabel>
+        <RadioGroup
+          aria-label='form'
+          name='form'
+          value={selectedForm}
+          onChange={(e) => setSelectedForm(e.target.value)}
+        >
+          {formTypes.toArray().map((f) => (
+            <FormControlLabel value={f} control={<Radio />} label={f} />
+          ))}
+        </RadioGroup>
+      </FormControl>
+      <FormControl fullWidth={true} component='fieldset'>
+        <FormLabel component='legend'>Center</FormLabel>
+        <RadioGroup
+          aria-label='form'
+          name='form'
+          value={selectedCenter}
+          onChange={(e) => setSelectedCenter(e.target.value)}
+        >
+          {centerNames.toArray().map((f) => (
+            <FormControlLabel value={f} control={<Radio />} label={f} />
+          ))}
+        </RadioGroup>
+      </FormControl>
+    </div>
+  );
 }
 
 export default App;

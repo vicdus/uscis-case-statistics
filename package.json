@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://vicdus.github.io/uscis-case-statistics/",
   "dependencies": {
+    "@material-ui/core": "^4.9.14",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
