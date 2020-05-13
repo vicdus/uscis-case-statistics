@@ -92,11 +92,9 @@ function App() {
         itemSorter={(a) => -a.payload[nullthrows(a.dataKey?.toString())]}
       />
       <Legend />
-      {Immutable.Set(existStatus)
-        .toArray()
-        .map((s, ind) => (
-          <Line key={ind} type='linear' dataKey={s} stroke={getColor(s)} />
-        ))}
+      {existStatus.toArray().map((s, ind) => (
+        <Line key={ind} type='linear' dataKey={s} stroke={getColor(s)} />
+      ))}
     </LineChart>
   );
 
