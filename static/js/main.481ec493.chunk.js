@@ -1,0 +1,2 @@
+(this["webpackJsonpuscis-case-statistics"]=this["webpackJsonpuscis-case-statistics"]||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var s=n(0),c=n.n(s),a=n(2);var r=function(){return c.a.createElement("div",null," hello world ")};n.n(a).a.render(c.a.createElement(c.a.StrictMode,null,c.a.createElement(r,null)),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.481ec493.chunk.js.map
