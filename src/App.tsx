@@ -1,7 +1,7 @@
 import ColorHash from "color-hash";
 import Immutable from "immutable";
 import nullthrows from "nullthrows";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -18,7 +18,8 @@ import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 
-import data from "./data.json";
+const JSON_URL =
+  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json";
 
 function getColor(s: string): string {
   return (
@@ -34,9 +35,14 @@ function getColor(s: string): string {
 function App() {
   const [selectedForm, setSelectedForm] = useState<string>("I-129");
   const [selectedCenter, setSelectedCenter] = useState<string>("WAC");
+  const [caseData, setCaseData] = useState<Object>({});
+
+  useEffect(() => {
+    (async () => setCaseData(await (await fetch(JSON_URL)).json()))();
+  }, []);
 
   const entires = Immutable.List(
-    Object.entries(data).map(([key, count]) => {
+    Object.entries(caseData).map(([key, count]) => {
       const [center, year, day, code, form, status, updateDay] = key.split("|");
       return {
         center,
