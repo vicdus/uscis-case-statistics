@@ -73,6 +73,7 @@ function App() {
   const latestUpdateDay = selectedEntriesAllDate
     .map((e) => Number.parseInt(e.updateDay))
     .max();
+  
 
   const selectedEntries = selectedEntriesAllDate.filter(
     (e) => e.updateDay === (selectedUpdateDay ?? latestUpdateDay)?.toString()
@@ -118,14 +119,16 @@ function App() {
   const introduction = (
     <div>
       <h1>USCIS case progress tracker</h1>
-      <h2>
-        Current Form: {selectedForm}, location: {selectedCenter}, Last Update
-        for this form and location:{" "}
-        {new Date(1970, 0, latestUpdateDay).toDateString()}
-      </h2>
+      <p>
+        Current Form: <strong>{selectedForm}</strong>,<br /> location: <strong>{selectedCenter}</strong> ,<br /> Last Update
+        for this form and location:
+        <strong>{latestUpdateDay?new Date(1970, 0, latestUpdateDay).toDateString():"Not Exist currently"}</strong>
+      </p>
       <h3>Help needed for UI and clawer</h3>
-      <p>GitHub project: https://github.com/vicdus/uscis-case-statistics/</p>
-    </div>
+      <p>GitHub project:
+        <a href="https://github.com/vicdus/uscis-case-statistics/"  target="_blank"  >https://github.com/vicdus/uscis-case-statistics/</a>
+        </p>
+        </div>
   );
 
   const updateDayPicker = availableUpdateDays.max() ? (
@@ -173,6 +176,7 @@ function App() {
         name='form'
         value={selectedForm}
         onChange={(e) => setSelectedForm(e.target.value)}
+        row={true}
       >
         {formTypes.toArray().map((f, ind) => (
           <FormControlLabel key={ind} value={f} control={<Radio />} label={f} />
