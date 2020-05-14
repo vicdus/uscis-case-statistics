@@ -1,7 +1,7 @@
 import ColorHash from "color-hash";
 import Immutable from "immutable";
 import nullthrows from "nullthrows";
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -11,7 +11,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-
+import Grid from "@material-ui/core/Grid";
 import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
@@ -66,7 +66,9 @@ function App() {
   );
   const availableUpdateDays = selectedEntriesAllDate
     .map((e) => Number.parseInt(e.updateDay))
-    .toSet();
+    .toSet()
+    .toList()
+    .sort();
 
   const latestUpdateDay = selectedEntriesAllDate
     .map((e) => Number.parseInt(e.updateDay))
@@ -126,18 +128,26 @@ function App() {
     </div>
   );
 
-  const updateDayPicker = (
-    <Slider
-      defaultValue={availableUpdateDays.max() ?? 1}
-      onChange={(e, f) => setSelectedUpdateDay(f.toString())}
-      aria-labelledby='discrete-slider'
-      valueLabelDisplay='auto'
-      step={1}
-      marks
-      min={availableUpdateDays.min() ?? 0}
-      max={availableUpdateDays.max() ?? 1}
-    />
-  );
+  const updateDayPicker = availableUpdateDays.max() ? (
+    <Grid item xs={8}>
+      <Slider
+        style={{ marginLeft: "128px", marginRight: "128px" }}
+        defaultValue={availableUpdateDays.max() ?? 1}
+        onChange={(_, f) => setSelectedUpdateDay(f.toString())}
+        aria-labelledby='discrete-slider'
+        valueLabelDisplay='off'
+        step={1}
+        marks={availableUpdateDays
+          .map((e) => ({
+            value: e,
+            label: new Date(1970, 0, e).toDateString(),
+          }))
+          .toArray()}
+        min={availableUpdateDays.min() ?? 0}
+        max={availableUpdateDays.max() ?? 1}
+      />
+    </Grid>
+  ) : null;
 
   const QA = (
     <div>
