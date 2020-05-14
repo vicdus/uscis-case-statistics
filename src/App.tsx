@@ -121,7 +121,7 @@ function App() {
       <h2>
         Current Form: {selectedForm}, location: {selectedCenter}, Last Update
         for this form and location:{" "}
-        {new Date(1970, 0, latestUpdateDay).toDateString()}
+        {new Date(1970, 0, latestUpdateDay ?? 0 + 1).toDateString()}
       </h2>
       <h3>Help needed for UI and clawer</h3>
       <p>GitHub project: https://github.com/vicdus/uscis-case-statistics/</p>
@@ -140,7 +140,7 @@ function App() {
         marks={availableUpdateDays
           .map((e) => ({
             value: e,
-            label: new Date(1970, 0, e).toDateString(),
+            label: new Date(1970, 0, e + 1).toDateString(),
           }))
           .toArray()}
         min={availableUpdateDays.min() ?? 0}
