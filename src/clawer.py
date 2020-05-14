@@ -104,7 +104,7 @@ async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter
 
 def run():
     counter = Counter()
-    for day in range(145, 158):
+    for day in range(158, 168):
         for code in range(0, 10):
             for center in CENTER_NAMES:
                 loop = asyncio.get_event_loop()
