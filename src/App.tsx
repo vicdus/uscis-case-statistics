@@ -17,6 +17,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
+import Slider from "@material-ui/core/Slider";
 
 const JSON_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json";
@@ -35,6 +36,9 @@ function getColor(s: string): string {
 function App() {
   const [selectedForm, setSelectedForm] = useState<string>("I-129");
   const [selectedCenter, setSelectedCenter] = useState<string>("WAC");
+  const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
+    null
+  );
   const [caseData, setCaseData] = useState<Object>({});
 
   useEffect(() => {
@@ -60,13 +64,16 @@ function App() {
   const selectedEntriesAllDate = entires.filter(
     (e) => e.form === selectedForm && e.center === selectedCenter
   );
+  const availableUpdateDays = selectedEntriesAllDate
+    .map((e) => Number.parseInt(e.updateDay))
+    .toSet();
 
   const latestUpdateDay = selectedEntriesAllDate
     .map((e) => Number.parseInt(e.updateDay))
     .max();
 
   const selectedEntries = selectedEntriesAllDate.filter(
-    (e) => e.updateDay === latestUpdateDay?.toString()
+    (e) => e.updateDay === (selectedUpdateDay ?? latestUpdateDay)?.toString()
   );
 
   const formTypes = entires.map((e) => e.form).toSet();
@@ -119,6 +126,19 @@ function App() {
     </div>
   );
 
+  const updateDayPicker = (
+    <Slider
+      defaultValue={availableUpdateDays.max() ?? 1}
+      onChange={(e, f) => setSelectedUpdateDay(f.toString())}
+      aria-labelledby='discrete-slider'
+      valueLabelDisplay='auto'
+      step={1}
+      marks
+      min={availableUpdateDays.min() ?? 0}
+      max={availableUpdateDays.max() ?? 1}
+    />
+  );
+
   const QA = (
     <div>
       <h3>Q and A</h3>
@@ -135,46 +155,45 @@ function App() {
     </div>
   );
 
+  const formTypeSelector = (
+    <FormControl fullWidth={true} component='fieldset'>
+      <FormLabel component='legend'>Form Type</FormLabel>
+      <RadioGroup
+        aria-label='form'
+        name='form'
+        value={selectedForm}
+        onChange={(e) => setSelectedForm(e.target.value)}
+      >
+        {formTypes.toArray().map((f, ind) => (
+          <FormControlLabel key={ind} value={f} control={<Radio />} label={f} />
+        ))}
+      </RadioGroup>
+    </FormControl>
+  );
+
+  const centerSelector = (
+    <FormControl fullWidth={true} component='fieldset'>
+      <FormLabel component='legend'>Center</FormLabel>
+      <RadioGroup
+        aria-label='form'
+        name='form'
+        value={selectedCenter}
+        onChange={(e) => setSelectedCenter(e.target.value)}
+      >
+        {centerNames.toArray().map((f, ind) => (
+          <FormControlLabel key={ind} value={f} control={<Radio />} label={f} />
+        ))}
+      </RadioGroup>
+    </FormControl>
+  );
+
   return (
     <div>
       {introduction}
+      {updateDayPicker}
       {chart}
-      <FormControl fullWidth={true} component='fieldset'>
-        <FormLabel component='legend'>Form Type</FormLabel>
-        <RadioGroup
-          aria-label='form'
-          name='form'
-          value={selectedForm}
-          onChange={(e) => setSelectedForm(e.target.value)}
-        >
-          {formTypes.toArray().map((f, ind) => (
-            <FormControlLabel
-              key={ind}
-              value={f}
-              control={<Radio />}
-              label={f}
-            />
-          ))}
-        </RadioGroup>
-      </FormControl>
-      <FormControl fullWidth={true} component='fieldset'>
-        <FormLabel component='legend'>Center</FormLabel>
-        <RadioGroup
-          aria-label='form'
-          name='form'
-          value={selectedCenter}
-          onChange={(e) => setSelectedCenter(e.target.value)}
-        >
-          {centerNames.toArray().map((f, ind) => (
-            <FormControlLabel
-              key={ind}
-              value={f}
-              control={<Radio />}
-              label={f}
-            />
-          ))}
-        </RadioGroup>
-      </FormControl>
+      {formTypeSelector}
+      {centerSelector}
       {QA}
     </div>
   );
