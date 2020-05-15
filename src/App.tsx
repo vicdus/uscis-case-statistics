@@ -70,6 +70,12 @@ function App() {
     .toList()
     .sort();
 
+  const countValueForAllDays = selectedEntriesAllDate
+    .map((e) => Number.parseInt(e.count))
+    .toSet()
+    .toList()
+    .sort();
+
   const latestUpdateDay = selectedEntriesAllDate
     .map((e) => Number.parseInt(e.updateDay))
     .max();
@@ -81,6 +87,11 @@ function App() {
   const formTypes = entires.map((e) => e.form).toSet();
   const centerNames = entires.map((e) => e.center).toSet();
   const existStatus = selectedEntries.map((e) => e.status).toSet();
+  const exisitDays = selectedEntriesAllDate
+    .map((e) => Number.parseInt(e.day))
+    .toSet()
+    .toList()
+    .sort();
 
   const dataset = selectedEntries
     .groupBy((e) => e.day)
@@ -99,18 +110,31 @@ function App() {
     .sort((a, b) => Number.parseInt(a.day) - Number.parseInt(b.day))
     .toArray();
 
+  const datasetWithBackfill = exisitDays
+    .map((day) => dataset.find((v) => v.day === day.toString()) ?? { day })
+    .toArray();
+
   const chart = (
-    <LineChart width={1440} height={810} data={dataset}>
+    <LineChart width={1440} height={810} data={datasetWithBackfill}>
       <CartesianGrid strokeDasharray='3 3' />
       <XAxis dataKey='day' />
-      <YAxis />
+      <YAxis
+        type='number'
+        height={810}
+        domain={[0, countValueForAllDays.max() ?? 1]}
+      />
       <Tooltip
         offset={100}
         itemSorter={(a) => -a.payload[nullthrows(a.dataKey?.toString())]}
       />
-      <Legend />
       {existStatus.toArray().map((s, ind) => (
-        <Line key={ind} type='linear' dataKey={s} stroke={getColor(s)} />
+        <Line
+          key={ind}
+          type='linear'
+          isAnimationActive={false}
+          dataKey={s}
+          stroke={getColor(s)}
+        />
       ))}
     </LineChart>
   );
