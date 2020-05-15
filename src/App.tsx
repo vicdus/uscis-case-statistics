@@ -4,20 +4,22 @@ import nullthrows from "nullthrows";
 import React, { useEffect, useState } from "react";
 import {
   CartesianGrid,
-  Legend,
   Line,
   LineChart,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
-import Grid from "@material-ui/core/Grid";
+
 import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
+import Grid from "@material-ui/core/Grid";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
+
+import WeChatDonation from "./donation_wechat.jpg";
 
 const JSON_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json";
@@ -186,6 +188,13 @@ function App() {
       <p>A: 可能需要地里大家一起来爬并更新，稍后放出步骤</p>
       <h4>Q: 为什么是文件？为什么不用数据库？</h4>
       <p>A: 穷、懒</p>
+      <h4>Q: 这个很有用，可以请你喝杯咖啡吗？</h4>
+      <p>A: 感谢！</p>
+      <img
+        src={WeChatDonation}
+        alt='wechat_donation'
+        style={{ width: "400px", height: "560px" }}
+      />
     </div>
   );
 
