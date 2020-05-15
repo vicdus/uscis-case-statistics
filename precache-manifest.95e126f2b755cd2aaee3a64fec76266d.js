@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "110dfc2b90e28719ff570281b72e1884",
+    "revision": "e95f8a2b9b87081ac5e8b0bc7e903ab2",
     "url": "/uscis-case-statistics/index.html"
   },
   {
