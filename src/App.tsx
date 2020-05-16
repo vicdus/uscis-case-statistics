@@ -18,7 +18,7 @@ import Grid from "@material-ui/core/Grid";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
-
+import data from "./out.json";
 import WeChatDonation from "./donation_wechat.jpg";
 
 const JSON_URL =
@@ -41,15 +41,15 @@ function App() {
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
   );
-  const [caseData, setCaseData] = useState<Object>({});
+  const [caseData, setCaseData] = useState<Object>(data);
 
-  useEffect(() => {
-    (async () => setCaseData(await (await fetch(JSON_URL)).json()))();
-  }, []);
+  // useEffect(() => {
+  //   (async () => setCaseData(await (await fetch(JSON_URL)).json()))();
+  // }, []);
 
-  const entires = Immutable.List(
-    Object.entries(caseData).map(([key, count]) => {
-      const [center, year, day, code, form, status, updateDay] = key.split("|");
+  const f = Object.entries(caseData).flatMap(([key, counts]) => {
+    const [center, year, day, code, form, status] = key.split("|");
+    return Object.entries(counts).map((count) => {
       return {
         center,
         year,
@@ -57,11 +57,13 @@ function App() {
         code,
         form,
         status,
-        updateDay,
-        count,
+        updateDay: count[0] as string,
+        count: count[1] as number,
       };
-    })
-  );
+    });
+  });
+
+  const entires = Immutable.List(f);
 
   const selectedEntriesAllDate = entires.filter(
     (e) => e.form === selectedForm && e.center === selectedCenter
@@ -73,7 +75,7 @@ function App() {
     .sort();
 
   const countValueForAllDays = selectedEntriesAllDate
-    .map((e) => Number.parseInt(e.count))
+    .map((e) => e.count)
     .toSet()
     .toList()
     .sort();
