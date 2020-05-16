@@ -61,13 +61,15 @@ def get_last_case_number(center_name: str, two_digit_yr: int, day: int, code: in
 
 
 def merge(counter: Counter):
-    current_day_since_1970 = (date.today() - date(1970, 1, 1)).days
+    current_day_since_1970 = str((date.today() - date(1970, 1, 1)).days)
     file_path = os.path.dirname(os.path.realpath(__file__)) + '/data.json'
     with open(file_path) as f:
-        counter_all_days = Counter(json.loads(f.read()))
+        counter_all_days = json.loads(f.read())
     with open(file_path, 'w') as f:
-        for k in counter:
-            counter_all_days[k][str(current_day_since_1970)] = counter[k]
+        for key in counter:
+            if key not in counter_all_days:
+                counter_all_days[key] = {}
+            counter_all_days[key][current_day_since_1970] = counter[key]
         f.write(json.dumps(counter_all_days, sort_keys=True, indent=4))
 
 
