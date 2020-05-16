@@ -85,9 +85,8 @@ def request_ignore_err(url: str):
 async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter: Counter):
     event_loop = asyncio.get_event_loop()
 
-    # case_serial_numbers = range(1, get_last_case_number(
-    #     center_name, two_digit_yr, day, code))
-    case_serial_numbers = range(1, 10)
+    case_serial_numbers = range(1, get_last_case_number(
+        center_name, two_digit_yr, day, code))
     ids = [get_case_id(center_name, two_digit_yr, day, code, number)
            for number in case_serial_numbers]
     print(
@@ -108,7 +107,7 @@ async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter
 
 def run():
     counter = Counter()
-    for day in range(171, 175):
+    for day in range(145, 200):
         for code in [5]:
             for center in CENTER_NAMES:
                 loop = asyncio.get_event_loop()
