@@ -61,13 +61,14 @@ def get_last_case_number(center_name: str, two_digit_yr: int, day: int, code: in
 
 
 def merge(counter: Counter):
+    current_day_since_1970 = (date.today() - date(1970, 1, 1)).days
     file_path = os.path.dirname(os.path.realpath(__file__)) + '/data.json'
     with open(file_path) as f:
-        current_counter = Counter(json.loads(f.read()))
+        counter_all_days = Counter(json.loads(f.read()))
     with open(file_path, 'w') as f:
         for k in counter:
-            current_counter[k] += counter[k] - current_counter[k]
-        f.write(json.dumps(current_counter, sort_keys=True, indent=4))
+            counter_all_days[k][current_day_since_1970] += counter[k]
+        f.write(json.dumps(counter_all_days, sort_keys=True, indent=4))
 
 
 def request_ignore_err(url: str):
@@ -79,7 +80,6 @@ def request_ignore_err(url: str):
 
 
 async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter: Counter):
-    current_day_since_1970 = (date.today() - date(1970, 1, 1)).days
     event_loop = asyncio.get_event_loop()
 
     case_serial_numbers = range(1, get_last_case_number(
@@ -98,7 +98,7 @@ async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter
         parsed = parse_response(response)
         if parsed is not None:
             status, form_type = parsed
-            counter[f'{center_name}|{two_digit_yr}|{day}|{code}|{form_type}|{status}|{current_day_since_1970}'] += 1
+            counter[f'{center_name}|{two_digit_yr}|{day}|{code}|{form_type}|{status}'] += 1
     merge(counter)
 
 
