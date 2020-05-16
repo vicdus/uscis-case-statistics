@@ -67,7 +67,10 @@ def merge(counter: Counter):
         counter_all_days = Counter(json.loads(f.read()))
     with open(file_path, 'w') as f:
         for k in counter:
-            counter_all_days[k][current_day_since_1970] += counter[k]
+            print(counter_all_days)
+            print(counter_all_days[k])
+            print(counter_all_days[k][str(current_day_since_1970)])
+            counter_all_days[k][str(current_day_since_1970)] += counter[k]
         f.write(json.dumps(counter_all_days, sort_keys=True, indent=4))
 
 
@@ -82,8 +85,9 @@ def request_ignore_err(url: str):
 async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter: Counter):
     event_loop = asyncio.get_event_loop()
 
-    case_serial_numbers = range(1, get_last_case_number(
-        center_name, two_digit_yr, day, code))
+    # case_serial_numbers = range(1, get_last_case_number(
+    #     center_name, two_digit_yr, day, code))
+    case_serial_numbers = range(1, 10)
     ids = [get_case_id(center_name, two_digit_yr, day, code, number)
            for number in case_serial_numbers]
     print(
@@ -104,7 +108,7 @@ async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter
 
 def run():
     counter = Counter()
-    for day in range(145, 200):
+    for day in range(171, 175):
         for code in [5]:
             for center in CENTER_NAMES:
                 loop = asyncio.get_event_loop()
