@@ -180,6 +180,12 @@ function App() {
       <h3>Q and A</h3>
       <h4>Q: 怎么用？</h4>
       <p>A: 横坐标是号段，纵坐标是状态对应的数量。</p>
+      <h4>什么是号段？</h4>
+      <p>A: 这张图里的working day number</p>
+      <img
+        alt='day-explain'
+        src='https://www.am22tech.com/wp-content/uploads/2018/12/uscis-receipt-number-status-i797-notice-truvisa.jpg'
+      />
       <h4>Q: 你是谁？</h4>
       <p>A: 我今年抽中了h1b, 在等approve</p>
       <h4>Q: 数据来源？</h4>
