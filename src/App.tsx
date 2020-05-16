@@ -26,12 +26,10 @@ const JSON_URL =
 
 function getColor(s: string): string {
   return (
-    Immutable.Map.of(
-      "Case Was Received",
-      "#999900",
-      "Case Was Approved",
-      "#00FF00"
-    ).get(s) ?? new ColorHash().hex(s)
+    Immutable.Map([
+      ["Case Was Received", "#999900"],
+      ["Case Was Approved", "#00FF00"],
+    ]).get(s) ?? new ColorHash().hex(s)
   );
 }
 
