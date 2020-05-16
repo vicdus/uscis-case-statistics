@@ -11615,7 +11615,10 @@
         "18395": 3,
         "18396": 3,
         "18397": 3,
-        "18398": 3
+        "18398": 2
+    },
+    "LIN|20|146|5|I-140|Request for Additional Information Received": {
+        "18398": 1
     },
     "LIN|20|146|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
         "18395": 15,
