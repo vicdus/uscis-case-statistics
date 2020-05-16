@@ -67,7 +67,7 @@ def merge(counter: Counter):
         counter_all_days = Counter(json.loads(f.read()))
     with open(file_path, 'w') as f:
         for k in counter:
-            counter_all_days[k][str(current_day_since_1970)] += counter[k]
+            counter_all_days[k][str(current_day_since_1970)] = counter[k]
         f.write(json.dumps(counter_all_days, sort_keys=True, indent=4))
 
 
