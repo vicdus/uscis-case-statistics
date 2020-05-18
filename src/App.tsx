@@ -162,7 +162,7 @@ function App() {
         onChange={(_, f) => setSelectedUpdateDay(f.toString())}
         aria-labelledby='discrete-slider'
         valueLabelDisplay='off'
-        step={1}
+        step={null}
         marks={availableUpdateDays
           .map((e) => ({
             value: e,
