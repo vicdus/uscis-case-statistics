@@ -8,6 +8,8 @@ import {
   LineChart,
   Tooltip,
   XAxis,
+  BarChart,
+  Bar,
   YAxis,
 } from "recharts";
 
@@ -88,7 +90,14 @@ function App() {
 
   const formTypes = entires.map((e) => e.form).toSet();
   const centerNames = entires.map((e) => e.center).toSet();
-  const existStatus = selectedEntries.map((e) => e.status).toSet();
+
+  const statusCount = selectedEntriesAllDate.countBy((x) => x.status);
+  const existStatus = selectedEntriesAllDate
+    .map((e) => e.status)
+    .toSet()
+    .toList()
+    .sortBy((s) => -(statusCount.get(s) ?? 0));
+
   const exisitDays = selectedEntriesAllDate
     .map((e) => Number.parseInt(e.day))
     .toSet()
@@ -139,6 +148,33 @@ function App() {
         />
       ))}
     </LineChart>
+  );
+
+  const barChart = (
+    <BarChart width={1440} height={810} data={datasetWithBackfill}>
+      <CartesianGrid strokeDasharray='3 3' />
+      <XAxis dataKey='day' />
+      <YAxis
+        type='number'
+        height={810}
+        domain={[0, countValueForAllDays.max() ?? 1]}
+      />
+      <Tooltip
+        offset={100}
+        itemSorter={(a) =>
+          -existStatus.indexOf(nullthrows(a.dataKey) as string)
+        }
+      />
+      {existStatus.toArray().map((s, ind) => (
+        <Bar
+          key={ind}
+          isAnimationActive={false}
+          dataKey={s}
+          stackId='a'
+          fill={getColor(s)}
+        />
+      ))}
+    </BarChart>
   );
 
   const introduction = (
@@ -241,6 +277,7 @@ function App() {
       {introduction}
       {updateDayPicker}
       {chart}
+      {barChart}
       {formTypeSelector}
       {centerSelector}
       {QA}
