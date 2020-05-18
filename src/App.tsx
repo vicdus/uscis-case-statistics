@@ -277,6 +277,7 @@ function App() {
       {introduction}
       {updateDayPicker}
       {chart}
+      {updateDayPicker}
       {barChart}
       {formTypeSelector}
       {centerSelector}
