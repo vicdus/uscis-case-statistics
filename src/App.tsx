@@ -1,15 +1,16 @@
 import ColorHash from "color-hash";
 import Immutable from "immutable";
+import JSON5 from "json5";
 import nullthrows from "nullthrows";
 import React, { useEffect, useState } from "react";
 import {
+  Bar,
+  BarChart,
   CartesianGrid,
   Line,
   LineChart,
   Tooltip,
   XAxis,
-  BarChart,
-  Bar,
   YAxis,
 } from "recharts";
 
@@ -23,8 +24,8 @@ import Slider from "@material-ui/core/Slider";
 
 import WeChatDonation from "./donation_wechat.jpg";
 
-const JSON_URL =
-  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json";
+const JSON5_URL =
+  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
 
 function getColor(s: string): string {
   return (
@@ -44,7 +45,8 @@ function App() {
   const [caseData, setCaseData] = useState<Object>({});
 
   useEffect(() => {
-    (async () => setCaseData(await (await fetch(JSON_URL)).json()))();
+    (async () =>
+      setCaseData(JSON5.parse(await (await fetch(JSON5_URL)).text())))();
   }, []);
 
   const entires = Immutable.List(
@@ -83,7 +85,6 @@ function App() {
   const latestUpdateDay = selectedEntriesAllDate
     .map((e) => Number.parseInt(e.updateDay))
     .max();
-  
 
   const selectedEntries = selectedEntriesAllDate.filter(
     (e) => e.updateDay === (selectedUpdateDay ?? latestUpdateDay)?.toString()
@@ -182,15 +183,27 @@ function App() {
     <div>
       <h1>USCIS case progress tracker</h1>
       <p>
-        Current Form: <strong>{selectedForm}</strong>,<br /> location: <strong>{selectedCenter}</strong> ,<br /> Last Update
-        for this form and location:
-        <strong>{latestUpdateDay?new Date(1970, 0, latestUpdateDay).toDateString():"Not Exist currently"}</strong>
+        Current Form: <strong>{selectedForm}</strong>,<br /> location:{" "}
+        <strong>{selectedCenter}</strong> ,<br /> Last Update for this form and
+        location:
+        <strong>
+          {latestUpdateDay
+            ? new Date(1970, 0, latestUpdateDay + 1).toDateString()
+            : "Not Exist currently"}
+        </strong>
       </p>
       <h3>Help needed for UI and clawer</h3>
-      <p>GitHub project:
-        <a href="https://github.com/vicdus/uscis-case-statistics/"  target="_blank"  >https://github.com/vicdus/uscis-case-statistics/</a>
-        </p>
-        </div>
+      <p>
+        GitHub project:
+        <a
+          href='https://github.com/vicdus/uscis-case-statistics/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          https://github.com/vicdus/uscis-case-statistics/
+        </a>
+      </p>
+    </div>
   );
 
   const updateDayPicker = availableUpdateDays.max() ? (
@@ -219,7 +232,7 @@ function App() {
       <h3>Q and A</h3>
       <h4>Q: 怎么用？</h4>
       <p>A: 横坐标是号段，纵坐标是状态对应的数量。</p>
-      <h4>什么是号段？</h4>
+      <h4>Q: 什么是号段？</h4>
       <p>A: 这张图里的working day number</p>
       <img
         alt='day-explain'
@@ -232,7 +245,7 @@ function App() {
       <h4>Q: 没有我的号段的数据？</h4>
       <p>A: 可能需要地里大家一起来爬并更新，稍后放出步骤</p>
       <h4>Q: 为什么是文件？为什么不用数据库？</h4>
-      <p>A: 穷、懒</p>
+      <p>A: 贫穷</p>
       <h4>Q: 这个很有用，可以请你喝杯咖啡吗？</h4>
       <p>A: 感谢！</p>
       <img
