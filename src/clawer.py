@@ -71,7 +71,7 @@ def merge(counter: Counter):
             if key not in counter_all_days:
                 counter_all_days[key] = {}
             counter_all_days[key][current_day_since_1970] = counter[key]
-        f.write(json5.dumps(counter_all_days, sort_keys=True, indent=4))
+        f.write(json5.dumps(counter_all_days, sort_keys=True, indent=2))
 
 
 def request_ignore_err(url: str):
