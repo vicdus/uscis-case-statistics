@@ -1,11 +1,13 @@
-import * as fs from "fs";
 import * as cheerio from "cheerio";
+import * as fs from "fs";
+import Immutable from "immutable";
+import * as stringify from "json-stable-stringify";
+import * as JSON5 from "json5";
 import fetch from "node-fetch";
 import nullthrows from "nullthrows";
+
 import Constants from "./Constants";
-import * as JSON5 from "json5";
-import Immutable from "immutable";
-import { stringify } from "querystring";
+import { constants } from "buffer";
 
 const DATA_FILE_PATH = __dirname + "/data.json5";
 const BASE_URL =
@@ -105,10 +107,25 @@ const claw = async (
   const json5_obj = JSON5.parse(
     fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })
   );
-  const new_json5_obj = { ...counter, json5_obj };
-  fs.writeFileSync(DATA_FILE_PATH, JSON5.stringify(new_json5_obj), {
-    encoding: "utf8",
+  const new_json5_obj = { ...json5_obj };
+  Object.entries(counter).forEach(([key, count]) => {
+    new_json5_obj[key] = { ...(new_json5_obj[key] ?? {}), ...count };
   });
+
+  fs.writeFileSync(
+    DATA_FILE_PATH,
+    JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
+      space: 2,
+      quote: '"',
+    }),
+    {
+      encoding: "utf8",
+    }
+  );
 };
 
-claw("WAC", 20, 171, 5).then((res) => {});
+Constants.CENTER_NAMES.forEach(async (name) => {
+  for (let d = 145; d < 200; d++) {
+    await claw(name, 20, d, 5);
+  }
+});
