@@ -6,6 +6,7 @@ import os
 import re
 from collections import Counter
 from datetime import date
+import sys
 
 import requests
 from bs4 import BeautifulSoup
@@ -107,7 +108,7 @@ async def claw(center_name: str, two_digit_yr: int, day: int, code: int, counter
 
 def run():
     counter = Counter()
-    for day in range(145, 200):
+    for day in range(int(sys.argv[1]), int(sys.argv[2])):
         for code in [5]:
             for center in CENTER_NAMES:
                 loop = asyncio.get_event_loop()
