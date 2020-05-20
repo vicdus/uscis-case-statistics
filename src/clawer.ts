@@ -79,7 +79,7 @@ const claw = async (
   const today = 18402;
   const last = await getLastCaseNumber(center_name, two_digit_yr, day, code);
   console.log(`Loading ${last} entires for ${center_name} day ${day}`);
-  if (last <= 0) {
+  if (last === 0) {
     return;
   }
 
@@ -114,7 +114,6 @@ const claw = async (
 
   fs.writeFileSync(
     DATA_FILE_PATH,
-    // @ts-ignore: solve export issue for json stable stringify
     JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
       space: 2,
       quote: '"',
@@ -125,21 +124,8 @@ const claw = async (
   );
 };
 
-// Constants.CENTER_NAMES.forEach(async (name) => {
-//   for (let d = 145; d < 200; d++) {
-//     await claw(name, 20, d, 5);
-//   }
-// });
-fs.writeFileSync(
-  DATA_FILE_PATH,
-  // @ts-ignore: solve export issue for json stable stringify
-  JSON5.stringify(
-    JSON5.parse(fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })),
-    {
-      space: 2,
-    }
-  ),
-  {
-    encoding: "utf8",
+Constants.CENTER_NAMES.forEach(async (name) => {
+  for (let d = 145; d < 200; d++) {
+    await claw(name, 20, d, 5);
   }
-);
+});

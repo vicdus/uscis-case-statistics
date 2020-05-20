@@ -126,7 +126,7 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
             case 1:
                 last = _a.sent();
                 console.log("Loading " + last + " entires for " + center_name + " day " + day);
-                if (last <= 0) {
+                if (last === 0) {
                     return [2 /*return*/];
                 }
                 return [4 /*yield*/, Promise.all(Array.from(new Array(last), function (x, i) { return i + 1; }).map(function (case_number) {
@@ -155,9 +155,7 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
                     var _b;
                     new_json5_obj[key] = __assign(__assign({}, ((_b = new_json5_obj[key]) !== null && _b !== void 0 ? _b : {})), count);
                 });
-                fs.writeFileSync(DATA_FILE_PATH, 
-                // @ts-ignore: solve export issue for json stable stringify
-                JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
+                fs.writeFileSync(DATA_FILE_PATH, JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
                     space: 2,
                     quote: '"'
                 }), {
@@ -167,15 +165,7 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
         }
     });
 }); };
-// Constants.CENTER_NAMES.forEach(async (name) => {
-//   for (let d = 145; d < 200; d++) {
-//     await claw(name, 20, d, 5);
-//   }
-// });
-fs.writeFileSync(DATA_FILE_PATH, 
-// @ts-ignore: solve export issue for json stable stringify
-JSON5.stringify(JSON5.parse(fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })), {
-    space: 2
-}), {
-    encoding: "utf8"
+Constants_1["default"].CENTER_NAMES.forEach(function (name) {
+    for (var d = 145; d < 200; d++) { }
 });
+claw("WAC", 20, 171, 5).then(function (res) { });
