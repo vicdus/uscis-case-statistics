@@ -97,7 +97,7 @@ var getLastCaseNumber = function (center_name, two_digit_yr, day, code) { return
     return __generator(this, function (_b) {
         switch (_b.label) {
             case 0:
-                _a = [0, 4000], low = _a[0], high = _a[1];
+                _a = [0, 9999], low = _a[0], high = _a[1];
                 _b.label = 1;
             case 1:
                 if (!(low < high)) return [3 /*break*/, 3];
@@ -157,28 +157,25 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
                 });
                 fs.writeFileSync(DATA_FILE_PATH, 
                 // @ts-ignore: solve export issue for json stable stringify
-                JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), { space: 2 }), { encoding: "utf8" });
+                JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
+                    space: 2,
+                    quote: '"'
+                }), {
+                    encoding: "utf8"
+                });
                 return [2 /*return*/];
         }
     });
 }); };
-Constants_1["default"].CENTER_NAMES.forEach(function (name) { return __awaiter(void 0, void 0, void 0, function () {
-    var d;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0:
-                d = 145;
-                _a.label = 1;
-            case 1:
-                if (!(d < 200)) return [3 /*break*/, 4];
-                return [4 /*yield*/, claw(name, 20, d, 5)];
-            case 2:
-                _a.sent();
-                _a.label = 3;
-            case 3:
-                d++;
-                return [3 /*break*/, 1];
-            case 4: return [2 /*return*/];
-        }
-    });
-}); });
+// Constants.CENTER_NAMES.forEach(async (name) => {
+//   for (let d = 145; d < 200; d++) {
+//     await claw(name, 20, d, 5);
+//   }
+// });
+fs.writeFileSync(DATA_FILE_PATH, 
+// @ts-ignore: solve export issue for json stable stringify
+JSON5.stringify(JSON5.parse(fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })), {
+    space: 2
+}), {
+    encoding: "utf8"
+});
