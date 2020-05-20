@@ -55,7 +55,7 @@ const getLastCaseNumber = async (
   day: number,
   code: number
 ): Promise<number> => {
-  let [low, high] = [0, 9999];
+  let [low, high] = [0, 4000];
   while (low < high) {
     const mid = Math.floor((low + high) / 2);
     const result = await getStatus(
@@ -115,31 +115,13 @@ const claw = async (
   fs.writeFileSync(
     DATA_FILE_PATH,
     // @ts-ignore: solve export issue for json stable stringify
-    JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
-      space: 2,
-      quote: '"',
-    }),
-    {
-      encoding: "utf8",
-    }
+    JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), { space: 2 }),
+    { encoding: "utf8" }
   );
 };
 
-// Constants.CENTER_NAMES.forEach(async (name) => {
-//   for (let d = 145; d < 200; d++) {
-//     await claw(name, 20, d, 5);
-//   }
-// });
-fs.writeFileSync(
-  DATA_FILE_PATH,
-  // @ts-ignore: solve export issue for json stable stringify
-  JSON5.stringify(
-    JSON5.parse(fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })),
-    {
-      space: 2,
-    }
-  ),
-  {
-    encoding: "utf8",
+Constants.CENTER_NAMES.forEach(async (name) => {
+  for (let d = 145; d < 200; d++) {
+    await claw(name, 20, d, 5);
   }
-);
+});
