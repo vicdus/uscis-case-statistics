@@ -47,13 +47,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 exports.__esModule = true;
-var fs = require("fs");
 var cheerio = require("cheerio");
+var fs = require("fs");
+var immutable_1 = require("immutable");
+var stringify = require("json-stable-stringify");
+var JSON5 = require("json5");
 var node_fetch_1 = require("node-fetch");
 var nullthrows_1 = require("nullthrows");
 var Constants_1 = require("./Constants");
-var JSON5 = require("json5");
-var immutable_1 = require("immutable");
 var DATA_FILE_PATH = __dirname + "/data.json5";
 var BASE_URL = "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=";
 var getCaseID = function (center_name, two_digit_yr, day, code, case_serial_numbers) {
@@ -116,7 +117,7 @@ var getLastCaseNumber = function (center_name, two_digit_yr, day, code) { return
     });
 }); };
 var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(void 0, void 0, void 0, function () {
-    var today, last, results, counter, json5_obj;
+    var today, last, results, counter, json5_obj, new_json5_obj;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
@@ -124,6 +125,7 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
                 return [4 /*yield*/, getLastCaseNumber(center_name, two_digit_yr, day, code)];
             case 1:
                 last = _a.sent();
+                console.log("Loading " + last + " entires for " + center_name + " day " + day);
                 if (last === 0) {
                     return [2 /*return*/];
                 }
@@ -147,9 +149,23 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
                 })
                     .toObject();
                 json5_obj = JSON5.parse(fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" }));
-                console.log(__assign(__assign({}, counter), { json5_obj: json5_obj }));
+                new_json5_obj = __assign({}, json5_obj);
+                Object.entries(counter).forEach(function (_a) {
+                    var key = _a[0], count = _a[1];
+                    var _b;
+                    new_json5_obj[key] = __assign(__assign({}, ((_b = new_json5_obj[key]) !== null && _b !== void 0 ? _b : {})), count);
+                });
+                fs.writeFileSync(DATA_FILE_PATH, JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
+                    space: 2,
+                    quote: '"'
+                }), {
+                    encoding: "utf8"
+                });
                 return [2 /*return*/];
         }
     });
 }); };
+Constants_1["default"].CENTER_NAMES.forEach(function (name) {
+    for (var d = 145; d < 200; d++) { }
+});
 claw("WAC", 20, 171, 5).then(function (res) { });
