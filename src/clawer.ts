@@ -118,10 +118,8 @@ const claw = async (
     JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
       space: 2,
       quote: '"',
-    }),
-    {
-      encoding: "utf8",
-    }
+    }).replace("&apos;", ""),
+    { encoding: "utf8" }
   );
 };
 
