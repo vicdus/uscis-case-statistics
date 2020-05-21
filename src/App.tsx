@@ -266,9 +266,17 @@ function App() {
         onChange={(e) => setSelectedForm(e.target.value)}
         row={true}
       >
-        {formTypes.toArray().map((f, ind) => (
-          <FormControlLabel key={ind} value={f} control={<Radio />} label={f} />
-        ))}
+        {formTypes
+          .toArray()
+          .sort()
+          .map((f, ind) => (
+            <FormControlLabel
+              key={ind}
+              value={f}
+              control={<Radio />}
+              label={f}
+            />
+          ))}
       </RadioGroup>
     </FormControl>
   );
@@ -282,9 +290,17 @@ function App() {
         value={selectedCenter}
         onChange={(e) => setSelectedCenter(e.target.value)}
       >
-        {centerNames.toArray().map((f, ind) => (
-          <FormControlLabel key={ind} value={f} control={<Radio />} label={f} />
-        ))}
+        {centerNames
+          .toArray()
+          .sort()
+          .map((f, ind) => (
+            <FormControlLabel
+              key={ind}
+              value={f}
+              control={<Radio />}
+              label={f}
+            />
+          ))}
       </RadioGroup>
     </FormControl>
   );
