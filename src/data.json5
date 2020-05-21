@@ -16869,6 +16869,10 @@
     "18398": 767,
     "18400": 767,
     "18401": 384,
+    "18402": 384,
+  },
+  "EAC|20|197|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18402": 392,
   },
   "EAC|20|197|5|I-129|Name Was Updated": {
     "18396": 2,
@@ -16882,6 +16886,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "EAC|20|197|5|I-131|Fees Were Waived": {
     "18396": 44,
@@ -16889,6 +16894,7 @@
     "18398": 44,
     "18400": 44,
     "18401": 44,
+    "18402": 44,
   },
   "EAC|20|197|5|I-212|Case Was Received": {
     "18396": 1,
@@ -16896,6 +16902,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|197|5|I-360|Case Was Received": {
     "18396": 4,
@@ -16903,6 +16910,7 @@
     "18398": 4,
     "18400": 4,
     "18401": 4,
+    "18402": 4,
   },
   "EAC|20|197|5|I-360|Date of Birth Was Updated": {
     "18396": 1,
@@ -16910,6 +16918,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|197|5|I-360|Fees Were Waived": {
     "18396": 22,
@@ -16917,6 +16926,7 @@
     "18398": 22,
     "18400": 22,
     "18401": 22,
+    "18402": 22,
   },
   "EAC|20|197|5|I-485|Case Was Received": {
     "18396": 67,
@@ -16924,6 +16934,7 @@
     "18398": 67,
     "18400": 67,
     "18401": 67,
+    "18402": 67,
   },
   "EAC|20|197|5|I-485|Name Was Updated": {
     "18396": 1,
@@ -16931,6 +16942,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18396": 8,
@@ -16938,6 +16950,7 @@
     "18398": 8,
     "18400": 8,
     "18401": 8,
+    "18402": 8,
   },
   "EAC|20|197|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18396": 1,
@@ -16945,6 +16958,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|197|5|I-539|Case Transferred To Another Office": {
     "18401": 11,
@@ -16955,6 +16969,7 @@
     "18398": 212,
     "18400": 212,
     "18401": 201,
+    "18402": 201,
   },
   "EAC|20|197|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18396": 3,
@@ -16962,6 +16977,10 @@
     "18398": 3,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
+  },
+  "EAC|20|197|5|I-539|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18402": 11,
   },
   "EAC|20|197|5|I-601|Case Was Received": {
     "18396": 2,
@@ -16969,6 +16988,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "EAC|20|197|5|I-601|Fees Were Waived": {
     "18396": 1,
@@ -16976,6 +16996,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|197|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18396": 46,
@@ -16983,6 +17004,7 @@
     "18398": 46,
     "18400": 46,
     "18401": 46,
+    "18402": 46,
   },
   "EAC|20|197|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18396": 15,
@@ -16990,6 +17012,7 @@
     "18398": 15,
     "18400": 15,
     "18401": 15,
+    "18402": 15,
   },
   "EAC|20|197|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18396": 1,
@@ -16997,6 +17020,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|197|5|I-751|Case Was Received": {
     "18396": 174,
@@ -17004,6 +17028,7 @@
     "18398": 191,
     "18400": 191,
     "18401": 191,
+    "18402": 192,
   },
   "EAC|20|197|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18396": 7,
@@ -17011,6 +17036,7 @@
     "18398": 7,
     "18400": 7,
     "18401": 7,
+    "18402": 7,
   },
   "EAC|20|197|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18396": 93,
@@ -17018,6 +17044,7 @@
     "18398": 95,
     "18400": 95,
     "18401": 95,
+    "18402": 95,
   },
   "EAC|20|197|5|I-765|Case Was Received": {
     "18396": 31,
@@ -17025,10 +17052,12 @@
     "18398": 43,
     "18400": 42,
     "18401": 42,
+    "18402": 42,
   },
   "EAC|20|197|5|I-765|Date of Birth Was Updated": {
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|197|5|I-765|Fees Were Waived": {
     "18396": 205,
@@ -17036,6 +17065,7 @@
     "18398": 205,
     "18400": 205,
     "18401": 205,
+    "18402": 205,
   },
   "EAC|20|197|5|I-765|Name Was Updated": {
     "18396": 1,
@@ -17043,6 +17073,7 @@
     "18398": 3,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
   },
   "EAC|20|197|5|unknown form type|Case Was Received": {
     "18396": 6,
@@ -17050,6 +17081,7 @@
     "18398": 6,
     "18400": 6,
     "18401": 6,
+    "18402": 6,
   },
   "EAC|20|197|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
     "18396": 54,
@@ -17060,6 +17092,7 @@
     "18398": 17,
     "18400": 17,
     "18401": 17,
+    "18402": 17,
   },
   "EAC|20|197|5|unknown form type|Request Was Processed": {
     "18396": 1,
@@ -17067,6 +17100,7 @@
     "18398": 68,
     "18400": 68,
     "18401": 68,
+    "18402": 68,
   },
   "EAC|20|198|5|I-129|Case Transferred To Another Office": {
     "18401": 187,
@@ -17076,66 +17110,80 @@
     "18398": 695,
     "18400": 690,
     "18401": 506,
+    "18402": 506,
   },
   "EAC|20|198|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18397": 1,
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
+  },
+  "EAC|20|198|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18402": 187,
   },
   "EAC|20|198|5|I-129|Name Was Updated": {
     "18397": 6,
     "18398": 9,
     "18400": 14,
     "18401": 11,
+    "18402": 11,
   },
   "EAC|20|198|5|I-131|Case Was Received": {
     "18397": 2,
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "EAC|20|198|5|I-131|Fees Were Waived": {
     "18397": 29,
     "18398": 29,
     "18400": 29,
     "18401": 29,
+    "18402": 29,
   },
   "EAC|20|198|5|I-212|Case Was Received": {
     "18397": 2,
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "EAC|20|198|5|I-360|Case Was Received": {
     "18397": 8,
     "18398": 8,
     "18400": 8,
     "18401": 8,
+    "18402": 8,
   },
   "EAC|20|198|5|I-360|Fees Were Waived": {
     "18397": 15,
     "18398": 15,
     "18400": 15,
     "18401": 15,
+    "18402": 15,
   },
   "EAC|20|198|5|I-360|Name Was Updated": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|198|5|I-485|Case Was Received": {
     "18397": 54,
     "18398": 54,
     "18400": 54,
     "18401": 54,
+    "18402": 54,
   },
   "EAC|20|198|5|I-485|Fees Were Waived": {
     "18397": 12,
     "18398": 12,
     "18400": 12,
     "18401": 12,
+    "18402": 12,
   },
   "EAC|20|198|5|I-539|Case Transferred To Another Office": {
     "18401": 2,
@@ -17145,100 +17193,120 @@
     "18398": 156,
     "18400": 156,
     "18401": 154,
+    "18402": 154,
+  },
+  "EAC|20|198|5|I-539|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18402": 2,
   },
   "EAC|20|198|5|I-601|Case Was Received": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|198|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18397": 31,
     "18398": 42,
     "18400": 42,
     "18401": 42,
+    "18402": 42,
   },
   "EAC|20|198|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18397": 5,
     "18398": 5,
     "18400": 5,
     "18401": 5,
+    "18402": 5,
   },
   "EAC|20|198|5|I-751|Case Was Received": {
     "18397": 103,
     "18398": 129,
     "18400": 129,
     "18401": 129,
+    "18402": 130,
   },
   "EAC|20|198|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18397": 1,
     "18398": 3,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
   },
   "EAC|20|198|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18397": 49,
     "18398": 65,
     "18400": 65,
     "18401": 65,
+    "18402": 65,
   },
   "EAC|20|198|5|I-751|Fees Were Waived": {
     "18397": 3,
     "18398": 3,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
   },
   "EAC|20|198|5|I-765|Case Was Received": {
     "18397": 60,
     "18398": 68,
     "18400": 68,
     "18401": 68,
+    "18402": 68,
   },
   "EAC|20|198|5|I-765|Fees Were Waived": {
     "18397": 155,
     "18398": 155,
     "18400": 155,
     "18401": 155,
+    "18402": 155,
   },
   "EAC|20|198|5|I-765|Name Was Updated": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "EAC|20|198|5|unknown form type|Case Was Received": {
     "18397": 35,
     "18398": 35,
     "18400": 35,
     "18401": 35,
+    "18402": 35,
   },
   "EAC|20|198|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
     "18397": 27,
     "18398": 27,
     "18400": 18,
     "18401": 18,
+    "18402": 18,
   },
   "EAC|20|198|5|unknown form type|Fees Were Waived": {
     "18397": 11,
     "18398": 11,
     "18400": 11,
     "18401": 11,
+    "18402": 11,
   },
   "EAC|20|198|5|unknown form type|Request Was Processed": {
     "18397": 28,
     "18398": 28,
     "18400": 51,
     "18401": 51,
+    "18402": 51,
   },
   "EAC|20|199|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18398": 1,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
   },
   "EAC|20|199|5|I-751|Case Was Received": {
     "18398": 15,
     "18400": 37,
     "18401": 37,
+    "18402": 38,
   },
   "LIN|20|145|5|I-129|Case Was Approved": {
     "18395": 220,
@@ -26347,63 +26415,128 @@
   },
   "LIN|20|197|5|I-129|Case Was Received": {
     "18401": 320,
+    "18402": 328,
   },
   "LIN|20|197|5|I-129|Name Was Updated": {
     "18401": 2,
+    "18402": 3,
+  },
+  "LIN|20|197|5|I-129|Premium Processing Case is Eligible for Pre-Certification": {
+    "18402": 1,
   },
   "LIN|20|197|5|I-131|Fees Were Waived": {
     "18401": 11,
+    "18402": 11,
   },
   "LIN|20|197|5|I-360|Fees Were Waived": {
     "18401": 5,
+    "18402": 5,
   },
   "LIN|20|197|5|I-485|Case Was Received": {
     "18401": 42,
+    "18402": 41,
   },
   "LIN|20|197|5|I-485|Fees Were Waived": {
     "18401": 3,
+    "18402": 3,
   },
   "LIN|20|197|5|I-485|Name Was Updated": {
     "18401": 1,
+    "18402": 2,
   },
   "LIN|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18401": 10,
+    "18402": 11,
   },
   "LIN|20|197|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18401": 9,
+    "18402": 9,
   },
   "LIN|20|197|5|I-539|Case Was Received": {
     "18401": 266,
+    "18402": 269,
   },
   "LIN|20|197|5|I-539|Name Was Updated": {
     "18401": 1,
+    "18402": 1,
   },
   "LIN|20|197|5|I-730|Fees Were Waived": {
     "18401": 11,
+    "18402": 11,
   },
   "LIN|20|197|5|I-751|Case Was Received": {
     "18401": 74,
+    "18402": 75,
   },
   "LIN|20|197|5|I-751|Fees Were Waived": {
     "18401": 5,
+    "18402": 5,
   },
   "LIN|20|197|5|I-765|Case Was Received": {
     "18401": 55,
+    "18402": 59,
   },
   "LIN|20|197|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18401": 36,
+    "18402": 38,
   },
   "LIN|20|197|5|I-765|Fees Were Waived": {
     "18401": 8,
+    "18402": 9,
   },
   "LIN|20|197|5|unknown form type|Case Was Received": {
     "18401": 6,
+    "18402": 6,
   },
   "LIN|20|197|5|unknown form type|Fees Were Waived": {
     "18401": 7,
+    "18402": 7,
   },
   "LIN|20|197|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18401": 1,
+    "18402": 1,
+  },
+  "LIN|20|198|5|I-129|Case Was Received": {
+    "18402": 274,
+  },
+  "LIN|20|198|5|I-129|Name Was Updated": {
+    "18402": 3,
+  },
+  "LIN|20|198|5|I-360|Date of Birth Was Updated": {
+    "18402": 1,
+  },
+  "LIN|20|198|5|I-360|Fees Were Waived": {
+    "18402": 2,
+  },
+  "LIN|20|198|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18402": 8,
+  },
+  "LIN|20|198|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18402": 1,
+  },
+  "LIN|20|198|5|I-539|Case Was Received": {
+    "18402": 263,
+  },
+  "LIN|20|198|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18402": 3,
+  },
+  "LIN|20|198|5|I-539|Name Was Updated": {
+    "18402": 1,
+  },
+  "LIN|20|198|5|I-730|Fees Were Waived": {
+    "18402": 1,
+  },
+  "LIN|20|198|5|I-751|Case Was Received": {
+    "18402": 83,
+  },
+  "LIN|20|198|5|I-765|Case Was Received": {
+    "18402": 31,
+  },
+  "LIN|20|198|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18402": 5,
+  },
+  "LIN|20|198|5|I-765|Fees Were Waived": {
+    "18402": 14,
   },
   "MSC|20|145|5|I-539|Case Was Received": {
     "18402": 1,
@@ -34543,6 +34676,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 3,
   },
   "MSC|20|197|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18395": 2,
@@ -34551,6 +34685,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "MSC|20|198|5|I-131|Case Was Received At Another USCIS Office": {
     "18395": 1,
@@ -34559,6 +34694,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|198|5|I-131|Fees Were Waived": {
     "18395": 5,
@@ -34567,6 +34703,10 @@
     "18398": 5,
     "18400": 5,
     "18401": 5,
+    "18402": 4,
+  },
+  "MSC|20|198|5|I-131|Name Was Updated": {
+    "18402": 1,
   },
   "MSC|20|198|5|I-212|Case Was Approved": {
     "18395": 1,
@@ -34575,6 +34715,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 3,
+    "18402": 3,
   },
   "MSC|20|198|5|I-212|Case Was Received": {
     "18395": 5,
@@ -34583,6 +34724,7 @@
     "18398": 5,
     "18400": 5,
     "18401": 4,
+    "18402": 4,
   },
   "MSC|20|198|5|I-212|Case Was Received At Another USCIS Office": {
     "18395": 4,
@@ -34591,6 +34733,7 @@
     "18398": 4,
     "18400": 4,
     "18401": 3,
+    "18402": 3,
   },
   "MSC|20|198|5|I-212|Name Was Updated": {
     "18395": 1,
@@ -34599,6 +34742,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|198|5|I-485|Case Transferred To Another Office": {
     "18395": 1,
@@ -34607,6 +34751,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|198|5|I-485|Fees Were Waived": {
     "18395": 18,
@@ -34615,6 +34760,7 @@
     "18398": 18,
     "18400": 18,
     "18401": 18,
+    "18402": 18,
   },
   "MSC|20|198|5|I-539|Case Was Received": {
     "18395": 2,
@@ -34623,6 +34769,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "MSC|20|198|5|I-601|Fees Were Waived": {
     "18395": 1,
@@ -34631,6 +34778,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|198|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18395": 5,
@@ -34639,6 +34787,7 @@
     "18398": 5,
     "18400": 5,
     "18401": 5,
+    "18402": 5,
   },
   "MSC|20|198|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18395": 1,
@@ -34647,6 +34796,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|198|5|I-751|Case Was Received": {
     "18395": 87,
@@ -34655,6 +34805,7 @@
     "18398": 87,
     "18400": 87,
     "18401": 87,
+    "18402": 88,
   },
   "MSC|20|198|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18395": 10,
@@ -34663,6 +34814,7 @@
     "18398": 10,
     "18400": 10,
     "18401": 10,
+    "18402": 10,
   },
   "MSC|20|198|5|I-751|Fees Were Waived": {
     "18395": 2,
@@ -34671,6 +34823,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "MSC|20|198|5|I-765|Case Was Received At Another USCIS Office": {
     "18395": 6,
@@ -34679,6 +34832,7 @@
     "18398": 6,
     "18400": 6,
     "18401": 6,
+    "18402": 6,
   },
   "MSC|20|198|5|unknown form type|Case Was Received": {
     "18395": 9,
@@ -34687,6 +34841,7 @@
     "18398": 9,
     "18400": 9,
     "18401": 9,
+    "18402": 9,
   },
   "MSC|20|199|5|I-131|Case Was Approved": {
     "18396": 1,
@@ -34694,6 +34849,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|199|5|I-131|Case Was Denied": {
     "18396": 1,
@@ -34701,6 +34857,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|199|5|I-131|Fees Were Waived": {
     "18396": 19,
@@ -34708,6 +34865,7 @@
     "18398": 19,
     "18400": 19,
     "18401": 19,
+    "18402": 19,
   },
   "MSC|20|199|5|I-212|Case Was Approved": {
     "18396": 2,
@@ -34715,6 +34873,7 @@
     "18398": 2,
     "18400": 3,
     "18401": 4,
+    "18402": 3,
   },
   "MSC|20|199|5|I-212|Case Was Received": {
     "18396": 14,
@@ -34722,6 +34881,7 @@
     "18398": 14,
     "18400": 13,
     "18401": 12,
+    "18402": 13,
   },
   "MSC|20|199|5|I-212|Case Was Received At Another USCIS Office": {
     "18396": 8,
@@ -34729,6 +34889,10 @@
     "18398": 8,
     "18400": 8,
     "18401": 8,
+    "18402": 8,
+  },
+  "MSC|20|199|5|I-212|Duplicate Notice Was Mailed": {
+    "18402": 1,
   },
   "MSC|20|199|5|I-485|Case Was Approved": {
     "18396": 1,
@@ -34736,6 +34900,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|199|5|I-485|Fees Were Waived": {
     "18396": 27,
@@ -34743,6 +34908,10 @@
     "18398": 27,
     "18400": 27,
     "18401": 27,
+    "18402": 26,
+  },
+  "MSC|20|199|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18402": 1,
   },
   "MSC|20|199|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18396": 4,
@@ -34750,6 +34919,7 @@
     "18398": 4,
     "18400": 4,
     "18401": 4,
+    "18402": 4,
   },
   "MSC|20|199|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18396": 1,
@@ -34757,6 +34927,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|199|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18396": 2,
@@ -34764,6 +34935,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "MSC|20|199|5|I-751|Case Was Received": {
     "18396": 153,
@@ -34771,6 +34943,7 @@
     "18398": 153,
     "18400": 153,
     "18401": 153,
+    "18402": 153,
   },
   "MSC|20|199|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18396": 18,
@@ -34778,6 +34951,7 @@
     "18398": 18,
     "18400": 18,
     "18401": 18,
+    "18402": 18,
   },
   "MSC|20|199|5|I-751|Fees Were Waived": {
     "18396": 1,
@@ -34785,6 +34959,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "MSC|20|199|5|I-765|Case Was Approved": {
     "18396": 6,
@@ -34792,6 +34967,7 @@
     "18398": 6,
     "18400": 6,
     "18401": 6,
+    "18402": 6,
   },
   "MSC|20|199|5|I-765|Case Was Received At Another USCIS Office": {
     "18396": 37,
@@ -34799,15 +34975,18 @@
     "18398": 37,
     "18400": 32,
     "18401": 32,
+    "18402": 32,
   },
   "MSC|20|199|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18400": 5,
     "18401": 5,
+    "18402": 5,
   },
   "MSC|20|199|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18398": 4,
     "18400": 4,
     "18401": 4,
+    "18402": 4,
   },
   "MSC|20|199|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18396": 4,
@@ -34819,6 +34998,7 @@
     "18398": 4,
     "18400": 4,
     "18401": 4,
+    "18402": 4,
   },
   "SRC|20|145|5|I-129|Case Was Approved": {
     "18395": 36,
@@ -45196,6 +45376,7 @@
     "18398": 405,
     "18400": 405,
     "18401": 405,
+    "18402": 403,
   },
   "SRC|20|197|5|I-129|Date of Birth Was Updated": {
     "18395": 1,
@@ -45204,6 +45385,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "SRC|20|197|5|I-129|Name Was Updated": {
     "18395": 4,
@@ -45212,6 +45394,7 @@
     "18398": 10,
     "18400": 10,
     "18401": 10,
+    "18402": 11,
   },
   "SRC|20|197|5|I-485|Case Was Received": {
     "18395": 53,
@@ -45220,6 +45403,7 @@
     "18398": 53,
     "18400": 52,
     "18401": 52,
+    "18402": 52,
   },
   "SRC|20|197|5|I-485|Case Was Received At Another USCIS Office": {
     "18395": 195,
@@ -45228,6 +45412,7 @@
     "18398": 195,
     "18400": 192,
     "18401": 192,
+    "18402": 192,
   },
   "SRC|20|197|5|I-485|Fees Were Waived": {
     "18395": 5,
@@ -45236,6 +45421,7 @@
     "18398": 5,
     "18400": 5,
     "18401": 5,
+    "18402": 5,
   },
   "SRC|20|197|5|I-485|Name Was Updated": {
     "18395": 4,
@@ -45244,6 +45430,7 @@
     "18398": 4,
     "18400": 8,
     "18401": 8,
+    "18402": 8,
   },
   "SRC|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18395": 18,
@@ -45252,6 +45439,7 @@
     "18398": 18,
     "18400": 18,
     "18401": 18,
+    "18402": 18,
   },
   "SRC|20|197|5|I-539|Case Was Received": {
     "18395": 296,
@@ -45260,6 +45448,7 @@
     "18398": 296,
     "18400": 296,
     "18401": 296,
+    "18402": 296,
   },
   "SRC|20|197|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18395": 5,
@@ -45268,6 +45457,7 @@
     "18398": 5,
     "18400": 5,
     "18401": 5,
+    "18402": 5,
   },
   "SRC|20|197|5|I-539|Name Was Updated": {
     "18395": 1,
@@ -45276,6 +45466,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|197|5|I-601|Case Was Received": {
     "18395": 7,
@@ -45284,6 +45475,7 @@
     "18398": 7,
     "18400": 7,
     "18401": 7,
+    "18402": 7,
   },
   "SRC|20|197|5|I-601|Fees Were Waived": {
     "18395": 1,
@@ -45292,6 +45484,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|197|5|I-730|Fees Were Waived": {
     "18395": 15,
@@ -45300,6 +45493,7 @@
     "18398": 15,
     "18400": 15,
     "18401": 15,
+    "18402": 15,
   },
   "SRC|20|197|5|I-751|Case Was Received": {
     "18395": 66,
@@ -45308,6 +45502,7 @@
     "18398": 66,
     "18400": 65,
     "18401": 65,
+    "18402": 65,
   },
   "SRC|20|197|5|I-751|Fees Were Waived": {
     "18395": 3,
@@ -45316,10 +45511,12 @@
     "18398": 3,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
   },
   "SRC|20|197|5|I-751|Name Was Updated": {
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|197|5|I-765|Case Was Received": {
     "18395": 56,
@@ -45328,9 +45525,11 @@
     "18398": 56,
     "18400": 56,
     "18401": 55,
+    "18402": 56,
   },
   "SRC|20|197|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|197|5|I-765|Fees Were Waived": {
     "18395": 3,
@@ -45339,6 +45538,7 @@
     "18398": 3,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
   },
   "SRC|20|197|5|unknown form type|Case Was Received": {
     "18395": 1,
@@ -45347,6 +45547,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|I-129|Case Was Received": {
     "18396": 373,
@@ -45354,6 +45555,7 @@
     "18398": 373,
     "18400": 372,
     "18401": 373,
+    "18402": 373,
   },
   "SRC|20|198|5|I-129|Date of Birth Was Updated": {
     "18396": 2,
@@ -45361,6 +45563,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "SRC|20|198|5|I-129|Name Was Updated": {
     "18396": 7,
@@ -45368,6 +45571,7 @@
     "18398": 7,
     "18400": 7,
     "18401": 7,
+    "18402": 7,
   },
   "SRC|20|198|5|I-485|Case Accepted By The USCIS Lockbox": {
     "18395": 10,
@@ -45380,6 +45584,7 @@
     "18398": 10,
     "18400": 10,
     "18401": 10,
+    "18402": 10,
   },
   "SRC|20|198|5|I-485|Case Was Received At Another USCIS Office": {
     "18395": 4,
@@ -45388,6 +45593,7 @@
     "18398": 40,
     "18400": 38,
     "18401": 38,
+    "18402": 38,
   },
   "SRC|20|198|5|I-485|Fees Were Waived": {
     "18395": 1,
@@ -45396,10 +45602,12 @@
     "18398": 4,
     "18400": 4,
     "18401": 4,
+    "18402": 4,
   },
   "SRC|20|198|5|I-485|Name Was Updated": {
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "SRC|20|198|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18395": 9,
@@ -45408,6 +45616,7 @@
     "18398": 13,
     "18400": 13,
     "18401": 13,
+    "18402": 13,
   },
   "SRC|20|198|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18396": 1,
@@ -45415,6 +45624,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|I-539|Case Was Received": {
     "18395": 31,
@@ -45423,12 +45633,14 @@
     "18398": 328,
     "18400": 328,
     "18401": 328,
+    "18402": 329,
   },
   "SRC|20|198|5|I-539|Case Was Rejected Because I Did Not Sign My Form": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18395": 2,
@@ -45437,6 +45649,7 @@
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "SRC|20|198|5|I-539|Name Was Updated": {
     "18396": 1,
@@ -45444,6 +45657,7 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|I-601|Case Was Received": {
     "18396": 2,
@@ -45451,12 +45665,14 @@
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|I-601|Name Was Updated": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|I-730|Fees Were Waived": {
     "18395": 9,
@@ -45465,6 +45681,7 @@
     "18398": 14,
     "18400": 14,
     "18401": 14,
+    "18402": 14,
   },
   "SRC|20|198|5|I-765|Case Was Received": {
     "18396": 45,
@@ -45472,12 +45689,14 @@
     "18398": 45,
     "18400": 45,
     "18401": 45,
+    "18402": 45,
   },
   "SRC|20|198|5|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|unknown form type|Case Transferred To Another Office": {
     "18400": 1,
@@ -45489,6 +45708,7 @@
   },
   "SRC|20|198|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|198|5|unknown form type|Fees Were Waived": {
     "18396": 9,
@@ -45496,24 +45716,28 @@
     "18398": 9,
     "18400": 9,
     "18401": 9,
+    "18402": 9,
   },
   "SRC|20|199|5|I-129|Case Was Received": {
     "18397": 283,
     "18398": 283,
     "18400": 282,
     "18401": 282,
+    "18402": 282,
   },
   "SRC|20|199|5|I-129|Date of Birth Was Updated": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|199|5|I-129|Name Was Updated": {
     "18397": 6,
     "18398": 6,
     "18400": 7,
     "18401": 7,
+    "18402": 7,
   },
   "SRC|20|199|5|I-485|Case Accepted By The USCIS Lockbox": {
     "18397": 25,
@@ -45524,30 +45748,35 @@
     "18398": 17,
     "18400": 17,
     "18401": 17,
+    "18402": 17,
   },
   "SRC|20|199|5|I-485|Case Was Received At Another USCIS Office": {
     "18397": 22,
     "18398": 34,
     "18400": 47,
     "18401": 47,
+    "18402": 47,
   },
   "SRC|20|199|5|I-485|Fees Were Waived": {
     "18397": 2,
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "SRC|20|199|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18397": 6,
     "18398": 6,
     "18400": 6,
     "18401": 6,
+    "18402": 6,
   },
   "SRC|20|199|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18397": 5,
     "18398": 5,
     "18400": 5,
     "18401": 5,
+    "18402": 5,
   },
   "SRC|20|199|5|I-539|Case Was Received": {
     "18396": 6,
@@ -45555,72 +45784,84 @@
     "18398": 292,
     "18400": 291,
     "18401": 291,
+    "18402": 291,
   },
   "SRC|20|199|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18397": 2,
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "SRC|20|199|5|I-539|Name Was Updated": {
     "18397": 1,
     "18398": 2,
     "18400": 3,
     "18401": 3,
+    "18402": 3,
   },
   "SRC|20|199|5|I-601|Case Was Received": {
     "18397": 4,
     "18398": 4,
     "18400": 4,
     "18401": 4,
+    "18402": 4,
   },
   "SRC|20|199|5|I-601|Fees Were Waived": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|199|5|I-730|Fees Were Waived": {
     "18397": 25,
     "18398": 25,
     "18400": 25,
     "18401": 25,
+    "18402": 25,
   },
   "SRC|20|199|5|I-751|Case Was Received": {
     "18397": 201,
     "18398": 201,
     "18400": 201,
     "18401": 201,
+    "18402": 202,
   },
   "SRC|20|199|5|I-751|Fees Were Waived": {
     "18397": 4,
     "18398": 4,
     "18400": 4,
     "18401": 4,
+    "18402": 4,
   },
   "SRC|20|199|5|I-765|Case Was Received": {
     "18397": 39,
     "18398": 39,
     "18400": 39,
     "18401": 39,
+    "18402": 39,
   },
   "SRC|20|199|5|I-765|Fees Were Waived": {
     "18397": 1,
     "18398": 1,
     "18400": 1,
     "18401": 1,
+    "18402": 1,
   },
   "SRC|20|199|5|unknown form type|Fees Were Waived": {
     "18397": 14,
     "18398": 14,
     "18400": 14,
     "18401": 14,
+    "18402": 14,
   },
   "SRC|20|199|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18397": 2,
     "18398": 2,
     "18400": 2,
     "18401": 2,
+    "18402": 2,
   },
   "WAC|20|145|5|I-129|Case Was Approved": {
     "18395": 327,
@@ -55677,48 +55918,96 @@
   },
   "WAC|20|197|5|I-129|Case Was Received": {
     "18401": 1092,
+    "18402": 1249,
   },
   "WAC|20|197|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18401": 22,
+    "18402": 49,
   },
   "WAC|20|197|5|I-129|Name Was Updated": {
     "18401": 5,
+    "18402": 6,
   },
   "WAC|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18401": 6,
+    "18402": 16,
   },
   "WAC|20|197|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18401": 1,
+    "18402": 1,
   },
   "WAC|20|197|5|I-539|Case Was Received": {
     "18401": 379,
+    "18402": 440,
   },
   "WAC|20|197|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18401": 6,
+    "18402": 6,
+  },
+  "WAC|20|197|5|I-539|Name Was Updated": {
+    "18402": 1,
   },
   "WAC|20|197|5|I-612|Case Was Received": {
     "18401": 2,
+    "18402": 2,
   },
   "WAC|20|197|5|I-751|Case Was Received": {
     "18401": 57,
+    "18402": 77,
   },
   "WAC|20|197|5|I-751|Fees Were Waived": {
     "18401": 1,
+    "18402": 4,
   },
   "WAC|20|197|5|I-765|Case Was Received": {
     "18401": 41,
+    "18402": 48,
   },
   "WAC|20|197|5|I-829|Case Rejected Because I Sent An Incorrect Fee": {
     "18401": 2,
+    "18402": 2,
   },
   "WAC|20|197|5|I-829|Case Was Received": {
     "18401": 44,
+    "18402": 44,
   },
   "WAC|20|197|5|I-829|Case Was Updated To Show Fingerprints Were Taken": {
     "18401": 1,
+    "18402": 1,
   },
   "WAC|20|197|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18401": 1,
+    "18402": 1,
+  },
+  "WAC|20|198|5|I-129|Case Was Received": {
+    "18402": 959,
+  },
+  "WAC|20|198|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
+    "18402": 7,
+  },
+  "WAC|20|198|5|I-129|Name Was Updated": {
+    "18402": 2,
+  },
+  "WAC|20|198|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18402": 11,
+  },
+  "WAC|20|198|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18402": 3,
+  },
+  "WAC|20|198|5|I-539|Case Was Received": {
+    "18402": 427,
+  },
+  "WAC|20|198|5|I-612|Case Was Received": {
+    "18402": 2,
+  },
+  "WAC|20|198|5|I-751|Case Was Received": {
+    "18402": 49,
+  },
+  "WAC|20|198|5|I-765|Case Was Received": {
+    "18402": 47,
+  },
+  "WAC|20|198|5|I-829|Case Was Received": {
+    "18402": 26,
   },
   "YSC|20|145|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18395": 4,
@@ -57782,20 +58071,47 @@
   },
   "YSC|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18401": 6,
+    "18402": 6,
   },
   "YSC|20|197|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18401": 1,
+    "18402": 1,
   },
   "YSC|20|197|5|I-539|Case Was Received": {
     "18401": 50,
+    "18402": 50,
   },
   "YSC|20|197|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18401": 4,
+    "18402": 4,
   },
   "YSC|20|197|5|I-751|Case Was Received": {
     "18401": 97,
+    "18402": 99,
   },
   "YSC|20|197|5|I-751|Fees Were Waived": {
     "18401": 1,
+    "18402": 1,
+  },
+  "YSC|20|198|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18402": 23,
+  },
+  "YSC|20|198|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18402": 2,
+  },
+  "YSC|20|198|5|I-539|Case Was Received": {
+    "18402": 60,
+  },
+  "YSC|20|198|5|I-539|Case Was Rejected Because I Did Not Sign My Form": {
+    "18402": 1,
+  },
+  "YSC|20|198|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18402": 2,
+  },
+  "YSC|20|198|5|I-751|Case Was Received": {
+    "18402": 76,
+  },
+  "YSC|20|198|5|I-751|Fees Were Waived": {
+    "18402": 2,
   },
 }
