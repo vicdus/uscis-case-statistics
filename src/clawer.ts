@@ -77,11 +77,12 @@ const claw = async (
 ): Promise<void> => {
   const today = 18402;
   const last = await getLastCaseNumber(center_name, two_digit_yr, day, code);
-  console.log(`Loading ${last} entires for ${center_name} day ${day}`);
   if (last <= 0) {
+    console.log(`No entires for ${center_name} day ${day}`);
     return;
   }
 
+  console.log(`Loading ${last} entires for ${center_name} day ${day}`);
   const results = (
     await Promise.all(
       Array.from(new Array(last), (x, i) => i + 1).map((case_number) =>
@@ -122,8 +123,6 @@ const claw = async (
   );
 };
 
-Constants.CENTER_NAMES.forEach(async (name) => {
-  for (let d = 145; d < 200; d++) {
-    await claw(name, 20, d, 5);
-  }
-});
+for (let d = 152; d < 200; d++) {
+  Promise.all(Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5)));
+}

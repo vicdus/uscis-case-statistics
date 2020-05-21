@@ -125,10 +125,11 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
                 return [4 /*yield*/, getLastCaseNumber(center_name, two_digit_yr, day, code)];
             case 1:
                 last = _a.sent();
-                console.log("Loading " + last + " entires for " + center_name + " day " + day);
                 if (last <= 0) {
+                    console.log("No entires for " + center_name + " day " + day);
                     return [2 /*return*/];
                 }
+                console.log("Loading " + last + " entires for " + center_name + " day " + day);
                 return [4 /*yield*/, Promise.all(Array.from(new Array(last), function (x, i) { return i + 1; }).map(function (case_number) {
                         return getStatus(BASE_URL +
                             getCaseID(center_name, two_digit_yr, day, code, case_number));
@@ -165,23 +166,9 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
         }
     });
 }); };
-Constants_1["default"].CENTER_NAMES.forEach(function (name) { return __awaiter(void 0, void 0, void 0, function () {
-    var d;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0:
-                d = 145;
-                _a.label = 1;
-            case 1:
-                if (!(d < 200)) return [3 /*break*/, 4];
-                return [4 /*yield*/, claw(name, 20, d, 5)];
-            case 2:
-                _a.sent();
-                _a.label = 3;
-            case 3:
-                d++;
-                return [3 /*break*/, 1];
-            case 4: return [2 /*return*/];
-        }
-    });
-}); });
+var _loop_1 = function (d) {
+    Promise.all(Constants_1["default"].CENTER_NAMES.map(function (name) { return claw(name, 20, d, 5); }));
+};
+for (var d = 152; d < 200; d++) {
+    _loop_1(d);
+}
