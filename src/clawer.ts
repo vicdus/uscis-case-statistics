@@ -39,7 +39,7 @@ const getStatus = async (
     return status === ""
       ? null
       : {
-          status,
+          status: status.replace("'", ""),
           formType:
             Constants.FORM_TYPES.find((form) => t.includes(form)) ??
             "unknown form type",
@@ -114,6 +114,7 @@ const claw = async (
 
   fs.writeFileSync(
     DATA_FILE_PATH,
+    // @ts-ignore: solve export issue for json stable stringify
     JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
       space: 2,
       quote: '"',
