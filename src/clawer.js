@@ -166,9 +166,33 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
         }
     });
 }); };
-var _loop_1 = function (d) {
-    Promise.all(Constants_1["default"].CENTER_NAMES.map(function (name) { return claw(name, 20, d, 5); }));
-};
-for (var d = 152; d < 200; d++) {
-    _loop_1(d);
-}
+(function () { return __awaiter(void 0, void 0, void 0, function () {
+    var _loop_1, d;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                _loop_1 = function (d) {
+                    return __generator(this, function (_a) {
+                        switch (_a.label) {
+                            case 0: return [4 /*yield*/, Promise.all(Constants_1["default"].CENTER_NAMES.map(function (name) { return claw(name, 20, d, 5); }))];
+                            case 1:
+                                _a.sent();
+                                return [2 /*return*/];
+                        }
+                    });
+                };
+                d = 152;
+                _a.label = 1;
+            case 1:
+                if (!(d < 200)) return [3 /*break*/, 4];
+                return [5 /*yield**/, _loop_1(d)];
+            case 2:
+                _a.sent();
+                _a.label = 3;
+            case 3:
+                d++;
+                return [3 /*break*/, 1];
+            case 4: return [2 /*return*/];
+        }
+    });
+}); })();
