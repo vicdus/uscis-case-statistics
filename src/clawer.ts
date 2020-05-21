@@ -7,7 +7,6 @@ import fetch from "node-fetch";
 import nullthrows from "nullthrows";
 
 import Constants from "./Constants";
-import { constants } from "buffer";
 
 const DATA_FILE_PATH = __dirname + "/data.json5";
 const BASE_URL =
@@ -39,7 +38,7 @@ const getStatus = async (
     return status === ""
       ? null
       : {
-          status: status.replace("'", ""),
+          status,
           formType:
             Constants.FORM_TYPES.find((form) => t.includes(form)) ??
             "unknown form type",
@@ -118,7 +117,7 @@ const claw = async (
     JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
       space: 2,
       quote: '"',
-    }).replace("&apos;", ""),
+    }),
     { encoding: "utf8" }
   );
 };

@@ -82,7 +82,7 @@ var getStatus = function (url) { return __awaiter(void 0, void 0, void 0, functi
                 return [2 /*return*/, status_1 === ""
                         ? null
                         : {
-                            status: status_1.replace("'", ""),
+                            status: status_1,
                             formType: (_b = Constants_1["default"].FORM_TYPES.find(function (form) { return t_1.includes(form); })) !== null && _b !== void 0 ? _b : "unknown form type"
                         }];
             case 3:
@@ -160,7 +160,7 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
                 JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
                     space: 2,
                     quote: '"'
-                }).replace("&apos;", ""), { encoding: "utf8" });
+                }), { encoding: "utf8" });
                 return [2 /*return*/];
         }
     });
