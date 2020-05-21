@@ -31,7 +31,6 @@
     "recharts": "^1.8.5",
     "typescript": "^3.7.5"
   },
-  "type": "module",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
