@@ -123,6 +123,10 @@ const claw = async (
   );
 };
 
-for (let d = 152; d < 200; d++) {
-  Promise.all(Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5)));
-}
+(async () => {
+  for (let d = 145; d < 200; d++) {
+    await Promise.all(
+      Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
+    );
+  }
+})();
