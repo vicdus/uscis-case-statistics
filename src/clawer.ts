@@ -55,7 +55,7 @@ const getLastCaseNumber = async (
   day: number,
   code: number
 ): Promise<number> => {
-  let [low, high] = [0, 9999];
+  let [low, high] = [0, 4000];
   while (low < high) {
     const mid = Math.floor((low + high) / 2);
     const result = await getStatus(
@@ -79,7 +79,7 @@ const claw = async (
   const today = 18402;
   const last = await getLastCaseNumber(center_name, two_digit_yr, day, code);
   console.log(`Loading ${last} entires for ${center_name} day ${day}`);
-  if (last === 0) {
+  if (last <= 0) {
     return;
   }
 

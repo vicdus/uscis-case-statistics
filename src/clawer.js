@@ -82,7 +82,7 @@ var getStatus = function (url) { return __awaiter(void 0, void 0, void 0, functi
                 return [2 /*return*/, status_1 === ""
                         ? null
                         : {
-                            status: status_1,
+                            status: status_1.replace("'", ""),
                             formType: (_b = Constants_1["default"].FORM_TYPES.find(function (form) { return t_1.includes(form); })) !== null && _b !== void 0 ? _b : "unknown form type"
                         }];
             case 3:
@@ -97,7 +97,7 @@ var getLastCaseNumber = function (center_name, two_digit_yr, day, code) { return
     return __generator(this, function (_b) {
         switch (_b.label) {
             case 0:
-                _a = [0, 9999], low = _a[0], high = _a[1];
+                _a = [0, 4000], low = _a[0], high = _a[1];
                 _b.label = 1;
             case 1:
                 if (!(low < high)) return [3 /*break*/, 3];
@@ -126,7 +126,7 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
             case 1:
                 last = _a.sent();
                 console.log("Loading " + last + " entires for " + center_name + " day " + day);
-                if (last === 0) {
+                if (last <= 0) {
                     return [2 /*return*/];
                 }
                 return [4 /*yield*/, Promise.all(Array.from(new Array(last), function (x, i) { return i + 1; }).map(function (case_number) {
@@ -155,7 +155,9 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
                     var _b;
                     new_json5_obj[key] = __assign(__assign({}, ((_b = new_json5_obj[key]) !== null && _b !== void 0 ? _b : {})), count);
                 });
-                fs.writeFileSync(DATA_FILE_PATH, JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
+                fs.writeFileSync(DATA_FILE_PATH, 
+                // @ts-ignore: solve export issue for json stable stringify
+                JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
                     space: 2,
                     quote: '"'
                 }), {
@@ -165,7 +167,23 @@ var claw = function (center_name, two_digit_yr, day, code) { return __awaiter(vo
         }
     });
 }); };
-Constants_1["default"].CENTER_NAMES.forEach(function (name) {
-    for (var d = 145; d < 200; d++) { }
-});
-claw("WAC", 20, 171, 5).then(function (res) { });
+Constants_1["default"].CENTER_NAMES.forEach(function (name) { return __awaiter(void 0, void 0, void 0, function () {
+    var d;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                d = 145;
+                _a.label = 1;
+            case 1:
+                if (!(d < 200)) return [3 /*break*/, 4];
+                return [4 /*yield*/, claw(name, 20, d, 5)];
+            case 2:
+                _a.sent();
+                _a.label = 3;
+            case 3:
+                d++;
+                return [3 /*break*/, 1];
+            case 4: return [2 /*return*/];
+        }
+    });
+}); });
