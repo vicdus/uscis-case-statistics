@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import * as fs from "fs";
-import Immutable from "immutable";
+import * as Immutable from "immutable";
 import * as stringify from "json-stable-stringify";
 import * as JSON5 from "json5";
 import fetch from "node-fetch";
