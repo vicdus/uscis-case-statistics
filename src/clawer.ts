@@ -3,6 +3,7 @@ import * as fs from "fs";
 import * as Immutable from "immutable";
 import * as stringify from "json-stable-stringify";
 import * as JSON5 from "json5";
+import * as lodash from "lodash";
 import fetch from "node-fetch";
 import nullthrows from "nullthrows";
 
@@ -121,12 +122,11 @@ const claw = async (
     }),
     { encoding: "utf8" }
   );
+  console.log(`Finished ${last} entires for ${center_name} day ${day}`);
 };
 
 (async () => {
-  for (let d = 145; d < 200; d++) {
-    await Promise.all(
-      Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
-    );
+  for (const name of Constants.CENTER_NAMES) {
+    await Promise.all(lodash.range(145, 200).map((d) => claw(name, 20, d, 5)));
   }
 })();
