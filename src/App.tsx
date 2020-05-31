@@ -218,7 +218,10 @@ function App() {
         marks={availableUpdateDays
           .map((e) => ({
             value: e,
-            label: new Date(1970, 0, e + 1).toDateString(),
+            label:
+              new Date(1970, 0, e + 1).getMonth() +
+              "/" +
+              new Date(1970, 0, e + 1).getDate(),
           }))
           .toArray()}
         min={availableUpdateDays.min() ?? 0}
