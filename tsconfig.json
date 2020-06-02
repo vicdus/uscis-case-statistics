@@ -5,11 +5,12 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "strictNullChecks": true,
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
+    "outDir": "./output",
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
@@ -19,5 +20,6 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["src"]
+  "exclude": [],
+  "include": [ "./src/*" ]
 }
