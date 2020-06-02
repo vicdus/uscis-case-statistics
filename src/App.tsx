@@ -219,9 +219,10 @@ function App() {
           .map((e) => ({
             value: e,
             label:
-              new Date(1970, 0, e + 1).getMonth() +
+              1 +
+              new Date(86400000 * e).getMonth() +
               "/" +
-              new Date(1970, 0, e + 1).getDate(),
+              new Date(86400000 * e).getDate(),
           }))
           .toArray()}
         min={availableUpdateDays.min() ?? 0}
