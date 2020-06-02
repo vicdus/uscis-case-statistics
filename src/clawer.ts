@@ -55,6 +55,14 @@ const getLastCaseNumber = async (
   day: number,
   code: number
 ): Promise<number> => {
+  if (
+    !(await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, 0)
+    ))
+  ) {
+    return 0;
+  }
+
   let [low, high] = [0, 4000];
   while (low < high) {
     const mid = Math.floor((low + high) / 2);

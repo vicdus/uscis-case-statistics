@@ -9018,6 +9018,732 @@
   "EAC|20|203|5|unknown form type|Request Was Rejected": {
     "18415": 1,
   },
+  "EAC|20|204|5|I-129|Case Was Approved": {
+    "18415": 7,
+  },
+  "EAC|20|204|5|I-129|Case Was Received": {
+    "18415": 589,
+  },
+  "EAC|20|204|5|I-129|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 362,
+  },
+  "EAC|20|204|5|I-129|Name Was Updated": {
+    "18415": 8,
+  },
+  "EAC|20|204|5|I-130|Fees Were Waived": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-131|Fees Were Waived": {
+    "18415": 68,
+  },
+  "EAC|20|204|5|I-360|Case Was Received": {
+    "18415": 26,
+  },
+  "EAC|20|204|5|I-360|Fees Were Waived": {
+    "18415": 15,
+  },
+  "EAC|20|204|5|I-360|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-485|Case Was Received": {
+    "18415": 105,
+  },
+  "EAC|20|204|5|I-485|Fees Were Waived": {
+    "18415": 13,
+  },
+  "EAC|20|204|5|I-485|Name Was Updated": {
+    "18415": 3,
+  },
+  "EAC|20|204|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 5,
+  },
+  "EAC|20|204|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-539|Case Was Received": {
+    "18415": 258,
+  },
+  "EAC|20|204|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "EAC|20|204|5|I-539|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 19,
+  },
+  "EAC|20|204|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-601|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 12,
+  },
+  "EAC|20|204|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 7,
+  },
+  "EAC|20|204|5|I-751|Case Was Received": {
+    "18415": 29,
+  },
+  "EAC|20|204|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 43,
+  },
+  "EAC|20|204|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "EAC|20|204|5|I-765|Case Was Received": {
+    "18415": 181,
+  },
+  "EAC|20|204|5|I-765|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 2,
+  },
+  "EAC|20|204|5|I-765|Fees Were Waived": {
+    "18415": 145,
+  },
+  "EAC|20|204|5|unknown form type|Case Was Received": {
+    "18415": 7,
+  },
+  "EAC|20|204|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 11,
+  },
+  "EAC|20|204|5|unknown form type|Fees Were Waived": {
+    "18415": 31,
+  },
+  "EAC|20|204|5|unknown form type|Request Was Processed": {
+    "18415": 11,
+  },
+  "EAC|20|204|5|unknown form type|Request Was Rejected": {
+    "18415": 1,
+  },
+  "EAC|20|205|5|I-129|Case Was Approved": {
+    "18415": 22,
+  },
+  "EAC|20|205|5|I-129|Case Was Approved And My Decision Was Emailed": {
+    "18415": 12,
+  },
+  "EAC|20|205|5|I-129|Case Was Received": {
+    "18415": 612,
+  },
+  "EAC|20|205|5|I-129|Case Was Received At Another USCIS Office": {
+    "18415": 7,
+  },
+  "EAC|20|205|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 123,
+  },
+  "EAC|20|205|5|I-129|Name Was Updated": {
+    "18415": 6,
+  },
+  "EAC|20|205|5|I-131|Case Was Received": {
+    "18415": 4,
+  },
+  "EAC|20|205|5|I-131|Fees Were Waived": {
+    "18415": 61,
+  },
+  "EAC|20|205|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|205|5|I-360|Case Was Received": {
+    "18415": 8,
+  },
+  "EAC|20|205|5|I-360|Fees Were Waived": {
+    "18415": 30,
+  },
+  "EAC|20|205|5|I-485|Case Was Received": {
+    "18415": 72,
+  },
+  "EAC|20|205|5|I-485|Fees Were Waived": {
+    "18415": 12,
+  },
+  "EAC|20|205|5|I-485|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|205|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 12,
+  },
+  "EAC|20|205|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "EAC|20|205|5|I-539|Case Was Received": {
+    "18415": 190,
+  },
+  "EAC|20|205|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|205|5|I-601|Case Was Received": {
+    "18415": 5,
+  },
+  "EAC|20|205|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 20,
+  },
+  "EAC|20|205|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 5,
+  },
+  "EAC|20|205|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18415": 1,
+  },
+  "EAC|20|205|5|I-751|Case Was Received": {
+    "18415": 164,
+  },
+  "EAC|20|205|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 31,
+  },
+  "EAC|20|205|5|I-765|Case Was Received": {
+    "18415": 102,
+  },
+  "EAC|20|205|5|I-765|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 2,
+  },
+  "EAC|20|205|5|I-765|Fees Were Waived": {
+    "18415": 103,
+  },
+  "EAC|20|205|5|I-765|Name Was Updated": {
+    "18415": 2,
+  },
+  "EAC|20|205|5|unknown form type|Case Was Received": {
+    "18415": 3,
+  },
+  "EAC|20|205|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 1,
+  },
+  "EAC|20|205|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 1,
+  },
+  "EAC|20|205|5|unknown form type|Fees Were Waived": {
+    "18415": 39,
+  },
+  "EAC|20|205|5|unknown form type|Request Was Processed": {
+    "18415": 10,
+  },
+  "EAC|20|206|5|I-539|Case Was Received": {
+    "18415": 3,
+  },
+  "EAC|20|206|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 2,
+  },
+  "EAC|20|207|5|I-129|Case Was Received": {
+    "18415": 894,
+  },
+  "EAC|20|207|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 1,
+  },
+  "EAC|20|207|5|I-129|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|207|5|I-129|Name Was Updated": {
+    "18415": 18,
+  },
+  "EAC|20|207|5|I-131|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|207|5|I-131|Fees Were Waived": {
+    "18415": 52,
+  },
+  "EAC|20|207|5|I-212|Case Was Received": {
+    "18415": 2,
+  },
+  "EAC|20|207|5|I-360|Case Was Received": {
+    "18415": 8,
+  },
+  "EAC|20|207|5|I-360|Fees Were Waived": {
+    "18415": 69,
+  },
+  "EAC|20|207|5|I-485|Case Was Received": {
+    "18415": 82,
+  },
+  "EAC|20|207|5|I-485|Fees Were Waived": {
+    "18415": 23,
+  },
+  "EAC|20|207|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 1,
+  },
+  "EAC|20|207|5|I-539|Case Was Received": {
+    "18415": 291,
+  },
+  "EAC|20|207|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "EAC|20|207|5|I-539|Fees Were Waived": {
+    "18415": 2,
+  },
+  "EAC|20|207|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|207|5|I-601|Case Was Received": {
+    "18415": 3,
+  },
+  "EAC|20|207|5|I-601|Fees Were Waived": {
+    "18415": 2,
+  },
+  "EAC|20|207|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 24,
+  },
+  "EAC|20|207|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "EAC|20|207|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18415": 1,
+  },
+  "EAC|20|207|5|I-751|Case Was Received": {
+    "18415": 46,
+  },
+  "EAC|20|207|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 39,
+  },
+  "EAC|20|207|5|I-765|Case Was Received": {
+    "18415": 108,
+  },
+  "EAC|20|207|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "EAC|20|207|5|I-765|Fees Were Waived": {
+    "18415": 204,
+  },
+  "EAC|20|207|5|I-765|Name Was Updated": {
+    "18415": 2,
+  },
+  "EAC|20|207|5|unknown form type|Case Was Received": {
+    "18415": 21,
+  },
+  "EAC|20|207|5|unknown form type|Request Was Processed": {
+    "18415": 73,
+  },
+  "EAC|20|207|5|unknown form type|Request Was Rejected": {
+    "18415": 2,
+  },
+  "EAC|20|208|5|I-129|Case Was Received": {
+    "18415": 951,
+  },
+  "EAC|20|208|5|I-129|Name Was Updated": {
+    "18415": 5,
+  },
+  "EAC|20|208|5|I-131|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|208|5|I-131|Fees Were Waived": {
+    "18415": 40,
+  },
+  "EAC|20|208|5|I-131|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|208|5|I-360|Case Was Received": {
+    "18415": 7,
+  },
+  "EAC|20|208|5|I-360|Fees Were Waived": {
+    "18415": 32,
+  },
+  "EAC|20|208|5|I-485|Case Was Received": {
+    "18415": 73,
+  },
+  "EAC|20|208|5|I-485|Fees Were Waived": {
+    "18415": 20,
+  },
+  "EAC|20|208|5|I-485|Name Was Updated": {
+    "18415": 2,
+  },
+  "EAC|20|208|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 7,
+  },
+  "EAC|20|208|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 4,
+  },
+  "EAC|20|208|5|I-539|Case Was Received": {
+    "18415": 288,
+  },
+  "EAC|20|208|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "EAC|20|208|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|208|5|I-612|Case Was Approved": {
+    "18415": 21,
+  },
+  "EAC|20|208|5|I-612|Case Was Received At Another USCIS Office": {
+    "18415": 136,
+  },
+  "EAC|20|208|5|I-612|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|208|5|I-612|Name Was Updated": {
+    "18415": 7,
+  },
+  "EAC|20|208|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 15,
+  },
+  "EAC|20|208|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 3,
+  },
+  "EAC|20|208|5|I-751|Case Was Received": {
+    "18415": 74,
+  },
+  "EAC|20|208|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 1,
+  },
+  "EAC|20|208|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 49,
+  },
+  "EAC|20|208|5|I-765|Case Was Received": {
+    "18415": 149,
+  },
+  "EAC|20|208|5|I-765|Fees Were Waived": {
+    "18415": 185,
+  },
+  "EAC|20|208|5|I-765|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|208|5|I-824|Fees Were Waived": {
+    "18415": 1,
+  },
+  "EAC|20|208|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 25,
+  },
+  "EAC|20|208|5|unknown form type|Fees Were Waived": {
+    "18415": 14,
+  },
+  "EAC|20|208|5|unknown form type|Request Was Processed": {
+    "18415": 80,
+  },
+  "EAC|20|209|5|I-129|Case Was Received": {
+    "18415": 973,
+  },
+  "EAC|20|209|5|I-129|Name Was Updated": {
+    "18415": 19,
+  },
+  "EAC|20|209|5|I-131|Case Was Received": {
+    "18415": 4,
+  },
+  "EAC|20|209|5|I-131|Fees Were Waived": {
+    "18415": 75,
+  },
+  "EAC|20|209|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|I-360|Case Was Received": {
+    "18415": 7,
+  },
+  "EAC|20|209|5|I-360|Fees Were Waived": {
+    "18415": 36,
+  },
+  "EAC|20|209|5|I-360|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|I-485|Case Was Received": {
+    "18415": 95,
+  },
+  "EAC|20|209|5|I-485|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|I-485|Fees Were Waived": {
+    "18415": 3,
+  },
+  "EAC|20|209|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 4,
+  },
+  "EAC|20|209|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|I-539|Case Was Received": {
+    "18415": 249,
+  },
+  "EAC|20|209|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 2,
+  },
+  "EAC|20|209|5|I-539|Fees Were Waived": {
+    "18415": 4,
+  },
+  "EAC|20|209|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|I-601|Case Was Received": {
+    "18415": 5,
+  },
+  "EAC|20|209|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 35,
+  },
+  "EAC|20|209|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 3,
+  },
+  "EAC|20|209|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18415": 4,
+  },
+  "EAC|20|209|5|I-751|Case Was Received": {
+    "18415": 44,
+  },
+  "EAC|20|209|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 37,
+  },
+  "EAC|20|209|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|I-765|Case Was Received": {
+    "18415": 180,
+  },
+  "EAC|20|209|5|I-765|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|I-765|Fees Were Waived": {
+    "18415": 205,
+  },
+  "EAC|20|209|5|I-765|Name Was Updated": {
+    "18415": 2,
+  },
+  "EAC|20|209|5|I-824|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|unknown form type|Case Was Received": {
+    "18415": 17,
+  },
+  "EAC|20|209|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 1,
+  },
+  "EAC|20|209|5|unknown form type|Fees Were Waived": {
+    "18415": 6,
+  },
+  "EAC|20|209|5|unknown form type|Request Was Processed": {
+    "18415": 91,
+  },
+  "EAC|20|210|5|I-129|Case Was Received": {
+    "18415": 951,
+  },
+  "EAC|20|210|5|I-129|Name Was Updated": {
+    "18415": 15,
+  },
+  "EAC|20|210|5|I-131|Case Was Received": {
+    "18415": 7,
+  },
+  "EAC|20|210|5|I-131|Fees Were Waived": {
+    "18415": 29,
+  },
+  "EAC|20|210|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-360|Case Was Received": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-360|Fees Were Waived": {
+    "18415": 43,
+  },
+  "EAC|20|210|5|I-360|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-485|Case Was Received": {
+    "18415": 34,
+  },
+  "EAC|20|210|5|I-485|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-485|Fees Were Waived": {
+    "18415": 9,
+  },
+  "EAC|20|210|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 6,
+  },
+  "EAC|20|210|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-539|Case Was Received": {
+    "18415": 311,
+  },
+  "EAC|20|210|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "EAC|20|210|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-601|Case Was Received": {
+    "18415": 3,
+  },
+  "EAC|20|210|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 7,
+  },
+  "EAC|20|210|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-751|Case Rejected For Form Not Signed And Incorrect Form Version": {
+    "18415": 2,
+  },
+  "EAC|20|210|5|I-751|Case Was Received": {
+    "18415": 132,
+  },
+  "EAC|20|210|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 4,
+  },
+  "EAC|20|210|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 48,
+  },
+  "EAC|20|210|5|I-765|Case Was Received": {
+    "18415": 110,
+  },
+  "EAC|20|210|5|I-765|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|I-765|Fees Were Waived": {
+    "18415": 201,
+  },
+  "EAC|20|210|5|I-824|Case Was Received": {
+    "18415": 2,
+  },
+  "EAC|20|210|5|unknown form type|Case Was Received": {
+    "18415": 14,
+  },
+  "EAC|20|210|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 6,
+  },
+  "EAC|20|210|5|unknown form type|Fees Were Waived": {
+    "18415": 5,
+  },
+  "EAC|20|210|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "EAC|20|210|5|unknown form type|Request Was Processed": {
+    "18415": 76,
+  },
+  "EAC|20|210|5|unknown form type|Request Was Rejected": {
+    "18415": 4,
+  },
+  "EAC|20|211|5|I-129|Case Was Received": {
+    "18415": 194,
+  },
+  "EAC|20|211|5|I-129|Name Was Updated": {
+    "18415": 3,
+  },
+  "EAC|20|211|5|I-131|Fees Were Waived": {
+    "18415": 13,
+  },
+  "EAC|20|211|5|I-360|Fees Were Waived": {
+    "18415": 3,
+  },
+  "EAC|20|211|5|I-485|Case Was Received": {
+    "18415": 13,
+  },
+  "EAC|20|211|5|I-485|Fees Were Waived": {
+    "18415": 4,
+  },
+  "EAC|20|211|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 3,
+  },
+  "EAC|20|211|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "EAC|20|211|5|I-539|Case Was Received": {
+    "18415": 90,
+  },
+  "EAC|20|211|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 4,
+  },
+  "EAC|20|211|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 14,
+  },
+  "EAC|20|211|5|I-751|Case Was Received": {
+    "18415": 8,
+  },
+  "EAC|20|211|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 15,
+  },
+  "EAC|20|211|5|I-765|Case Was Received": {
+    "18415": 11,
+  },
+  "EAC|20|211|5|I-765|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|211|5|I-765|Fees Were Waived": {
+    "18415": 49,
+  },
+  "EAC|20|212|5|I-102|Fees Were Waived": {
+    "18415": 2,
+  },
+  "EAC|20|212|5|I-129|Case Was Received": {
+    "18415": 1245,
+  },
+  "EAC|20|212|5|I-129|Name Was Updated": {
+    "18415": 13,
+  },
+  "EAC|20|212|5|I-131|Fees Were Waived": {
+    "18415": 34,
+  },
+  "EAC|20|212|5|I-360|Case Was Received": {
+    "18415": 4,
+  },
+  "EAC|20|212|5|I-360|Fees Were Waived": {
+    "18415": 5,
+  },
+  "EAC|20|212|5|I-360|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|212|5|I-485|Case Was Received": {
+    "18415": 36,
+  },
+  "EAC|20|212|5|I-485|Fees Were Waived": {
+    "18415": 4,
+  },
+  "EAC|20|212|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 3,
+  },
+  "EAC|20|212|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "EAC|20|212|5|I-539|Case Was Received": {
+    "18415": 451,
+  },
+  "EAC|20|212|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "EAC|20|212|5|I-539|Fees Were Waived": {
+    "18415": 4,
+  },
+  "EAC|20|212|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|212|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "EAC|20|212|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "EAC|20|212|5|I-751|Case Was Received": {
+    "18415": 144,
+  },
+  "EAC|20|212|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 6,
+  },
+  "EAC|20|212|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 18,
+  },
+  "EAC|20|212|5|I-765|Case Was Received": {
+    "18415": 198,
+  },
+  "EAC|20|212|5|I-765|Fees Were Waived": {
+    "18415": 144,
+  },
+  "EAC|20|212|5|I-765|Name Was Updated": {
+    "18415": 1,
+  },
+  "EAC|20|212|5|unknown form type|Case Was Received": {
+    "18415": 13,
+  },
+  "EAC|20|212|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 15,
+  },
+  "EAC|20|213|5|I-539|Case Was Received": {
+    "18415": 6,
+  },
+  "EAC|20|213|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 2,
+  },
+  "EAC|20|213|5|I-751|Case Was Received": {
+    "18415": 2,
+  },
+  "IOE|20|209|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 1,
+  },
   "LIN|20|145|5|I-129|Case Was Approved": {
     "18412": 226,
     "18415": 228,
@@ -14322,6 +15048,201 @@
   "LIN|20|203|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18415": 2,
   },
+  "LIN|20|204|5|I-129|Case Was Received": {
+    "18415": 469,
+  },
+  "LIN|20|204|5|I-129|Name Was Updated": {
+    "18415": 14,
+  },
+  "LIN|20|204|5|I-131|Fees Were Waived": {
+    "18415": 2,
+  },
+  "LIN|20|204|5|I-360|Fees Were Waived": {
+    "18415": 1,
+  },
+  "LIN|20|204|5|I-485|Fees Were Waived": {
+    "18415": 2,
+  },
+  "LIN|20|204|5|I-539|Case Accepted By The USCIS Lockbox": {
+    "18415": 16,
+  },
+  "LIN|20|204|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 16,
+  },
+  "LIN|20|204|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 5,
+  },
+  "LIN|20|204|5|I-539|Case Was Received": {
+    "18415": 311,
+  },
+  "LIN|20|204|5|I-539|Case Was Received At Another USCIS Office": {
+    "18415": 10,
+  },
+  "LIN|20|204|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "LIN|20|204|5|I-539|Petition/Application Was Rejected For Insufficient Funds": {
+    "18415": 5,
+  },
+  "LIN|20|204|5|I-730|Fees Were Waived": {
+    "18415": 14,
+  },
+  "LIN|20|204|5|I-751|Case Was Received": {
+    "18415": 91,
+  },
+  "LIN|20|204|5|I-765|Case Was Received": {
+    "18415": 61,
+  },
+  "LIN|20|204|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 7,
+  },
+  "LIN|20|204|5|I-765|Fees Were Waived": {
+    "18415": 19,
+  },
+  "LIN|20|204|5|I-765|Name Was Updated": {
+    "18415": 1,
+  },
+  "LIN|20|204|5|unknown form type|Fees Were Waived": {
+    "18415": 7,
+  },
+  "LIN|20|204|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "LIN|20|205|5|I-129|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 1,
+  },
+  "LIN|20|205|5|I-129|Case Was Received": {
+    "18415": 491,
+  },
+  "LIN|20|205|5|I-129|Name Was Updated": {
+    "18415": 3,
+  },
+  "LIN|20|205|5|I-360|Fees Were Waived": {
+    "18415": 2,
+  },
+  "LIN|20|205|5|I-485|Fees Were Waived": {
+    "18415": 1,
+  },
+  "LIN|20|205|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 14,
+  },
+  "LIN|20|205|5|I-539|Case Was Received": {
+    "18415": 264,
+  },
+  "LIN|20|205|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "LIN|20|205|5|I-730|Fees Were Waived": {
+    "18415": 9,
+  },
+  "LIN|20|205|5|I-751|Case Was Received": {
+    "18415": 70,
+  },
+  "LIN|20|205|5|I-765|Case Was Received": {
+    "18415": 59,
+  },
+  "LIN|20|205|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "LIN|20|205|5|I-765|Fees Were Waived": {
+    "18415": 10,
+  },
+  "LIN|20|205|5|unknown form type|Fees Were Waived": {
+    "18415": 10,
+  },
+  "LIN|20|205|5|unknown form type|Name Was Updated": {
+    "18415": 1,
+  },
+  "LIN|20|206|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 4,
+  },
+  "LIN|20|206|5|I-539|Case Was Received": {
+    "18415": 26,
+  },
+  "LIN|20|206|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 4,
+  },
+  "LIN|20|206|5|I-751|Case Was Received": {
+    "18415": 1,
+  },
+  "LIN|20|206|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "LIN|20|207|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "LIN|20|208|5|I-129|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 1,
+  },
+  "LIN|20|208|5|I-129|Case Was Received": {
+    "18415": 632,
+  },
+  "LIN|20|208|5|I-129|Name Was Updated": {
+    "18415": 2,
+  },
+  "LIN|20|208|5|I-131|Fees Were Waived": {
+    "18415": 6,
+  },
+  "LIN|20|208|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "LIN|20|208|5|I-360|Fees Were Waived": {
+    "18415": 9,
+  },
+  "LIN|20|208|5|I-485|Case Was Received": {
+    "18415": 16,
+  },
+  "LIN|20|208|5|I-485|Fees Were Waived": {
+    "18415": 9,
+  },
+  "LIN|20|208|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 7,
+  },
+  "LIN|20|208|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "LIN|20|208|5|I-539|Case Was Received": {
+    "18415": 408,
+  },
+  "LIN|20|208|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "LIN|20|208|5|I-539|Fees Were Waived": {
+    "18415": 2,
+  },
+  "LIN|20|208|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "LIN|20|208|5|I-730|Fees Were Waived": {
+    "18415": 23,
+  },
+  "LIN|20|208|5|I-751|Case Accepted By The USCIS Lockbox": {
+    "18415": 2,
+  },
+  "LIN|20|208|5|I-751|Case Was Received": {
+    "18415": 54,
+  },
+  "LIN|20|208|5|I-751|Fees Were Waived": {
+    "18415": 4,
+  },
+  "LIN|20|208|5|I-765|Case Was Received": {
+    "18415": 79,
+  },
+  "LIN|20|208|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 19,
+  },
+  "LIN|20|208|5|I-765|Fees Were Waived": {
+    "18415": 7,
+  },
+  "LIN|20|208|5|unknown form type|Case Was Received": {
+    "18415": 2,
+  },
+  "LIN|20|208|5|unknown form type|Fees Were Waived": {
+    "18415": 6,
+  },
+  "LIN|20|209|5|I-751|Case Was Received": {
+    "18415": 1,
+  },
   "MSC|20|145|5|I-539|Case Was Received": {
     "18412": 1,
     "18415": 1,
@@ -18412,6 +19333,789 @@
   },
   "MSC|20|203|5|I-751|Case Was Received": {
     "18415": 5,
+  },
+  "MSC|20|204|5|I-212|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|204|5|I-751|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-131|Fees Were Waived": {
+    "18415": 31,
+  },
+  "MSC|20|205|5|I-131|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-212|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-485|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-485|Fees Were Waived": {
+    "18415": 37,
+  },
+  "MSC|20|205|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 5,
+  },
+  "MSC|20|205|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 4,
+  },
+  "MSC|20|205|5|I-751|Case Was Received": {
+    "18415": 114,
+  },
+  "MSC|20|205|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "MSC|20|205|5|I-751|Fees Were Waived": {
+    "18415": 7,
+  },
+  "MSC|20|205|5|I-765|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|unknown form type|Card Is Being Returned to USCIS by Post Office": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 1,
+  },
+  "MSC|20|205|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-131|Case Was Approved": {
+    "18415": 2,
+  },
+  "MSC|20|206|5|I-131|Case Was Received At Another USCIS Office": {
+    "18415": 3,
+  },
+  "MSC|20|206|5|I-131|Fees Were Waived": {
+    "18415": 27,
+  },
+  "MSC|20|206|5|I-131|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-212|Case Was Denied": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-212|Case Was Received": {
+    "18415": 22,
+  },
+  "MSC|20|206|5|I-212|Case Was Rejected Because My Check Or Money Order Is Not Signed": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-212|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-212|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-212|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-485|Fees Were Waived": {
+    "18415": 25,
+  },
+  "MSC|20|206|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "MSC|20|206|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "MSC|20|206|5|I-751|Case Was Received": {
+    "18415": 64,
+  },
+  "MSC|20|206|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 3,
+  },
+  "MSC|20|206|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 19,
+  },
+  "MSC|20|206|5|I-751|Fees Were Waived": {
+    "18415": 9,
+  },
+  "MSC|20|206|5|I-765|Case Was Approved": {
+    "18415": 4,
+  },
+  "MSC|20|206|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|206|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 4,
+  },
+  "MSC|20|206|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
+    "18415": 1,
+  },
+  "MSC|20|206|5|unknown form type|Case Was Received": {
+    "18415": 3,
+  },
+  "MSC|20|206|5|unknown form type|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|207|5|I-131|Case Was Approved": {
+    "18415": 2,
+  },
+  "MSC|20|207|5|I-131|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|207|5|I-131|Fees Were Waived": {
+    "18415": 16,
+  },
+  "MSC|20|207|5|I-212|Case Was Received": {
+    "18415": 6,
+  },
+  "MSC|20|207|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|207|5|I-485|Fees Were Waived": {
+    "18415": 38,
+  },
+  "MSC|20|207|5|I-485|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|207|5|I-539|Case Was Received": {
+    "18415": 3,
+  },
+  "MSC|20|207|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "MSC|20|207|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 38,
+  },
+  "MSC|20|208|5|I-131|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|208|5|I-131|Fees Were Waived": {
+    "18415": 14,
+  },
+  "MSC|20|208|5|I-131|Request for Initial Evidence Was Sent": {
+    "18415": 1,
+  },
+  "MSC|20|208|5|I-212|Case Was Received": {
+    "18415": 3,
+  },
+  "MSC|20|208|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|208|5|I-212|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|208|5|I-485|Case Was Approved": {
+    "18415": 2,
+  },
+  "MSC|20|208|5|I-485|Duplicate Notice Was Mailed": {
+    "18415": 2,
+  },
+  "MSC|20|208|5|I-485|Fees Were Waived": {
+    "18415": 20,
+  },
+  "MSC|20|208|5|I-485|Request for Initial Evidence Was Sent": {
+    "18415": 1,
+  },
+  "MSC|20|208|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|208|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 10,
+  },
+  "MSC|20|208|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 10,
+  },
+  "MSC|20|208|5|I-751|Case Was Received": {
+    "18415": 214,
+  },
+  "MSC|20|208|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 4,
+  },
+  "MSC|20|208|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 11,
+  },
+  "MSC|20|208|5|I-751|Fees Were Waived": {
+    "18415": 4,
+  },
+  "MSC|20|208|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "MSC|20|208|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 1,
+  },
+  "MSC|20|208|5|unknown form type|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|208|5|unknown form type|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|209|5|I-131|Fees Were Waived": {
+    "18415": 11,
+  },
+  "MSC|20|209|5|I-212|Case Was Approved": {
+    "18415": 2,
+  },
+  "MSC|20|209|5|I-212|Case Was Received": {
+    "18415": 3,
+  },
+  "MSC|20|209|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 5,
+  },
+  "MSC|20|209|5|I-485|Case Was Approved": {
+    "18415": 2,
+  },
+  "MSC|20|209|5|I-485|Duplicate Notice Was Mailed": {
+    "18415": 1,
+  },
+  "MSC|20|209|5|I-485|Fees Were Waived": {
+    "18415": 40,
+  },
+  "MSC|20|209|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|209|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 21,
+  },
+  "MSC|20|209|5|I-751|Case Was Received": {
+    "18415": 122,
+  },
+  "MSC|20|209|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "MSC|20|209|5|I-751|Fees Were Waived": {
+    "18415": 2,
+  },
+  "MSC|20|209|5|I-765|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|209|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 16,
+  },
+  "MSC|20|209|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 5,
+  },
+  "MSC|20|209|5|unknown form type|Case Was Received": {
+    "18415": 6,
+  },
+  "MSC|20|210|5|I-131|Fees Were Waived": {
+    "18415": 3,
+  },
+  "MSC|20|210|5|I-751|Case Was Received": {
+    "18415": 4,
+  },
+  "MSC|20|211|5|I-131|Case Accepted By The USCIS Lockbox": {
+    "18415": 3,
+  },
+  "MSC|20|211|5|I-131|Case Was Denied": {
+    "18415": 1,
+  },
+  "MSC|20|211|5|I-131|Fees Were Waived": {
+    "18415": 16,
+  },
+  "MSC|20|211|5|I-131|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|211|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|211|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|211|5|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 1,
+  },
+  "MSC|20|211|5|I-485|Fees Were Waived": {
+    "18415": 9,
+  },
+  "MSC|20|211|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 2,
+  },
+  "MSC|20|211|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|211|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 4,
+  },
+  "MSC|20|211|5|I-751|Case Was Received": {
+    "18415": 56,
+  },
+  "MSC|20|211|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 8,
+  },
+  "MSC|20|211|5|I-751|Fees Were Waived": {
+    "18415": 3,
+  },
+  "MSC|20|211|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 16,
+  },
+  "MSC|20|211|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 1,
+  },
+  "MSC|20|211|5|unknown form type|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|211|5|unknown form type|Fees Were Waived": {
+    "18415": 2,
+  },
+  "MSC|20|211|5|unknown form type|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|212|5|I-131|Fees Were Waived": {
+    "18415": 24,
+  },
+  "MSC|20|212|5|I-212|Case Was Received": {
+    "18415": 10,
+  },
+  "MSC|20|212|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|212|5|I-485|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|212|5|I-485|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|212|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 1,
+  },
+  "MSC|20|212|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 14,
+  },
+  "MSC|20|212|5|I-751|Case Was Received": {
+    "18415": 102,
+  },
+  "MSC|20|212|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 4,
+  },
+  "MSC|20|212|5|I-751|Fees Were Waived": {
+    "18415": 3,
+  },
+  "MSC|20|212|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 10,
+  },
+  "MSC|20|212|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "MSC|20|212|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 2,
+  },
+  "MSC|20|212|5|unknown form type|Case Was Received": {
+    "18415": 2,
+  },
+  "MSC|20|212|5|unknown form type|Request Was Processed": {
+    "18415": 1,
+  },
+  "MSC|20|213|5|I-131|Case Accepted By The USCIS Lockbox": {
+    "18415": 2,
+  },
+  "MSC|20|213|5|I-131|Fees Were Waived": {
+    "18415": 20,
+  },
+  "MSC|20|213|5|I-212|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|213|5|I-212|Case Was Received": {
+    "18415": 6,
+  },
+  "MSC|20|213|5|I-485|Case Was Approved": {
+    "18415": 2,
+  },
+  "MSC|20|213|5|I-485|Fees Were Waived": {
+    "18415": 88,
+  },
+  "MSC|20|213|5|I-539|Case Was Received": {
+    "18415": 3,
+  },
+  "MSC|20|213|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 11,
+  },
+  "MSC|20|213|5|I-751|Case Was Received": {
+    "18415": 111,
+  },
+  "MSC|20|213|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 1,
+  },
+  "MSC|20|213|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 4,
+  },
+  "MSC|20|213|5|I-765|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|213|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 13,
+  },
+  "MSC|20|213|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18415": 1,
+  },
+  "MSC|20|213|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 1,
+  },
+  "MSC|20|213|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
+    "18415": 2,
+  },
+  "MSC|20|213|5|unknown form type|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|213|5|unknown form type|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-131|Case Accepted By The USCIS Lockbox": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-131|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-131|Fees Were Waived": {
+    "18415": 16,
+  },
+  "MSC|20|214|5|I-212|Case Was Received": {
+    "18415": 6,
+  },
+  "MSC|20|214|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-212|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-485|Fees Were Waived": {
+    "18415": 24,
+  },
+  "MSC|20|214|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 3,
+  },
+  "MSC|20|214|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "MSC|20|214|5|I-751|Case Was Received": {
+    "18415": 57,
+  },
+  "MSC|20|214|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 16,
+  },
+  "MSC|20|214|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-765|Case Was Approved": {
+    "18415": 4,
+  },
+  "MSC|20|214|5|I-765|Case Was Denied": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 49,
+  },
+  "MSC|20|214|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "MSC|20|214|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 7,
+  },
+  "MSC|20|214|5|unknown form type|Case Was Received": {
+    "18415": 8,
+  },
+  "MSC|20|214|5|unknown form type|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|215|5|I-131|Case Accepted By The USCIS Lockbox": {
+    "18415": 1,
+  },
+  "MSC|20|215|5|I-131|Fees Were Waived": {
+    "18415": 8,
+  },
+  "MSC|20|215|5|I-131|Request for Initial Evidence Was Sent": {
+    "18415": 1,
+  },
+  "MSC|20|215|5|I-212|Case Was Received": {
+    "18415": 2,
+  },
+  "MSC|20|215|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 3,
+  },
+  "MSC|20|215|5|I-485|Fees Were Waived": {
+    "18415": 35,
+  },
+  "MSC|20|215|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 1,
+  },
+  "MSC|20|215|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|215|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 2,
+  },
+  "MSC|20|215|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "MSC|20|215|5|I-751|Case Was Received": {
+    "18415": 93,
+  },
+  "MSC|20|215|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 5,
+  },
+  "MSC|20|215|5|I-751|Fees Were Waived": {
+    "18415": 5,
+  },
+  "MSC|20|215|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "MSC|20|215|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 2,
+  },
+  "MSC|20|215|5|unknown form type|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18415": 1,
+  },
+  "MSC|20|215|5|unknown form type|Case Was Received": {
+    "18415": 2,
+  },
+  "MSC|20|216|5|I-131|Fees Were Waived": {
+    "18415": 4,
+  },
+  "MSC|20|217|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 2,
+  },
+  "MSC|20|217|5|I-131|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|217|5|I-131|Fees Were Waived": {
+    "18415": 26,
+  },
+  "MSC|20|217|5|I-131|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|217|5|I-212|Case Was Received": {
+    "18415": 6,
+  },
+  "MSC|20|217|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 5,
+  },
+  "MSC|20|217|5|I-212|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 1,
+  },
+  "MSC|20|217|5|I-485|Fees Were Waived": {
+    "18415": 30,
+  },
+  "MSC|20|217|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|217|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|217|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "MSC|20|217|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "MSC|20|217|5|I-751|Case Was Received": {
+    "18415": 96,
+  },
+  "MSC|20|217|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 3,
+  },
+  "MSC|20|217|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 6,
+  },
+  "MSC|20|217|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 29,
+  },
+  "MSC|20|217|5|unknown form type|Case Was Received": {
+    "18415": 3,
+  },
+  "MSC|20|218|5|I-131|Fees Were Waived": {
+    "18415": 14,
+  },
+  "MSC|20|218|5|I-212|Case Was Received": {
+    "18415": 5,
+  },
+  "MSC|20|218|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|218|5|I-485|Case Transferred To Another Office": {
+    "18415": 1,
+  },
+  "MSC|20|218|5|I-485|Fees Were Waived": {
+    "18415": 6,
+  },
+  "MSC|20|218|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 6,
+  },
+  "MSC|20|218|5|I-751|Case Was Received": {
+    "18415": 54,
+  },
+  "MSC|20|218|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 5,
+  },
+  "MSC|20|218|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|218|5|I-765|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|218|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|218|5|unknown form type|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|218|5|unknown form type|Case Was Received At Another USCIS Office": {
+    "18415": 3,
+  },
+  "MSC|20|219|5|I-131|Fees Were Waived": {
+    "18415": 9,
+  },
+  "MSC|20|219|5|I-131|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|219|5|I-212|Case Was Received": {
+    "18415": 2,
+  },
+  "MSC|20|219|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 4,
+  },
+  "MSC|20|219|5|I-485|Case Was Approved": {
+    "18415": 1,
+  },
+  "MSC|20|219|5|I-485|Fees Were Waived": {
+    "18415": 27,
+  },
+  "MSC|20|219|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "MSC|20|219|5|I-751|Case Was Received": {
+    "18415": 76,
+  },
+  "MSC|20|219|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 8,
+  },
+  "MSC|20|219|5|I-751|Fees Were Waived": {
+    "18415": 3,
+  },
+  "MSC|20|219|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 11,
+  },
+  "MSC|20|219|5|unknown form type|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|220|5|I-131|Fees Were Waived": {
+    "18415": 4,
+  },
+  "MSC|20|220|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|220|5|I-212|Case Was Received At Another USCIS Office": {
+    "18415": 1,
+  },
+  "MSC|20|220|5|I-485|Fees Were Waived": {
+    "18415": 30,
+  },
+  "MSC|20|220|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "MSC|20|220|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "MSC|20|220|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "MSC|20|220|5|I-751|Case Was Received": {
+    "18415": 86,
+  },
+  "MSC|20|220|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 6,
+  },
+  "MSC|20|220|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "MSC|20|220|5|I-765|Case Was Received At Another USCIS Office": {
+    "18415": 15,
+  },
+  "MSC|20|220|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 8,
+  },
+  "MSC|20|220|5|I-765|Fees Were Waived": {
+    "18415": 4,
+  },
+  "MSC|20|221|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 11,
+  },
+  "MSC|20|221|5|I-751|Case Was Received": {
+    "18415": 12,
+  },
+  "MSC|20|221|5|I-751|Fees Were Waived": {
+    "18415": 2,
+  },
+  "MSC|20|221|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "MSC|20|222|5|I-131|Case Accepted By The USCIS Lockbox": {
+    "18415": 1,
+  },
+  "MSC|20|222|5|I-131|Fees Were Waived": {
+    "18415": 18,
+  },
+  "MSC|20|222|5|I-212|Case Accepted By The USCIS Lockbox": {
+    "18415": 3,
+  },
+  "MSC|20|222|5|I-212|Case Was Received": {
+    "18415": 5,
+  },
+  "MSC|20|222|5|I-485|Fees Were Waived": {
+    "18415": 37,
+  },
+  "MSC|20|222|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "MSC|20|222|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 2,
+  },
+  "MSC|20|222|5|I-751|Case Was Received": {
+    "18415": 102,
+  },
+  "MSC|20|222|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "MSC|20|222|5|I-751|Fees Were Waived": {
+    "18415": 5,
+  },
+  "MSC|20|222|5|I-765|Case Accepted By The USCIS Lockbox": {
+    "18415": 10,
+  },
+  "MSC|20|222|5|I-765|Name Was Updated": {
+    "18415": 1,
+  },
+  "MSC|20|222|5|unknown form type|Case Accepted By The USCIS Lockbox": {
+    "18415": 3,
+  },
+  "MSC|20|222|5|unknown form type|Case Was Received": {
+    "18415": 2,
+  },
+  "MSC|20|223|5|I-751|Case Was Received": {
+    "18415": 4,
+  },
+  "MSC|20|223|5|I-751|Fees Were Waived": {
+    "18415": 2,
   },
   "SRC|20|145|5|I-129|Case Was Approved": {
     "18412": 39,
@@ -24063,6 +25767,552 @@
   "SRC|20|203|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
     "18415": 1,
   },
+  "SRC|20|204|5|I-129|Case Was Approved": {
+    "18415": 3,
+  },
+  "SRC|20|204|5|I-129|Case Was Received": {
+    "18415": 190,
+  },
+  "SRC|20|204|5|I-129|Name Was Updated": {
+    "18415": 7,
+  },
+  "SRC|20|204|5|I-129|Request for Additional Evidence Was Sent": {
+    "18415": 2,
+  },
+  "SRC|20|204|5|I-485|Case Was Approved": {
+    "18415": 1,
+  },
+  "SRC|20|204|5|I-485|Case Was Received": {
+    "18415": 30,
+  },
+  "SRC|20|204|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 90,
+  },
+  "SRC|20|204|5|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 2,
+  },
+  "SRC|20|204|5|I-485|Fees Were Waived": {
+    "18415": 2,
+  },
+  "SRC|20|204|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18415": 1,
+  },
+  "SRC|20|204|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 12,
+  },
+  "SRC|20|204|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "SRC|20|204|5|I-539|Case Was Received": {
+    "18415": 206,
+  },
+  "SRC|20|204|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 9,
+  },
+  "SRC|20|204|5|I-539|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|204|5|I-539|Name Was Updated": {
+    "18415": 3,
+  },
+  "SRC|20|204|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|204|5|I-601|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 1,
+  },
+  "SRC|20|204|5|I-730|Fees Were Waived": {
+    "18415": 13,
+  },
+  "SRC|20|204|5|I-751|Case Was Received": {
+    "18415": 89,
+  },
+  "SRC|20|204|5|I-765|Case Was Received": {
+    "18415": 18,
+  },
+  "SRC|20|204|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 2,
+  },
+  "SRC|20|204|5|unknown form type|Document Was Mailed To Me": {
+    "18415": 1,
+  },
+  "SRC|20|204|5|unknown form type|Fees Were Waived": {
+    "18415": 18,
+  },
+  "SRC|20|205|5|I-129|Case Was Approved": {
+    "18415": 26,
+  },
+  "SRC|20|205|5|I-129|Case Was Received": {
+    "18415": 234,
+  },
+  "SRC|20|205|5|I-129|Name Was Updated": {
+    "18415": 8,
+  },
+  "SRC|20|205|5|I-129|Request for Additional Evidence Was Sent": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-129|Request for Initial Evidence Was Sent": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-485|Case Was Received": {
+    "18415": 9,
+  },
+  "SRC|20|205|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 29,
+  },
+  "SRC|20|205|5|I-485|Fees Were Waived": {
+    "18415": 3,
+  },
+  "SRC|20|205|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 14,
+  },
+  "SRC|20|205|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-539|Case Was Received": {
+    "18415": 276,
+  },
+  "SRC|20|205|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-601|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-730|Fees Were Waived": {
+    "18415": 23,
+  },
+  "SRC|20|205|5|I-751|Case Was Received": {
+    "18415": 100,
+  },
+  "SRC|20|205|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|I-765|Case Was Received": {
+    "18415": 37,
+  },
+  "SRC|20|205|5|I-765|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|205|5|unknown form type|Fees Were Waived": {
+    "18415": 7,
+  },
+  "SRC|20|206|5|I-129|Case Was Received": {
+    "18415": 256,
+  },
+  "SRC|20|206|5|I-129|Name Was Updated": {
+    "18415": 7,
+  },
+  "SRC|20|206|5|I-140|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|I-485|Case Was Approved": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|I-485|Case Was Received": {
+    "18415": 7,
+  },
+  "SRC|20|206|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 21,
+  },
+  "SRC|20|206|5|I-485|Fees Were Waived": {
+    "18415": 5,
+  },
+  "SRC|20|206|5|I-485|Name Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "SRC|20|206|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|I-539|Case Was Received": {
+    "18415": 256,
+  },
+  "SRC|20|206|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 6,
+  },
+  "SRC|20|206|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|I-730|Fees Were Waived": {
+    "18415": 10,
+  },
+  "SRC|20|206|5|I-751|Case Was Received": {
+    "18415": 59,
+  },
+  "SRC|20|206|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|I-765|Case Was Received": {
+    "18415": 23,
+  },
+  "SRC|20|206|5|I-765|Name Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|206|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18415": 2,
+  },
+  "SRC|20|206|5|unknown form type|Fees Were Waived": {
+    "18415": 5,
+  },
+  "SRC|20|207|5|I-129|Case Was Received": {
+    "18415": 219,
+  },
+  "SRC|20|207|5|I-129|Name Was Updated": {
+    "18415": 5,
+  },
+  "SRC|20|207|5|I-485|Case Was Received": {
+    "18415": 15,
+  },
+  "SRC|20|207|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 53,
+  },
+  "SRC|20|207|5|I-485|Fees Were Waived": {
+    "18415": 2,
+  },
+  "SRC|20|207|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 11,
+  },
+  "SRC|20|207|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 5,
+  },
+  "SRC|20|207|5|I-539|Case Was Received": {
+    "18415": 171,
+  },
+  "SRC|20|207|5|I-539|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 2,
+  },
+  "SRC|20|207|5|I-539|Date of Birth Was Updated": {
+    "18415": 2,
+  },
+  "SRC|20|207|5|I-539|Name Was Updated": {
+    "18415": 4,
+  },
+  "SRC|20|207|5|I-601|Case Was Received": {
+    "18415": 3,
+  },
+  "SRC|20|207|5|I-601|Name Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|207|5|I-730|Fees Were Waived": {
+    "18415": 24,
+  },
+  "SRC|20|207|5|I-751|Case Was Received": {
+    "18415": 91,
+  },
+  "SRC|20|207|5|I-765|Case Was Received": {
+    "18415": 27,
+  },
+  "SRC|20|207|5|I-765|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|208|5|I-539|Case Was Received": {
+    "18415": 15,
+  },
+  "SRC|20|209|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 1,
+  },
+  "SRC|20|210|5|I-129|Case Was Received": {
+    "18415": 366,
+  },
+  "SRC|20|210|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 1,
+  },
+  "SRC|20|210|5|I-129|Date of Birth Was Updated": {
+    "18415": 2,
+  },
+  "SRC|20|210|5|I-129|Name Was Updated": {
+    "18415": 7,
+  },
+  "SRC|20|210|5|I-485|Case Was Received": {
+    "18415": 35,
+  },
+  "SRC|20|210|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 104,
+  },
+  "SRC|20|210|5|I-485|Fees Were Waived": {
+    "18415": 3,
+  },
+  "SRC|20|210|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 4,
+  },
+  "SRC|20|210|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "SRC|20|210|5|I-539|Case Was Received": {
+    "18415": 388,
+  },
+  "SRC|20|210|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 7,
+  },
+  "SRC|20|210|5|I-539|Name Was Updated": {
+    "18415": 6,
+  },
+  "SRC|20|210|5|I-601|Case Was Received": {
+    "18415": 5,
+  },
+  "SRC|20|210|5|I-730|Fees Were Waived": {
+    "18415": 10,
+  },
+  "SRC|20|210|5|I-751|Case Was Received": {
+    "18415": 125,
+  },
+  "SRC|20|210|5|I-765|Case Was Received": {
+    "18415": 41,
+  },
+  "SRC|20|210|5|I-765|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|210|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18415": 1,
+  },
+  "SRC|20|211|5|I-129|Case Was Received": {
+    "18415": 237,
+  },
+  "SRC|20|211|5|I-129|Name Was Updated": {
+    "18415": 5,
+  },
+  "SRC|20|211|5|I-485|Case Was Received": {
+    "18415": 36,
+  },
+  "SRC|20|211|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 150,
+  },
+  "SRC|20|211|5|I-485|Fees Were Waived": {
+    "18415": 8,
+  },
+  "SRC|20|211|5|I-485|Name Was Updated": {
+    "18415": 2,
+  },
+  "SRC|20|211|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 15,
+  },
+  "SRC|20|211|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "SRC|20|211|5|I-539|Case Was Received": {
+    "18415": 226,
+  },
+  "SRC|20|211|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 2,
+  },
+  "SRC|20|211|5|I-539|Name Was Updated": {
+    "18415": 2,
+  },
+  "SRC|20|211|5|I-601|Case Was Received": {
+    "18415": 2,
+  },
+  "SRC|20|211|5|I-730|Fees Were Waived": {
+    "18415": 24,
+  },
+  "SRC|20|211|5|I-751|Case Was Received": {
+    "18415": 74,
+  },
+  "SRC|20|211|5|I-765|Case Was Received": {
+    "18415": 19,
+  },
+  "SRC|20|211|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "SRC|20|211|5|I-765|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|211|5|unknown form type|Fees Were Waived": {
+    "18415": 14,
+  },
+  "SRC|20|212|5|I-129|Case Was Received": {
+    "18415": 249,
+  },
+  "SRC|20|212|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 1,
+  },
+  "SRC|20|212|5|I-129|Date of Birth Was Updated": {
+    "18415": 2,
+  },
+  "SRC|20|212|5|I-129|Name Was Updated": {
+    "18415": 7,
+  },
+  "SRC|20|212|5|I-212|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|212|5|I-485|Case Was Received": {
+    "18415": 5,
+  },
+  "SRC|20|212|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 22,
+  },
+  "SRC|20|212|5|I-485|Fees Were Waived": {
+    "18415": 5,
+  },
+  "SRC|20|212|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 15,
+  },
+  "SRC|20|212|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "SRC|20|212|5|I-539|Case Was Received": {
+    "18415": 184,
+  },
+  "SRC|20|212|5|I-539|Case Was Rejected Because I Did Not Sign My Form": {
+    "18415": 5,
+  },
+  "SRC|20|212|5|I-539|Name Was Updated": {
+    "18415": 4,
+  },
+  "SRC|20|212|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|212|5|I-730|Fees Were Waived": {
+    "18415": 17,
+  },
+  "SRC|20|212|5|I-751|Case Was Received": {
+    "18415": 82,
+  },
+  "SRC|20|212|5|I-751|Fees Were Waived": {
+    "18415": 1,
+  },
+  "SRC|20|212|5|I-765|Case Was Received": {
+    "18415": 30,
+  },
+  "SRC|20|212|5|unknown form type|Fees Were Waived": {
+    "18415": 12,
+  },
+  "SRC|20|213|5|I-129|Case Was Received": {
+    "18415": 276,
+  },
+  "SRC|20|213|5|I-129|Name Was Updated": {
+    "18415": 6,
+  },
+  "SRC|20|213|5|I-485|Case Was Received": {
+    "18415": 9,
+  },
+  "SRC|20|213|5|I-485|Case Was Received At Another USCIS Office": {
+    "18415": 26,
+  },
+  "SRC|20|213|5|I-485|Fees Were Waived": {
+    "18415": 2,
+  },
+  "SRC|20|213|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 12,
+  },
+  "SRC|20|213|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "SRC|20|213|5|I-539|Case Was Received": {
+    "18415": 244,
+  },
+  "SRC|20|213|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 2,
+  },
+  "SRC|20|213|5|I-601|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|213|5|I-730|Fees Were Waived": {
+    "18415": 7,
+  },
+  "SRC|20|213|5|I-751|Case Was Received": {
+    "18415": 124,
+  },
+  "SRC|20|213|5|I-765|Case Was Received": {
+    "18415": 32,
+  },
+  "SRC|20|213|5|I-765|Name Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|213|5|unknown form type|Fees Were Waived": {
+    "18415": 3,
+  },
+  "SRC|20|213|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "SRC|20|213|5|unknown form type|New Card Is Being Produced": {
+    "18415": 5,
+  },
+  "SRC|20|214|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 6,
+  },
+  "SRC|20|214|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "SRC|20|214|5|I-539|Case Was Received": {
+    "18415": 40,
+  },
+  "SRC|20|214|5|I-751|Case Was Received": {
+    "18415": 7,
+  },
+  "SRC|20|215|5|I-539|Case Was Received": {
+    "18415": 1,
+  },
+  "SRC|20|216|5|I-129|Case Was Received": {
+    "18415": 281,
+  },
+  "SRC|20|216|5|I-129|Case Was Rejected Because My Check Or Money Order Is Not Signed": {
+    "18415": 1,
+  },
+  "SRC|20|216|5|I-129|Name Was Updated": {
+    "18415": 6,
+  },
+  "SRC|20|216|5|I-140|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 1,
+  },
+  "SRC|20|216|5|I-485|Case Accepted By The USCIS Lockbox": {
+    "18415": 98,
+  },
+  "SRC|20|216|5|I-485|Case Was Received": {
+    "18415": 37,
+  },
+  "SRC|20|216|5|I-485|Fees Were Waived": {
+    "18415": 8,
+  },
+  "SRC|20|216|5|I-485|Name Was Updated": {
+    "18415": 1,
+  },
+  "SRC|20|216|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 3,
+  },
+  "SRC|20|216|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 3,
+  },
+  "SRC|20|216|5|I-539|Case Was Received": {
+    "18415": 294,
+  },
+  "SRC|20|216|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 5,
+  },
+  "SRC|20|216|5|I-539|Name Was Updated": {
+    "18415": 3,
+  },
+  "SRC|20|216|5|I-601|Case Was Received": {
+    "18415": 5,
+  },
+  "SRC|20|216|5|I-730|Fees Were Waived": {
+    "18415": 22,
+  },
+  "SRC|20|216|5|I-751|Case Was Received": {
+    "18415": 92,
+  },
+  "SRC|20|216|5|I-765|Case Was Received": {
+    "18415": 32,
+  },
+  "SRC|20|216|5|I-765|Fees Were Waived": {
+    "18415": 4,
+  },
+  "SRC|20|216|5|unknown form type|Fees Were Waived": {
+    "18415": 3,
+  },
+  "SRC|20|217|5|I-539|Case Was Received": {
+    "18415": 11,
+  },
   "WAC|20|145|5|I-129|Case Was Approved": {
     "18412": 354,
     "18415": 355,
@@ -29680,6 +31930,216 @@
   "WAC|20|203|5|I-829|Case Was Updated To Show Fingerprints Were Taken": {
     "18415": 2,
   },
+  "WAC|20|204|5|I-129|Case Was Received": {
+    "18415": 1359,
+  },
+  "WAC|20|204|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 77,
+  },
+  "WAC|20|204|5|I-129|Date of Birth Was Updated": {
+    "18415": 3,
+  },
+  "WAC|20|204|5|I-129|Name Was Updated": {
+    "18415": 7,
+  },
+  "WAC|20|204|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 19,
+  },
+  "WAC|20|204|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "WAC|20|204|5|I-539|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18415": 1,
+  },
+  "WAC|20|204|5|I-539|Case Was Received": {
+    "18415": 501,
+  },
+  "WAC|20|204|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 8,
+  },
+  "WAC|20|204|5|I-539|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "WAC|20|204|5|I-539|Name Was Updated": {
+    "18415": 2,
+  },
+  "WAC|20|204|5|I-612|Case Was Received": {
+    "18415": 1,
+  },
+  "WAC|20|204|5|I-751|Case Was Received": {
+    "18415": 39,
+  },
+  "WAC|20|204|5|I-765|Case Was Received": {
+    "18415": 78,
+  },
+  "WAC|20|204|5|I-765|Date of Birth Was Updated": {
+    "18415": 1,
+  },
+  "WAC|20|204|5|I-829|Card Was Mailed To Me": {
+    "18415": 1,
+  },
+  "WAC|20|204|5|I-829|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 6,
+  },
+  "WAC|20|204|5|I-829|Case Was Approved": {
+    "18415": 1,
+  },
+  "WAC|20|204|5|I-829|Case Was Received": {
+    "18415": 19,
+  },
+  "WAC|20|205|5|I-129|Case Was Approved": {
+    "18415": 6,
+  },
+  "WAC|20|205|5|I-129|Case Was Received": {
+    "18415": 1324,
+  },
+  "WAC|20|205|5|I-129|Case Was Received At Another USCIS Office": {
+    "18415": 2,
+  },
+  "WAC|20|205|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 62,
+  },
+  "WAC|20|205|5|I-129|Name Was Updated": {
+    "18415": 8,
+  },
+  "WAC|20|205|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 13,
+  },
+  "WAC|20|205|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 1,
+  },
+  "WAC|20|205|5|I-539|Case Was Received": {
+    "18415": 497,
+  },
+  "WAC|20|205|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "WAC|20|205|5|I-539|Name Was Updated": {
+    "18415": 2,
+  },
+  "WAC|20|205|5|I-612|Case Was Received": {
+    "18415": 2,
+  },
+  "WAC|20|205|5|I-751|Case Was Received": {
+    "18415": 79,
+  },
+  "WAC|20|205|5|I-765|Case Was Received": {
+    "18415": 72,
+  },
+  "WAC|20|205|5|I-829|Case Was Approved": {
+    "18415": 2,
+  },
+  "WAC|20|205|5|I-829|Case Was Received": {
+    "18415": 24,
+  },
+  "WAC|20|205|5|I-829|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 3,
+  },
+  "WAC|20|205|5|I-829|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 3,
+  },
+  "WAC|20|205|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "WAC|20|206|5|I-129|Case Was Received": {
+    "18415": 1281,
+  },
+  "WAC|20|206|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
+    "18415": 69,
+  },
+  "WAC|20|206|5|I-129|Name Was Updated": {
+    "18415": 3,
+  },
+  "WAC|20|206|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 14,
+  },
+  "WAC|20|206|5|I-539|Case Was Received": {
+    "18415": 434,
+  },
+  "WAC|20|206|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 10,
+  },
+  "WAC|20|206|5|I-539|Fees Were Waived": {
+    "18415": 4,
+  },
+  "WAC|20|206|5|I-539|Name Was Updated": {
+    "18415": 1,
+  },
+  "WAC|20|206|5|I-612|Case Was Received": {
+    "18415": 2,
+  },
+  "WAC|20|206|5|I-751|Case Was Received": {
+    "18415": 24,
+  },
+  "WAC|20|206|5|I-751|Fees Were Waived": {
+    "18415": 2,
+  },
+  "WAC|20|206|5|I-765|Case Was Received": {
+    "18415": 55,
+  },
+  "WAC|20|206|5|I-829|Case Was Received": {
+    "18415": 6,
+  },
+  "WAC|20|206|5|I-829|Case Was Updated To Show Fingerprints Were Taken": {
+    "18415": 1,
+  },
+  "WAC|20|206|5|I-829|Name Was Updated": {
+    "18415": 1,
+  },
+  "WAC|20|206|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 2,
+  },
+  "WAC|20|207|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 7,
+  },
+  "WAC|20|207|5|I-539|Case Was Received": {
+    "18415": 32,
+  },
+  "WAC|20|207|5|I-829|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 3,
+  },
+  "WAC|20|207|5|I-829|Case Was Received": {
+    "18415": 24,
+  },
+  "WAC|20|208|5|I-539|Case Was Received": {
+    "18415": 10,
+  },
+  "WAC|20|209|5|I-129|Case Was Received": {
+    "18415": 451,
+  },
+  "WAC|20|209|5|I-129|Name Was Updated": {
+    "18415": 3,
+  },
+  "WAC|20|209|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 2,
+  },
+  "WAC|20|209|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 4,
+  },
+  "WAC|20|209|5|I-539|Case Was Received": {
+    "18415": 175,
+  },
+  "WAC|20|209|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 8,
+  },
+  "WAC|20|209|5|I-751|Case Was Received": {
+    "18415": 9,
+  },
+  "WAC|20|209|5|I-765|Case Was Received": {
+    "18415": 7,
+  },
+  "WAC|20|209|5|I-829|Case Was Received": {
+    "18415": 31,
+  },
+  "WAC|20|209|5|I-829|Name Was Updated": {
+    "18415": 1,
+  },
+  "WAC|20|209|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "WAC|20|209|5|unknown form type|New Card Is Being Produced": {
+    "18415": 1,
+  },
   "YSC|20|145|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 4,
     "18415": 4,
@@ -30820,5 +33280,62 @@
   },
   "YSC|20|203|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18415": 1,
+  },
+  "YSC|20|204|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 9,
+  },
+  "YSC|20|204|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "YSC|20|204|5|I-539|Case Was Received": {
+    "18415": 36,
+  },
+  "YSC|20|204|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 2,
+  },
+  "YSC|20|204|5|I-751|Case Was Received": {
+    "18415": 82,
+  },
+  "YSC|20|205|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 8,
+  },
+  "YSC|20|205|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18415": 2,
+  },
+  "YSC|20|205|5|I-539|Case Was Received": {
+    "18415": 37,
+  },
+  "YSC|20|205|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "YSC|20|205|5|I-751|Case Was Received": {
+    "18415": 133,
+  },
+  "YSC|20|205|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18415": 2,
+  },
+  "YSC|20|206|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 3,
+  },
+  "YSC|20|206|5|I-539|Case Was Received": {
+    "18415": 13,
+  },
+  "YSC|20|206|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 1,
+  },
+  "YSC|20|206|5|I-751|Case Was Received": {
+    "18415": 7,
+  },
+  "YSC|20|207|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18415": 1,
+  },
+  "YSC|20|207|5|I-539|Case Was Received": {
+    "18415": 85,
+  },
+  "YSC|20|207|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18415": 2,
+  },
+  "YSC|20|207|5|I-751|Case Was Received": {
+    "18415": 102,
   },
 }
