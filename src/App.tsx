@@ -188,7 +188,7 @@ function App() {
         location:
         <strong>
           {latestUpdateDay
-            ? new Date(1970, 0, latestUpdateDay + 1).toDateString()
+            ? new Date(86400000 * latestUpdateDay).toDateString()
             : "Not Exist currently"}
         </strong>
       </p>
@@ -220,9 +220,9 @@ function App() {
             value: e,
             label:
               1 +
-              new Date(86400000 * e).getMonth() +
+              new Date(3600 * 1000 * 7 + 86400000 * e).getMonth() +
               "/" +
-              new Date(86400000 * e).getDate(),
+              new Date(3600 * 1000 * 7 + 86400000 * e).getDate(),
           }))
           .toArray()}
         min={availableUpdateDays.min() ?? 0}
