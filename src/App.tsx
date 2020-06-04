@@ -221,9 +221,9 @@ function App() {
             value: e,
             label:
               1 +
-              new Date(3600 * 1000 * 7 + 86400000 * e).getMonth() +
+              new Date(86400000 * e).getMonth() +
               "/" +
-              new Date(3600 * 1000 * 7 + 86400000 * e).getDate(),
+              new Date(86400000 * e).getDate(),
           }))
           .toArray()}
         min={availableUpdateDays.min() ?? 0}
