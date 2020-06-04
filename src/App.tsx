@@ -32,6 +32,7 @@ function getColor(s: string): string {
     Immutable.Map([
       ["Case Was Received", "#999900"],
       ["Case Was Approved", "#00FF00"],
+      ["Request for Additional Evidence Was Sent", "#FF0000"]
     ]).get(s) ?? new ColorHash().hex(s)
   );
 }
