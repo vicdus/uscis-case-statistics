@@ -203,7 +203,7 @@
   "EAC|20|145|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 2,
     "18415": 1,
-    "18416": 2,
+    "18416": 3,
   },
   "EAC|20|145|5|unknown form type|Case Was Denied": {
     "18412": 1,
@@ -440,7 +440,7 @@
   "EAC|20|146|5|I-751|Case Was Received": {
     "18412": 112,
     "18415": 112,
-    "18416": 112,
+    "18416": 111,
   },
   "EAC|20|146|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 49,
@@ -450,12 +450,12 @@
   "EAC|20|146|5|I-765|Card Was Mailed To Me": {
     "18412": 4,
     "18415": 4,
-    "18416": 4,
+    "18416": 5,
   },
   "EAC|20|146|5|I-765|Case Was Approved": {
     "18412": 5,
     "18415": 8,
-    "18416": 8,
+    "18416": 9,
   },
   "EAC|20|146|5|I-765|Case Was Denied": {
     "18412": 2,
@@ -500,12 +500,12 @@
   "EAC|20|146|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 28,
     "18415": 29,
-    "18416": 29,
+    "18416": 32,
   },
   "EAC|20|146|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
     "18415": 2,
-    "18416": 4,
+    "18416": 3,
   },
   "EAC|20|146|5|unknown form type|Case Was Received": {
     "18412": 4,
@@ -740,12 +740,12 @@
   "EAC|20|147|5|I-765|Card Was Mailed To Me": {
     "18412": 1,
     "18415": 4,
-    "18416": 1,
+    "18416": 6,
   },
   "EAC|20|147|5|I-765|Case Was Approved": {
     "18412": 4,
     "18415": 9,
-    "18416": 12,
+    "18416": 6,
   },
   "EAC|20|147|5|I-765|Case Was Denied": {
     "18412": 2,
@@ -793,7 +793,7 @@
   "EAC|20|147|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 27,
     "18415": 33,
-    "18416": 33,
+    "18416": 34,
   },
   "EAC|20|147|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 7,
@@ -873,6 +873,7 @@
   "EAC|20|148|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
   },
   "EAC|20|148|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 4,
@@ -912,7 +913,7 @@
   "EAC|20|148|5|I-131|Fees Were Waived": {
     "18412": 43,
     "18415": 43,
-    "18416": 42,
+    "18416": 43,
   },
   "EAC|20|148|5|I-212|Case Was Received": {
     "18412": 1,
@@ -942,12 +943,12 @@
   "EAC|20|148|5|I-360|Request for Additional Evidence Was Sent": {
     "18412": 32,
     "18415": 32,
-    "18416": 32,
+    "18416": 29,
   },
   "EAC|20|148|5|I-360|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 10,
     "18415": 10,
-    "18416": 10,
+    "18416": 13,
   },
   "EAC|20|148|5|I-485|Case Transferred To Another Office": {
     "18412": 2,
@@ -983,7 +984,7 @@
   "EAC|20|148|5|I-539|Case Was Received": {
     "18412": 120,
     "18415": 120,
-    "18416": 119,
+    "18416": 120,
   },
   "EAC|20|148|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 3,
@@ -1053,7 +1054,7 @@
   "EAC|20|148|5|I-751|Case Was Received": {
     "18412": 96,
     "18415": 96,
-    "18416": 95,
+    "18416": 96,
   },
   "EAC|20|148|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 84,
@@ -1067,7 +1068,7 @@
   "EAC|20|148|5|I-765|Case Was Approved": {
     "18412": 4,
     "18415": 4,
-    "18416": 6,
+    "18416": 7,
   },
   "EAC|20|148|5|I-765|Case Was Denied": {
     "18412": 2,
@@ -1113,12 +1114,12 @@
   "EAC|20|148|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 10,
     "18415": 11,
-    "18416": 11,
+    "18416": 15,
   },
   "EAC|20|148|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
     "18415": 3,
-    "18416": 7,
+    "18416": 3,
   },
   "EAC|20|148|5|unknown form type|Case Was Received": {
     "18412": 6,
@@ -1162,7 +1163,7 @@
   },
   "EAC|20|148|5|unknown form type|New Card Is Being Produced": {
     "18415": 1,
-    "18416": 2,
+    "18416": 1,
   },
   "EAC|20|148|5|unknown form type|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 1,
@@ -1192,12 +1193,12 @@
   "EAC|20|149|5|I-129|Case Was Approved": {
     "18412": 49,
     "18415": 49,
-    "18416": 50,
+    "18416": 47,
   },
   "EAC|20|149|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 140,
     "18415": 140,
-    "18416": 140,
+    "18416": 135,
   },
   "EAC|20|149|5|I-129|Case Was Denied": {
     "18412": 2,
@@ -1207,7 +1208,7 @@
   "EAC|20|149|5|I-129|Case Was Received": {
     "18412": 38,
     "18415": 37,
-    "18416": 37,
+    "18416": 35,
   },
   "EAC|20|149|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -1231,12 +1232,12 @@
   "EAC|20|149|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 42,
     "18415": 36,
-    "18416": 36,
+    "18416": 34,
   },
   "EAC|20|149|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 9,
     "18415": 16,
-    "18416": 16,
+    "18416": 17,
   },
   "EAC|20|149|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 1,
@@ -1251,12 +1252,12 @@
   "EAC|20|149|5|I-131|Case Was Received": {
     "18412": 13,
     "18415": 13,
-    "18416": 13,
+    "18416": 10,
   },
   "EAC|20|149|5|I-131|Fees Were Waived": {
     "18412": 32,
     "18415": 32,
-    "18416": 32,
+    "18416": 30,
   },
   "EAC|20|149|5|I-131|Name Was Updated": {
     "18412": 2,
@@ -1271,7 +1272,7 @@
   "EAC|20|149|5|I-360|Case Was Received": {
     "18412": 30,
     "18415": 30,
-    "18416": 30,
+    "18416": 28,
   },
   "EAC|20|149|5|I-360|Correspondence Was Received And USCIS Is Reviewing It": {
     "18412": 2,
@@ -1281,7 +1282,7 @@
   "EAC|20|149|5|I-360|Fees Were Waived": {
     "18412": 11,
     "18415": 11,
-    "18416": 11,
+    "18416": 10,
   },
   "EAC|20|149|5|I-360|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 2,
@@ -1291,7 +1292,7 @@
   "EAC|20|149|5|I-360|Request for Additional Evidence Was Sent": {
     "18412": 28,
     "18415": 28,
-    "18416": 27,
+    "18416": 26,
   },
   "EAC|20|149|5|I-360|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 8,
@@ -1306,7 +1307,7 @@
   "EAC|20|149|5|I-485|Case Was Received": {
     "18412": 33,
     "18415": 33,
-    "18416": 33,
+    "18416": 30,
   },
   "EAC|20|149|5|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
     "18416": 1,
@@ -1314,7 +1315,7 @@
   "EAC|20|149|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 36,
     "18415": 36,
-    "18416": 36,
+    "18416": 34,
   },
   "EAC|20|149|5|I-485|Date of Birth Was Updated": {
     "18412": 2,
@@ -1324,12 +1325,12 @@
   "EAC|20|149|5|I-485|Fees Were Waived": {
     "18412": 13,
     "18415": 13,
-    "18416": 12,
+    "18416": 10,
   },
   "EAC|20|149|5|I-485|Request for Initial Evidence Was Sent": {
     "18412": 4,
     "18415": 4,
-    "18416": 4,
+    "18416": 3,
   },
   "EAC|20|149|5|I-485|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 1,
@@ -1349,7 +1350,7 @@
   "EAC|20|149|5|I-539|Case Was Received": {
     "18412": 91,
     "18415": 91,
-    "18416": 91,
+    "18416": 88,
   },
   "EAC|20|149|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -1384,12 +1385,12 @@
   "EAC|20|149|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 23,
     "18415": 23,
-    "18416": 23,
+    "18416": 21,
   },
   "EAC|20|149|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18412": 4,
     "18415": 4,
-    "18416": 4,
+    "18416": 3,
   },
   "EAC|20|149|5|I-751|Case Transferred To Another Office": {
     "18412": 1,
@@ -1399,7 +1400,7 @@
   "EAC|20|149|5|I-751|Case Was Received": {
     "18412": 43,
     "18415": 43,
-    "18416": 43,
+    "18416": 42,
   },
   "EAC|20|149|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 2,
@@ -1409,25 +1410,26 @@
   "EAC|20|149|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 33,
     "18415": 33,
-    "18416": 33,
+    "18416": 31,
   },
   "EAC|20|149|5|I-765|Card Was Mailed To Me": {
     "18412": 1,
     "18415": 1,
+    "18416": 9,
   },
   "EAC|20|149|5|I-765|Case Was Approved": {
     "18415": 15,
-    "18416": 19,
+    "18416": 13,
   },
   "EAC|20|149|5|I-765|Case Was Received": {
     "18412": 50,
     "18415": 50,
-    "18416": 50,
+    "18416": 48,
   },
   "EAC|20|149|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 139,
     "18415": 126,
-    "18416": 114,
+    "18416": 104,
   },
   "EAC|20|149|5|I-765|Correspondence Was Received And USCIS Is Reviewing It": {
     "18412": 1,
@@ -1437,7 +1439,7 @@
   "EAC|20|149|5|I-765|Fees Were Waived": {
     "18412": 81,
     "18415": 77,
-    "18416": 74,
+    "18416": 72,
   },
   "EAC|20|149|5|I-765|Request for Additional Evidence Was Sent": {
     "18415": 1,
@@ -1446,7 +1448,7 @@
   "EAC|20|149|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 8,
     "18415": 12,
-    "18416": 13,
+    "18416": 12,
   },
   "EAC|20|149|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 6,
@@ -1471,7 +1473,7 @@
   "EAC|20|149|5|unknown form type|Case Was Sent To The Administrative Appeals Office for Review": {
     "18412": 6,
     "18415": 6,
-    "18416": 5,
+    "18416": 4,
   },
   "EAC|20|149|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 2,
@@ -1493,12 +1495,12 @@
   },
   "EAC|20|149|5|unknown form type|New Card Is Being Produced": {
     "18415": 1,
-    "18416": 12,
+    "18416": 6,
   },
   "EAC|20|149|5|unknown form type|Request Was Processed": {
     "18412": 73,
     "18415": 73,
-    "18416": 73,
+    "18416": 72,
   },
   "EAC|20|149|5|unknown form type|Request Was Rejected": {
     "18412": 1,
@@ -1513,12 +1515,12 @@
   "EAC|20|150|5|I-129|Case Was Approved": {
     "18412": 61,
     "18415": 63,
-    "18416": 63,
+    "18416": 60,
   },
   "EAC|20|150|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 125,
     "18415": 127,
-    "18416": 128,
+    "18416": 119,
   },
   "EAC|20|150|5|I-129|Case Was Received": {
     "18412": 37,
@@ -1538,7 +1540,7 @@
   "EAC|20|150|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 55,
     "18415": 55,
-    "18416": 57,
+    "18416": 50,
   },
   "EAC|20|150|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 10,
@@ -1553,7 +1555,7 @@
   "EAC|20|150|5|I-131|Case Was Approved": {
     "18412": 6,
     "18415": 6,
-    "18416": 6,
+    "18416": 5,
   },
   "EAC|20|150|5|I-131|Case Was Received": {
     "18412": 1,
@@ -1568,7 +1570,7 @@
   "EAC|20|150|5|I-131|Fees Were Waived": {
     "18412": 63,
     "18415": 63,
-    "18416": 63,
+    "18416": 62,
   },
   "EAC|20|150|5|I-131|Name Was Updated": {},
   "EAC|20|150|5|I-360|Case Was Received": {
@@ -1614,7 +1616,7 @@
   "EAC|20|150|5|I-485|Case Was Received": {
     "18412": 35,
     "18415": 35,
-    "18416": 35,
+    "18416": 34,
   },
   "EAC|20|150|5|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 1,
@@ -1622,7 +1624,7 @@
   "EAC|20|150|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 34,
     "18415": 33,
-    "18416": 34,
+    "18416": 33,
   },
   "EAC|20|150|5|I-485|Fees Were Waived": {
     "18412": 9,
@@ -1647,7 +1649,7 @@
   "EAC|20|150|5|I-539|Case Was Received": {
     "18412": 99,
     "18415": 99,
-    "18416": 99,
+    "18416": 95,
   },
   "EAC|20|150|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -1698,7 +1700,7 @@
   "EAC|20|150|5|I-751|Case Was Received": {
     "18412": 100,
     "18415": 100,
-    "18416": 100,
+    "18416": 98,
   },
   "EAC|20|150|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 17,
@@ -1713,26 +1715,29 @@
   "EAC|20|150|5|I-751|Fees Were Waived": {
     "18412": 9,
     "18415": 9,
-    "18416": 9,
+    "18416": 8,
   },
   "EAC|20|150|5|I-751|Name Was Updated": {
     "18412": 1,
     "18415": 1,
     "18416": 1,
   },
+  "EAC|20|150|5|I-765|Card Was Mailed To Me": {
+    "18416": 8,
+  },
   "EAC|20|150|5|I-765|Case Was Approved": {
     "18415": 12,
-    "18416": 14,
+    "18416": 6,
   },
   "EAC|20|150|5|I-765|Case Was Received": {
     "18412": 33,
     "18415": 33,
-    "18416": 33,
+    "18416": 32,
   },
   "EAC|20|150|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 126,
     "18415": 118,
-    "18416": 116,
+    "18416": 115,
   },
   "EAC|20|150|5|I-765|Expedite Request Denied": {
     "18412": 1,
@@ -1742,7 +1747,7 @@
   "EAC|20|150|5|I-765|Fees Were Waived": {
     "18412": 76,
     "18415": 69,
-    "18416": 67,
+    "18416": 66,
   },
   "EAC|20|150|5|I-765|Name Was Updated": {
     "18412": 1,
@@ -1814,7 +1819,7 @@
   "EAC|20|152|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 81,
     "18415": 81,
-    "18416": 81,
+    "18416": 82,
   },
   "EAC|20|152|5|I-129|Case Was Denied": {
     "18415": 1,
@@ -2024,7 +2029,7 @@
   "EAC|20|152|5|I-765|Card Was Mailed To Me": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "EAC|20|152|5|I-765|Case Transferred To Another Office": {
     "18412": 2,
@@ -2033,7 +2038,7 @@
   },
   "EAC|20|152|5|I-765|Case Was Approved": {
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "EAC|20|152|5|I-765|Case Was Denied": {
     "18412": 2,
@@ -2308,7 +2313,7 @@
   "EAC|20|153|5|I-765|Card Was Mailed To Me": {
     "18412": 3,
     "18415": 4,
-    "18416": 4,
+    "18416": 2,
   },
   "EAC|20|153|5|I-765|Case Transferred To Another Office": {
     "18412": 2,
@@ -2318,7 +2323,7 @@
   "EAC|20|153|5|I-765|Case Was Approved": {
     "18412": 5,
     "18415": 6,
-    "18416": 5,
+    "18416": 3,
   },
   "EAC|20|153|5|I-765|Case Was Denied": {
     "18412": 2,
@@ -2369,7 +2374,7 @@
   "EAC|20|153|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 3,
     "18415": 3,
-    "18416": 5,
+    "18416": 9,
   },
   "EAC|20|153|5|unknown form type|Case Was Denied": {
     "18412": 1,
@@ -2475,12 +2480,12 @@
   "EAC|20|154|5|I-360|Request for Additional Evidence Was Sent": {
     "18412": 6,
     "18415": 6,
-    "18416": 6,
+    "18416": 5,
   },
   "EAC|20|154|5|I-360|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "EAC|20|154|5|I-485|Case Transferred To Another Office": {
     "18412": 2,
@@ -2763,6 +2768,9 @@
     "18415": 1,
     "18416": 1,
   },
+  "EAC|20|155|5|I-765|Card Was Mailed To Me": {
+    "18416": 2,
+  },
   "EAC|20|155|5|I-765|Case Was Approved": {
     "18415": 2,
     "18416": 2,
@@ -2857,12 +2865,12 @@
   "EAC|20|156|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 32,
     "18415": 32,
-    "18416": 31,
+    "18416": 30,
   },
   "EAC|20|156|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 10,
     "18415": 8,
-    "18416": 9,
+    "18416": 10,
   },
   "EAC|20|156|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 2,
@@ -3001,7 +3009,9 @@
     "18415": 40,
     "18416": 40,
   },
-  "EAC|20|156|5|I-765|Card Was Mailed To Me": {},
+  "EAC|20|156|5|I-765|Card Was Mailed To Me": {
+    "18416": 1,
+  },
   "EAC|20|156|5|I-765|Case Transferred To Another Office": {
     "18412": 2,
     "18415": 2,
@@ -3009,7 +3019,7 @@
   },
   "EAC|20|156|5|I-765|Case Was Approved": {
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "EAC|20|156|5|I-765|Case Was Denied": {
     "18412": 1,
@@ -3019,7 +3029,7 @@
   "EAC|20|156|5|I-765|Case Was Received": {
     "18412": 51,
     "18415": 51,
-    "18416": 50,
+    "18416": 51,
   },
   "EAC|20|156|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 79,
@@ -3258,9 +3268,12 @@
     "18415": 3,
     "18416": 3,
   },
+  "EAC|20|157|5|I-765|Card Was Mailed To Me": {
+    "18416": 2,
+  },
   "EAC|20|157|5|I-765|Case Was Approved": {
     "18415": 6,
-    "18416": 6,
+    "18416": 4,
   },
   "EAC|20|157|5|I-765|Case Was Received": {
     "18412": 67,
@@ -3403,7 +3416,7 @@
   "EAC|20|158|5|I-360|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 9,
     "18415": 9,
-    "18416": 8,
+    "18416": 9,
   },
   "EAC|20|158|5|I-485|Case Transferred To Another Office": {
     "18412": 4,
@@ -3529,7 +3542,7 @@
   "EAC|20|158|5|I-765|Case Was Received": {
     "18412": 81,
     "18415": 81,
-    "18416": 81,
+    "18416": 79,
   },
   "EAC|20|158|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 103,
@@ -3872,7 +3885,9 @@
     "18415": 5,
     "18416": 5,
   },
-  "EAC|20|159|5|I-765|Card Was Mailed To Me": {},
+  "EAC|20|159|5|I-765|Card Was Mailed To Me": {
+    "18416": 1,
+  },
   "EAC|20|159|5|I-765|Case Closed Benefit Received By Other Means": {
     "18412": 1,
     "18415": 1,
@@ -3885,7 +3900,7 @@
   },
   "EAC|20|159|5|I-765|Case Was Approved": {
     "18415": 1,
-    "18416": 3,
+    "18416": 2,
   },
   "EAC|20|159|5|I-765|Case Was Denied": {
     "18412": 4,
@@ -3920,7 +3935,10 @@
   "EAC|20|159|5|I-765|Request for Additional Evidence Was Sent": {
     "18412": 3,
     "18415": 3,
-    "18416": 3,
+    "18416": 2,
+  },
+  "EAC|20|159|5|I-765|Response To USCIS&apos; Request For Evidence Was Received": {
+    "18416": 1,
   },
   "EAC|20|159|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 14,
@@ -4015,12 +4033,12 @@
   "EAC|20|160|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 58,
     "18415": 9,
-    "18416": 57,
+    "18416": 56,
   },
   "EAC|20|160|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 11,
     "18415": 2,
-    "18416": 12,
+    "18416": 13,
   },
   "EAC|20|160|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 1,
@@ -4178,12 +4196,12 @@
   "EAC|20|160|5|I-765|Case Was Received": {
     "18412": 78,
     "18415": 54,
-    "18416": 76,
+    "18416": 77,
   },
   "EAC|20|160|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 103,
     "18415": 88,
-    "18416": 100,
+    "18416": 98,
   },
   "EAC|20|160|5|I-765|Correspondence Was Received And USCIS Is Reviewing It": {
     "18412": 3,
@@ -4226,7 +4244,7 @@
   },
   "EAC|20|160|5|unknown form type|New Card Is Being Produced": {
     "18415": 1,
-    "18416": 1,
+    "18416": 4,
   },
   "EAC|20|160|5|unknown form type|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 2,
@@ -4300,7 +4318,7 @@
   "EAC|20|161|5|I-131|Fees Were Waived": {
     "18412": 43,
     "18415": 43,
-    "18416": 42,
+    "18416": 43,
   },
   "EAC|20|161|5|I-131|Name Was Updated": {
     "18412": 1,
@@ -4386,7 +4404,7 @@
   "EAC|20|161|5|I-539|Case Was Received": {
     "18412": 188,
     "18415": 186,
-    "18416": 186,
+    "18416": 187,
   },
   "EAC|20|161|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -4447,6 +4465,9 @@
     "18415": 45,
     "18416": 47,
   },
+  "EAC|20|161|5|I-765|Card Was Mailed To Me": {
+    "18416": 3,
+  },
   "EAC|20|161|5|I-765|Case Transferred To Another Office": {
     "18412": 1,
     "18415": 1,
@@ -4454,12 +4475,12 @@
   },
   "EAC|20|161|5|I-765|Case Was Approved": {
     "18415": 4,
-    "18416": 14,
+    "18416": 11,
   },
   "EAC|20|161|5|I-765|Case Was Received": {
     "18412": 110,
     "18415": 109,
-    "18416": 108,
+    "18416": 109,
   },
   "EAC|20|161|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 161,
@@ -4482,7 +4503,10 @@
   "EAC|20|161|5|I-765|Request for Additional Evidence Was Sent": {
     "18412": 1,
     "18415": 1,
-    "18416": 4,
+    "18416": 3,
+  },
+  "EAC|20|161|5|I-765|Response To USCIS&apos; Request For Evidence Was Received": {
+    "18416": 1,
   },
   "EAC|20|161|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 1,
@@ -4813,7 +4837,7 @@
   "EAC|20|165|5|I-129|Case Was Received": {
     "18412": 63,
     "18415": 62,
-    "18416": 60,
+    "18416": 61,
   },
   "EAC|20|165|5|I-129|Correspondence Was Received And USCIS Is Reviewing It": {
     "18412": 2,
@@ -4851,17 +4875,17 @@
   "EAC|20|165|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 40,
     "18415": 39,
-    "18416": 39,
+    "18416": 36,
   },
   "EAC|20|165|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 18,
     "18415": 15,
-    "18416": 15,
+    "18416": 18,
   },
   "EAC|20|165|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 2,
     "18415": 2,
-    "18416": 1,
+    "18416": 2,
   },
   "EAC|20|165|5|I-131|Case Was Approved": {
     "18412": 8,
@@ -4978,7 +5002,7 @@
   "EAC|20|165|5|I-751|Case Was Received": {
     "18412": 86,
     "18415": 86,
-    "18416": 85,
+    "18416": 86,
   },
   "EAC|20|165|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 76,
@@ -4988,6 +5012,7 @@
   "EAC|20|165|5|I-765|Card Was Mailed To Me": {
     "18412": 2,
     "18415": 6,
+    "18416": 5,
   },
   "EAC|20|165|5|I-765|Case Transferred To Another Office": {
     "18412": 3,
@@ -5016,7 +5041,7 @@
   "EAC|20|165|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 145,
     "18415": 136,
-    "18416": 134,
+    "18416": 136,
   },
   "EAC|20|165|5|I-765|Date of Birth Was Updated": {
     "18412": 1,
@@ -5037,9 +5062,12 @@
     "18415": 3,
     "18416": 4,
   },
+  "EAC|20|165|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18416": 4,
+  },
   "EAC|20|165|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18415": 2,
-    "18416": 8,
+    "18416": 4,
   },
   "EAC|20|165|5|unknown form type|Case Was Received": {
     "18412": 21,
@@ -5077,7 +5105,7 @@
   "EAC|20|165|5|unknown form type|Request Was Processed": {
     "18412": 88,
     "18415": 88,
-    "18416": 86,
+    "18416": 88,
   },
   "EAC|20|165|5|unknown form type|Request Was Rejected": {
     "18412": 5,
@@ -5126,12 +5154,12 @@
   "EAC|20|166|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 37,
     "18415": 36,
-    "18416": 36,
+    "18416": 35,
   },
   "EAC|20|166|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 6,
     "18415": 8,
-    "18416": 7,
+    "18416": 8,
   },
   "EAC|20|166|5|I-131|Case Was Received": {
     "18412": 5,
@@ -5328,15 +5356,18 @@
   "EAC|20|166|5|I-765|Fees Were Waived": {
     "18412": 80,
     "18415": 79,
-    "18416": 79,
+    "18416": 77,
   },
   "EAC|20|166|5|I-765|Name Was Updated": {
     "18412": 1,
     "18415": 1,
     "18416": 1,
   },
+  "EAC|20|166|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18416": 3,
+  },
   "EAC|20|166|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
-    "18416": 6,
+    "18416": 3,
   },
   "EAC|20|166|5|unknown form type|Case Was Received": {
     "18412": 6,
@@ -5365,6 +5396,7 @@
   },
   "EAC|20|166|5|unknown form type|New Card Is Being Produced": {
     "18415": 6,
+    "18416": 2,
   },
   "EAC|20|166|5|unknown form type|Request Was Processed": {
     "18412": 28,
@@ -5613,7 +5645,7 @@
   "EAC|20|167|5|unknown form type|Case Was Received": {
     "18412": 17,
     "18415": 17,
-    "18416": 16,
+    "18416": 17,
   },
   "EAC|20|167|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -5900,6 +5932,7 @@
   "EAC|20|171|5|I-765|Card Was Mailed To Me": {
     "18412": 1,
     "18415": 1,
+    "18416": 2,
   },
   "EAC|20|171|5|I-765|Case Transferred To Another Office": {
     "18412": 2,
@@ -5908,7 +5941,7 @@
   },
   "EAC|20|171|5|I-765|Case Was Approved": {
     "18415": 9,
-    "18416": 13,
+    "18416": 11,
   },
   "EAC|20|171|5|I-765|Case Was Received": {
     "18412": 40,
@@ -5987,7 +6020,7 @@
   "EAC|20|172|5|I-129|Case Was Received": {
     "18412": 92,
     "18415": 85,
-    "18416": 85,
+    "18416": 84,
   },
   "EAC|20|172|5|I-129|Continuation Notice Was Mailed": {
     "18415": 1,
@@ -6012,12 +6045,12 @@
   "EAC|20|172|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 69,
     "18415": 73,
-    "18416": 73,
+    "18416": 71,
   },
   "EAC|20|172|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 14,
     "18415": 12,
-    "18416": 14,
+    "18416": 16,
   },
   "EAC|20|172|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18415": 1,
@@ -6157,12 +6190,12 @@
   "EAC|20|172|5|I-765|Card Was Mailed To Me": {
     "18412": 6,
     "18415": 1,
-    "18416": 1,
+    "18416": 3,
   },
   "EAC|20|172|5|I-765|Case Was Approved": {
     "18412": 1,
     "18415": 9,
-    "18416": 10,
+    "18416": 8,
   },
   "EAC|20|172|5|I-765|Case Was Denied": {
     "18412": 2,
@@ -6205,12 +6238,12 @@
   "EAC|20|172|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 73,
     "18415": 69,
-    "18416": 76,
+    "18416": 77,
   },
   "EAC|20|172|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 2,
     "18415": 6,
-    "18416": 4,
+    "18416": 2,
   },
   "EAC|20|172|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 46,
@@ -6363,7 +6396,7 @@
   "EAC|20|173|5|I-612|Case Was Denied": {
     "18412": 2,
     "18415": 2,
-    "18416": 1,
+    "18416": 2,
   },
   "EAC|20|173|5|I-612|Case Was Received At Another USCIS Office": {
     "18412": 3,
@@ -6424,6 +6457,9 @@
     "18415": 1,
     "18416": 1,
   },
+  "EAC|20|173|5|I-765|Card Was Mailed To Me": {
+    "18416": 1,
+  },
   "EAC|20|173|5|I-765|Case Transferred To Another Office": {
     "18412": 3,
     "18415": 3,
@@ -6431,7 +6467,7 @@
   },
   "EAC|20|173|5|I-765|Case Was Approved": {
     "18415": 1,
-    "18416": 5,
+    "18416": 4,
   },
   "EAC|20|173|5|I-765|Case Was Received": {
     "18412": 74,
@@ -6441,7 +6477,7 @@
   "EAC|20|173|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 151,
     "18415": 151,
-    "18416": 150,
+    "18416": 151,
   },
   "EAC|20|173|5|I-765|Date of Birth Was Updated": {
     "18412": 1,
@@ -6494,7 +6530,7 @@
   "EAC|20|174|5|I-129|Case Was Approved": {
     "18412": 247,
     "18415": 248,
-    "18416": 245,
+    "18416": 247,
   },
   "EAC|20|174|5|I-129|Case Was Received": {
     "18412": 84,
@@ -6509,7 +6545,7 @@
   "EAC|20|174|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "EAC|20|174|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 1,
@@ -6524,7 +6560,7 @@
   "EAC|20|174|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 11,
     "18415": 12,
-    "18416": 12,
+    "18416": 13,
   },
   "EAC|20|174|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18416": 1,
@@ -6599,7 +6635,7 @@
   "EAC|20|174|5|I-539|Case Was Received": {
     "18412": 173,
     "18415": 173,
-    "18416": 172,
+    "18416": 173,
   },
   "EAC|20|174|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 3,
@@ -6644,12 +6680,12 @@
   "EAC|20|174|5|I-751|Case Was Received": {
     "18412": 32,
     "18415": 32,
-    "18416": 31,
+    "18416": 32,
   },
   "EAC|20|174|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 22,
     "18415": 22,
-    "18416": 21,
+    "18416": 22,
   },
   "EAC|20|174|5|I-765|Case Transferred To Another Office": {
     "18412": 2,
@@ -6664,7 +6700,7 @@
   "EAC|20|174|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 226,
     "18415": 225,
-    "18416": 222,
+    "18416": 225,
   },
   "EAC|20|174|5|I-765|Expedite Request Denied": {
     "18412": 1,
@@ -6674,7 +6710,7 @@
   "EAC|20|174|5|I-765|Fees Were Waived": {
     "18412": 97,
     "18415": 97,
-    "18416": 96,
+    "18416": 97,
   },
   "EAC|20|174|5|I-765|Name Was Updated": {
     "18412": 1,
@@ -6712,7 +6748,7 @@
   "EAC|20|174|5|unknown form type|Request Was Processed": {
     "18412": 87,
     "18415": 87,
-    "18416": 85,
+    "18416": 87,
   },
   "EAC|20|174|5|unknown form type|Request Was Rejected": {
     "18412": 4,
@@ -6763,12 +6799,12 @@
   "EAC|20|175|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 49,
     "18415": 55,
-    "18416": 59,
+    "18416": 57,
   },
   "EAC|20|175|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 6,
     "18415": 7,
-    "18416": 7,
+    "18416": 9,
   },
   "EAC|20|175|5|I-131|Fees Were Waived": {
     "18412": 41,
@@ -6972,11 +7008,11 @@
   "EAC|20|176|5|I-360|Request for Additional Evidence Was Sent": {
     "18412": 10,
     "18415": 8,
-    "18416": 8,
+    "18416": 7,
   },
   "EAC|20|176|5|I-360|Response To USCIS&apos; Request For Evidence Was Received": {
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "EAC|20|176|5|I-485|Case Was Received": {
     "18412": 35,
@@ -7132,10 +7168,10 @@
   "EAC|20|176|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 5,
     "18415": 5,
-    "18416": 5,
+    "18416": 7,
   },
   "EAC|20|176|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
-    "18416": 3,
+    "18416": 1,
   },
   "EAC|20|176|5|unknown form type|Case Was Received": {
     "18412": 1,
@@ -7178,7 +7214,7 @@
   "EAC|20|177|5|I-129|Case Was Approved": {
     "18412": 241,
     "18415": 244,
-    "18416": 247,
+    "18416": 248,
   },
   "EAC|20|177|5|I-129|Case Was Received": {
     "18412": 75,
@@ -7208,12 +7244,12 @@
   "EAC|20|177|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 61,
     "18415": 60,
-    "18416": 55,
+    "18416": 56,
   },
   "EAC|20|177|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 6,
     "18415": 7,
-    "18416": 10,
+    "18416": 12,
   },
   "EAC|20|177|5|I-131|Case Was Approved": {
     "18412": 2,
@@ -7407,6 +7443,9 @@
     "18415": 1,
     "18416": 1,
   },
+  "EAC|20|177|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18416": 1,
+  },
   "EAC|20|177|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18416": 1,
   },
@@ -7459,7 +7498,7 @@
   "EAC|20|178|5|I-129|Case Transferred To Another Office": {
     "18412": 56,
     "18415": 33,
-    "18416": 30,
+    "18416": 28,
   },
   "EAC|20|178|5|I-129|Case Was Approved": {
     "18412": 287,
@@ -7480,7 +7519,7 @@
   "EAC|20|178|5|I-129|Name Was Updated": {
     "18412": 40,
     "18415": 50,
-    "18416": 43,
+    "18416": 44,
   },
   "EAC|20|178|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -7495,7 +7534,7 @@
   "EAC|20|178|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 66,
     "18415": 60,
-    "18416": 67,
+    "18416": 68,
   },
   "EAC|20|178|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 3,
@@ -7751,12 +7790,12 @@
   "EAC|20|179|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 74,
     "18415": 82,
-    "18416": 83,
+    "18416": 82,
   },
   "EAC|20|179|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 5,
     "18415": 4,
-    "18416": 5,
+    "18416": 6,
   },
   "EAC|20|179|5|I-131|Case Was Approved": {
     "18415": 3,
@@ -7948,7 +7987,7 @@
   "EAC|20|180|5|I-129|Name Was Updated": {
     "18412": 47,
     "18415": 33,
-    "18416": 38,
+    "18416": 36,
   },
   "EAC|20|180|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -7963,12 +8002,12 @@
   "EAC|20|180|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 69,
     "18415": 73,
-    "18416": 73,
+    "18416": 74,
   },
   "EAC|20|180|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 3,
     "18415": 4,
-    "18416": 5,
+    "18416": 6,
   },
   "EAC|20|180|5|I-131|Fees Were Waived": {
     "18412": 21,
@@ -8069,7 +8108,7 @@
   "EAC|20|180|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 54,
     "18415": 54,
-    "18416": 53,
+    "18416": 54,
   },
   "EAC|20|180|5|I-765|Case Transferred To Another Office": {
     "18412": 5,
@@ -8118,7 +8157,7 @@
   "EAC|20|181|5|I-129|Case Transferred To Another Office": {
     "18412": 22,
     "18415": 15,
-    "18416": 8,
+    "18416": 7,
   },
   "EAC|20|181|5|I-129|Case Was Approved": {
     "18412": 258,
@@ -8133,7 +8172,7 @@
   "EAC|20|181|5|I-129|Name Was Updated": {
     "18412": 18,
     "18415": 19,
-    "18416": 22,
+    "18416": 23,
   },
   "EAC|20|181|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -8148,12 +8187,12 @@
   "EAC|20|181|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 57,
     "18415": 58,
-    "18416": 58,
+    "18416": 57,
   },
   "EAC|20|181|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 2,
     "18415": 3,
-    "18416": 3,
+    "18416": 4,
   },
   "EAC|20|181|5|I-131|Fees Were Waived": {
     "18412": 35,
@@ -8176,7 +8215,7 @@
   "EAC|20|181|5|I-360|Request for Additional Evidence Was Sent": {
     "18412": 11,
     "18415": 10,
-    "18416": 9,
+    "18416": 10,
   },
   "EAC|20|181|5|I-360|Response To USCIS&apos; Request For Evidence Was Received": {
     "18415": 1,
@@ -8305,7 +8344,7 @@
   "EAC|20|182|5|I-129|Case Transferred To Another Office": {
     "18412": 49,
     "18415": 32,
-    "18416": 26,
+    "18416": 25,
   },
   "EAC|20|182|5|I-129|Case Was Approved": {
     "18412": 316,
@@ -8320,7 +8359,7 @@
   "EAC|20|182|5|I-129|Name Was Updated": {
     "18412": 54,
     "18415": 46,
-    "18416": 38,
+    "18416": 39,
   },
   "EAC|20|182|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 1,
@@ -8329,12 +8368,12 @@
   "EAC|20|182|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 65,
     "18415": 67,
-    "18416": 67,
+    "18416": 66,
   },
   "EAC|20|182|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "EAC|20|182|5|I-131|Case Was Received": {
     "18412": 2,
@@ -8507,33 +8546,34 @@
   "EAC|20|183|5|I-102|Case Was Approved": {
     "18412": 7,
     "18415": 7,
-    "18416": 2,
+    "18416": 7,
   },
   "EAC|20|183|5|I-129|Case Transferred To Another Office": {
     "18412": 133,
     "18415": 102,
-    "18416": 57,
+    "18416": 70,
   },
   "EAC|20|183|5|I-129|Case Was Approved": {
     "18412": 344,
     "18415": 384,
-    "18416": 176,
+    "18416": 401,
   },
   "EAC|20|183|5|I-129|Case Was Received": {
     "18412": 133,
     "18415": 126,
-    "18416": 25,
+    "18416": 125,
   },
   "EAC|20|183|5|I-129|Correspondence Was Received And USCIS Is Reviewing It": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
   },
   "EAC|20|183|5|I-129|Date of Birth Was Updated": {},
   "EAC|20|183|5|I-129|Expedite Request Denied": {},
   "EAC|20|183|5|I-129|Name Was Updated": {
     "18412": 38,
     "18415": 27,
-    "18416": 21,
+    "18416": 40,
   },
   "EAC|20|183|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18415": 1,
@@ -8547,10 +8587,11 @@
   "EAC|20|183|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 72,
     "18415": 79,
-    "18416": 19,
+    "18416": 80,
   },
   "EAC|20|183|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18415": 1,
+    "18416": 3,
   },
   "EAC|20|183|5|I-131|Case Was Approved": {
     "18415": 1,
@@ -8615,7 +8656,7 @@
   "EAC|20|183|5|I-539|Case Was Received": {
     "18412": 224,
     "18415": 224,
-    "18416": 81,
+    "18416": 224,
   },
   "EAC|20|183|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -8625,16 +8666,17 @@
   "EAC|20|183|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 4,
     "18415": 4,
-    "18416": 3,
+    "18416": 4,
   },
   "EAC|20|183|5|I-539|Expedite Request Received": {
     "18412": 2,
     "18415": 2,
+    "18416": 2,
   },
   "EAC|20|183|5|I-539|Name Was Updated": {
     "18412": 6,
     "18415": 6,
-    "18416": 2,
+    "18416": 6,
   },
   "EAC|20|183|5|I-601|Case Was Received": {
     "18412": 2,
@@ -8669,27 +8711,30 @@
   "EAC|20|183|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 30,
     "18415": 30,
-    "18416": 21,
+    "18416": 30,
   },
   "EAC|20|183|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18412": 10,
     "18415": 10,
-    "18416": 4,
+    "18416": 10,
   },
   "EAC|20|183|5|I-751|Case Was Received": {
     "18412": 80,
     "18415": 80,
-    "18416": 47,
+    "18416": 80,
   },
   "EAC|20|183|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 14,
     "18415": 14,
-    "18416": 8,
+    "18416": 14,
   },
   "EAC|20|183|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 27,
     "18415": 27,
-    "18416": 7,
+    "18416": 27,
+  },
+  "EAC|20|183|5|I-765|Card Was Mailed To Me": {
+    "18416": 1,
   },
   "EAC|20|183|5|I-765|Case Was Approved": {
     "18415": 1,
@@ -8698,7 +8743,7 @@
   "EAC|20|183|5|I-765|Case Was Received": {
     "18412": 47,
     "18415": 47,
-    "18416": 29,
+    "18416": 47,
   },
   "EAC|20|183|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 1,
@@ -8706,17 +8751,17 @@
   "EAC|20|183|5|I-765|Fees Were Waived": {
     "18412": 91,
     "18415": 91,
-    "18416": 89,
+    "18416": 91,
   },
   "EAC|20|183|5|I-765|Name Was Updated": {
     "18412": 5,
     "18415": 5,
-    "18416": 4,
+    "18416": 5,
   },
   "EAC|20|183|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 6,
     "18415": 6,
-    "18416": 3,
+    "18416": 6,
   },
   "EAC|20|183|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
@@ -8734,7 +8779,7 @@
   "EAC|20|183|5|unknown form type|Request Was Processed": {
     "18412": 51,
     "18415": 51,
-    "18416": 48,
+    "18416": 51,
   },
   "EAC|20|183|5|unknown form type|Request Was Rejected": {
     "18412": 2,
@@ -8744,7 +8789,7 @@
   "EAC|20|184|5|I-129|Case Transferred To Another Office": {
     "18412": 16,
     "18415": 12,
-    "18416": 10,
+    "18416": 9,
   },
   "EAC|20|184|5|I-129|Case Was Approved": {
     "18412": 400,
@@ -8785,7 +8830,7 @@
   "EAC|20|184|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 8,
     "18415": 9,
-    "18416": 10,
+    "18416": 11,
   },
   "EAC|20|184|5|I-131|Fees Were Waived": {
     "18412": 38,
@@ -8805,7 +8850,10 @@
   "EAC|20|184|5|I-360|Request for Additional Evidence Was Sent": {
     "18412": 18,
     "18415": 18,
-    "18416": 18,
+    "18416": 17,
+  },
+  "EAC|20|184|5|I-360|Response To USCIS&apos; Request For Evidence Was Received": {
+    "18416": 1,
   },
   "EAC|20|184|5|I-485|Case Was Received": {
     "18412": 80,
@@ -8880,7 +8928,7 @@
   "EAC|20|184|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 74,
     "18415": 74,
-    "18416": 74,
+    "18416": 73,
   },
   "EAC|20|184|5|I-765|Case Was Received": {
     "18412": 122,
@@ -8943,7 +8991,7 @@
   "EAC|20|185|5|I-129|Case Was Received": {
     "18412": 134,
     "18415": 125,
-    "18416": 112,
+    "18416": 111,
   },
   "EAC|20|185|5|I-129|Case Was Reopened": {
     "18412": 1,
@@ -8969,12 +9017,12 @@
   "EAC|20|185|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 74,
     "18415": 105,
-    "18416": 106,
+    "18416": 105,
   },
   "EAC|20|185|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 2,
     "18415": 3,
-    "18416": 3,
+    "18416": 5,
   },
   "EAC|20|185|5|I-131|Fees Were Waived": {
     "18412": 40,
@@ -9142,7 +9190,7 @@
   "EAC|20|187|5|I-129|Case Was Approved": {
     "18412": 310,
     "18415": 322,
-    "18416": 329,
+    "18416": 328,
   },
   "EAC|20|187|5|I-129|Case Was Denied": {
     "18412": 1,
@@ -9163,7 +9211,7 @@
   "EAC|20|187|5|I-129|Name Was Updated": {
     "18412": 29,
     "18415": 24,
-    "18416": 28,
+    "18416": 29,
   },
   "EAC|20|187|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -9335,7 +9383,7 @@
   "EAC|20|188|5|I-129|Case Was Approved": {
     "18412": 341,
     "18415": 360,
-    "18416": 361,
+    "18416": 362,
   },
   "EAC|20|188|5|I-129|Case Was Received": {
     "18412": 216,
@@ -9360,12 +9408,12 @@
   "EAC|20|188|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 86,
     "18415": 101,
-    "18416": 100,
+    "18416": 99,
   },
   "EAC|20|188|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 6,
     "18415": 6,
-    "18416": 7,
+    "18416": 8,
   },
   "EAC|20|188|5|I-131|Case Was Approved": {
     "18415": 1,
@@ -9778,12 +9826,12 @@
   "EAC|20|190|5|I-129|Case Was Approved": {
     "18412": 255,
     "18415": 307,
-    "18416": 319,
+    "18416": 316,
   },
   "EAC|20|190|5|I-129|Case Was Received": {
     "18412": 318,
     "18415": 259,
-    "18416": 240,
+    "18416": 235,
   },
   "EAC|20|190|5|I-129|Correspondence Was Received And USCIS Is Reviewing It": {
     "18412": 1,
@@ -9858,7 +9906,7 @@
   "EAC|20|190|5|I-539|Case Was Received": {
     "18412": 218,
     "18415": 218,
-    "18416": 218,
+    "18416": 211,
   },
   "EAC|20|190|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 10,
@@ -9889,7 +9937,7 @@
   "EAC|20|190|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 42,
     "18415": 42,
-    "18416": 42,
+    "18416": 39,
   },
   "EAC|20|190|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18412": 1,
@@ -9899,7 +9947,7 @@
   "EAC|20|190|5|I-751|Case Was Received": {
     "18412": 76,
     "18415": 76,
-    "18416": 76,
+    "18416": 74,
   },
   "EAC|20|190|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 1,
@@ -9980,12 +10028,12 @@
   "EAC|20|191|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 27,
     "18415": 55,
-    "18416": 66,
+    "18416": 65,
   },
   "EAC|20|191|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "EAC|20|191|5|I-131|Fees Were Waived": {
     "18412": 31,
@@ -10116,7 +10164,7 @@
   "EAC|20|194|5|I-129|Case Was Received": {
     "18412": 486,
     "18415": 404,
-    "18416": 361,
+    "18416": 360,
   },
   "EAC|20|194|5|I-129|Case Was Rejected Because My Check Or Money Order Is Not Signed": {
     "18412": 1,
@@ -10130,7 +10178,7 @@
   "EAC|20|194|5|I-129|Name Was Updated": {
     "18412": 94,
     "18415": 102,
-    "18416": 106,
+    "18416": 107,
   },
   "EAC|20|194|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18416": 1,
@@ -10352,7 +10400,7 @@
   "EAC|20|195|5|I-485|Case Was Received": {
     "18412": 77,
     "18415": 77,
-    "18416": 76,
+    "18416": 77,
   },
   "EAC|20|195|5|I-485|Fees Were Waived": {
     "18412": 14,
@@ -10468,17 +10516,17 @@
   "EAC|20|195|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 7,
     "18415": 9,
-    "18416": 9,
+    "18416": 10,
   },
   "EAC|20|195|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 4,
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "EAC|20|195|5|unknown form type|Case Was Received": {
     "18412": 26,
     "18415": 24,
-    "18416": 23,
+    "18416": 24,
   },
   "EAC|20|195|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 16,
@@ -10529,7 +10577,7 @@
   "EAC|20|196|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 313,
     "18415": 236,
-    "18416": 205,
+    "18416": 203,
   },
   "EAC|20|196|5|I-129|Date of Birth Was Updated": {},
   "EAC|20|196|5|I-129|Expedite Request Denied": {
@@ -10554,7 +10602,7 @@
   "EAC|20|196|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 11,
     "18415": 34,
-    "18416": 38,
+    "18416": 40,
   },
   "EAC|20|196|5|I-131|Fees Were Waived": {
     "18412": 26,
@@ -10633,7 +10681,7 @@
   "EAC|20|196|5|I-612|Case Was Approved": {
     "18412": 115,
     "18415": 118,
-    "18416": 115,
+    "18416": 117,
   },
   "EAC|20|196|5|I-612|Case Was Received At Another USCIS Office": {
     "18412": 16,
@@ -10677,7 +10725,7 @@
   "EAC|20|197|5|I-129|Case Was Approved": {
     "18412": 9,
     "18415": 85,
-    "18416": 136,
+    "18416": 135,
   },
   "EAC|20|197|5|I-129|Case Was Received": {
     "18412": 375,
@@ -10687,7 +10735,7 @@
   "EAC|20|197|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 384,
     "18415": 332,
-    "18416": 290,
+    "18416": 286,
   },
   "EAC|20|197|5|I-129|Date of Birth Was Updated": {
     "18415": 1,
@@ -10696,12 +10744,12 @@
   "EAC|20|197|5|I-129|Name Was Updated": {
     "18412": 4,
     "18415": 4,
-    "18416": 7,
+    "18416": 8,
   },
   "EAC|20|197|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 4,
     "18415": 10,
-    "18416": 12,
+    "18416": 15,
   },
   "EAC|20|197|5|I-131|Case Was Received": {
     "18412": 2,
@@ -10736,7 +10784,7 @@
   "EAC|20|197|5|I-485|Case Was Received": {
     "18412": 67,
     "18415": 67,
-    "18416": 66,
+    "18416": 67,
   },
   "EAC|20|197|5|I-485|Name Was Updated": {
     "18412": 1,
@@ -10809,7 +10857,7 @@
   "EAC|20|197|5|I-751|Case Was Received": {
     "18412": 190,
     "18415": 190,
-    "18416": 189,
+    "18416": 190,
   },
   "EAC|20|197|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 7,
@@ -10819,7 +10867,7 @@
   "EAC|20|197|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 95,
     "18415": 95,
-    "18416": 94,
+    "18416": 95,
   },
   "EAC|20|197|5|I-751|Name Was Updated": {
     "18412": 2,
@@ -10839,7 +10887,7 @@
   "EAC|20|197|5|I-765|Fees Were Waived": {
     "18412": 205,
     "18415": 205,
-    "18416": 204,
+    "18416": 205,
   },
   "EAC|20|197|5|I-765|Name Was Updated": {
     "18412": 3,
@@ -10860,7 +10908,7 @@
   "EAC|20|197|5|unknown form type|Request Was Processed": {
     "18412": 68,
     "18415": 68,
-    "18416": 68,
+    "18416": 67,
   },
   "EAC|20|198|5|I-129|Case Transferred To Another Office": {},
   "EAC|20|198|5|I-129|Case Was Approved": {
@@ -10871,7 +10919,7 @@
   "EAC|20|198|5|I-129|Case Was Received": {
     "18412": 473,
     "18415": 420,
-    "18416": 390,
+    "18416": 391,
   },
   "EAC|20|198|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 2,
@@ -10881,7 +10929,7 @@
   "EAC|20|198|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 187,
     "18415": 186,
-    "18416": 179,
+    "18416": 178,
   },
   "EAC|20|198|5|I-129|Name Was Updated": {
     "18412": 10,
@@ -10890,7 +10938,7 @@
   },
   "EAC|20|198|5|I-129|Request for Additional Evidence Was Sent": {
     "18415": 16,
-    "18416": 26,
+    "18416": 27,
   },
   "EAC|20|198|5|I-129|Request for Additional Information Received": {
     "18412": 1,
@@ -10960,7 +11008,7 @@
   "EAC|20|198|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 42,
     "18415": 42,
-    "18416": 41,
+    "18416": 42,
   },
   "EAC|20|198|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18412": 5,
@@ -10995,7 +11043,7 @@
   "EAC|20|198|5|I-751|Name Was Updated": {
     "18412": 3,
     "18415": 3,
-    "18416": 2,
+    "18416": 3,
   },
   "EAC|20|198|5|I-765|Case Was Received": {
     "18412": 68,
@@ -11195,6 +11243,9 @@
     "18415": 2,
     "18416": 2,
   },
+  "EAC|20|201|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18416": 1,
+  },
   "EAC|20|201|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18415": 1,
     "18416": 1,
@@ -11216,11 +11267,11 @@
   },
   "EAC|20|202|5|I-129|Case Was Approved": {
     "18415": 32,
-    "18416": 55,
+    "18416": 54,
   },
   "EAC|20|202|5|I-129|Case Was Received": {
     "18415": 653,
-    "18416": 627,
+    "18416": 625,
   },
   "EAC|20|202|5|I-129|Case Was Received At Another USCIS Office": {
     "18415": 21,
@@ -11232,7 +11283,7 @@
   },
   "EAC|20|202|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18415": 114,
-    "18416": 114,
+    "18416": 112,
   },
   "EAC|20|202|5|I-129|Date of Birth Was Updated": {
     "18416": 1,
@@ -11286,7 +11337,7 @@
   },
   "EAC|20|202|5|I-539|Case Was Received": {
     "18415": 222,
-    "18416": 221,
+    "18416": 217,
   },
   "EAC|20|202|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18415": 4,
@@ -11337,7 +11388,7 @@
   },
   "EAC|20|202|5|I-765|Fees Were Waived": {
     "18415": 194,
-    "18416": 193,
+    "18416": 194,
   },
   "EAC|20|202|5|I-765|Name Was Updated": {
     "18415": 1,
@@ -11515,7 +11566,7 @@
   },
   "EAC|20|203|5|I-765|Fees Were Waived": {
     "18415": 251,
-    "18416": 250,
+    "18416": 251,
   },
   "EAC|20|203|5|I-765|Name Was Updated": {
     "18415": 2,
@@ -11539,7 +11590,7 @@
   },
   "EAC|20|203|5|unknown form type|Request Was Processed": {
     "18415": 51,
-    "18416": 50,
+    "18416": 51,
   },
   "EAC|20|203|5|unknown form type|Request Was Rejected": {
     "18415": 1,
@@ -12261,7 +12312,7 @@
   },
   "EAC|20|210|5|I-129|Case Was Received": {
     "18415": 777,
-    "18416": 777,
+    "18416": 778,
   },
   "EAC|20|210|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18415": 176,
@@ -12473,7 +12524,7 @@
   },
   "EAC|20|212|5|I-129|Case Was Received": {
     "18415": 1244,
-    "18416": 1244,
+    "18416": 1243,
   },
   "EAC|20|212|5|I-129|Name Was Updated": {
     "18415": 14,
@@ -12557,7 +12608,7 @@
   },
   "EAC|20|212|5|I-765|Name Was Updated": {
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "EAC|20|212|5|unknown form type|Case Was Received": {
     "18415": 13,
@@ -12572,7 +12623,7 @@
   },
   "EAC|20|213|5|I-129|Case Was Received": {
     "18415": 797,
-    "18416": 1292,
+    "18416": 1293,
   },
   "EAC|20|213|5|I-129|Name Was Updated": {
     "18415": 9,
@@ -12608,7 +12659,7 @@
   },
   "EAC|20|213|5|I-539|Case Was Received": {
     "18415": 356,
-    "18416": 491,
+    "18416": 492,
   },
   "EAC|20|213|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18415": 2,
@@ -12658,10 +12709,10 @@
     "18416": 50,
   },
   "EAC|20|214|5|I-129|Case Was Received": {
-    "18416": 770,
+    "18416": 1266,
   },
   "EAC|20|214|5|I-129|Name Was Updated": {
-    "18416": 8,
+    "18416": 9,
   },
   "EAC|20|214|5|I-129|Premium Processing Case is Eligible for Pre-Certification": {
     "18416": 1,
@@ -12685,13 +12736,13 @@
     "18416": 61,
   },
   "EAC|20|214|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
-    "18416": 1,
+    "18416": 5,
   },
   "EAC|20|214|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18416": 2,
   },
   "EAC|20|214|5|I-539|Case Was Received": {
-    "18416": 322,
+    "18416": 470,
   },
   "EAC|20|214|5|I-539|Fees Were Waived": {
     "18416": 1,
@@ -12703,22 +12754,22 @@
     "18416": 5,
   },
   "EAC|20|214|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
-    "18416": 3,
+    "18416": 7,
   },
   "EAC|20|214|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18416": 6,
   },
   "EAC|20|214|5|I-751|Case Was Received": {
-    "18416": 51,
+    "18416": 91,
   },
   "EAC|20|214|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18416": 1,
   },
   "EAC|20|214|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
-    "18416": 31,
+    "18416": 40,
   },
   "EAC|20|214|5|I-765|Case Was Received": {
-    "18416": 197,
+    "18416": 222,
   },
   "EAC|20|214|5|I-765|Fees Were Waived": {
     "18416": 98,
@@ -12736,7 +12787,7 @@
     "18416": 1,
   },
   "EAC|20|214|5|unknown form type|Case Was Received and A Receipt Notice Was Emailed": {
-    "18416": 77,
+    "18416": 78,
   },
   "EAC|20|214|5|unknown form type|Fees Were Waived": {
     "18416": 1,
@@ -12867,7 +12918,7 @@
   "LIN|20|145|5|I-765|Case Was Approved": {
     "18412": 3,
     "18415": 6,
-    "18416": 9,
+    "18416": 8,
   },
   "LIN|20|145|5|I-765|Case Was Received": {
     "18412": 39,
@@ -12875,6 +12926,7 @@
     "18416": 39,
   },
   "LIN|20|145|5|I-765|Case Was Reopened": {
+    "18416": 1,
   },
   "LIN|20|145|5|I-765|Fees Were Waived": {
     "18412": 2,
@@ -12919,6 +12971,7 @@
     "18416": 2,
   },
   "LIN|20|145|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18416": 1,
   },
   "LIN|20|145|5|unknown form type|Fees Were Waived": {
     "18412": 4,
@@ -12957,7 +13010,7 @@
   "LIN|20|146|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "LIN|20|146|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 2,
@@ -12980,6 +13033,7 @@
     "18416": 7,
   },
   "LIN|20|146|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
+    "18416": 1,
   },
   "LIN|20|146|5|I-140|Case Was Approved": {
     "18412": 1,
@@ -13052,12 +13106,12 @@
   "LIN|20|146|5|I-765|Case Was Received": {
     "18412": 32,
     "18415": 32,
-    "18416": 32,
+    "18416": 31,
   },
   "LIN|20|146|5|I-765|Expedite Request Denied": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "LIN|20|146|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 3,
@@ -13114,12 +13168,12 @@
   "LIN|20|148|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 38,
     "18415": 38,
-    "18416": 37,
+    "18416": 36,
   },
   "LIN|20|148|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 5,
     "18415": 4,
-    "18416": 4,
+    "18416": 5,
   },
   "LIN|20|148|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 1,
@@ -13233,7 +13287,7 @@
   "LIN|20|148|5|I-765|Fees Were Waived": {
     "18412": 7,
     "18415": 7,
-    "18416": 7,
+    "18416": 6,
   },
   "LIN|20|148|5|I-765|Name Was Updated": {
     "18412": 1,
@@ -13249,7 +13303,7 @@
   "LIN|20|148|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 44,
     "18415": 45,
-    "18416": 45,
+    "18416": 46,
   },
   "LIN|20|148|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
@@ -13275,6 +13329,9 @@
   "LIN|20|148|5|unknown form type|Name Was Updated": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
+  },
+  "LIN|20|148|5|unknown form type|New Card Is Being Produced": {
     "18416": 1,
   },
   "LIN|20|148|5|unknown form type|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
@@ -13467,6 +13524,9 @@
     "18415": 1,
     "18416": 1,
   },
+  "LIN|20|149|5|unknown form type|New Card Is Being Produced": {
+    "18416": 2,
+  },
   "LIN|20|149|5|unknown form type|Revocation Notice Was Sent": {
     "18412": 1,
     "18415": 1,
@@ -13475,7 +13535,7 @@
   "LIN|20|150|5|I-129|Case Was Approved": {
     "18412": 203,
     "18415": 203,
-    "18416": 203,
+    "18416": 202,
   },
   "LIN|20|150|5|I-129|Case Was Received": {
     "18412": 44,
@@ -13747,7 +13807,7 @@
     "18416": 36,
   },
   "LIN|20|151|5|I-765|Card Was Mailed To Me": {
-    "18416": 3,
+    "18416": 1,
   },
   "LIN|20|151|5|I-765|Card Was Returned To USCIS": {
     "18412": 2,
@@ -13798,7 +13858,7 @@
   "LIN|20|151|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 4,
   },
   "LIN|20|151|5|unknown form type|Fees Were Waived": {
     "18412": 7,
@@ -14066,7 +14126,7 @@
   "LIN|20|154|5|I-765|Case Was Approved": {
     "18412": 2,
     "18415": 9,
-    "18416": 6,
+    "18416": 1,
   },
   "LIN|20|154|5|I-765|Case Was Received": {
     "18412": 48,
@@ -14091,12 +14151,12 @@
   "LIN|20|154|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 4,
     "18415": 5,
-    "18416": 5,
+    "18416": 6,
   },
   "LIN|20|154|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 5,
   },
   "LIN|20|154|5|unknown form type|Fees Were Waived": {
     "18412": 24,
@@ -14405,7 +14465,7 @@
   "LIN|20|156|5|I-730|Fees Were Waived": {
     "18412": 7,
     "18415": 7,
-    "18416": 6,
+    "18416": 7,
   },
   "LIN|20|156|5|I-730|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 1,
@@ -14649,7 +14709,7 @@
   "LIN|20|158|5|I-751|Case Was Received": {
     "18412": 57,
     "18415": 57,
-    "18416": 56,
+    "18416": 57,
   },
   "LIN|20|158|5|I-751|Fees Were Waived": {
     "18412": 2,
@@ -14659,6 +14719,9 @@
   "LIN|20|158|5|I-751|Name Was Updated": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
+  },
+  "LIN|20|158|5|I-765|Card Was Mailed To Me": {
     "18416": 1,
   },
   "LIN|20|158|5|I-765|Case Was Approved": {
@@ -14790,7 +14853,7 @@
   "LIN|20|161|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 7,
     "18415": 7,
-    "18416": 8,
+    "18416": 7,
   },
   "LIN|20|161|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 34,
@@ -14800,7 +14863,7 @@
   "LIN|20|161|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 2,
     "18415": 1,
-    "18416": 2,
+    "18416": 3,
   },
   "LIN|20|161|5|I-485|Fees Were Waived": {
     "18412": 3,
@@ -15037,7 +15100,7 @@
   "LIN|20|162|5|I-765|Card Was Mailed To Me": {
     "18412": 3,
     "18415": 4,
-    "18416": 4,
+    "18416": 2,
   },
   "LIN|20|162|5|I-765|Case Was Approved": {
     "18412": 4,
@@ -15068,12 +15131,12 @@
   "LIN|20|162|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 14,
     "18415": 17,
-    "18416": 17,
+    "18416": 18,
   },
   "LIN|20|162|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
     "18415": 1,
-    "18416": 2,
+    "18416": 5,
   },
   "LIN|20|162|5|unknown form type|Case Was Sent To The Department of State": {
     "18412": 3,
@@ -15097,17 +15160,17 @@
   "LIN|20|163|5|I-129|Case Was Approved": {
     "18412": 231,
     "18415": 232,
-    "18416": 229,
+    "18416": 232,
   },
   "LIN|20|163|5|I-129|Case Was Received": {
     "18412": 67,
     "18415": 65,
-    "18416": 64,
+    "18416": 65,
   },
   "LIN|20|163|5|I-129|Name Was Updated": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "LIN|20|163|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -15167,7 +15230,7 @@
   "LIN|20|163|5|I-539|Case Was Received": {
     "18412": 227,
     "18415": 228,
-    "18416": 227,
+    "18416": 228,
   },
   "LIN|20|163|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -15210,7 +15273,7 @@
   "LIN|20|163|5|I-751|Case Was Received": {
     "18412": 76,
     "18415": 76,
-    "18416": 75,
+    "18416": 76,
   },
   "LIN|20|163|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
     "18412": 5,
@@ -15241,6 +15304,7 @@
   "LIN|20|163|5|I-765|Name Was Updated": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
   },
   "LIN|20|163|5|unknown form type|Card Is Being Returned to USCIS by Post Office": {
     "18412": 5,
@@ -15270,7 +15334,7 @@
   "LIN|20|164|5|I-129|Case Was Approved": {
     "18412": 227,
     "18415": 228,
-    "18416": 229,
+    "18416": 230,
   },
   "LIN|20|164|5|I-129|Case Was Automatically Revoked": {
     "18415": 1,
@@ -15278,7 +15342,7 @@
   "LIN|20|164|5|I-129|Case Was Received": {
     "18412": 52,
     "18415": 51,
-    "18416": 48,
+    "18416": 49,
   },
   "LIN|20|164|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 1,
@@ -15381,12 +15445,12 @@
   "LIN|20|165|5|I-129|Case Was Approved": {
     "18412": 296,
     "18415": 298,
-    "18416": 298,
+    "18416": 299,
   },
   "LIN|20|165|5|I-129|Case Was Received": {
     "18412": 77,
     "18415": 75,
-    "18416": 74,
+    "18416": 75,
   },
   "LIN|20|165|5|I-129|Date of Birth Was Updated": {
     "18412": 1,
@@ -15536,12 +15600,12 @@
   "LIN|20|165|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 5,
     "18415": 9,
-    "18416": 9,
+    "18416": 11,
   },
   "LIN|20|165|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 5,
     "18415": 1,
-    "18416": 11,
+    "18416": 9,
   },
   "LIN|20|165|5|unknown form type|Fees Were Waived": {
     "18412": 7,
@@ -15712,7 +15776,7 @@
   "LIN|20|168|5|I-765|Case Was Approved": {
     "18412": 5,
     "18415": 4,
-    "18416": 3,
+    "18416": 1,
   },
   "LIN|20|168|5|I-765|Case Was Denied": {
     "18412": 1,
@@ -15763,7 +15827,7 @@
   "LIN|20|168|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 4,
     "18415": 1,
-    "18416": 6,
+    "18416": 8,
   },
   "LIN|20|168|5|unknown form type|Document Was Mailed To Me": {
     "18412": 1,
@@ -15782,7 +15846,7 @@
   "LIN|20|169|5|I-129|Case Was Approved": {
     "18412": 281,
     "18415": 281,
-    "18416": 279,
+    "18416": 281,
   },
   "LIN|20|169|5|I-129|Case Was Received": {
     "18412": 63,
@@ -15877,7 +15941,7 @@
   },
   "LIN|20|169|5|I-765|Card Was Mailed To Me": {
     "18415": 10,
-    "18416": 2,
+    "18416": 1,
   },
   "LIN|20|169|5|I-765|Card Was Returned To USCIS": {
     "18412": 1,
@@ -15919,12 +15983,12 @@
   "LIN|20|169|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 43,
     "18415": 48,
-    "18416": 50,
+    "18416": 51,
   },
   "LIN|20|169|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 9,
     "18415": 4,
-    "18416": 12,
+    "18416": 13,
   },
   "LIN|20|169|5|unknown form type|Case Was Approved": {
     "18412": 1,
@@ -15944,7 +16008,7 @@
   "LIN|20|169|5|unknown form type|New Card Is Being Produced": {
     "18412": 2,
     "18415": 1,
-    "18416": 3,
+    "18416": 2,
   },
   "LIN|20|170|5|I-129|Case Was Approved": {
     "18412": 259,
@@ -16117,12 +16181,12 @@
   "LIN|20|171|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 23,
     "18415": 23,
-    "18416": 20,
+    "18416": 19,
   },
   "LIN|20|171|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 3,
     "18415": 2,
-    "18416": 5,
+    "18416": 6,
   },
   "LIN|20|171|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 5,
@@ -16481,6 +16545,7 @@
   },
   "LIN|20|175|5|I-765|Card Was Mailed To Me": {
     "18415": 1,
+    "18416": 1,
   },
   "LIN|20|175|5|I-765|Case Was Approved": {
     "18412": 1,
@@ -16541,7 +16606,7 @@
   "LIN|20|176|5|I-129|Case Was Approved": {
     "18412": 274,
     "18415": 274,
-    "18416": 273,
+    "18416": 274,
   },
   "LIN|20|176|5|I-129|Case Was Received": {
     "18412": 64,
@@ -16636,6 +16701,7 @@
   },
   "LIN|20|176|5|I-765|Card Was Mailed To Me": {
     "18415": 3,
+    "18416": 2,
   },
   "LIN|20|176|5|I-765|Case Was Approved": {
     "18412": 3,
@@ -17006,7 +17072,7 @@
   "LIN|20|178|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "LIN|20|178|5|unknown form type|Case Was Received": {
     "18412": 4,
@@ -17357,6 +17423,7 @@
   "LIN|20|182|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 2,
     "18415": 1,
+    "18416": 1,
   },
   "LIN|20|182|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -17489,6 +17556,9 @@
     "18415": 3,
     "18416": 3,
   },
+  "LIN|20|183|5|I-765|Card Was Returned To USCIS": {
+    "18416": 1,
+  },
   "LIN|20|183|5|I-765|Case Was Received": {
     "18412": 33,
     "18415": 33,
@@ -17513,7 +17583,7 @@
   "LIN|20|183|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 1,
     "18415": 4,
-    "18416": 4,
+    "18416": 3,
   },
   "LIN|20|183|5|unknown form type|Card Is Being Returned to USCIS by Post Office": {
     "18412": 4,
@@ -17523,7 +17593,7 @@
   "LIN|20|183|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 24,
     "18415": 26,
-    "18416": 26,
+    "18416": 27,
   },
   "LIN|20|183|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 3,
@@ -17698,7 +17768,7 @@
   "LIN|20|184|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18412": 3,
     "18415": 3,
-    "18416": 2,
+    "18416": 3,
   },
   "LIN|20|184|5|unknown form type|Fees Were Waived": {
     "18412": 2,
@@ -17717,7 +17787,7 @@
   "LIN|20|185|5|I-129|Case Was Received": {
     "18412": 140,
     "18415": 124,
-    "18416": 121,
+    "18416": 119,
   },
   "LIN|20|185|5|I-129|Date of Birth Was Updated": {},
   "LIN|20|185|5|I-129|Expedite Request Denied": {
@@ -17741,7 +17811,7 @@
   "LIN|20|185|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 18,
     "18415": 21,
-    "18416": 19,
+    "18416": 21,
   },
   "LIN|20|185|5|I-129|Request for Initial Evidence Was Sent": {
     "18415": 1,
@@ -17846,7 +17916,7 @@
   "LIN|20|186|5|I-129|Case Was Received": {
     "18412": 151,
     "18415": 124,
-    "18416": 107,
+    "18416": 106,
   },
   "LIN|20|186|5|I-129|Case Was Rejected Because My Check Or Money Order Is Not Signed": {
     "18412": 1,
@@ -17872,7 +17942,7 @@
   "LIN|20|186|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 22,
     "18415": 24,
-    "18416": 24,
+    "18416": 25,
   },
   "LIN|20|186|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18415": 1,
@@ -17967,7 +18037,10 @@
   "LIN|20|186|5|I-765|Fees Were Waived": {
     "18412": 27,
     "18415": 21,
-    "18416": 13,
+    "18416": 12,
+  },
+  "LIN|20|186|5|I-765|Request for Additional Evidence Was Sent": {
+    "18416": 1,
   },
   "LIN|20|186|5|unknown form type|Fees Were Waived": {
     "18412": 6,
@@ -18036,10 +18109,10 @@
   "LIN|20|189|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 10,
     "18415": 10,
-    "18416": 9,
+    "18416": 8,
   },
   "LIN|20|189|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
-    "18416": 1,
+    "18416": 2,
   },
   "LIN|20|189|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18416": 1,
@@ -18165,6 +18238,7 @@
   },
   "LIN|20|189|5|I-765|Card Was Mailed To Me": {
     "18415": 2,
+    "18416": 1,
   },
   "LIN|20|189|5|I-765|Case Was Approved": {
     "18412": 2,
@@ -18186,8 +18260,11 @@
     "18415": 8,
     "18416": 8,
   },
+  "LIN|20|189|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18416": 1,
+  },
   "LIN|20|189|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
-    "18416": 2,
+    "18416": 1,
   },
   "LIN|20|189|5|unknown form type|New Card Is Being Produced": {
     "18415": 1,
@@ -18360,12 +18437,12 @@
   "LIN|20|191|5|I-129|Case Was Approved": {
     "18412": 161,
     "18415": 194,
-    "18416": 217,
+    "18416": 218,
   },
   "LIN|20|191|5|I-129|Case Was Received": {
     "18412": 192,
     "18415": 155,
-    "18416": 133,
+    "18416": 130,
   },
   "LIN|20|191|5|I-129|Name Was Updated": {
     "18412": 15,
@@ -18384,7 +18461,7 @@
   "LIN|20|191|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 9,
     "18415": 12,
-    "18416": 12,
+    "18416": 15,
   },
   "LIN|20|191|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18416": 1,
@@ -18427,7 +18504,7 @@
   "LIN|20|191|5|I-539|Case Was Received": {
     "18412": 248,
     "18415": 248,
-    "18416": 244,
+    "18416": 245,
   },
   "LIN|20|191|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -18460,9 +18537,12 @@
     "18415": 3,
     "18416": 3,
   },
+  "LIN|20|191|5|I-765|Card Was Mailed To Me": {
+    "18416": 2,
+  },
   "LIN|20|191|5|I-765|Case Was Approved": {
     "18415": 2,
-    "18416": 3,
+    "18416": 1,
   },
   "LIN|20|191|5|I-765|Case Was Received": {
     "18412": 31,
@@ -18789,7 +18869,7 @@
   "LIN|20|196|5|I-129|Case Was Received": {
     "18412": 372,
     "18415": 287,
-    "18416": 245,
+    "18416": 241,
   },
   "LIN|20|196|5|I-129|Case Was Reopened": {
     "18416": 1,
@@ -18815,7 +18895,7 @@
   "LIN|20|196|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 13,
     "18415": 16,
-    "18416": 16,
+    "18416": 21,
   },
   "LIN|20|196|5|I-485|Case Was Approved": {
     "18415": 1,
@@ -18911,12 +18991,12 @@
   "LIN|20|197|5|I-129|Case Was Approved": {
     "18412": 22,
     "18415": 67,
-    "18416": 84,
+    "18416": 85,
   },
   "LIN|20|197|5|I-129|Case Was Received": {
     "18412": 302,
     "18415": 255,
-    "18416": 224,
+    "18416": 234,
   },
   "LIN|20|197|5|I-129|Date of Birth Was Updated": {
     "18412": 1,
@@ -18928,7 +19008,7 @@
     "18416": 5,
   },
   "LIN|20|197|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
-    "18416": 1,
+    "18416": 2,
   },
   "LIN|20|197|5|I-129|Premium Processing Case is Eligible for Pre-Certification": {
     "18412": 1,
@@ -18937,7 +19017,7 @@
   "LIN|20|197|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 1,
     "18415": 5,
-    "18416": 5,
+    "18416": 6,
   },
   "LIN|20|197|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 3,
@@ -18947,12 +19027,12 @@
   "LIN|20|197|5|I-131|Fees Were Waived": {
     "18412": 8,
     "18415": 8,
-    "18416": 7,
+    "18416": 8,
   },
   "LIN|20|197|5|I-360|Fees Were Waived": {
     "18412": 5,
     "18415": 5,
-    "18416": 4,
+    "18416": 5,
   },
   "LIN|20|197|5|I-485|Case Was Received": {
     "18412": 41,
@@ -18972,7 +19052,7 @@
   "LIN|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 11,
     "18415": 11,
-    "18416": 10,
+    "18416": 11,
   },
   "LIN|20|197|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18412": 9,
@@ -18982,7 +19062,7 @@
   "LIN|20|197|5|I-539|Case Was Received": {
     "18412": 266,
     "18415": 266,
-    "18416": 258,
+    "18416": 264,
   },
   "LIN|20|197|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 2,
@@ -19018,22 +19098,22 @@
   "LIN|20|197|5|I-751|Case Was Received": {
     "18412": 75,
     "18415": 75,
-    "18416": 73,
+    "18416": 75,
   },
   "LIN|20|197|5|I-751|Fees Were Waived": {
     "18412": 5,
     "18415": 5,
-    "18416": 4,
+    "18416": 5,
   },
   "LIN|20|197|5|I-765|Case Was Received": {
     "18412": 59,
     "18415": 59,
-    "18416": 56,
+    "18416": 59,
   },
   "LIN|20|197|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 38,
     "18415": 38,
-    "18416": 37,
+    "18416": 38,
   },
   "LIN|20|197|5|I-765|Fees Were Waived": {
     "18412": 9,
@@ -19083,7 +19163,7 @@
   "LIN|20|198|5|I-129|Name Was Updated": {
     "18412": 7,
     "18415": 7,
-    "18416": 8,
+    "18416": 9,
   },
   "LIN|20|198|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18415": 1,
@@ -19119,7 +19199,7 @@
   "LIN|20|198|5|I-539|Case Was Received": {
     "18412": 349,
     "18415": 348,
-    "18416": 341,
+    "18416": 343,
   },
   "LIN|20|198|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 3,
@@ -19144,6 +19224,9 @@
     "18412": 107,
     "18415": 107,
     "18416": 107,
+  },
+  "LIN|20|198|5|I-765|Card Was Mailed To Me": {
+    "18416": 7,
   },
   "LIN|20|198|5|I-765|Case Was Approved": {
     "18415": 7,
@@ -19171,7 +19254,7 @@
   },
   "LIN|20|198|5|unknown form type|New Card Is Being Produced": {
     "18415": 7,
-    "18416": 4,
+    "18416": 3,
   },
   "LIN|20|199|5|I-129|Case Was Approved": {
     "18412": 2,
@@ -19190,7 +19273,7 @@
   },
   "LIN|20|199|5|I-129|Request for Additional Evidence Was Sent": {
     "18415": 3,
-    "18416": 4,
+    "18416": 8,
   },
   "LIN|20|199|5|I-360|Fees Were Waived": {
     "18412": 3,
@@ -19272,7 +19355,7 @@
   },
   "LIN|20|200|5|I-129|Case Was Received": {
     "18415": 344,
-    "18416": 333,
+    "18416": 332,
   },
   "LIN|20|200|5|I-129|Name Was Updated": {
     "18415": 8,
@@ -19280,7 +19363,7 @@
   },
   "LIN|20|200|5|I-129|Request for Additional Evidence Was Sent": {
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "LIN|20|200|5|I-130|Case Was Received At Another USCIS Office": {
     "18415": 1,
@@ -19341,6 +19424,9 @@
     "18415": 45,
     "18416": 45,
   },
+  "LIN|20|200|5|I-765|Card Was Mailed To Me": {
+    "18416": 9,
+  },
   "LIN|20|200|5|I-765|Case Was Approved": {
     "18415": 9,
     "18416": 9,
@@ -19379,14 +19465,14 @@
   },
   "LIN|20|202|5|I-129|Case Was Received": {
     "18415": 595,
-    "18416": 579,
+    "18416": 577,
   },
   "LIN|20|202|5|I-129|Name Was Updated": {
     "18415": 13,
     "18416": 16,
   },
   "LIN|20|202|5|I-129|Request for Additional Evidence Was Sent": {
-    "18416": 2,
+    "18416": 3,
   },
   "LIN|20|202|5|I-140|Case Was Received": {
     "18415": 1,
@@ -19741,11 +19827,11 @@
   },
   "LIN|20|208|5|I-129|Case Was Received": {
     "18415": 628,
-    "18416": 620,
+    "18416": 617,
   },
   "LIN|20|208|5|I-129|Name Was Updated": {
     "18415": 6,
-    "18416": 14,
+    "18416": 16,
   },
   "LIN|20|208|5|I-131|Fees Were Waived": {
     "18415": 6,
@@ -19797,7 +19883,7 @@
   },
   "LIN|20|208|5|I-730|Fees Were Waived": {
     "18415": 23,
-    "18416": 23,
+    "18416": 22,
   },
   "LIN|20|208|5|I-751|Case Accepted By The USCIS Lockbox": {
     "18415": 2,
@@ -19885,7 +19971,7 @@
   },
   "LIN|20|209|5|I-539|Case Was Received": {
     "18415": 101,
-    "18416": 240,
+    "18416": 239,
   },
   "LIN|20|209|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18415": 1,
@@ -19895,7 +19981,7 @@
     "18416": 1,
   },
   "LIN|20|209|5|I-539|Name Was Updated": {
-    "18416": 1,
+    "18416": 2,
   },
   "LIN|20|209|5|I-730|Fees Were Waived": {
     "18416": 15,
@@ -19926,31 +20012,34 @@
     "18416": 7,
   },
   "LIN|20|210|5|I-129|Case Was Received": {
-    "18416": 64,
+    "18416": 262,
   },
   "LIN|20|210|5|I-129|Name Was Updated": {
-    "18416": 1,
+    "18416": 3,
   },
   "LIN|20|210|5|I-131|Fees Were Waived": {
-    "18416": 1,
+    "18416": 3,
   },
   "LIN|20|210|5|I-140|Case Was Received": {
-    "18416": 11,
+    "18416": 41,
   },
   "LIN|20|210|5|I-140|Request For Premium Processing Services Was Received": {
-    "18416": 7,
+    "18416": 18,
+  },
+  "LIN|20|210|5|I-360|Fees Were Waived": {
+    "18416": 9,
   },
   "LIN|20|210|5|I-485|Case Was Received": {
-    "18416": 1,
+    "18416": 10,
   },
   "LIN|20|210|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
-    "18416": 3,
+    "18416": 8,
   },
   "LIN|20|210|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18416": 2,
   },
   "LIN|20|210|5|I-539|Case Was Received": {
-    "18416": 77,
+    "18416": 187,
   },
   "LIN|20|210|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18416": 3,
@@ -19962,13 +20051,16 @@
     "18416": 1,
   },
   "LIN|20|210|5|I-751|Case Was Received": {
-    "18416": 34,
+    "18416": 45,
   },
   "LIN|20|210|5|I-765|Case Was Received": {
-    "18416": 5,
+    "18416": 28,
+  },
+  "LIN|20|210|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18416": 7,
   },
   "LIN|20|210|5|I-765|Fees Were Waived": {
-    "18416": 3,
+    "18416": 10,
   },
   "LIN|20|210|5|unknown form type|Case Was Received": {
     "18416": 2,
@@ -22568,7 +22660,7 @@
   "MSC|20|171|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 8,
     "18415": 8,
-    "18416": 7,
+    "18416": 8,
   },
   "MSC|20|171|5|unknown form type|Case Was Received": {},
   "MSC|20|171|5|unknown form type|Case Was Received At Another USCIS Office": {
@@ -22580,7 +22672,7 @@
   "MSC|20|171|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 4,
     "18415": 4,
-    "18416": 3,
+    "18416": 4,
   },
   "MSC|20|171|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -24065,7 +24157,10 @@
   "MSC|20|188|5|unknown form type|Case Was Received": {
     "18412": 6,
     "18415": 6,
-    "18416": 6,
+    "18416": 3,
+  },
+  "MSC|20|188|5|unknown form type|Case Was Sent To The Executive Office of Immigration Review": {
+    "18416": 3,
   },
   "MSC|20|189|5|I-131|Fees Were Waived": {
     "18412": 36,
@@ -25474,7 +25569,7 @@
   },
   "MSC|20|209|5|I-751|Case Was Received": {
     "18415": 122,
-    "18416": 122,
+    "18416": 121,
   },
   "MSC|20|209|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18415": 3,
@@ -25649,6 +25744,9 @@
   "MSC|20|212|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18415": 2,
     "18416": 2,
+  },
+  "MSC|20|212|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
+    "18416": 1,
   },
   "MSC|20|212|5|unknown form type|Case Was Received": {
     "18415": 2,
@@ -26028,6 +26126,9 @@
     "18415": 1,
     "18416": 1,
   },
+  "MSC|20|218|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
+    "18416": 1,
+  },
   "MSC|20|218|5|unknown form type|Case Was Received": {
     "18415": 1,
     "18416": 1,
@@ -26310,7 +26411,7 @@
     "18416": 5,
   },
   "MSC|20|224|5|I-131|Fees Were Waived": {
-    "18416": 5,
+    "18416": 6,
   },
   "MSC|20|224|5|I-212|Case Rejected Because I Sent An Incorrect Fee": {
     "18416": 2,
@@ -26328,25 +26429,25 @@
     "18416": 1,
   },
   "MSC|20|224|5|I-485|Fees Were Waived": {
-    "18416": 25,
+    "18416": 35,
   },
   "MSC|20|224|5|I-539|Case Was Received": {
     "18416": 4,
   },
   "MSC|20|224|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
-    "18416": 6,
+    "18416": 11,
   },
   "MSC|20|224|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18416": 1,
   },
   "MSC|20|224|5|I-751|Case Was Received": {
-    "18416": 55,
+    "18416": 82,
   },
   "MSC|20|224|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18416": 8,
   },
   "MSC|20|224|5|I-751|Fees Were Waived": {
-    "18416": 1,
+    "18416": 3,
   },
   "MSC|20|224|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18416": 1,
@@ -26360,12 +26461,12 @@
   "SRC|20|145|5|I-129|Case Was Approved": {
     "18412": 39,
     "18415": 42,
-    "18416": 44,
+    "18416": 43,
   },
   "SRC|20|145|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 81,
     "18415": 82,
-    "18416": 82,
+    "18416": 83,
   },
   "SRC|20|145|5|I-129|Case Was Denied": {
     "18416": 1,
@@ -26373,7 +26474,7 @@
   "SRC|20|145|5|I-129|Case Was Received": {
     "18412": 37,
     "18415": 33,
-    "18416": 31,
+    "18416": 30,
   },
   "SRC|20|145|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -26399,7 +26500,7 @@
   "SRC|20|145|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 12,
     "18415": 12,
-    "18416": 13,
+    "18416": 14,
   },
   "SRC|20|145|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 3,
@@ -26593,7 +26694,7 @@
   "SRC|20|146|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 57,
     "18415": 57,
-    "18416": 56,
+    "18416": 55,
   },
   "SRC|20|146|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 8,
@@ -26603,7 +26704,7 @@
   "SRC|20|146|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 9,
     "18415": 9,
-    "18416": 10,
+    "18416": 11,
   },
   "SRC|20|146|5|I-140|Case Was Approved": {
     "18416": 1,
@@ -26611,7 +26712,7 @@
   "SRC|20|146|5|I-140|Case Was Approved And My Decision Was Emailed": {
     "18412": 24,
     "18415": 24,
-    "18416": 24,
+    "18416": 25,
   },
   "SRC|20|146|5|I-140|Case Was Denied": {
     "18412": 1,
@@ -26819,7 +26920,7 @@
   "SRC|20|147|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 64,
     "18415": 66,
-    "18416": 63,
+    "18416": 60,
   },
   "SRC|20|147|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 17,
@@ -26829,7 +26930,7 @@
   "SRC|20|147|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 6,
     "18415": 8,
-    "18416": 12,
+    "18416": 15,
   },
   "SRC|20|147|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 3,
@@ -26859,7 +26960,7 @@
   "SRC|20|147|5|I-140|Request for Additional Evidence Was Sent": {
     "18412": 11,
     "18415": 11,
-    "18416": 11,
+    "18416": 10,
   },
   "SRC|20|147|5|I-140|Request for Initial Evidence Was Sent": {
     "18412": 1,
@@ -26867,6 +26968,7 @@
     "18416": 1,
   },
   "SRC|20|147|5|I-140|Response To USCIS&apos; Request For Evidence Was Received": {
+    "18416": 1,
   },
   "SRC|20|147|5|I-485|Case Was Received": {
     "18412": 24,
@@ -27002,7 +27104,7 @@
   "SRC|20|148|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 73,
     "18415": 73,
-    "18416": 73,
+    "18416": 74,
   },
   "SRC|20|148|5|I-129|Case Was Denied": {
     "18412": 1,
@@ -27012,7 +27114,7 @@
   "SRC|20|148|5|I-129|Case Was Received": {
     "18412": 10,
     "18415": 10,
-    "18416": 9,
+    "18416": 8,
   },
   "SRC|20|148|5|I-129|Case Was Reopened": {
     "18412": 1,
@@ -27042,7 +27144,7 @@
   "SRC|20|148|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 8,
     "18415": 10,
-    "18416": 10,
+    "18416": 9,
   },
   "SRC|20|148|5|I-131|Case Was Approved": {
     "18412": 3,
@@ -27057,12 +27159,12 @@
   "SRC|20|148|5|I-140|Case Was Approved": {
     "18412": 3,
     "18415": 3,
-    "18416": 5,
+    "18416": 3,
   },
   "SRC|20|148|5|I-140|Case Was Approved And My Decision Was Emailed": {
     "18412": 22,
     "18415": 22,
-    "18416": 22,
+    "18416": 24,
   },
   "SRC|20|148|5|I-140|Case Was Received": {
     "18412": 1,
@@ -27166,7 +27268,7 @@
   "SRC|20|148|5|I-730|Fees Were Waived": {
     "18412": 70,
     "18415": 70,
-    "18416": 70,
+    "18416": 69,
   },
   "SRC|20|148|5|I-730|Name Was Updated": {
     "18412": 1,
@@ -27293,12 +27395,12 @@
   "SRC|20|150|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 8,
     "18415": 8,
-    "18416": 9,
+    "18416": 8,
   },
   "SRC|20|150|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 7,
     "18415": 8,
-    "18416": 9,
+    "18416": 10,
   },
   "SRC|20|150|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 2,
@@ -27333,12 +27435,12 @@
   "SRC|20|150|5|I-140|Request for Initial Evidence Was Sent": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "SRC|20|150|5|I-140|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "SRC|20|150|5|I-212|Case Transferred And New Office Has Jurisdiction": {},
   "SRC|20|150|5|I-212|Case Was Approved": {
@@ -27584,7 +27686,7 @@
   "SRC|20|151|5|I-539|Case Was Received": {
     "18412": 225,
     "18415": 225,
-    "18416": 224,
+    "18416": 225,
   },
   "SRC|20|151|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 9,
@@ -27656,7 +27758,7 @@
   "SRC|20|152|5|I-129|Case Was Approved": {
     "18412": 59,
     "18415": 60,
-    "18416": 60,
+    "18416": 61,
   },
   "SRC|20|152|5|I-129|Case Was Denied": {
     "18412": 1,
@@ -27666,7 +27768,7 @@
   "SRC|20|152|5|I-129|Case Was Received": {
     "18412": 79,
     "18415": 74,
-    "18416": 72,
+    "18416": 69,
   },
   "SRC|20|152|5|I-129|Expedite Request Received": {
     "18412": 1,
@@ -27681,7 +27783,7 @@
   "SRC|20|152|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 4,
     "18415": 5,
-    "18416": 7,
+    "18416": 9,
   },
   "SRC|20|152|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 7,
@@ -27809,7 +27911,7 @@
   "SRC|20|153|5|I-129|Case Was Received": {
     "18412": 140,
     "18415": 137,
-    "18416": 130,
+    "18416": 128,
   },
   "SRC|20|153|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 1,
@@ -27839,7 +27941,7 @@
   "SRC|20|153|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 16,
     "18415": 19,
-    "18416": 18,
+    "18416": 20,
   },
   "SRC|20|153|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 5,
@@ -28017,7 +28119,7 @@
   "SRC|20|154|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 28,
     "18415": 29,
-    "18416": 29,
+    "18416": 28,
   },
   "SRC|20|154|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 1,
@@ -28042,7 +28144,7 @@
   "SRC|20|154|5|I-485|Case Was Received At Another USCIS Office": {
     "18412": 89,
     "18415": 89,
-    "18416": 89,
+    "18416": 88,
   },
   "SRC|20|154|5|I-485|Fees Were Waived": {
     "18412": 1,
@@ -28183,12 +28285,12 @@
   "SRC|20|156|5|I-129|Case Was Approved": {
     "18412": 45,
     "18415": 55,
-    "18416": 58,
+    "18416": 60,
   },
   "SRC|20|156|5|I-129|Case Was Received": {
     "18412": 124,
     "18415": 104,
-    "18416": 96,
+    "18416": 94,
   },
   "SRC|20|156|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 1,
@@ -28347,12 +28449,12 @@
   "SRC|20|157|5|I-129|Case Was Approved": {
     "18412": 48,
     "18415": 49,
-    "18416": 51,
+    "18416": 52,
   },
   "SRC|20|157|5|I-129|Case Was Received": {
     "18412": 116,
     "18415": 114,
-    "18416": 109,
+    "18416": 108,
   },
   "SRC|20|157|5|I-129|Expedite Request Denied": {
     "18412": 1,
@@ -28785,12 +28887,12 @@
   "SRC|20|160|5|I-129|Case Was Approved": {
     "18412": 58,
     "18415": 53,
-    "18416": 63,
+    "18416": 64,
   },
   "SRC|20|160|5|I-129|Case Was Received": {
     "18412": 109,
     "18415": 92,
-    "18416": 98,
+    "18416": 97,
   },
   "SRC|20|160|5|I-129|Expedite Request Denied": {},
   "SRC|20|160|5|I-129|Name Was Updated": {
@@ -29143,7 +29245,7 @@
   "SRC|20|163|5|I-129|Case Was Received": {
     "18412": 112,
     "18415": 103,
-    "18416": 102,
+    "18416": 101,
   },
   "SRC|20|163|5|I-129|Expedite Request Denied": {},
   "SRC|20|163|5|I-129|Name Was Updated": {
@@ -29154,7 +29256,7 @@
   "SRC|20|163|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 23,
     "18415": 31,
-    "18416": 32,
+    "18416": 33,
   },
   "SRC|20|163|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 1,
@@ -29182,12 +29284,12 @@
   "SRC|20|163|5|I-485|Case Was Received": {
     "18412": 19,
     "18415": 19,
-    "18416": 17,
+    "18416": 19,
   },
   "SRC|20|163|5|I-485|Case Was Received At Another USCIS Office": {
     "18412": 113,
     "18415": 113,
-    "18416": 111,
+    "18416": 113,
   },
   "SRC|20|163|5|I-485|Case Was Reopened": {
     "18415": 1,
@@ -29253,7 +29355,7 @@
   "SRC|20|163|5|I-751|Case Was Received": {
     "18412": 72,
     "18415": 72,
-    "18416": 70,
+    "18416": 72,
   },
   "SRC|20|163|5|I-765|Case Was Received": {
     "18412": 20,
@@ -29453,7 +29555,7 @@
   "SRC|20|165|5|I-129|Case Was Approved": {
     "18412": 55,
     "18415": 57,
-    "18416": 57,
+    "18416": 58,
   },
   "SRC|20|165|5|I-129|Case Was Received": {
     "18412": 98,
@@ -29473,7 +29575,7 @@
   "SRC|20|165|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 4,
     "18415": 4,
-    "18416": 4,
+    "18416": 3,
   },
   "SRC|20|165|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 4,
@@ -29787,7 +29889,7 @@
   "SRC|20|169|5|I-129|Case Was Received": {
     "18412": 140,
     "18415": 128,
-    "18416": 119,
+    "18416": 118,
   },
   "SRC|20|169|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -29802,7 +29904,7 @@
   "SRC|20|169|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 4,
     "18415": 10,
-    "18416": 14,
+    "18416": 15,
   },
   "SRC|20|169|5|I-129|Request for Initial Evidence Was Sent": {
     "18416": 1,
@@ -29961,7 +30063,7 @@
   "SRC|20|170|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 12,
     "18415": 12,
-    "18416": 12,
+    "18416": 11,
   },
   "SRC|20|170|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 3,
@@ -29971,7 +30073,7 @@
   "SRC|20|170|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "SRC|20|170|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 1,
@@ -30097,12 +30199,12 @@
   "SRC|20|171|5|I-129|Case Was Approved": {
     "18412": 60,
     "18415": 60,
-    "18416": 60,
+    "18416": 61,
   },
   "SRC|20|171|5|I-129|Case Was Received": {
     "18412": 116,
     "18415": 115,
-    "18416": 115,
+    "18416": 113,
   },
   "SRC|20|171|5|I-129|Expedite Request Approved": {},
   "SRC|20|171|5|I-129|Name Was Updated": {
@@ -30113,7 +30215,7 @@
   "SRC|20|171|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 1,
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "SRC|20|171|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 17,
@@ -30405,7 +30507,7 @@
   "SRC|20|173|5|I-129|Case Was Received": {
     "18412": 174,
     "18415": 170,
-    "18416": 160,
+    "18416": 159,
   },
   "SRC|20|173|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -30420,17 +30522,17 @@
   "SRC|20|173|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 10,
     "18415": 10,
-    "18416": 13,
+    "18416": 12,
   },
   "SRC|20|173|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 8,
     "18415": 8,
-    "18416": 8,
+    "18416": 7,
   },
   "SRC|20|173|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 4,
   },
   "SRC|20|173|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 1,
@@ -30585,7 +30687,7 @@
   "SRC|20|176|5|I-129|Case Was Received": {
     "18412": 183,
     "18415": 182,
-    "18416": 181,
+    "18416": 180,
   },
   "SRC|20|176|5|I-129|Date of Birth Was Updated": {
     "18412": 1,
@@ -30611,7 +30713,7 @@
   "SRC|20|176|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 14,
     "18415": 14,
-    "18416": 15,
+    "18416": 16,
   },
   "SRC|20|176|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 6,
@@ -30752,7 +30854,7 @@
   "SRC|20|177|5|I-129|Case Was Received": {
     "18412": 137,
     "18415": 135,
-    "18416": 133,
+    "18416": 135,
   },
   "SRC|20|177|5|I-129|Name Was Updated": {
     "18412": 7,
@@ -30790,12 +30892,12 @@
   "SRC|20|177|5|I-485|Case Was Received": {
     "18412": 23,
     "18415": 23,
-    "18416": 21,
+    "18416": 23,
   },
   "SRC|20|177|5|I-485|Case Was Received At Another USCIS Office": {
     "18412": 87,
     "18415": 87,
-    "18416": 80,
+    "18416": 86,
   },
   "SRC|20|177|5|I-485|Fees Were Waived": {
     "18412": 2,
@@ -30810,7 +30912,7 @@
   "SRC|20|177|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 2,
     "18415": 2,
-    "18416": 3,
+    "18416": 2,
   },
   "SRC|20|177|5|I-485|Petition/Application Was Rejected For Insufficient Funds": {
     "18412": 1,
@@ -30830,7 +30932,7 @@
   "SRC|20|177|5|I-539|Case Was Received": {
     "18412": 184,
     "18415": 184,
-    "18416": 182,
+    "18416": 184,
   },
   "SRC|20|177|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -30870,12 +30972,12 @@
   "SRC|20|177|5|I-730|Fees Were Waived": {
     "18412": 24,
     "18415": 24,
-    "18416": 22,
+    "18416": 24,
   },
   "SRC|20|177|5|I-751|Case Was Received": {
     "18412": 50,
     "18415": 50,
-    "18416": 49,
+    "18416": 50,
   },
   "SRC|20|177|5|I-751|Fees Were Waived": {
     "18412": 1,
@@ -30905,7 +31007,7 @@
   "SRC|20|177|5|unknown form type|Document Was Mailed To Me": {
     "18412": 9,
     "18415": 9,
-    "18416": 9,
+    "18416": 10,
   },
   "SRC|20|177|5|unknown form type|Revocation Notice Was Sent": {
     "18412": 2,
@@ -31187,7 +31289,7 @@
   "SRC|20|180|5|I-129|Case Was Received": {
     "18412": 168,
     "18415": 163,
-    "18416": 156,
+    "18416": 155,
   },
   "SRC|20|180|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 1,
@@ -31219,6 +31321,9 @@
     "18412": 3,
     "18415": 3,
     "18416": 3,
+  },
+  "SRC|20|180|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
+    "18416": 1,
   },
   "SRC|20|180|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 1,
@@ -31350,11 +31455,14 @@
   "SRC|20|182|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 17,
     "18415": 17,
-    "18416": 17,
+    "18416": 16,
   },
   "SRC|20|182|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
+  },
+  "SRC|20|182|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18416": 1,
   },
   "SRC|20|182|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
@@ -31530,7 +31638,7 @@
   "SRC|20|183|5|I-485|Case Was Received At Another USCIS Office": {
     "18412": 119,
     "18415": 119,
-    "18416": 119,
+    "18416": 118,
   },
   "SRC|20|183|5|I-485|Fees Were Waived": {
     "18412": 2,
@@ -31624,7 +31732,7 @@
   "SRC|20|183|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "SRC|20|183|5|I-765|Expedite Request Denied": {
     "18415": 1,
@@ -31652,7 +31760,7 @@
   "SRC|20|184|5|I-129|Case Was Received": {
     "18412": 161,
     "18415": 158,
-    "18416": 157,
+    "18416": 155,
   },
   "SRC|20|184|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 1,
@@ -31703,7 +31811,7 @@
   "SRC|20|184|5|I-539|Case Was Received": {
     "18412": 249,
     "18415": 249,
-    "18416": 248,
+    "18416": 249,
   },
   "SRC|20|184|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 4,
@@ -31758,12 +31866,12 @@
   "SRC|20|185|5|I-129|Case Was Approved": {
     "18412": 96,
     "18415": 116,
-    "18416": 123,
+    "18416": 124,
   },
   "SRC|20|185|5|I-129|Case Was Received": {
     "18412": 259,
     "18415": 237,
-    "18416": 229,
+    "18416": 228,
   },
   "SRC|20|185|5|I-129|Name Was Updated": {
     "18412": 5,
@@ -31876,12 +31984,12 @@
   "SRC|20|186|5|I-129|Case Was Approved": {
     "18412": 50,
     "18415": 70,
-    "18416": 80,
+    "18416": 81,
   },
   "SRC|20|186|5|I-129|Case Was Received": {
     "18412": 194,
     "18415": 171,
-    "18416": 162,
+    "18416": 161,
   },
   "SRC|20|186|5|I-129|Case Was Reopened For Reconsideration": {
     "18412": 1,
@@ -32008,7 +32116,7 @@
   "SRC|20|186|5|unknown form type|Document Was Mailed To Me": {
     "18412": 16,
     "18415": 17,
-    "18416": 16,
+    "18416": 17,
   },
   "SRC|20|186|5|unknown form type|Fees Were Waived": {
     "18412": 25,
@@ -32053,12 +32161,12 @@
   "SRC|20|189|5|I-129|Case Was Approved": {
     "18412": 36,
     "18415": 47,
-    "18416": 61,
+    "18416": 62,
   },
   "SRC|20|189|5|I-129|Case Was Received": {
     "18412": 251,
     "18415": 241,
-    "18416": 228,
+    "18416": 227,
   },
   "SRC|20|189|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -32577,7 +32685,7 @@
   "SRC|20|192|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 6,
     "18415": 6,
-    "18416": 7,
+    "18416": 6,
   },
   "SRC|20|192|5|I-601|Case Was Received": {
     "18412": 5,
@@ -32630,7 +32738,7 @@
   "SRC|20|192|5|unknown form type|Document Was Mailed To Me": {
     "18412": 6,
     "18415": 6,
-    "18416": 6,
+    "18416": 7,
   },
   "SRC|20|192|5|unknown form type|Fees Were Waived": {
     "18412": 15,
@@ -32707,7 +32815,7 @@
   "SRC|20|193|5|I-539|Case Was Received": {
     "18412": 201,
     "18415": 201,
-    "18416": 201,
+    "18416": 199,
   },
   "SRC|20|193|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -32899,7 +33007,7 @@
   "SRC|20|197|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 2,
     "18415": 1,
-    "18416": 2,
+    "18416": 1,
   },
   "SRC|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 18,
@@ -32988,17 +33096,17 @@
   "SRC|20|197|5|unknown form type|Document Was Mailed To Me": {
     "18412": 9,
     "18415": 13,
-    "18416": 13,
+    "18416": 14,
   },
   "SRC|20|198|5|I-129|Case Was Approved": {
     "18412": 18,
     "18415": 31,
-    "18416": 45,
+    "18416": 46,
   },
   "SRC|20|198|5|I-129|Case Was Received": {
     "18412": 351,
     "18415": 337,
-    "18416": 321,
+    "18416": 322,
   },
   "SRC|20|198|5|I-129|Date of Birth Was Updated": {
     "18412": 1,
@@ -33116,7 +33224,7 @@
   "SRC|20|198|5|unknown form type|Document Was Mailed To Me": {
     "18412": 8,
     "18415": 13,
-    "18416": 12,
+    "18416": 13,
   },
   "SRC|20|198|5|unknown form type|Fees Were Waived": {
     "18412": 9,
@@ -33131,7 +33239,7 @@
   "SRC|20|199|5|I-129|Case Was Received": {
     "18412": 258,
     "18415": 240,
-    "18416": 234,
+    "18416": 237,
   },
   "SRC|20|199|5|I-129|Date of Birth Was Updated": {},
   "SRC|20|199|5|I-129|Expedite Request Approved": {
@@ -33171,7 +33279,7 @@
   "SRC|20|199|5|I-485|Fees Were Waived": {
     "18412": 2,
     "18415": 2,
-    "18416": 1,
+    "18416": 2,
   },
   "SRC|20|199|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18416": 1,
@@ -33189,7 +33297,7 @@
   "SRC|20|199|5|I-539|Case Was Received": {
     "18412": 278,
     "18415": 276,
-    "18416": 259,
+    "18416": 275,
   },
   "SRC|20|199|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -33204,7 +33312,7 @@
   "SRC|20|199|5|I-539|Name Was Updated": {
     "18412": 4,
     "18415": 3,
-    "18416": 3,
+    "18416": 4,
   },
   "SRC|20|199|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 2,
@@ -33233,7 +33341,7 @@
   "SRC|20|199|5|I-751|Case Was Received": {
     "18412": 201,
     "18415": 199,
-    "18416": 192,
+    "18416": 199,
   },
   "SRC|20|199|5|I-751|Fees Were Waived": {
     "18412": 4,
@@ -33248,7 +33356,7 @@
   "SRC|20|199|5|I-765|Case Was Received": {
     "18412": 38,
     "18415": 38,
-    "18416": 32,
+    "18416": 38,
   },
   "SRC|20|199|5|I-765|Fees Were Waived": {
     "18412": 1,
@@ -33263,7 +33371,7 @@
   "SRC|20|199|5|unknown form type|Document Was Mailed To Me": {
     "18412": 4,
     "18415": 8,
-    "18416": 8,
+    "18416": 9,
   },
   "SRC|20|199|5|unknown form type|Fees Were Waived": {
     "18412": 14,
@@ -33277,11 +33385,11 @@
   },
   "SRC|20|200|5|I-129|Case Was Approved": {
     "18415": 6,
-    "18416": 12,
+    "18416": 13,
   },
   "SRC|20|200|5|I-129|Case Was Received": {
     "18415": 238,
-    "18416": 232,
+    "18416": 231,
   },
   "SRC|20|200|5|I-129|Expedite Request Approved": {
     "18415": 2,
@@ -33518,7 +33626,7 @@
   },
   "SRC|20|203|5|unknown form type|Document Was Mailed To Me": {
     "18415": 7,
-    "18416": 6,
+    "18416": 12,
   },
   "SRC|20|204|5|I-129|Case Was Approved": {
     "18415": 9,
@@ -33526,7 +33634,7 @@
   },
   "SRC|20|204|5|I-129|Case Was Received": {
     "18415": 182,
-    "18416": 171,
+    "18416": 169,
   },
   "SRC|20|204|5|I-129|Name Was Updated": {
     "18415": 6,
@@ -33534,7 +33642,7 @@
   },
   "SRC|20|204|5|I-129|Request for Additional Evidence Was Sent": {
     "18415": 5,
-    "18416": 8,
+    "18416": 10,
   },
   "SRC|20|204|5|I-485|Case Was Approved": {
     "18415": 1,
@@ -33642,7 +33750,7 @@
   },
   "SRC|20|205|5|I-485|Case Was Received At Another USCIS Office": {
     "18415": 28,
-    "18416": 25,
+    "18416": 27,
   },
   "SRC|20|205|5|I-485|Fees Were Waived": {
     "18415": 3,
@@ -33708,7 +33816,7 @@
   },
   "SRC|20|205|5|unknown form type|Document Was Mailed To Me": {
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "SRC|20|205|5|unknown form type|Fees Were Waived": {
     "18415": 7,
@@ -33799,7 +33907,7 @@
   },
   "SRC|20|206|5|unknown form type|Document Was Mailed To Me": {
     "18415": 3,
-    "18416": 3,
+    "18416": 4,
   },
   "SRC|20|206|5|unknown form type|Fees Were Waived": {
     "18415": 5,
@@ -33874,6 +33982,9 @@
   },
   "SRC|20|207|5|I-765|Fees Were Waived": {
     "18415": 1,
+    "18416": 1,
+  },
+  "SRC|20|207|5|unknown form type|Document Was Mailed To Me": {
     "18416": 1,
   },
   "SRC|20|208|5|I-539|Case Was Received": {
@@ -34098,7 +34209,10 @@
   },
   "SRC|20|212|5|I-765|Case Was Received": {
     "18415": 30,
-    "18416": 30,
+    "18416": 29,
+  },
+  "SRC|20|212|5|I-765|Name Was Updated": {
+    "18416": 1,
   },
   "SRC|20|212|5|unknown form type|Fees Were Waived": {
     "18415": 12,
@@ -34161,6 +34275,9 @@
     "18416": 1,
   },
   "SRC|20|213|5|unknown form type|Card Was Mailed To Me": {
+    "18416": 5,
+  },
+  "SRC|20|213|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18416": 5,
   },
   "SRC|20|213|5|unknown form type|Fees Were Waived": {
@@ -34283,7 +34400,10 @@
   },
   "SRC|20|217|5|I-129|Case Was Received": {
     "18415": 2,
-    "18416": 228,
+    "18416": 227,
+  },
+  "SRC|20|217|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
+    "18416": 1,
   },
   "SRC|20|217|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18416": 1,
@@ -34298,7 +34418,10 @@
     "18416": 5,
   },
   "SRC|20|217|5|I-140|Case Was Received": {
-    "18416": 22,
+    "18416": 1,
+  },
+  "SRC|20|217|5|I-140|Case Was Received and A Receipt Notice Was Emailed": {
+    "18416": 23,
   },
   "SRC|20|217|5|I-140|Name Was Updated": {
     "18416": 2,
@@ -34368,13 +34491,22 @@
     "18416": 3,
   },
   "SRC|20|218|5|I-129|Case Was Received": {
-    "18416": 4,
+    "18416": 57,
+  },
+  "SRC|20|218|5|I-131|Fees Were Waived": {
+    "18416": 2,
+  },
+  "SRC|20|218|5|I-140|Case Was Received": {
+    "18416": 2,
+  },
+  "SRC|20|218|5|I-140|Case Was Received and A Receipt Notice Was Emailed": {
+    "18416": 1,
   },
   "SRC|20|218|5|I-485|Case Accepted By The USCIS Lockbox": {
     "18416": 34,
   },
   "SRC|20|218|5|I-485|Case Was Received": {
-    "18416": 13,
+    "18416": 16,
   },
   "SRC|20|218|5|I-485|Case Was Received At Another USCIS Office": {
     "18416": 23,
@@ -34386,10 +34518,10 @@
     "18416": 7,
   },
   "SRC|20|218|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
-    "18416": 2,
+    "18416": 6,
   },
   "SRC|20|218|5|I-539|Case Was Received": {
-    "18416": 42,
+    "18416": 84,
   },
   "SRC|20|218|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18416": 3,
@@ -34398,15 +34530,21 @@
     "18416": 10,
   },
   "SRC|20|218|5|I-751|Case Was Received": {
-    "18416": 29,
+    "18416": 47,
   },
   "SRC|20|218|5|I-765|Case Was Received": {
+    "18416": 8,
+  },
+  "SRC|20|218|5|I-765|Fees Were Waived": {
     "18416": 2,
+  },
+  "SRC|20|218|5|unknown form type|Fees Were Waived": {
+    "18416": 7,
   },
   "WAC|20|145|5|I-129|Case Was Approved": {
     "18412": 354,
     "18415": 356,
-    "18416": 355,
+    "18416": 357,
   },
   "WAC|20|145|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 132,
@@ -34416,7 +34554,7 @@
   "WAC|20|145|5|I-129|Case Was Received": {
     "18412": 88,
     "18415": 84,
-    "18416": 82,
+    "18416": 81,
   },
   "WAC|20|145|5|I-129|Case Was Reopened": {
     "18412": 1,
@@ -34446,7 +34584,7 @@
   "WAC|20|145|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 15,
     "18415": 15,
-    "18416": 15,
+    "18416": 14,
   },
   "WAC|20|145|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 1,
@@ -34550,7 +34688,7 @@
   "WAC|20|146|5|I-129|Case Was Approved": {
     "18412": 371,
     "18415": 372,
-    "18416": 372,
+    "18416": 370,
   },
   "WAC|20|146|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 84,
@@ -34683,6 +34821,7 @@
     "18416": 2,
   },
   "WAC|20|146|5|I-829|Case Was Approved": {
+    "18416": 3,
   },
   "WAC|20|146|5|I-829|Case Was Received": {
     "18412": 10,
@@ -34719,12 +34858,12 @@
   "WAC|20|147|5|I-129|Case Was Approved": {
     "18412": 308,
     "18415": 312,
-    "18416": 314,
+    "18416": 313,
   },
   "WAC|20|147|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 106,
     "18415": 107,
-    "18416": 106,
+    "18416": 107,
   },
   "WAC|20|147|5|I-129|Case Was Denied": {
     "18412": 1,
@@ -34750,7 +34889,7 @@
   "WAC|20|147|5|I-129|Document Was Mailed": {
     "18412": 9,
     "18415": 9,
-    "18416": 9,
+    "18416": 10,
   },
   "WAC|20|147|5|I-129|Document Was Returned To USCIS": {
     "18412": 1,
@@ -34770,7 +34909,7 @@
   "WAC|20|147|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 106,
     "18415": 105,
-    "18416": 102,
+    "18416": 103,
   },
   "WAC|20|147|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 16,
@@ -35028,12 +35167,12 @@
   "WAC|20|149|5|I-129|Case Was Approved": {
     "18412": 465,
     "18415": 468,
-    "18416": 471,
+    "18416": 413,
   },
   "WAC|20|149|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 59,
     "18415": 59,
-    "18416": 59,
+    "18416": 47,
   },
   "WAC|20|149|5|I-129|Case Was Denied": {
     "18412": 1,
@@ -35043,17 +35182,17 @@
   "WAC|20|149|5|I-129|Case Was Received": {
     "18412": 156,
     "18415": 151,
-    "18416": 144,
+    "18416": 133,
   },
   "WAC|20|149|5|I-129|Case Was Received At Another USCIS Office": {
     "18412": 5,
     "18415": 5,
-    "18416": 5,
+    "18416": 4,
   },
   "WAC|20|149|5|I-129|Document Was Mailed": {
     "18412": 25,
     "18415": 24,
-    "18416": 24,
+    "18416": 22,
   },
   "WAC|20|149|5|I-129|Document Was Returned To USCIS": {
     "18412": 2,
@@ -35073,12 +35212,12 @@
   "WAC|20|149|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 76,
     "18415": 80,
-    "18416": 82,
+    "18416": 77,
   },
   "WAC|20|149|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 9,
     "18415": 9,
-    "18416": 11,
+    "18416": 10,
   },
   "WAC|20|149|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 3,
@@ -35093,22 +35232,22 @@
   "WAC|20|149|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18412": 4,
     "18415": 4,
-    "18416": 4,
+    "18416": 3,
   },
   "WAC|20|149|5|I-539|Case Was Received": {
     "18412": 308,
     "18415": 308,
-    "18416": 308,
+    "18416": 271,
   },
   "WAC|20|149|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 5,
     "18415": 5,
-    "18416": 5,
+    "18416": 4,
   },
   "WAC|20|149|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 12,
     "18415": 12,
-    "18416": 12,
+    "18416": 11,
   },
   "WAC|20|149|5|I-539|Date of Birth Was Updated": {
     "18412": 1,
@@ -35143,7 +35282,7 @@
   "WAC|20|149|5|I-751|Case Was Received": {
     "18412": 29,
     "18415": 29,
-    "18416": 29,
+    "18416": 27,
   },
   "WAC|20|149|5|I-751|Name Was Updated": {
     "18412": 1,
@@ -35153,7 +35292,7 @@
   "WAC|20|149|5|I-765|Case Was Received": {
     "18412": 61,
     "18415": 61,
-    "18416": 61,
+    "18416": 53,
   },
   "WAC|20|149|5|I-765|Document Was Mailed": {
     "18412": 1,
@@ -35164,7 +35303,7 @@
   "WAC|20|149|5|I-829|Case Was Received": {
     "18412": 6,
     "18415": 6,
-    "18416": 6,
+    "18416": 5,
   },
   "WAC|20|149|5|I-829|Case Was Updated To Show Fingerprints Were Taken": {
     "18412": 5,
@@ -35179,7 +35318,7 @@
   "WAC|20|149|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 8,
     "18415": 8,
-    "18416": 8,
+    "18416": 6,
   },
   "WAC|20|149|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -35194,7 +35333,7 @@
   "WAC|20|150|5|I-129|Case Was Approved": {
     "18412": 418,
     "18415": 415,
-    "18416": 425,
+    "18416": 423,
   },
   "WAC|20|150|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 68,
@@ -35249,7 +35388,7 @@
   "WAC|20|150|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 11,
     "18415": 10,
-    "18416": 10,
+    "18416": 9,
   },
   "WAC|20|150|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18412": 3,
@@ -35269,7 +35408,7 @@
   "WAC|20|150|5|I-539|Case Was Received": {
     "18412": 327,
     "18415": 322,
-    "18416": 326,
+    "18416": 327,
   },
   "WAC|20|150|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -35388,7 +35527,7 @@
   "WAC|20|151|5|I-129|Case Was Received": {
     "18412": 156,
     "18415": 146,
-    "18416": 145,
+    "18416": 144,
   },
   "WAC|20|151|5|I-129|Case Was Received At Another USCIS Office": {
     "18412": 4,
@@ -35423,7 +35562,7 @@
   "WAC|20|151|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 83,
     "18415": 85,
-    "18416": 84,
+    "18416": 85,
   },
   "WAC|20|151|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 17,
@@ -35711,7 +35850,7 @@
   "WAC|20|154|5|I-129|Case Was Approved": {
     "18412": 356,
     "18415": 366,
-    "18416": 369,
+    "18416": 370,
   },
   "WAC|20|154|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 74,
@@ -35726,7 +35865,7 @@
   "WAC|20|154|5|I-129|Case Was Received": {
     "18412": 187,
     "18415": 176,
-    "18416": 173,
+    "18416": 172,
   },
   "WAC|20|154|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -35895,7 +36034,7 @@
   "WAC|20|155|5|I-129|Case Was Received": {
     "18412": 161,
     "18415": 158,
-    "18416": 155,
+    "18416": 154,
   },
   "WAC|20|155|5|I-129|Case Was Received At Another USCIS Office": {
     "18412": 4,
@@ -35932,7 +36071,7 @@
   "WAC|20|155|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 69,
     "18415": 71,
-    "18416": 72,
+    "18416": 73,
   },
   "WAC|20|155|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 12,
@@ -36059,7 +36198,7 @@
   "WAC|20|156|5|I-129|Case Was Approved": {
     "18412": 473,
     "18415": 479,
-    "18416": 483,
+    "18416": 484,
   },
   "WAC|20|156|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 53,
@@ -36069,7 +36208,7 @@
   "WAC|20|156|5|I-129|Case Was Received": {
     "18412": 147,
     "18415": 140,
-    "18416": 137,
+    "18416": 136,
   },
   "WAC|20|156|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -36083,7 +36222,7 @@
   "WAC|20|156|5|I-129|Document Was Mailed": {
     "18412": 10,
     "18415": 10,
-    "18416": 10,
+    "18416": 11,
   },
   "WAC|20|156|5|I-129|Document Was Returned To USCIS": {
     "18412": 1,
@@ -36123,7 +36262,7 @@
   "WAC|20|156|5|I-539|Case Was Received": {
     "18412": 414,
     "18415": 414,
-    "18416": 413,
+    "18416": 414,
   },
   "WAC|20|156|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 3,
@@ -36224,12 +36363,12 @@
   "WAC|20|157|5|I-129|Case Was Approved": {
     "18412": 408,
     "18415": 412,
-    "18416": 413,
+    "18416": 414,
   },
   "WAC|20|157|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 60,
     "18415": 60,
-    "18416": 59,
+    "18416": 60,
   },
   "WAC|20|157|5|I-129|Case Was Received": {
     "18412": 126,
@@ -36283,7 +36422,7 @@
   "WAC|20|157|5|I-539|Case Was Received": {
     "18412": 361,
     "18415": 360,
-    "18416": 360,
+    "18416": 361,
   },
   "WAC|20|157|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -36303,7 +36442,7 @@
   "WAC|20|157|5|I-539|Document Was Mailed": {
     "18412": 5,
     "18415": 5,
-    "18416": 4,
+    "18416": 5,
   },
   "WAC|20|157|5|I-539|Name Was Updated": {
     "18412": 8,
@@ -36408,7 +36547,7 @@
   "WAC|20|158|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 88,
     "18415": 89,
-    "18416": 90,
+    "18416": 91,
   },
   "WAC|20|158|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 9,
@@ -36588,7 +36727,7 @@
   "WAC|20|161|5|I-129|Case Was Received": {
     "18412": 199,
     "18415": 178,
-    "18416": 170,
+    "18416": 167,
   },
   "WAC|20|161|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -36603,7 +36742,7 @@
   "WAC|20|161|5|I-129|Document Was Mailed": {
     "18412": 10,
     "18415": 11,
-    "18416": 11,
+    "18416": 10,
   },
   "WAC|20|161|5|I-129|Document Was Returned To USCIS": {
     "18412": 1,
@@ -36614,7 +36753,7 @@
   "WAC|20|161|5|I-129|Name Was Updated": {
     "18412": 4,
     "18415": 3,
-    "18416": 4,
+    "18416": 5,
   },
   "WAC|20|161|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -36629,7 +36768,7 @@
   "WAC|20|161|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 76,
     "18415": 89,
-    "18416": 93,
+    "18416": 96,
   },
   "WAC|20|161|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 11,
@@ -36644,7 +36783,7 @@
   "WAC|20|161|5|I-539|Case Was Received": {
     "18412": 372,
     "18415": 372,
-    "18416": 372,
+    "18416": 371,
   },
   "WAC|20|161|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -36744,7 +36883,7 @@
   "WAC|20|162|5|I-129|Case Was Received": {
     "18412": 99,
     "18415": 87,
-    "18416": 87,
+    "18416": 86,
   },
   "WAC|20|162|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 1,
@@ -36762,12 +36901,12 @@
   "WAC|20|162|5|I-129|Name Was Updated": {
     "18412": 4,
     "18415": 3,
-    "18416": 3,
+    "18416": 2,
   },
   "WAC|20|162|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 60,
     "18415": 71,
-    "18416": 69,
+    "18416": 70,
   },
   "WAC|20|162|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 9,
@@ -36887,7 +37026,7 @@
   "WAC|20|162|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18412": 5,
     "18415": 5,
-    "18416": 5,
+    "18416": 4,
   },
   "WAC|20|163|5|I-129|Case Transferred And New Office Has Jurisdiction": {
     "18412": 25,
@@ -36897,7 +37036,7 @@
   "WAC|20|163|5|I-129|Case Was Approved": {
     "18412": 369,
     "18415": 377,
-    "18416": 373,
+    "18416": 380,
   },
   "WAC|20|163|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 57,
@@ -36929,13 +37068,13 @@
   "WAC|20|163|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 86,
     "18415": 97,
-    "18416": 95,
+    "18416": 97,
   },
   "WAC|20|163|5|I-129|Request for Additional Information Received": {},
   "WAC|20|163|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 14,
     "18415": 13,
-    "18416": 15,
+    "18416": 14,
   },
   "WAC|20|163|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
     "18415": 1,
@@ -36954,7 +37093,7 @@
   "WAC|20|163|5|I-539|Case Was Received": {
     "18412": 271,
     "18415": 271,
-    "18416": 268,
+    "18416": 271,
   },
   "WAC|20|163|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 7,
@@ -36989,6 +37128,7 @@
   "WAC|20|163|5|I-612|Document Was Mailed": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
   },
   "WAC|20|163|5|I-751|Case Transferred And New Office Has Jurisdiction": {
     "18412": 6,
@@ -36998,7 +37138,7 @@
   "WAC|20|163|5|I-751|Case Was Received": {
     "18412": 39,
     "18415": 39,
-    "18416": 37,
+    "18416": 39,
   },
   "WAC|20|163|5|I-765|Case Was Received": {
     "18412": 51,
@@ -37008,6 +37148,7 @@
   "WAC|20|163|5|I-765|Document Was Mailed": {
     "18412": 1,
     "18415": 1,
+    "18416": 1,
   },
   "WAC|20|163|5|I-829|Case Was Approved": {
     "18412": 1,
@@ -37047,7 +37188,7 @@
   "WAC|20|164|5|I-129|Case Was Approved": {
     "18412": 345,
     "18415": 345,
-    "18416": 351,
+    "18416": 352,
   },
   "WAC|20|164|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 69,
@@ -37072,7 +37213,7 @@
   "WAC|20|164|5|I-129|Document Was Mailed": {
     "18412": 12,
     "18415": 12,
-    "18416": 12,
+    "18416": 11,
   },
   "WAC|20|164|5|I-129|Document Was Returned To USCIS": {
     "18412": 2,
@@ -37091,7 +37232,7 @@
   "WAC|20|164|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 86,
     "18415": 93,
-    "18416": 94,
+    "18416": 96,
   },
   "WAC|20|164|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 11,
@@ -37303,7 +37444,7 @@
   "WAC|20|165|5|I-765|Case Was Received": {
     "18412": 67,
     "18415": 67,
-    "18416": 67,
+    "18416": 66,
   },
   "WAC|20|165|5|I-765|Document Was Mailed": {
     "18412": 1,
@@ -37383,7 +37524,7 @@
   "WAC|20|168|5|I-129|Case Was Received": {
     "18412": 266,
     "18415": 251,
-    "18416": 242,
+    "18416": 241,
   },
   "WAC|20|168|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {},
   "WAC|20|168|5|I-129|Case Was Reopened": {
@@ -37410,7 +37551,7 @@
   "WAC|20|168|5|I-129|Name Was Updated": {
     "18412": 71,
     "18415": 68,
-    "18416": 65,
+    "18416": 66,
   },
   "WAC|20|168|5|I-129|Notice Explaining USCIS Actions Was Mailed": {},
   "WAC|20|168|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
@@ -37419,7 +37560,7 @@
   "WAC|20|168|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 79,
     "18415": 80,
-    "18416": 82,
+    "18416": 81,
   },
   "WAC|20|168|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 12,
@@ -37447,7 +37588,7 @@
   "WAC|20|168|5|I-539|Case Was Received": {
     "18412": 409,
     "18415": 409,
-    "18416": 409,
+    "18416": 408,
   },
   "WAC|20|168|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 7,
@@ -37514,6 +37655,9 @@
     "18415": 2,
     "18416": 2,
   },
+  "WAC|20|168|5|I-765|Expedite Request Denied": {
+    "18416": 1,
+  },
   "WAC|20|168|5|I-765|Request for Additional Information Received": {
     "18416": 1,
   },
@@ -37546,12 +37690,12 @@
   "WAC|20|169|5|I-129|Case Transferred And New Office Has Jurisdiction": {
     "18412": 41,
     "18415": 37,
-    "18416": 36,
+    "18416": 34,
   },
   "WAC|20|169|5|I-129|Case Was Approved": {
     "18412": 790,
     "18415": 819,
-    "18416": 831,
+    "18416": 839,
   },
   "WAC|20|169|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 58,
@@ -37561,7 +37705,7 @@
   "WAC|20|169|5|I-129|Case Was Received": {
     "18412": 197,
     "18415": 182,
-    "18416": 175,
+    "18416": 174,
   },
   "WAC|20|169|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 3,
@@ -37582,7 +37726,7 @@
   "WAC|20|169|5|I-129|Name Was Updated": {
     "18412": 179,
     "18415": 165,
-    "18416": 156,
+    "18416": 153,
   },
   "WAC|20|169|5|I-129|Petition/Application Was Rejected For Insufficient Funds": {
     "18412": 1,
@@ -37592,7 +37736,7 @@
   "WAC|20|169|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 116,
     "18415": 118,
-    "18416": 119,
+    "18416": 118,
   },
   "WAC|20|169|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 26,
@@ -37602,7 +37746,10 @@
   "WAC|20|169|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 11,
     "18415": 11,
-    "18416": 14,
+    "18416": 13,
+  },
+  "WAC|20|169|5|I-129|Withdrawal Acknowledgement Notice Was Sent": {
+    "18416": 1,
   },
   "WAC|20|169|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 2,
@@ -37742,7 +37889,7 @@
   "WAC|20|170|5|I-129|Case Was Approved": {
     "18412": 800,
     "18415": 796,
-    "18416": 851,
+    "18416": 858,
   },
   "WAC|20|170|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 46,
@@ -37779,7 +37926,7 @@
   "WAC|20|170|5|I-129|Document Was Mailed": {
     "18412": 11,
     "18415": 10,
-    "18416": 11,
+    "18416": 12,
   },
   "WAC|20|170|5|I-129|Document Was Returned To USCIS": {
     "18412": 3,
@@ -37800,7 +37947,7 @@
   "WAC|20|170|5|I-129|Name Was Updated": {
     "18412": 240,
     "18415": 212,
-    "18416": 203,
+    "18416": 196,
   },
   "WAC|20|170|5|I-129|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18412": 1,
@@ -37810,17 +37957,17 @@
   "WAC|20|170|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 121,
     "18415": 131,
-    "18416": 142,
+    "18416": 141,
   },
   "WAC|20|170|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 23,
     "18415": 19,
-    "18416": 26,
+    "18416": 25,
   },
   "WAC|20|170|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 17,
     "18415": 17,
-    "18416": 20,
+    "18416": 22,
   },
   "WAC|20|170|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 10,
@@ -37949,12 +38096,12 @@
   "WAC|20|171|5|I-129|Case Transferred And New Office Has Jurisdiction": {
     "18412": 43,
     "18415": 39,
-    "18416": 33,
+    "18416": 31,
   },
   "WAC|20|171|5|I-129|Case Was Approved": {
     "18412": 901,
     "18415": 926,
-    "18416": 971,
+    "18416": 981,
   },
   "WAC|20|171|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 42,
@@ -37964,12 +38111,12 @@
   "WAC|20|171|5|I-129|Case Was Received": {
     "18412": 393,
     "18415": 338,
-    "18416": 319,
+    "18416": 316,
   },
   "WAC|20|171|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 7,
     "18415": 6,
-    "18416": 5,
+    "18416": 3,
   },
   "WAC|20|171|5|I-129|Case Was Rejected Because I Did Not Sign My Form": {
     "18412": 1,
@@ -37999,7 +38146,7 @@
   "WAC|20|171|5|I-129|Name Was Updated": {
     "18412": 219,
     "18415": 199,
-    "18416": 190,
+    "18416": 184,
   },
   "WAC|20|171|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -38010,7 +38157,7 @@
   "WAC|20|171|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 119,
     "18415": 155,
-    "18416": 163,
+    "18416": 164,
   },
   "WAC|20|171|5|I-129|Request for Additional Information Received": {
     "18412": 2,
@@ -38020,12 +38167,12 @@
   "WAC|20|171|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 24,
     "18415": 24,
-    "18416": 24,
+    "18416": 23,
   },
   "WAC|20|171|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 6,
     "18415": 6,
-    "18416": 8,
+    "18416": 11,
   },
   "WAC|20|171|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 4,
@@ -38130,7 +38277,7 @@
   "WAC|20|172|5|I-129|Case Was Approved": {
     "18412": 701,
     "18415": 741,
-    "18416": 757,
+    "18416": 756,
   },
   "WAC|20|172|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 48,
@@ -38140,7 +38287,7 @@
   "WAC|20|172|5|I-129|Case Was Received": {
     "18412": 497,
     "18415": 454,
-    "18416": 436,
+    "18416": 432,
   },
   "WAC|20|172|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 3,
@@ -38168,12 +38315,12 @@
   "WAC|20|172|5|I-129|Name Was Updated": {
     "18412": 77,
     "18415": 76,
-    "18416": 65,
+    "18416": 68,
   },
   "WAC|20|172|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 88,
     "18415": 101,
-    "18416": 110,
+    "18416": 113,
   },
   "WAC|20|172|5|I-129|Request for Initial Evidence Was Sent": {
     "18412": 3,
@@ -38308,7 +38455,7 @@
   "WAC|20|175|5|I-129|Case Was Received": {
     "18412": 575,
     "18415": 489,
-    "18416": 450,
+    "18416": 446,
   },
   "WAC|20|175|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 5,
@@ -38344,7 +38491,7 @@
   "WAC|20|175|5|I-129|Name Was Updated": {
     "18412": 67,
     "18415": 60,
-    "18416": 50,
+    "18416": 53,
   },
   "WAC|20|175|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -38359,7 +38506,7 @@
   "WAC|20|175|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 108,
     "18415": 158,
-    "18416": 174,
+    "18416": 175,
   },
   "WAC|20|175|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 11,
@@ -38384,7 +38531,7 @@
   "WAC|20|175|5|I-539|Case Was Received": {
     "18412": 467,
     "18415": 467,
-    "18416": 466,
+    "18416": 467,
   },
   "WAC|20|175|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 9,
@@ -38475,7 +38622,7 @@
   "WAC|20|176|5|I-129|Case Was Approved": {
     "18412": 601,
     "18415": 649,
-    "18416": 670,
+    "18416": 669,
   },
   "WAC|20|176|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 50,
@@ -38485,7 +38632,7 @@
   "WAC|20|176|5|I-129|Case Was Received": {
     "18412": 568,
     "18415": 497,
-    "18416": 466,
+    "18416": 459,
   },
   "WAC|20|176|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 2,
@@ -38519,7 +38666,7 @@
   "WAC|20|176|5|I-129|Name Was Updated": {
     "18412": 85,
     "18415": 79,
-    "18416": 82,
+    "18416": 83,
   },
   "WAC|20|176|5|I-129|Notice Explaining USCIS Actions Was Mailed": {
     "18412": 1,
@@ -38533,7 +38680,7 @@
   "WAC|20|176|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 108,
     "18415": 137,
-    "18416": 143,
+    "18416": 148,
   },
   "WAC|20|176|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 13,
@@ -38677,7 +38824,7 @@
   "WAC|20|177|5|I-129|Case Was Received": {
     "18412": 546,
     "18415": 511,
-    "18416": 480,
+    "18416": 476,
   },
   "WAC|20|177|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 3,
@@ -38713,12 +38860,12 @@
   "WAC|20|177|5|I-129|Name Was Updated": {
     "18412": 85,
     "18415": 69,
-    "18416": 66,
+    "18416": 68,
   },
   "WAC|20|177|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 85,
     "18415": 109,
-    "18416": 118,
+    "18416": 120,
   },
   "WAC|20|177|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 10,
@@ -38842,7 +38989,7 @@
   "WAC|20|178|5|I-129|Case Was Approved": {
     "18412": 418,
     "18415": 458,
-    "18416": 481,
+    "18416": 482,
   },
   "WAC|20|178|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 39,
@@ -38852,7 +38999,7 @@
   "WAC|20|178|5|I-129|Case Was Received": {
     "18412": 604,
     "18415": 548,
-    "18416": 517,
+    "18416": 505,
   },
   "WAC|20|178|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 7,
@@ -38872,12 +39019,12 @@
   "WAC|20|178|5|I-129|Date of Birth Was Updated": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "WAC|20|178|5|I-129|Document Was Mailed": {
     "18412": 13,
     "18415": 14,
-    "18416": 14,
+    "18416": 15,
   },
   "WAC|20|178|5|I-129|Expedite Request Received": {
     "18415": 1,
@@ -38896,7 +39043,7 @@
   "WAC|20|178|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 57,
     "18415": 70,
-    "18416": 75,
+    "18416": 84,
   },
   "WAC|20|178|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 4,
@@ -38916,7 +39063,7 @@
   "WAC|20|178|5|I-539|Case Was Received": {
     "18412": 482,
     "18415": 482,
-    "18416": 481,
+    "18416": 482,
   },
   "WAC|20|178|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 10,
@@ -38996,7 +39143,7 @@
   "WAC|20|179|5|I-129|Case Was Approved": {
     "18412": 463,
     "18415": 484,
-    "18416": 511,
+    "18416": 510,
   },
   "WAC|20|179|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 42,
@@ -39006,7 +39153,7 @@
   "WAC|20|179|5|I-129|Case Was Received": {
     "18412": 593,
     "18415": 548,
-    "18416": 528,
+    "18416": 524,
   },
   "WAC|20|179|5|I-129|Case Was Received At Another USCIS Office": {},
   "WAC|20|179|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
@@ -39048,7 +39195,7 @@
   "WAC|20|179|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 71,
     "18415": 80,
-    "18416": 95,
+    "18416": 99,
   },
   "WAC|20|179|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 6,
@@ -39169,7 +39316,7 @@
   "WAC|20|182|5|I-129|Case Was Approved": {
     "18412": 337,
     "18415": 419,
-    "18416": 447,
+    "18416": 448,
   },
   "WAC|20|182|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 52,
@@ -39179,7 +39326,7 @@
   "WAC|20|182|5|I-129|Case Was Received": {
     "18412": 802,
     "18415": 706,
-    "18416": 673,
+    "18416": 671,
   },
   "WAC|20|182|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 2,
@@ -39198,7 +39345,7 @@
   "WAC|20|182|5|I-129|Date of Birth Was Updated": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "WAC|20|182|5|I-129|Document Was Mailed": {
     "18412": 14,
@@ -39214,7 +39361,7 @@
   "WAC|20|182|5|I-129|Name Was Updated": {
     "18412": 24,
     "18415": 21,
-    "18416": 23,
+    "18416": 24,
   },
   "WAC|20|182|5|I-129|Petition/Application Was Rejected For Insufficient Funds": {
     "18412": 2,
@@ -39224,12 +39371,12 @@
   "WAC|20|182|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 100,
     "18415": 118,
-    "18416": 122,
+    "18416": 124,
   },
   "WAC|20|182|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 5,
     "18415": 5,
-    "18416": 5,
+    "18416": 3,
   },
   "WAC|20|182|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 24,
@@ -39284,7 +39431,7 @@
   "WAC|20|182|5|I-751|Case Was Received": {
     "18412": 30,
     "18415": 30,
-    "18416": 30,
+    "18416": 29,
   },
   "WAC|20|182|5|I-765|Case Was Received": {
     "18412": 50,
@@ -39334,7 +39481,7 @@
   "WAC|20|183|5|I-129|Case Was Received": {
     "18412": 738,
     "18415": 668,
-    "18416": 596,
+    "18416": 593,
   },
   "WAC|20|183|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 4,
@@ -39370,7 +39517,7 @@
   "WAC|20|183|5|I-129|Name Was Updated": {
     "18412": 18,
     "18415": 18,
-    "18416": 17,
+    "18416": 19,
   },
   "WAC|20|183|5|I-129|Petition/Application Was Rejected For Insufficient Funds": {
     "18412": 1,
@@ -39380,7 +39527,7 @@
   "WAC|20|183|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 68,
     "18415": 87,
-    "18416": 106,
+    "18416": 108,
   },
   "WAC|20|183|5|I-129|Request for Additional Information Received": {},
   "WAC|20|183|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
@@ -39401,7 +39548,7 @@
   "WAC|20|183|5|I-539|Case Was Received": {
     "18412": 479,
     "18415": 479,
-    "18416": 479,
+    "18416": 478,
   },
   "WAC|20|183|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 4,
@@ -39483,7 +39630,7 @@
   "WAC|20|184|5|I-129|Case Was Approved": {
     "18412": 335,
     "18415": 411,
-    "18416": 461,
+    "18416": 460,
   },
   "WAC|20|184|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 50,
@@ -39513,7 +39660,7 @@
   "WAC|20|184|5|I-129|Document Was Mailed": {
     "18412": 8,
     "18415": 9,
-    "18416": 9,
+    "18416": 10,
   },
   "WAC|20|184|5|I-129|Expedite Request Approved": {},
   "WAC|20|184|5|I-129|Name Was Updated": {
@@ -39525,12 +39672,12 @@
   "WAC|20|184|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 59,
     "18415": 63,
-    "18416": 63,
+    "18416": 64,
   },
   "WAC|20|184|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 3,
     "18415": 3,
-    "18416": 4,
+    "18416": 5,
   },
   "WAC|20|184|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 19,
@@ -39550,7 +39697,7 @@
   "WAC|20|184|5|I-539|Case Was Received": {
     "18412": 491,
     "18415": 491,
-    "18416": 490,
+    "18416": 491,
   },
   "WAC|20|184|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 3,
@@ -39635,7 +39782,7 @@
   "WAC|20|184|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 2,
     "18415": 2,
-    "18416": 2,
+    "18416": 3,
   },
   "WAC|20|184|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18415": 1,
@@ -39657,7 +39804,7 @@
   "WAC|20|185|5|I-129|Case Was Received": {
     "18412": 699,
     "18415": 620,
-    "18416": 574,
+    "18416": 570,
   },
   "WAC|20|185|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 3,
@@ -39698,7 +39845,7 @@
   "WAC|20|185|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 39,
     "18415": 44,
-    "18416": 47,
+    "18416": 51,
   },
   "WAC|20|185|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 4,
@@ -39811,7 +39958,7 @@
   "WAC|20|186|5|I-129|Case Was Received": {
     "18412": 666,
     "18415": 606,
-    "18416": 569,
+    "18416": 566,
   },
   "WAC|20|186|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 8,
@@ -39829,6 +39976,9 @@
     "18415": 13,
     "18416": 13,
   },
+  "WAC|20|186|5|I-129|Document Was Returned To USCIS": {
+    "18416": 1,
+  },
   "WAC|20|186|5|I-129|Expedite Request Approved": {
     "18412": 1,
     "18415": 1,
@@ -39842,7 +39992,7 @@
   "WAC|20|186|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 34,
     "18415": 46,
-    "18416": 47,
+    "18416": 48,
   },
   "WAC|20|186|5|I-129|Request for Additional Information Received": {},
   "WAC|20|186|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
@@ -39863,7 +40013,7 @@
   "WAC|20|186|5|I-539|Case Was Received": {
     "18412": 422,
     "18415": 421,
-    "18416": 421,
+    "18416": 420,
   },
   "WAC|20|186|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 2,
@@ -39978,7 +40128,7 @@
   "WAC|20|189|5|I-129|Case Was Approved": {
     "18412": 165,
     "18415": 233,
-    "18416": 298,
+    "18416": 300,
   },
   "WAC|20|189|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 44,
@@ -39988,7 +40138,7 @@
   "WAC|20|189|5|I-129|Case Was Received": {
     "18412": 867,
     "18415": 730,
-    "18416": 712,
+    "18416": 708,
   },
   "WAC|20|189|5|I-129|Case Was Received At Another USCIS Office": {},
   "WAC|20|189|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
@@ -40019,17 +40169,17 @@
   "WAC|20|189|5|I-129|Name Was Updated": {
     "18412": 14,
     "18415": 13,
-    "18416": 18,
+    "18416": 19,
   },
   "WAC|20|189|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 28,
     "18415": 34,
-    "18416": 41,
+    "18416": 43,
   },
   "WAC|20|189|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18412": 3,
     "18415": 3,
-    "18416": 3,
+    "18416": 4,
   },
   "WAC|20|189|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 24,
@@ -40141,17 +40291,17 @@
   "WAC|20|190|5|I-129|Case Was Approved": {
     "18412": 212,
     "18415": 318,
-    "18416": 385,
+    "18416": 379,
   },
   "WAC|20|190|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 50,
     "18415": 51,
-    "18416": 51,
+    "18416": 50,
   },
   "WAC|20|190|5|I-129|Case Was Received": {
     "18412": 876,
     "18415": 753,
-    "18416": 690,
+    "18416": 675,
   },
   "WAC|20|190|5|I-129|Case Was Received At Another USCIS Office": {},
   "WAC|20|190|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
@@ -40162,7 +40312,7 @@
   "WAC|20|190|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 153,
     "18415": 152,
-    "18416": 153,
+    "18416": 148,
   },
   "WAC|20|190|5|I-129|Date of Birth Was Updated": {
     "18412": 2,
@@ -40186,7 +40336,7 @@
   "WAC|20|190|5|I-129|Name Was Updated": {
     "18412": 14,
     "18415": 13,
-    "18416": 13,
+    "18416": 14,
   },
   "WAC|20|190|5|I-129|Premium Processing Case is Eligible for Pre-Certification": {
     "18412": 1,
@@ -40206,7 +40356,7 @@
   "WAC|20|190|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 24,
     "18415": 24,
-    "18416": 24,
+    "18416": 23,
   },
   "WAC|20|190|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18412": 1,
@@ -40216,7 +40366,7 @@
   "WAC|20|190|5|I-539|Case Was Received": {
     "18412": 385,
     "18415": 384,
-    "18416": 385,
+    "18416": 371,
   },
   "WAC|20|190|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 4,
@@ -40266,7 +40416,7 @@
   "WAC|20|190|5|I-765|Case Was Received": {
     "18412": 55,
     "18415": 55,
-    "18416": 55,
+    "18416": 54,
   },
   "WAC|20|190|5|I-765|Document Was Mailed": {
     "18412": 1,
@@ -40320,7 +40470,7 @@
   "WAC|20|191|5|I-129|Case Was Received": {
     "18412": 868,
     "18415": 770,
-    "18416": 721,
+    "18416": 718,
   },
   "WAC|20|191|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 10,
@@ -40354,9 +40504,12 @@
   "WAC|20|191|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 11,
     "18415": 21,
-    "18416": 29,
+    "18416": 31,
   },
   "WAC|20|191|5|I-129|Request for Additional Information Received": {},
+  "WAC|20|191|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
+    "18416": 1,
+  },
   "WAC|20|191|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 10,
     "18415": 10,
@@ -40370,7 +40523,7 @@
   "WAC|20|191|5|I-539|Case Was Received": {
     "18412": 441,
     "18415": 438,
-    "18416": 437,
+    "18416": 438,
   },
   "WAC|20|191|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -40433,17 +40586,17 @@
   "WAC|20|192|5|I-129|Case Was Approved": {
     "18412": 129,
     "18415": 197,
-    "18416": 240,
+    "18416": 239,
   },
   "WAC|20|192|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 49,
     "18415": 52,
-    "18416": 52,
+    "18416": 53,
   },
   "WAC|20|192|5|I-129|Case Was Received": {
     "18412": 861,
     "18415": 779,
-    "18416": 733,
+    "18416": 732,
   },
   "WAC|20|192|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 11,
@@ -40454,6 +40607,9 @@
     "18412": 21,
     "18415": 21,
     "18416": 21,
+  },
+  "WAC|20|192|5|I-129|Date of Birth Was Updated": {
+    "18416": 1,
   },
   "WAC|20|192|5|I-129|Document Was Mailed": {
     "18412": 5,
@@ -40473,10 +40629,10 @@
   "WAC|20|192|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 23,
     "18415": 35,
-    "18416": 37,
+    "18416": 36,
   },
   "WAC|20|192|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
-    "18416": 1,
+    "18416": 2,
   },
   "WAC|20|192|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 20,
@@ -40572,17 +40728,17 @@
   "WAC|20|193|5|I-129|Case Was Approved": {
     "18412": 135,
     "18415": 235,
-    "18416": 297,
+    "18416": 294,
   },
   "WAC|20|193|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 24,
     "18415": 24,
-    "18416": 26,
+    "18416": 29,
   },
   "WAC|20|193|5|I-129|Case Was Received": {
     "18412": 1008,
     "18415": 894,
-    "18416": 834,
+    "18416": 831,
   },
   "WAC|20|193|5|I-129|Case Was Received At Another USCIS Office": {
     "18412": 2,
@@ -40612,7 +40768,7 @@
   "WAC|20|193|5|I-129|Document Was Mailed": {
     "18412": 1,
     "18415": 7,
-    "18416": 6,
+    "18416": 7,
   },
   "WAC|20|193|5|I-129|Document Was Returned To USCIS": {
     "18415": 1,
@@ -40630,7 +40786,7 @@
   "WAC|20|193|5|I-129|Name Was Updated": {
     "18412": 12,
     "18415": 9,
-    "18416": 7,
+    "18416": 9,
   },
   "WAC|20|193|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 17,
@@ -40650,7 +40806,7 @@
   "WAC|20|193|5|I-539|Case Was Received": {
     "18412": 441,
     "18415": 439,
-    "18416": 439,
+    "18416": 438,
   },
   "WAC|20|193|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 12,
@@ -40669,7 +40825,7 @@
   },
   "WAC|20|193|5|I-539|Document Was Mailed": {
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "WAC|20|193|5|I-539|Document Was Returned To USCIS": {
     "18415": 1,
@@ -40760,7 +40916,7 @@
   "WAC|20|196|5|I-129|Case Was Approved": {
     "18412": 15,
     "18415": 51,
-    "18416": 103,
+    "18416": 104,
   },
   "WAC|20|196|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 41,
@@ -40770,7 +40926,7 @@
   "WAC|20|196|5|I-129|Case Was Received": {
     "18412": 809,
     "18415": 767,
-    "18416": 716,
+    "18416": 712,
   },
   "WAC|20|196|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 12,
@@ -40785,7 +40941,7 @@
   "WAC|20|196|5|I-129|Date of Birth Was Updated": {
     "18412": 1,
     "18415": 1,
-    "18416": 1,
+    "18416": 2,
   },
   "WAC|20|196|5|I-129|Document Was Mailed": {
     "18415": 3,
@@ -40804,7 +40960,7 @@
   "WAC|20|196|5|I-129|Name Was Updated": {
     "18412": 8,
     "18415": 9,
-    "18416": 10,
+    "18416": 11,
   },
   "WAC|20|196|5|I-129|Petition/Application Was Rejected For Insufficient Funds": {
     "18412": 1,
@@ -40824,7 +40980,7 @@
   "WAC|20|196|5|I-539|Case Was Received": {
     "18412": 427,
     "18415": 423,
-    "18416": 422,
+    "18416": 421,
   },
   "WAC|20|196|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 6,
@@ -40884,6 +41040,9 @@
     "18415": 17,
     "18416": 17,
   },
+  "WAC|20|196|5|unknown form type|Appeal Was Dismissed": {
+    "18416": 1,
+  },
   "WAC|20|196|5|unknown form type|Card Was Delivered To Me By The Post Office": {
     "18412": 1,
     "18415": 1,
@@ -40922,7 +41081,7 @@
   "WAC|20|197|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 411,
     "18415": 411,
-    "18416": 405,
+    "18416": 402,
   },
   "WAC|20|197|5|I-129|Date of Birth Was Updated": {
     "18415": 2,
@@ -40940,13 +41099,13 @@
   "WAC|20|197|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 5,
     "18415": 9,
-    "18416": 8,
+    "18416": 7,
   },
   "WAC|20|197|5|I-129|Request for Initial Evidence Was Sent": {
-    "18416": 1,
+    "18416": 4,
   },
   "WAC|20|197|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
-    "18416": 1,
+    "18416": 2,
   },
   "WAC|20|197|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 16,
@@ -41049,12 +41208,12 @@
   "WAC|20|198|5|I-129|Case Was Received": {
     "18412": 908,
     "18415": 881,
-    "18416": 864,
+    "18416": 867,
   },
   "WAC|20|198|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 34,
     "18415": 20,
-    "18416": 17,
+    "18416": 18,
   },
   "WAC|20|198|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 402,
@@ -41087,7 +41246,7 @@
   "WAC|20|198|5|I-129|Request for Additional Evidence Was Sent": {
     "18412": 2,
     "18415": 4,
-    "18416": 7,
+    "18416": 8,
   },
   "WAC|20|198|5|I-129|Response To USCIS&apos; Request For Evidence Was Received": {
     "18416": 1,
@@ -41105,7 +41264,7 @@
   "WAC|20|198|5|I-539|Case Was Received": {
     "18412": 519,
     "18415": 518,
-    "18416": 516,
+    "18416": 517,
   },
   "WAC|20|198|5|I-539|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 23,
@@ -41134,7 +41293,7 @@
   "WAC|20|198|5|I-751|Case Was Received": {
     "18412": 87,
     "18415": 87,
-    "18416": 86,
+    "18416": 87,
   },
   "WAC|20|198|5|I-751|Name Was Updated": {
     "18412": 1,
@@ -41178,22 +41337,22 @@
   },
   "WAC|20|199|5|I-129|Case Was Approved": {
     "18415": 5,
-    "18416": 12,
+    "18416": 11,
   },
   "WAC|20|199|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18412": 22,
     "18415": 39,
-    "18416": 42,
+    "18416": 43,
   },
   "WAC|20|199|5|I-129|Case Was Received": {
     "18412": 1111,
     "18415": 1076,
-    "18416": 1095,
+    "18416": 1090,
   },
   "WAC|20|199|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18412": 34,
     "18415": 13,
-    "18416": 12,
+    "18416": 11,
   },
   "WAC|20|199|5|I-129|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 180,
@@ -41210,7 +41369,7 @@
   "WAC|20|199|5|I-129|Name Was Updated": {
     "18412": 6,
     "18415": 4,
-    "18416": 5,
+    "18416": 6,
   },
   "WAC|20|199|5|I-129|Petition/Application Was Rejected For Insufficient Funds": {
     "18415": 1,
@@ -41233,7 +41392,7 @@
   "WAC|20|199|5|I-539|Case Was Received": {
     "18412": 507,
     "18415": 490,
-    "18416": 506,
+    "18416": 503,
   },
   "WAC|20|199|5|I-539|Case Was Transferred And A New Office Has Jurisdiction": {
     "18412": 4,
@@ -41266,7 +41425,7 @@
   "WAC|20|199|5|I-765|Case Was Received": {
     "18412": 70,
     "18415": 66,
-    "18416": 70,
+    "18416": 68,
   },
   "WAC|20|199|5|I-765|Fees Were Waived": {
     "18412": 3,
@@ -41328,11 +41487,11 @@
   },
   "WAC|20|200|5|I-129|Case Was Approved": {
     "18415": 19,
-    "18416": 28,
+    "18416": 27,
   },
   "WAC|20|200|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18415": 27,
-    "18416": 36,
+    "18416": 37,
   },
   "WAC|20|200|5|I-129|Case Was Received": {
     "18415": 1089,
@@ -41427,7 +41586,7 @@
   },
   "WAC|20|203|5|I-129|Case Was Approved": {
     "18415": 7,
-    "18416": 14,
+    "18416": 15,
   },
   "WAC|20|203|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18415": 31,
@@ -41435,11 +41594,11 @@
   },
   "WAC|20|203|5|I-129|Case Was Received": {
     "18415": 1240,
-    "18416": 1232,
+    "18416": 1230,
   },
   "WAC|20|203|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18415": 23,
-    "18416": 23,
+    "18416": 22,
   },
   "WAC|20|203|5|I-129|Date of Birth Was Updated": {
     "18415": 3,
@@ -41451,7 +41610,7 @@
   },
   "WAC|20|203|5|I-129|Name Was Updated": {
     "18415": 9,
-    "18416": 9,
+    "18416": 11,
   },
   "WAC|20|203|5|I-129|Request for Additional Evidence Was Sent": {
     "18415": 1,
@@ -41516,33 +41675,36 @@
     "18415": 2,
     "18416": 2,
   },
+  "WAC|20|203|5|unknown form type|Card Was Delivered To Me By The Post Office": {
+    "18416": 2,
+  },
   "WAC|20|203|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18415": 2,
-    "18416": 2,
+    "18416": 1,
   },
   "WAC|20|204|5|I-129|Case Was Approved": {
     "18415": 5,
-    "18416": 7,
+    "18416": 4,
   },
   "WAC|20|204|5|I-129|Case Was Approved And My Decision Was Emailed": {
     "18415": 8,
-    "18416": 13,
+    "18416": 17,
   },
   "WAC|20|204|5|I-129|Case Was Received": {
     "18415": 1356,
-    "18416": 1356,
+    "18416": 1353,
   },
   "WAC|20|204|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18415": 62,
-    "18416": 54,
+    "18416": 53,
   },
   "WAC|20|204|5|I-129|Date of Birth Was Updated": {
     "18415": 2,
-    "18416": 3,
+    "18416": 4,
   },
   "WAC|20|204|5|I-129|Name Was Updated": {
     "18415": 10,
-    "18416": 8,
+    "18416": 9,
   },
   "WAC|20|204|5|I-129|Petition/Application Was Rejected For Insufficient Funds": {
     "18415": 1,
@@ -41566,7 +41728,7 @@
   },
   "WAC|20|204|5|I-539|Case Was Received": {
     "18415": 497,
-    "18416": 498,
+    "18416": 495,
   },
   "WAC|20|204|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18415": 8,
@@ -41611,15 +41773,18 @@
     "18415": 19,
     "18416": 19,
   },
+  "WAC|20|204|5|unknown form type|Card Is Being Returned to USCIS by Post Office": {
+    "18416": 1,
+  },
   "WAC|20|204|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
     "18416": 1,
   },
   "WAC|20|205|5|I-129|Case Was Approved": {
     "18415": 6,
-    "18416": 24,
+    "18416": 9,
   },
   "WAC|20|205|5|I-129|Case Was Approved And My Decision Was Emailed": {
-    "18416": 8,
+    "18416": 25,
   },
   "WAC|20|205|5|I-129|Case Was Received": {
     "18415": 1321,
@@ -41631,7 +41796,7 @@
   },
   "WAC|20|205|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18415": 62,
-    "18416": 37,
+    "18416": 35,
   },
   "WAC|20|205|5|I-129|Date of Birth Was Updated": {
     "18416": 3,
@@ -41695,13 +41860,16 @@
     "18415": 3,
     "18416": 3,
   },
+  "WAC|20|205|5|unknown form type|Card Was Picked Up By The United States Postal Service": {
+    "18416": 1,
+  },
   "WAC|20|205|5|unknown form type|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18415": 1,
     "18416": 1,
   },
   "WAC|20|206|5|I-129|Case Was Received": {
     "18415": 1278,
-    "18416": 1277,
+    "18416": 1278,
   },
   "WAC|20|206|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18415": 67,
@@ -41721,7 +41889,7 @@
   },
   "WAC|20|206|5|I-539|Case Was Received": {
     "18415": 432,
-    "18416": 430,
+    "18416": 428,
   },
   "WAC|20|206|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18415": 10,
@@ -41737,7 +41905,7 @@
   },
   "WAC|20|206|5|I-539|Name Was Updated": {
     "18415": 2,
-    "18416": 3,
+    "18416": 5,
   },
   "WAC|20|206|5|I-612|Case Was Received": {
     "18415": 2,
@@ -41753,10 +41921,10 @@
   },
   "WAC|20|206|5|I-765|Case Was Received": {
     "18415": 55,
-    "18416": 54,
+    "18416": 53,
   },
   "WAC|20|206|5|I-765|Name Was Updated": {
-    "18416": 1,
+    "18416": 2,
   },
   "WAC|20|206|5|I-829|Case Was Received": {
     "18415": 6,
@@ -41810,7 +41978,7 @@
   },
   "WAC|20|209|5|I-129|Case Was Received": {
     "18415": 1375,
-    "18416": 1374,
+    "18416": 1376,
   },
   "WAC|20|209|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
     "18415": 69,
@@ -41893,11 +42061,11 @@
     "18416": 11,
   },
   "WAC|20|210|5|I-129|Case Was Received and A Receipt Notice Was Emailed": {
-    "18416": 65,
+    "18416": 64,
   },
   "WAC|20|210|5|I-129|Name Was Updated": {
     "18415": 1,
-    "18416": 7,
+    "18416": 9,
   },
   "WAC|20|210|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18415": 13,
@@ -41909,7 +42077,7 @@
   },
   "WAC|20|210|5|I-539|Case Was Received": {
     "18415": 187,
-    "18416": 483,
+    "18416": 484,
   },
   "WAC|20|210|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18415": 9,
@@ -41949,32 +42117,35 @@
     "18415": 2,
     "18416": 2,
   },
+  "WAC|20|211|5|I-129|Case Accepted By The USCIS Lockbox": {
+    "18416": 14,
+  },
   "WAC|20|211|5|I-129|Case Was Received": {
-    "18416": 525,
+    "18416": 1093,
   },
   "WAC|20|211|5|I-129|Name Was Updated": {
-    "18416": 3,
+    "18416": 4,
   },
   "WAC|20|211|5|I-129|Premium Processing Case is Eligible for Pre-Certification": {
     "18416": 1,
   },
   "WAC|20|211|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
-    "18416": 1,
+    "18416": 9,
   },
   "WAC|20|211|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
-    "18416": 5,
+    "18416": 6,
   },
   "WAC|20|211|5|I-539|Case Was Received": {
-    "18416": 170,
+    "18416": 339,
   },
   "WAC|20|211|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
-    "18416": 3,
+    "18416": 5,
   },
   "WAC|20|211|5|I-751|Case Was Received": {
     "18416": 34,
   },
   "WAC|20|211|5|I-765|Case Was Received": {
-    "18416": 6,
+    "18416": 30,
   },
   "WAC|20|211|5|I-829|Case Was Received": {
     "18416": 8,
@@ -42097,7 +42268,7 @@
   "YSC|20|149|5|I-539|Case Was Received": {
     "18412": 21,
     "18415": 21,
-    "18416": 21,
+    "18416": 19,
   },
   "YSC|20|149|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18412": 1,
@@ -42107,7 +42278,7 @@
   "YSC|20|149|5|I-751|Case Was Received": {
     "18412": 24,
     "18415": 24,
-    "18416": 24,
+    "18416": 19,
   },
   "YSC|20|150|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18412": 10,
@@ -43517,18 +43688,18 @@
     "18416": 52,
   },
   "YSC|20|209|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
-    "18416": 6,
+    "18416": 9,
   },
   "YSC|20|209|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18416": 1,
   },
   "YSC|20|209|5|I-539|Case Was Received": {
-    "18416": 45,
+    "18416": 60,
   },
   "YSC|20|209|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18416": 5,
   },
   "YSC|20|209|5|I-751|Case Was Received": {
-    "18416": 48,
+    "18416": 77,
   },
 }
