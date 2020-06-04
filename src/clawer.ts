@@ -84,7 +84,7 @@ const claw = async (
   day: number,
   code: number
 ): Promise<void> => {
-  const today = Math.floor(new Date().getTime() / 86400000);
+  const today = Math.floor((new Date().getTime() - 3600 * 1000 * 7) / 86400000);
   const last = await getLastCaseNumber(center_name, two_digit_yr, day, code);
   if (last <= 0) {
     console.log(`No entires for ${center_name} day ${day}`);
