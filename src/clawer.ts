@@ -70,7 +70,18 @@ const getLastCaseNumber = async (
     BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 1)
   ) || await getStatus(
     BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 2)
-  )) {
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 3)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 4)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 5)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 6)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 7)
+  )
+  ) {
     [low, high] = [high, high * 2];
   }
 
