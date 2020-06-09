@@ -189,7 +189,7 @@ function App() {
         location:
         <strong>
           {latestUpdateDay
-            ? new Date(86400000 * latestUpdateDay).toDateString()
+            ? new Date(86400000 * latestUpdateDay + 3600 * 1000 * 7).toDateString()
             : "Not Exist currently"}
         </strong>
       </p>
