@@ -23,6 +23,7 @@ import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
 
 import WeChatDonation from "./donation_wechat.jpg";
+import WechatQR from "./wechat_qr.jpg"
 
 const JSON5_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
@@ -255,6 +256,12 @@ function App() {
       <p>A: 感谢！</p>
       <img
         src={WeChatDonation}
+        alt='wechat_donation'
+        style={{ width: "400px", height: "560px" }}
+      />
+      <h4>Q: 我想和你聊一聊？</h4>
+      <img
+        src={WechatQR}
         alt='wechat_donation'
         style={{ width: "400px", height: "560px" }}
       />
