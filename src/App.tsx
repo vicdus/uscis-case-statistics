@@ -25,6 +25,7 @@ import Slider from "@material-ui/core/Slider";
 import { FacebookProvider, Comments } from "react-facebook";
 
 import WeChatDonation from "./donation_wechat.jpg";
+import WechatQR from "./wechat_qr.jpg";
 
 const JSON5_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
@@ -34,6 +35,7 @@ function getColor(s: string): string {
     Immutable.Map([
       ["Case Was Received", "#999900"],
       ["Case Was Approved", "#00FF00"],
+      ["Request for Additional Evidence Was Sent", "#FF0000"],
     ]).get(s) ?? new ColorHash().hex(s)
   );
 }
@@ -190,7 +192,9 @@ function App() {
         location:
         <strong>
           {latestUpdateDay
-            ? new Date(1970, 0, latestUpdateDay + 1).toDateString()
+            ? new Date(
+                86400000 * latestUpdateDay + 3600 * 1000 * 7
+              ).toDateString()
             : "Not Exist currently"}
         </strong>
       </p>
@@ -222,9 +226,9 @@ function App() {
             value: e,
             label:
               1 +
-              new Date(86400000 * e).getMonth() +
+              new Date(86400000 * e + 3600 * 1000 * 7).getMonth() +
               "/" +
-              new Date(86400000 * e).getDate(),
+              new Date(86400000 * e + 3600 * 1000 * 7).getDate(),
           }))
           .toArray()}
         min={availableUpdateDays.min() ?? 0}
@@ -259,10 +263,21 @@ function App() {
         alt='wechat_donation'
         style={{ width: "400px", height: "560px" }}
       />
-      <FacebookProvider appId='185533902045623'>
-        <Comments href='https://vicdus.github.io/uscis-case-statistics/' />
-      </FacebookProvider>
+
+      <h4>Q: 我想和你聊一聊？</h4>
+      <p>A: 加我微信吧！</p>
+      <img
+        src={WechatQR}
+        alt='wechat_donation'
+        style={{ width: "400px", height: "560px" }}
+      />
     </div>
+  );
+
+  const facebookCommentPlugin = (
+    <FacebookProvider appId='185533902045623'>
+      <Comments href='https://vicdus.github.io/uscis-case-statistics/' />
+    </FacebookProvider>
   );
 
   const formTypeSelector = (
@@ -324,6 +339,7 @@ function App() {
       {formTypeSelector}
       {centerSelector}
       {QA}
+      {facebookCommentPlugin}
     </div>
   );
 }

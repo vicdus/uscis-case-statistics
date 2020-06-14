@@ -57,13 +57,34 @@ const getLastCaseNumber = async (
 ): Promise<number> => {
   if (
     !(await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, 0)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, 1)
     ))
   ) {
     return 0;
   }
 
-  let [low, high] = [0, 4000];
+  let [low, high] = [1, 1];
+  while (await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 1)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 2)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 3)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 4)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 5)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 6)
+  ) || await getStatus(
+    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 7)
+  )
+  ) {
+    [low, high] = [high, high * 2];
+  }
+
   while (low < high) {
     const mid = Math.floor((low + high) / 2);
     const result = await getStatus(
@@ -84,7 +105,7 @@ const claw = async (
   day: number,
   code: number
 ): Promise<void> => {
-  const today = Math.floor(new Date().getTime() / 86400000);
+  const today = Math.floor((new Date().getTime() - 3600 * 1000 * 7) / 86400000);
   const last = await getLastCaseNumber(center_name, two_digit_yr, day, code);
   if (last <= 0) {
     console.log(`No entires for ${center_name} day ${day}`);
@@ -134,7 +155,7 @@ const claw = async (
 };
 
 (async () => {
-  for (const d of lodash.range(200, 250)) {
+  for (const d of lodash.range(145, 250)) {
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
     );
