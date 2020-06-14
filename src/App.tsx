@@ -3,6 +3,8 @@ import Immutable from "immutable";
 import JSON5 from "json5";
 import nullthrows from "nullthrows";
 import React, { useEffect, useState } from "react";
+// @ts-ignore
+import { Comments, FacebookProvider } from "react-facebook";
 import {
   Bar,
   BarChart,
@@ -21,8 +23,6 @@ import Grid from "@material-ui/core/Grid";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
-// @ts-ignore
-import { FacebookProvider, Comments } from "react-facebook";
 
 import WeChatDonation from "./donation_wechat.jpg";
 import WechatQR from "./wechat_qr.jpg";
