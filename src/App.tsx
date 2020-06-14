@@ -21,6 +21,8 @@ import Grid from "@material-ui/core/Grid";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
+// @ts-ignore
+import { FacebookProvider, Comments } from "react-facebook";
 
 import WeChatDonation from "./donation_wechat.jpg";
 
@@ -257,6 +259,9 @@ function App() {
         alt='wechat_donation'
         style={{ width: "400px", height: "560px" }}
       />
+      <FacebookProvider appId='185533902045623'>
+        <Comments href='https://vicdus.github.io/uscis-case-statistics/' />
+      </FacebookProvider>
     </div>
   );
 
