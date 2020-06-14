@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5240cc72b8e16ec161fb43e170233029",
+    "revision": "d87e23fe419b14c2d73d00ee1d8dffe8",
     "url": "/uscis-case-statistics/index.html"
   },
   {
-    "revision": "9f24682f1237b7a93313",
-    "url": "/uscis-case-statistics/static/js/2.64b6a60e.chunk.js"
+    "revision": "4d7155325e2f85d911c1",
+    "url": "/uscis-case-statistics/static/js/2.b7b19365.chunk.js"
   },
   {
     "revision": "b815bed3bedb5a8af7470bb094451139",
-    "url": "/uscis-case-statistics/static/js/2.64b6a60e.chunk.js.LICENSE.txt"
+    "url": "/uscis-case-statistics/static/js/2.b7b19365.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1939545452ffaa6b19c1",
-    "url": "/uscis-case-statistics/static/js/main.4f277e20.chunk.js"
+    "revision": "1d1d7179c629cb5cece5",
+    "url": "/uscis-case-statistics/static/js/main.ed8bb084.chunk.js"
   },
   {
     "revision": "4191d13cfafad2e2939e",
