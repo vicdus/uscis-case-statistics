@@ -3,6 +3,8 @@ import Immutable from "immutable";
 import JSON5 from "json5";
 import nullthrows from "nullthrows";
 import React, { useEffect, useState } from "react";
+// @ts-ignore
+import { Comments, FacebookProvider } from "react-facebook";
 import {
   Bar,
   BarChart,
@@ -23,7 +25,7 @@ import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
 
 import WeChatDonation from "./donation_wechat.jpg";
-import WechatQR from "./wechat_qr.jpg"
+import WechatQR from "./wechat_qr.jpg";
 
 const JSON5_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
@@ -33,22 +35,42 @@ function getColor(s: string): string {
     Immutable.Map([
       ["Case Was Received", "#999900"],
       ["Case Was Approved", "#00FF00"],
-      ["Request for Additional Evidence Was Sent", "#FF0000"]
+      ["Request for Additional Evidence Was Sent", "#FF0000"],
     ]).get(s) ?? new ColorHash().hex(s)
   );
 }
 
 function App() {
-  const [selectedForm, setSelectedForm] = useState<string>("I-129");
-  const [selectedCenter, setSelectedCenter] = useState<string>("WAC");
+  const selectedForm =
+    new URL(window.location.href).searchParams.get("form") ?? "I-129";
+  const selectedCenter =
+    new URL(window.location.href).searchParams.get("center") ?? "WAC";
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
   );
   const [caseData, setCaseData] = useState<Object>({});
 
+  const setSearchParam = (key: string, value: string) => {
+    const url = new URL(window.location.href);
+    const searchParams = url.searchParams;
+    searchParams.set(key, value);
+    url.search = searchParams.toString();
+    window.location.href = url.toString();
+  };
+
+  const url = new URL(window.location.href);
+
   useEffect(() => {
-    (async () =>
-      setCaseData(JSON5.parse(await (await fetch(JSON5_URL)).text())))();
+    (async () => {
+      if (!url.searchParams.get("form")) {
+        setSearchParam("form", "I-129");
+      }
+      if (!url.searchParams.get("center")) {
+        setSearchParam("center", "WAC");
+      }
+      setCaseData(JSON5.parse(await (await fetch(JSON5_URL)).text()));
+    })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const entires = Immutable.List(
@@ -190,7 +212,9 @@ function App() {
         location:
         <strong>
           {latestUpdateDay
-            ? new Date(86400000 * latestUpdateDay + 3600 * 1000 * 7).toDateString()
+            ? new Date(
+                86400000 * latestUpdateDay + 3600 * 1000 * 7
+              ).toDateString()
             : "Not Exist currently"}
         </strong>
       </p>
@@ -259,13 +283,21 @@ function App() {
         alt='wechat_donation'
         style={{ width: "400px", height: "560px" }}
       />
+
       <h4>Q: 我想和你聊一聊？</h4>
+      <p>A: 加我微信吧！</p>
       <img
         src={WechatQR}
         alt='wechat_donation'
         style={{ width: "400px", height: "560px" }}
       />
     </div>
+  );
+
+  const facebookCommentPlugin = (
+    <FacebookProvider appId='185533902045623'>
+      <Comments href='https://vicdus.github.io/uscis-case-statistics/' />
+    </FacebookProvider>
   );
 
   const formTypeSelector = (
@@ -275,7 +307,7 @@ function App() {
         aria-label='form'
         name='form'
         value={selectedForm}
-        onChange={(e) => setSelectedForm(e.target.value)}
+        onChange={(e) => setSearchParam("form", e.target.value)}
         row={true}
       >
         {formTypes
@@ -300,7 +332,7 @@ function App() {
         aria-label='form'
         name='form'
         value={selectedCenter}
-        onChange={(e) => setSelectedCenter(e.target.value)}
+        onChange={(e) => setSearchParam("center", e.target.value)}
       >
         {centerNames
           .toArray()
@@ -327,6 +359,7 @@ function App() {
       {formTypeSelector}
       {centerSelector}
       {QA}
+      {facebookCommentPlugin}
     </div>
   );
 }
