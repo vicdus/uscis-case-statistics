@@ -153,10 +153,10 @@ function App() {
 
   const chart = (
     <LineChart width={1440} height={810} data={datasetWithBackfill}>
-      <CartesianGrid strokeDasharray='3 3' />
-      <XAxis dataKey='day' />
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="day" />
       <YAxis
-        type='number'
+        type="number"
         height={810}
         domain={[0, countValueForAllDays.max() ?? 1]}
       />
@@ -167,7 +167,7 @@ function App() {
       {existStatus.toArray().map((s, ind) => (
         <Line
           key={ind}
-          type='linear'
+          type="linear"
           isAnimationActive={false}
           dataKey={s}
           stroke={getColor(s)}
@@ -178,10 +178,10 @@ function App() {
 
   const barChart = (
     <BarChart width={1440} height={810} data={datasetWithBackfill}>
-      <CartesianGrid strokeDasharray='3 3' />
-      <XAxis dataKey='day' />
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="day" />
       <YAxis
-        type='number'
+        type="number"
         height={810}
         domain={[0, countValueForAllDays.max() ?? 1]}
       />
@@ -196,7 +196,7 @@ function App() {
           key={ind}
           isAnimationActive={false}
           dataKey={s}
-          stackId='a'
+          stackId="a"
           fill={getColor(s)}
         />
       ))}
@@ -222,9 +222,9 @@ function App() {
       <p>
         GitHub project:
         <a
-          href='https://github.com/vicdus/uscis-case-statistics/'
-          target='_blank'
-          rel='noopener noreferrer'
+          href="https://github.com/vicdus/uscis-case-statistics/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           https://github.com/vicdus/uscis-case-statistics/
         </a>
@@ -238,8 +238,8 @@ function App() {
         style={{ marginLeft: "128px", marginRight: "128px" }}
         defaultValue={availableUpdateDays.max() ?? 1}
         onChange={(_, f) => setSelectedUpdateDay(f.toString())}
-        aria-labelledby='discrete-slider'
-        valueLabelDisplay='off'
+        aria-labelledby="discrete-slider"
+        valueLabelDisplay="off"
         step={null}
         marks={availableUpdateDays
           .map((e) => ({
@@ -265,8 +265,8 @@ function App() {
       <h4>Q: 什么是号段？</h4>
       <p>A: 这张图里的working day number</p>
       <img
-        alt='day-explain'
-        src='https://www.am22tech.com/wp-content/uploads/2018/12/uscis-receipt-number-status-i797-notice-truvisa.jpg'
+        alt="day-explain"
+        src="https://www.am22tech.com/wp-content/uploads/2018/12/uscis-receipt-number-status-i797-notice-truvisa.jpg"
       />
       <h4>Q: 你是谁？</h4>
       <p>A: 我今年抽中了h1b, 在等approve</p>
@@ -280,7 +280,7 @@ function App() {
       <p>A: 感谢！</p>
       <img
         src={WeChatDonation}
-        alt='wechat_donation'
+        alt="wechat_donation"
         style={{ width: "400px", height: "560px" }}
       />
 
@@ -288,24 +288,24 @@ function App() {
       <p>A: 加我微信吧！</p>
       <img
         src={WechatQR}
-        alt='wechat_donation'
+        alt="wechat_donation"
         style={{ width: "400px", height: "560px" }}
       />
     </div>
   );
 
   const facebookCommentPlugin = (
-    <FacebookProvider appId='185533902045623'>
-      <Comments href='https://vicdus.github.io/uscis-case-statistics/' />
+    <FacebookProvider appId="185533902045623">
+      <Comments href="https://vicdus.github.io/uscis-case-statistics/" />
     </FacebookProvider>
   );
 
   const formTypeSelector = (
-    <FormControl fullWidth={true} component='fieldset'>
-      <FormLabel component='legend'>Form Type</FormLabel>
+    <FormControl fullWidth={true} component="fieldset">
+      <FormLabel component="legend">Form Type</FormLabel>
       <RadioGroup
-        aria-label='form'
-        name='form'
+        aria-label="form"
+        name="form"
         value={selectedForm}
         onChange={(e) => setSearchParam("form", e.target.value)}
         row={true}
@@ -326,11 +326,11 @@ function App() {
   );
 
   const centerSelector = (
-    <FormControl fullWidth={true} component='fieldset'>
-      <FormLabel component='legend'>Center</FormLabel>
+    <FormControl fullWidth={true} component="fieldset">
+      <FormLabel component="legend">Center</FormLabel>
       <RadioGroup
-        aria-label='form'
-        name='form'
+        aria-label="form"
+        name="form"
         value={selectedCenter}
         onChange={(e) => setSearchParam("center", e.target.value)}
       >
