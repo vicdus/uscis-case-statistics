@@ -190,6 +190,7 @@ function App() {
         domain={[0, countValueForAllDays.max() ?? 1]}
       />
       <YAxis
+        type="category"
         dataKey="day"
         domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
         tick={true}
