@@ -16,6 +16,7 @@ import {
   YAxis,
 } from "recharts";
 
+import lodash from "lodash";
 import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
@@ -177,13 +178,27 @@ function App() {
   );
 
   const barChart = (
-    <BarChart width={1440} height={810} data={datasetWithBackfill}>
+    <BarChart
+      height={1440}
+      width={810}
+      data={datasetWithBackfill}
+      layout="vertical"
+    >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="day" />
-      <YAxis
+      <XAxis
         type="number"
-        height={810}
+        dataKey="day"
         domain={[0, countValueForAllDays.max() ?? 1]}
+      />
+      <YAxis
+        dataKey="day"
+        domain={[140, 230]}
+        tick={true}
+        interval={0}
+        ticks={lodash.range(
+          exisitDays.min() as number,
+          (exisitDays.max() as number) + 1
+        )}
       />
       <Tooltip
         offset={100}
@@ -333,6 +348,7 @@ function App() {
         name="form"
         value={selectedCenter}
         onChange={(e) => setSearchParam("center", e.target.value)}
+        row={true}
       >
         {centerNames
           .toArray()
@@ -352,12 +368,13 @@ function App() {
   return (
     <div>
       {introduction}
-      {updateDayPicker}
-      {chart}
-      {updateDayPicker}
-      {barChart}
       {formTypeSelector}
       {centerSelector}
+      {updateDayPicker}
+      {barChart}
+      {chart}
+      {updateDayPicker}
+
       {QA}
       {facebookCommentPlugin}
     </div>
