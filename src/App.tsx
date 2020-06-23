@@ -16,7 +16,6 @@ import {
   YAxis,
 } from "recharts";
 
-import lodash from "lodash";
 import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
@@ -192,13 +191,11 @@ function App() {
       />
       <YAxis
         dataKey="day"
-        domain={[140, 230]}
+        domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
         tick={true}
         interval={0}
-        ticks={lodash.range(
-          exisitDays.min() as number,
-          (exisitDays.max() as number) + 1
-        )}
+        allowDecimals={true}
+        ticks={exisitDays.toArray()}
       />
       <Tooltip
         offset={100}
