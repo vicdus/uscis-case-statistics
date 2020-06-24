@@ -64,23 +64,31 @@ const getLastCaseNumber = async (
   }
 
   let [low, high] = [1, 1];
-  while (await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high)
-  ) || await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 1)
-  ) || await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 2)
-  ) || await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 3)
-  ) || await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 4)
-  ) || await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 5)
-  ) || await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 6)
-  ) || await getStatus(
-    BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 7)
-  )
+  while (
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high)
+    )) ||
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 1)
+    )) ||
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 2)
+    )) ||
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 3)
+    )) ||
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 4)
+    )) ||
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 5)
+    )) ||
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 6)
+    )) ||
+    (await getStatus(
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 7)
+    ))
   ) {
     [low, high] = [high, high * 2];
   }
@@ -115,15 +123,17 @@ const claw = async (
   console.log(`Loading ${last} entires for ${center_name} day ${day}`);
   const results = (
     await Promise.all(
-      Array.from(new Array(last), (x, i) => i + 1).map((case_number) =>
-        getStatus(
-          BASE_URL +
-            getCaseID(center_name, two_digit_yr, day, code, case_number)
+      lodash
+        .range(1, last + 1)
+        .map((case_number) =>
+          getStatus(
+            BASE_URL +
+              getCaseID(center_name, two_digit_yr, day, code, case_number)
+          )
         )
-      )
     )
   )
-    .filter((x) => x != null)
+    .filter(Boolean)
     .map((x) => nullthrows(x));
 
   const counter = results
