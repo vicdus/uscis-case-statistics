@@ -15,5 +15,5 @@ You will also see any lint errors in the console.
 ## Run clawer
 
 1. Install typescript compiler and nodejs
-2. `tsc ./src/clawer.ts; nodejs ./src/clawer.js`
+2. `npm install; tsc ./src/clawer.ts; node ./src/clawer.js` and will generate a `data.json5`
 3. submit pull request for generated `data.json5`
