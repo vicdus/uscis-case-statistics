@@ -26,6 +26,7 @@ import Slider from "@material-ui/core/Slider";
 
 import WeChatDonation from "./donation_wechat.jpg";
 import WechatQR from "./wechat_qr.jpg";
+import WechatGroupQR from "./wechat_group_qr.jpg";
 
 const JSON5_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
@@ -301,7 +302,24 @@ function App() {
       <p>A: 加我微信吧！</p>
       <img
         src={WechatQR}
-        alt="wechat_donation"
+        alt="wechat"
+        style={{ width: "400px", height: "560px" }}
+      />
+      <h4>Q: 还有别的问题想讨论？</h4>
+      <p>
+        A: 微信群和
+        <a
+          href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=636011"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          一亩三分地的帖子
+        </a>
+        ，请帮我加点大米：）
+      </p>
+      <img
+        src={WechatGroupQR}
+        alt="wechat_group"
         style={{ width: "400px", height: "560px" }}
       />
     </div>
@@ -372,7 +390,6 @@ function App() {
       {barChart}
       {chart}
       {updateDayPicker}
-
       {QA}
       {facebookCommentPlugin}
     </div>
