@@ -55,14 +55,6 @@ const getLastCaseNumber = async (
   day: number,
   code: number
 ): Promise<number> => {
-  if (
-    !(await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, 1)
-    ))
-  ) {
-    return 0;
-  }
-
   let [low, high] = [1, 1];
   while (
     (await getStatus(
