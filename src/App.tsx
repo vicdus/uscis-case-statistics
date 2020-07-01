@@ -345,7 +345,7 @@ function App() {
             fill="#8884d8"
           >
             {pieData.map((entry, index) => (
-              <Cell fill={getColor(entry.name)} />
+              <Cell key={index} fill={getColor(entry.name)} />
             ))}
           </Pie>
           <Tooltip offset={100} />
@@ -353,7 +353,7 @@ function App() {
         <h2>以上饼图：号段{selectedCenter + "20" + workday + "5XXXX"}</h2>
       </div>
     );
-  }, [activeStatus, datasetWithBackfill, caseID, workday]);
+  }, [activeStatus, datasetWithBackfill, workday, selectedCenter]);
 
   const chart = useMemo(
     () => (
