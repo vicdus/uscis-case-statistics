@@ -216,7 +216,30 @@ function App() {
             availableUpdateDays.get(availableUpdateDays.size - 2)?.toString()
         )
         .groupBy((v) => v.day)
-        .map((v) => v.countBy((e) => e.status)),
+        .map((v) =>
+          Immutable.Map(
+            // @ts-ignore
+            v.map((x) => [x.status.toString(), x.count]).toArray()
+          )
+        ),
+    [availableUpdateDays, selectedEntriesAllDate]
+  );
+
+  const todayCount = useMemo(
+    () =>
+      selectedEntriesAllDate
+        .filter(
+          (v) =>
+            v.updateDay ===
+            availableUpdateDays.get(availableUpdateDays.size - 1)?.toString()
+        )
+        .groupBy((v) => v.day)
+        .map((v) =>
+          Immutable.Map(
+            // @ts-ignore
+            v.map((x) => [x.status.toString(), x.count]).toArray()
+          )
+        ),
     [availableUpdateDays, selectedEntriesAllDate]
   );
 
@@ -403,16 +426,34 @@ function App() {
       payload,
       label,
     }) => {
-      console.log(label, payload);
+      const todayTotal =
+        todayCount
+          .get(label as string)
+          ?.reduce((a, b) => a + (b as number), 0) ?? 1;
+      const prevdayTotal =
+        previousDayCount
+          .get(label as string)
+          ?.reduce((a, b) => a + (b as number), 0) ?? 1;
+
       return (
         <div style={{ backgroundColor: "#F0F8FF" }}>
           <p>{`${label}`}</p>
           {(payload ?? []).map((p) => {
-            console.log(p);
+            const prevDay = (previousDayCount
+              .get(label as string)
+              ?.get(p.dataKey as string) ?? 0) as number;
             return (
-              <p
-                style={{ color: p.fill, marginBottom: "3px" }}
-              >{`${p.dataKey}: ${p.value}`}</p>
+              <p style={{ color: p.fill, marginBottom: "3px" }}>{`${
+                p.dataKey
+              }: ${p.value} of ${todayTotal} (${(
+                (100 * (p.value as number)) /
+                todayTotal
+              ).toFixed(
+                2
+              )}%), Previous day: ${prevDay} of ${prevdayTotal},  (${(
+                (100 * prevDay) /
+                prevdayTotal
+              ).toFixed(2)}%)`}</p>
             );
           })}
         </div>
@@ -459,7 +500,15 @@ function App() {
         ))}
       </BarChart>
     );
-  }, [datasetWithBackfill, countValueForAllDays, exisitDays, existStatus]);
+  }, [
+    previousDayCount,
+    datasetWithBackfill,
+    countValueForAllDays,
+    exisitDays,
+    existStatus,
+    todayCount,
+  ]);
+
   const introduction = (
     <div>
       <h1>USCIS case progress tracker</h1>
