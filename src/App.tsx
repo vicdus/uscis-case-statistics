@@ -20,6 +20,7 @@ import {
   XAxis,
   YAxis,
   Cell,
+  TooltipProps,
 } from "recharts";
 
 import FormControl from "@material-ui/core/FormControl";
@@ -57,6 +58,8 @@ function App() {
   const workday = Number.parseInt(
     new URL(window.location.href).searchParams.get("workday") ?? "0"
   );
+  const displayMode =
+    new URL(window.location.href).searchParams.get("displaymode") ?? "absolute";
 
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
@@ -202,6 +205,19 @@ function App() {
         .sort((a, b) => Number.parseInt(a.day) - Number.parseInt(b.day))
         .toArray(),
     [selectedEntries]
+  );
+
+  const previousDayCount = useMemo(
+    () =>
+      selectedEntriesAllDate
+        .filter(
+          (v) =>
+            v.updateDay ===
+            availableUpdateDays.get(availableUpdateDays.size - 2)?.toString()
+        )
+        .groupBy((v) => v.day)
+        .map((v) => v.countBy((e) => e.status)),
+    [availableUpdateDays, selectedEntriesAllDate]
   );
 
   const datasetWithBackfill = useMemo(
@@ -382,8 +398,28 @@ function App() {
     ),
     [datasetWithBackfill, existStatus, countValueForAllDays]
   );
-  const barChart = useMemo(
-    () => (
+  const barChart = useMemo(() => {
+    const CustomTooltip: ContentRenderer<TooltipProps> = ({
+      payload,
+      label,
+    }) => {
+      console.log(label, payload);
+      return (
+        <div style={{ backgroundColor: "#F0F8FF" }}>
+          <p>{`${label}`}</p>
+          {(payload ?? []).map((p) => {
+            console.log(p);
+            return (
+              <p
+                style={{ color: p.fill, marginBottom: "3px" }}
+              >{`${p.dataKey}: ${p.value}`}</p>
+            );
+          })}
+        </div>
+      );
+    };
+
+    return (
       <BarChart
         height={1440}
         width={810}
@@ -407,6 +443,7 @@ function App() {
         />
         <Tooltip
           offset={100}
+          content={CustomTooltip}
           itemSorter={(a) =>
             -existStatus.indexOf(nullthrows(a.dataKey) as string)
           }
@@ -421,9 +458,8 @@ function App() {
           />
         ))}
       </BarChart>
-    ),
-    [datasetWithBackfill, countValueForAllDays, exisitDays, existStatus]
-  );
+    );
+  }, [datasetWithBackfill, countValueForAllDays, exisitDays, existStatus]);
   const introduction = (
     <div>
       <h1>USCIS case progress tracker</h1>
