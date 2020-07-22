@@ -3,6 +3,8 @@ import Immutable from "immutable";
 import JSON5 from "json5";
 import nullthrows from "nullthrows";
 import React, { useEffect, useState, useMemo } from "react";
+import * as lodash from "lodash";
+
 // @ts-ignore
 import { Comments, FacebookProvider } from "react-facebook";
 import {
@@ -39,6 +41,19 @@ import { TextField } from "@material-ui/core";
 
 const JSON5_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
+
+const statusMap = new Map([
+  ["Case Was Approved And My Decision Was Emailed", "Case Was Approved"],
+  ["Case Was Received and A Receipt Notice Was Emailed", "Case Was Received"],
+  [
+    "Request for Initial Evidence Was Sent",
+    "Request for Additional Evidence Was Sent",
+  ],
+  [
+    "Case Was Transferred And A New Office Has Jurisdiction",
+    "Case Transferred And New Office Has Jurisdiction",
+  ],
+]);
 
 function getColor(s: string): string {
   return (
@@ -91,27 +106,49 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const entries = useMemo(
-    () =>
-      Immutable.List(
-        Object.entries(caseData).flatMap(([key, counts]) => {
-          const [center, year, day, code, form, status] = key.split("|");
-          return Object.entries(counts).map((count) => {
-            return {
-              center,
-              year,
-              day,
-              code,
-              form,
-              status,
-              updateDay: count[0] as string,
-              count: count[1] as number,
-            };
-          });
-        })
-      ),
-    [caseData]
-  );
+  const entries = useMemo(() => {
+    return Immutable.List(
+      Object.entries(caseData).flatMap(([key, counts]) => {
+        const [center, year, day, code, form, status] = key.split("|");
+        return Object.entries(counts).map((count) => {
+          return {
+            center,
+            year,
+            day,
+            code,
+            form,
+            status,
+            updateDay: count[0] as string,
+            count: count[1] as number,
+          };
+        });
+      })
+    )
+      .groupBy(
+        (v) =>
+          v.center +
+          v.year +
+          v.day +
+          v.code +
+          v.form +
+          (statusMap.get(v.status) ?? v.status) +
+          v.updateDay
+      )
+      .map((v) => v.toList().toArray())
+      .map((v) => {
+        return {
+          center: v[0].center,
+          year: v[0].year,
+          day: v[0].day,
+          code: v[0].code,
+          form: v[0].form,
+          status: statusMap.get(v[0].status) ?? v[0].status,
+          updateDay: v[0].updateDay,
+          count: lodash.sumBy(v, (v) => v.count) as number,
+        };
+      })
+      .toList();
+  }, [caseData]);
 
   const selectedEntriesAllDate = useMemo(
     () =>
