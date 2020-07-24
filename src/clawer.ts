@@ -12,6 +12,7 @@ import Constants from "./Constants";
 const DATA_FILE_PATH = __dirname + "/data.json5";
 const BASE_URL =
   "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=";
+const today = Math.floor((new Date().getTime() - 3600 * 1000 * 7) / 86400000);
 
 const getCaseID = (
   center_name: string,
@@ -105,7 +106,6 @@ const claw = async (
   day: number,
   code: number
 ): Promise<void> => {
-  const today = Math.floor((new Date().getTime() - 3600 * 1000 * 7) / 86400000);
   const last = await getLastCaseNumber(center_name, two_digit_yr, day, code);
   if (last <= 0) {
     console.log(`No entires for ${center_name} day ${day}`);
