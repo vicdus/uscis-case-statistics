@@ -4,7 +4,7 @@ import * as Immutable from "immutable";
 import * as stringify from "json-stable-stringify";
 import * as JSON5 from "json5";
 import * as lodash from "lodash";
-import fetch from "node-fetch";
+import fetch, { FetchError } from "node-fetch";
 import nullthrows from "nullthrows";
 
 import Constants from "./Constants";
@@ -31,7 +31,8 @@ const getStatus = async (
   url: string
 ): Promise<{ status: string; formType: string } | null> => {
   try {
-    const f = await fetch(url);
+    // 60 seconds timeout. always retry if timetout
+    const f = await fetch(url, { timeout: 1000 * 60 });
     const t = await f.text();
     const status_regexp = new RegExp("(?<=<h1>).*(?=</h1>)");
     const status = nullthrows(
@@ -45,8 +46,12 @@ const getStatus = async (
             Constants.FORM_TYPES.find((form) => t.includes(form)) ??
             "unknown form type",
         };
-  } catch {
-    return null;
+  } catch (e) {
+    if (e instanceof FetchError && e.message.startsWith("network timeout")) {
+      return getStatus(url);
+    } else {
+      return null;
+    }
   }
 };
 
@@ -157,7 +162,7 @@ const claw = async (
 };
 
 (async () => {
-  for (const d of lodash.range(145, 350)) {
+  for (const d of lodash.range(220, 350)) {
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
     );
