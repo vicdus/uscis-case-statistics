@@ -28,11 +28,16 @@ const getCaseID = (
   case_serial_numbers.toString().padStart(4, "0");
 
 const getStatus = async (
-  url: string
+  url: string,
+  retry: number = 3
 ): Promise<{ status: string; formType: string } | null> => {
+  if (retry <= 0) {
+    console.log(`Request for ${url} failed too many times`);
+    return null;
+  }
   try {
     // 60 seconds timeout. always retry if timetout
-    const f = await fetch(url, { timeout: 1000 * 60 });
+    const f = await fetch(url, { timeout: 1000 * 30 });
     const t = await f.text();
     const status_regexp = new RegExp("(?<=<h1>).*(?=</h1>)");
     const status = nullthrows(
@@ -48,7 +53,7 @@ const getStatus = async (
         };
   } catch (e) {
     if (e instanceof FetchError && e.message.startsWith("network timeout")) {
-      return getStatus(url);
+      return getStatus(url, retry - 1);
     } else {
       return null;
     }
@@ -162,7 +167,7 @@ const claw = async (
 };
 
 (async () => {
-  for (const d of lodash.range(160, 350)) {
+  for (const d of lodash.range(215, 350)) {
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
     );
