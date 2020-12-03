@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import * as fs from "fs";
+import * as https from "https";
 import * as Immutable from "immutable";
 import * as stringify from "json-stable-stringify";
 import * as JSON5 from "json5";
@@ -8,6 +9,8 @@ import fetch, { FetchError } from "node-fetch";
 import nullthrows from "nullthrows";
 
 import Constants from "./Constants";
+
+https.globalAgent.options.rejectUnauthorized = false;
 
 const DATA_FILE_PATH = __dirname + "/data.json5";
 const BASE_URL =
@@ -167,7 +170,7 @@ const claw = async (
 };
 
 (async () => {
-  for (const d of lodash.range(215, 350)) {
+  for (const d of lodash.range(170, 350)) {
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
     );
