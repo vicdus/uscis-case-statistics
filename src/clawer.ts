@@ -154,7 +154,7 @@ const claw = async (
   );
 
   // filter old data
-  const new_json5_obj = lodash.mapValues({ ...json5_obj }, counts => lodash.pickBy(counts, (d, _c) => today - d >= 7));
+  const new_json5_obj = lodash.mapValues({ ...json5_obj }, counts => lodash.pickBy(counts, (d, _c) => today - d <= 7));
 
   Object.entries(counter).forEach(([key, count]) => {
     new_json5_obj[key] = { ...(new_json5_obj[key] ?? {}), ...count };
