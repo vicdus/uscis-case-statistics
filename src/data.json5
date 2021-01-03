@@ -1847,11 +1847,17 @@
   "EAC|20|169|5|I-751|Case Transferred To Another Office": {},
   "EAC|20|169|5|I-751|Case Was Received": {},
   "EAC|20|169|5|I-751|Case Was Rejected Because It Was Improperly Filed": {},
-  "EAC|20|170|5|I-539|Case Was Approved": {},
+  "EAC|20|170|5|I-539|Case Was Approved": {
+    "18630": 2,
+  },
   "EAC|20|170|5|I-539|Case Was Received": {},
-  "EAC|20|170|5|I-539|Case Was Rejected Because It Was Improperly Filed": {},
+  "EAC|20|170|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18630": 1,
+  },
   "EAC|20|170|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {},
-  "EAC|20|170|5|I-751|Case Transferred To Another Office": {},
+  "EAC|20|170|5|I-751|Case Transferred To Another Office": {
+    "18630": 1,
+  },
   "EAC|20|170|5|I-751|Case Was Received": {},
   "EAC|20|171|5|I-129|Case Was Approved": {},
   "EAC|20|171|5|I-129|Case Was Approved And My Decision Was Emailed": {},
@@ -28184,116 +28190,48 @@
   "MSC|20|341|5|unknown form type|Card Was Picked Up By The United States Postal Service": {},
   "MSC|20|341|5|unknown form type|Case Was Received": {},
   "MSC|20|341|5|unknown form type|New Card Is Being Produced": {},
-  "MSC|20|342|5|I-131|Case Was Approved": {
-    "18629": 15,
-  },
-  "MSC|20|342|5|I-131|Case Was Denied": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-131|Case Was Received At Another USCIS Office": {
-    "18629": 2,
-  },
-  "MSC|20|342|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
-    "18629": 7,
-  },
-  "MSC|20|342|5|I-131|Duplicate Notice Was Mailed": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-131|Fees Were Waived": {
-    "18629": 20,
-  },
-  "MSC|20|342|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
-    "18629": 2,
-  },
-  "MSC|20|342|5|I-131|Name Was Updated": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-131|Request for Initial Evidence Was Sent": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-131|Response To USCIS&apos; Request For Evidence Was Received": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-212|Case Was Approved": {
-    "18629": 10,
-  },
-  "MSC|20|342|5|I-212|Case Was Received": {
-    "18629": 5,
-  },
-  "MSC|20|342|5|I-212|Case Was Received At Another USCIS Office": {
-    "18629": 4,
-  },
+  "MSC|20|342|5|I-131|Case Was Approved": {},
+  "MSC|20|342|5|I-131|Case Was Denied": {},
+  "MSC|20|342|5|I-131|Case Was Received At Another USCIS Office": {},
+  "MSC|20|342|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {},
+  "MSC|20|342|5|I-131|Duplicate Notice Was Mailed": {},
+  "MSC|20|342|5|I-131|Fees Were Waived": {},
+  "MSC|20|342|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {},
+  "MSC|20|342|5|I-131|Name Was Updated": {},
+  "MSC|20|342|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {},
+  "MSC|20|342|5|I-131|Request for Initial Evidence Was Sent": {},
+  "MSC|20|342|5|I-131|Response To USCIS&apos; Request For Evidence Was Received": {},
+  "MSC|20|342|5|I-212|Case Was Approved": {},
+  "MSC|20|342|5|I-212|Case Was Received": {},
+  "MSC|20|342|5|I-212|Case Was Received At Another USCIS Office": {},
   "MSC|20|342|5|I-212|Duplicate Notice Was Mailed": {},
-  "MSC|20|342|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
-    "18629": 2,
-  },
-  "MSC|20|342|5|I-485|Case Was Approved": {
-    "18629": 14,
-  },
+  "MSC|20|342|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {},
+  "MSC|20|342|5|I-485|Case Was Approved": {},
   "MSC|20|342|5|I-485|Case Was Received At Another USCIS Office": {},
-  "MSC|20|342|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-485|Duplicate Notice Was Mailed": {
-    "18629": 2,
-  },
-  "MSC|20|342|5|I-485|Fees Were Waived": {
-    "18629": 39,
-  },
+  "MSC|20|342|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {},
+  "MSC|20|342|5|I-485|Duplicate Notice Was Mailed": {},
+  "MSC|20|342|5|I-485|Fees Were Waived": {},
   "MSC|20|342|5|I-485|Interview Was Completed And My Case Must Be Reviewed": {},
-  "MSC|20|342|5|I-485|Name Was Updated": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
-    "18629": 14,
-  },
-  "MSC|20|342|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
-    "18629": 2,
-  },
-  "MSC|20|342|5|I-751|Case Was Received": {
-    "18629": 112,
-  },
-  "MSC|20|342|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
-    "18629": 3,
-  },
-  "MSC|20|342|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
-    "18629": 6,
-  },
+  "MSC|20|342|5|I-485|Name Was Updated": {},
+  "MSC|20|342|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {},
+  "MSC|20|342|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {},
+  "MSC|20|342|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {},
+  "MSC|20|342|5|I-751|Case Was Received": {},
+  "MSC|20|342|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {},
+  "MSC|20|342|5|I-751|Case Was Rejected Because It Was Improperly Filed": {},
   "MSC|20|342|5|I-751|Duplicate Notice Was Mailed": {},
-  "MSC|20|342|5|I-751|Fees Were Waived": {
-    "18629": 6,
-  },
-  "MSC|20|342|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
-    "18629": 2,
-  },
-  "MSC|20|342|5|I-765|Card Was Mailed To Me": {
-    "18629": 22,
-  },
+  "MSC|20|342|5|I-751|Fees Were Waived": {},
+  "MSC|20|342|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {},
+  "MSC|20|342|5|I-765|Card Was Mailed To Me": {},
   "MSC|20|342|5|I-765|Case Was Approved": {},
-  "MSC|20|342|5|I-765|Case Was Received At Another USCIS Office": {
-    "18629": 30,
-  },
-  "MSC|20|342|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
-    "18629": 4,
-  },
+  "MSC|20|342|5|I-765|Case Was Received At Another USCIS Office": {},
+  "MSC|20|342|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {},
   "MSC|20|342|5|I-765|Fees Were Waived": {},
   "MSC|20|342|5|I-765|Name Was Updated": {},
-  "MSC|20|342|5|unknown form type|Card Was Delivered To Me By The Post Office": {
-    "18629": 4,
-  },
+  "MSC|20|342|5|unknown form type|Card Was Delivered To Me By The Post Office": {},
   "MSC|20|342|5|unknown form type|Card Was Picked Up By The United States Postal Service": {},
-  "MSC|20|342|5|unknown form type|Case Was Received": {
-    "18629": 1,
-  },
-  "MSC|20|342|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {
-    "18629": 1,
-  },
+  "MSC|20|342|5|unknown form type|Case Was Received": {},
+  "MSC|20|342|5|unknown form type|Case Was Transferred And A New Office Has Jurisdiction": {},
   "MSC|20|342|5|unknown form type|Fees Were Waived": {},
   "MSC|20|342|5|unknown form type|New Card Is Being Produced": {},
   "SRC|20|145|5|I-129| Premium Processing Fee Will Be Refunded": {},
