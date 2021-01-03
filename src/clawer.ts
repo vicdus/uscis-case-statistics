@@ -153,13 +153,11 @@ const claw = async (
     fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })
   );
 
-  // filter old data
-  const new_json5_obj = lodash.mapValues({ ...json5_obj }, counts => lodash.pickBy(counts, (d) => {
-    return today - d <= 7;
-  }));
+  const new_json5_obj = { ...json5_obj };
 
   Object.entries(counter).forEach(([key, count]) => {
     new_json5_obj[key] = { ...(new_json5_obj[key] ?? {}), ...count };
+    new_json5_obj[key] = lodash.pickBy(new_json5_obj[key], (_count, day) => Math.abs(Number.parseInt(day) - today) <= 14);
   });
 
   fs.writeFileSync(
