@@ -33,7 +33,7 @@ const getCaseID = (
 const getStatus = async (
   url: string,
   retry: number = 3
-): Promise<{ status: string; formType: string } | null> => {
+): Promise<{ status: string; formType: string; } | null> => {
   if (retry <= 0) {
     console.log(`Request for ${url} failed too many times`);
     return null;
@@ -49,11 +49,11 @@ const getStatus = async (
     return status === ""
       ? null
       : {
-          status,
-          formType:
-            Constants.FORM_TYPES.find((form) => t.includes(form)) ??
-            "unknown form type",
-        };
+        status,
+        formType:
+          Constants.FORM_TYPES.find((form) => t.includes(form)) ??
+          "unknown form type",
+      };
   } catch (e) {
     if (e instanceof FetchError && e.message.startsWith("network timeout")) {
       return getStatus(url, retry - 1);
@@ -133,7 +133,7 @@ const claw = async (
         .map((case_number) =>
           getStatus(
             BASE_URL +
-              getCaseID(center_name, two_digit_yr, day, code, case_number)
+            getCaseID(center_name, two_digit_yr, day, code, case_number)
           )
         )
     )
@@ -152,7 +152,10 @@ const claw = async (
   const json5_obj = JSON5.parse(
     fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })
   );
-  const new_json5_obj = { ...json5_obj };
+
+  // filter old data
+  const new_json5_obj = lodash.mapValues({ ...json5_obj }, counts => lodash.pickBy(counts, (d, _c) => today - d >= 7));
+
   Object.entries(counter).forEach(([key, count]) => {
     new_json5_obj[key] = { ...(new_json5_obj[key] ?? {}), ...count };
   });
