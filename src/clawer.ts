@@ -55,7 +55,7 @@ const getStatus = async (
           "unknown form type",
       };
   } catch (e) {
-    if (e instanceof FetchError && e.message.startsWith("network timeout")) {
+    if (e instanceof FetchError && e.message.includes('timeout')) {
       console.log('timeout! ' + url);
       return getStatus(url, retry - 1);
     } else {
