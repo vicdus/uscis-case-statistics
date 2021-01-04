@@ -56,8 +56,10 @@ const getStatus = async (
       };
   } catch (e) {
     if (e instanceof FetchError && e.message.startsWith("network timeout")) {
+      console.log('timeout! ' + url);
       return getStatus(url, retry - 1);
     } else {
+      console.log(e + " " + url);
       return null;
     }
   }
@@ -173,7 +175,7 @@ const claw = async (
 };
 
 (async () => {
-  for (const d of lodash.range(170, 320)) {
+  for (const d of lodash.range(170, 350)) {
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
     );
