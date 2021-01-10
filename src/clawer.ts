@@ -26,7 +26,7 @@ const getCaseID = (
 ) =>
   center_name +
   two_digit_yr.toString() +
-  case_serial_numbers.toString().padStart(3, "0") +
+  day.toString().padStart(3, "0") +
   code.toString() +
   case_serial_numbers.toString().padStart(4, "0");
 
