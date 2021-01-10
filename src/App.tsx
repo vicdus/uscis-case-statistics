@@ -73,8 +73,6 @@ function App() {
   const workday = Number.parseInt(
     new URL(window.location.href).searchParams.get("workday") ?? "0"
   );
-  const displayMode =
-    new URL(window.location.href).searchParams.get("displaymode") ?? "absolute";
 
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
@@ -298,7 +296,7 @@ function App() {
       <div style={{ width: "600px", display: "inline", float: "left" }}>
         <TextField
           id="standard-basic"
-          label="也可输入你的Case ID来查询你的号段下所有status的比例, 例如 WAC2017150172"
+          label="也可输入你的Case ID来查询你的号段下所有status的比例, 例如 WAC2117150172"
           fullWidth={true}
           onChange={(v) => setCaseID(v.target.value)}
         />

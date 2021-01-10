@@ -26,7 +26,7 @@ const getCaseID = (
 ) =>
   center_name +
   two_digit_yr.toString() +
-  day.toString() +
+  case_serial_numbers.toString().padStart(3, "0") +
   code.toString() +
   case_serial_numbers.toString().padStart(4, "0");
 
@@ -175,9 +175,9 @@ const claw = async (
 };
 
 (async () => {
-  for (const d of lodash.range(170, 350)) {
+  for (const d of lodash.range(1, 350)) {
     await Promise.all(
-      Constants.CENTER_NAMES.map((name) => claw(name, 20, d, 5))
+      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5))
     );
   }
 })();
