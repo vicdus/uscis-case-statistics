@@ -478,17 +478,16 @@ function App() {
               .get(label as string)
               ?.get(p.dataKey as string) ?? 0) as number;
             return (
-              <p style={{ color: p.fill, marginBottom: "3px" }}>{`${
-                p.dataKey
-              }: ${p.value} of ${todayTotal} (${(
-                (100 * (p.value as number)) /
-                todayTotal
-              ).toFixed(
-                2
-              )}%), Previous day: ${prevDay} of ${prevdayTotal},  (${(
-                (100 * prevDay) /
-                prevdayTotal
-              ).toFixed(2)}%)`}</p>
+              <p style={{ color: p.fill, marginBottom: "3px" }}>{`${p.dataKey
+                }: ${p.value} of ${todayTotal} (${(
+                  (100 * (p.value as number)) /
+                  todayTotal
+                ).toFixed(
+                  2
+                )}%), Previous day: ${prevDay} of ${prevdayTotal},  (${(
+                  (100 * prevDay) /
+                  prevdayTotal
+                ).toFixed(2)}%)`}</p>
             );
           })}
         </div>
@@ -554,8 +553,8 @@ function App() {
         <strong>
           {latestUpdateDay
             ? new Date(
-                86400000 * latestUpdateDay + 3600 * 1000 * 7
-              ).toDateString()
+              86400000 * latestUpdateDay + 3600 * 1000 * 7
+            ).toDateString()
             : "Not Exist currently"}
         </strong>
       </p>
