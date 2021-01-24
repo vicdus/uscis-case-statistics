@@ -6,7 +6,7 @@ pushd $scriptdir
 
 git pull
 
-tsc clawer.ts
+tsc clawer.ts Constants.ts
 
 node clawer.js
 
