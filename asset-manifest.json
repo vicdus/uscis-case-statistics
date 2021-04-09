@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/uscis-case-statistics/static/js/main.e32e114b.chunk.js",
-    "main.js.map": "/uscis-case-statistics/static/js/main.e32e114b.chunk.js.map",
+    "main.js": "/uscis-case-statistics/static/js/main.e624be1f.chunk.js",
+    "main.js.map": "/uscis-case-statistics/static/js/main.e624be1f.chunk.js.map",
     "runtime-main.js": "/uscis-case-statistics/static/js/runtime-main.ab8d7354.js",
     "runtime-main.js.map": "/uscis-case-statistics/static/js/runtime-main.ab8d7354.js.map",
-    "static/js/2.7911f3da.chunk.js": "/uscis-case-statistics/static/js/2.7911f3da.chunk.js",
-    "static/js/2.7911f3da.chunk.js.map": "/uscis-case-statistics/static/js/2.7911f3da.chunk.js.map",
+    "static/js/2.6d7753e5.chunk.js": "/uscis-case-statistics/static/js/2.6d7753e5.chunk.js",
+    "static/js/2.6d7753e5.chunk.js.map": "/uscis-case-statistics/static/js/2.6d7753e5.chunk.js.map",
     "index.html": "/uscis-case-statistics/index.html",
-    "precache-manifest.c93817069f9344960b7d3b4221688152.js": "/uscis-case-statistics/precache-manifest.c93817069f9344960b7d3b4221688152.js",
+    "precache-manifest.30094fe809a995af247395dfc9239f9c.js": "/uscis-case-statistics/precache-manifest.30094fe809a995af247395dfc9239f9c.js",
     "service-worker.js": "/uscis-case-statistics/service-worker.js",
-    "static/js/2.7911f3da.chunk.js.LICENSE.txt": "/uscis-case-statistics/static/js/2.7911f3da.chunk.js.LICENSE.txt",
+    "static/js/2.6d7753e5.chunk.js.LICENSE.txt": "/uscis-case-statistics/static/js/2.6d7753e5.chunk.js.LICENSE.txt",
     "static/media/donation_wechat.jpg": "/uscis-case-statistics/static/media/donation_wechat.84e04efe.jpg",
     "static/media/wechat_group_qr.jpg": "/uscis-case-statistics/static/media/wechat_group_qr.b70b83ac.jpg",
     "static/media/wechat_qr.jpg": "/uscis-case-statistics/static/media/wechat_qr.6a2dd925.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ab8d7354.js",
-    "static/js/2.7911f3da.chunk.js",
-    "static/js/main.e32e114b.chunk.js"
+    "static/js/2.6d7753e5.chunk.js",
+    "static/js/main.e624be1f.chunk.js"
   ]
 }
