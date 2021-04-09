@@ -12,8 +12,6 @@ import {
   BarChart,
   CartesianGrid,
   ContentRenderer,
-  Line,
-  LineChart,
   Pie,
   PieChart,
   PieLabelRenderProps,
@@ -429,33 +427,6 @@ function App() {
     );
   }, [activeStatus, datasetWithBackfill, workday, selectedCenter]);
 
-  const chart = useMemo(
-    () => (
-      <LineChart width={1440} height={810} data={datasetWithBackfill}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="day" />
-        <YAxis
-          type="number"
-          height={810}
-          domain={[0, countValueForAllDays.max() ?? 1]}
-        />
-        <Tooltip
-          offset={100}
-          itemSorter={(a) => -a.payload[nullthrows(a.dataKey?.toString())]}
-        />
-        {existStatus.toArray().map((s, ind) => (
-          <Line
-            key={ind}
-            type="linear"
-            isAnimationActive={false}
-            dataKey={s}
-            stroke={getColor(s)}
-          />
-        ))}
-      </LineChart>
-    ),
-    [datasetWithBackfill, existStatus, countValueForAllDays]
-  );
   const barChart = useMemo(() => {
     const CustomTooltip: ContentRenderer<TooltipProps> = ({
       payload,
@@ -510,6 +481,8 @@ function App() {
         <YAxis
           type="category"
           dataKey="day"
+          width={150}
+          tickFormatter={day => selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
           domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
           tick={true}
           interval={0}
@@ -534,14 +507,7 @@ function App() {
         ))}
       </BarChart>
     );
-  }, [
-    previousDayCount,
-    datasetWithBackfill,
-    countValueForAllDays,
-    exisitDays,
-    existStatus,
-    todayCount,
-  ]);
+  }, [datasetWithBackfill, countValueForAllDays, exisitDays, existStatus, todayCount, previousDayCount, selectedCenter]);
 
   const introduction = (
     <div>
@@ -721,7 +687,6 @@ function App() {
       {pieChart}
       {updateDayPicker}
       {barChart}
-      {chart}
       {updateDayPicker}
       {QA}
       {facebookCommentPlugin}
