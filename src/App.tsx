@@ -484,7 +484,7 @@ function App() {
           width={150}
           tickFormatter={day => selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
           domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
-          tick={true}
+          tick={{ fontSize: "x-small" }}
           interval={0}
           allowDecimals={true}
           ticks={exisitDays.toArray()}
