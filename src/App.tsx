@@ -63,7 +63,7 @@ function getColor(s: string): string {
   );
 }
 
-function App() {
+const App: React.FC<{}> = () => {
   const selectedForm =
     new URL(window.location.href).searchParams.get("form") ?? "I-129";
   const selectedCenter =
@@ -692,6 +692,6 @@ function App() {
       {facebookCommentPlugin}
     </div>
   );
-}
+};
 
 export default App;
