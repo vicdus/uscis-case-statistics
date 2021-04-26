@@ -394,7 +394,7 @@ const App: React.FC<{}> = () => {
       return null;
     }
     const pieData = Object.entries(
-      datasetWithBackfill.find((e) => e.day === workday.toString()) ?? {}
+      datasetWithBackfill.find((e) => Number.parseInt(e.day) === workday) ?? {}
     )
       .map(([key, val]) => ({ name: key, value: Number.parseInt(val) }))
       .filter((v) => v.name !== "day")
