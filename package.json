@@ -23,7 +23,7 @@
     "immutable": "^4.0.0-rc.12",
     "json-stable-stringify": "^1.0.1",
     "json5": "^2.1.3",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "node": "^14.2.0",
     "node-fetch": "^2.6.1",
     "nullthrows": "^1.1.1",
