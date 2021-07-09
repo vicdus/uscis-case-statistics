@@ -158,7 +158,7 @@ const claw = async (
   const results = (await PromisePool
     .withConcurrency(1000)
     .for(lodash.range(1, last + 1))
-    .process(case_number => getStatus(BASE_URL + getCaseID(center_name, two_digit_yr, day, code, case_number, format))))
+    .process(async case_number => await getStatus(BASE_URL + getCaseID(center_name, two_digit_yr, day, code, case_number, format))))
     .results
     .filter(Boolean)
     .map((x) => nullthrows(x));
