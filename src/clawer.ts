@@ -210,7 +210,7 @@ const claw = async (
     //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
     // );
 
-    await PromisePool.all(
+    await (new PromisePool()).all(
       Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
     );
   }
@@ -218,7 +218,7 @@ const claw = async (
 
 
 class PromisePool {
-  static async all<T>(values: readonly (T | PromiseLike<T>)[], r: number = 10): Promise<T[]> {
+  async all<T>(values: readonly (T | PromiseLike<T>)[], r: number = 10): Promise<T[]> {
     return await Promise.all(values);
   }
 }
