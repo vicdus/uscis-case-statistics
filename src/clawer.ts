@@ -64,7 +64,7 @@ const getStatus = async (
   }
   try {
     // 60 seconds timeout. always retry if timetout
-    const f = await fetch(url, { timeout: 1000 * 30 });
+    const f = await fetch(url, { timeout: 1000 * 60 });
     const t = await f.text();
     const status_regexp = new RegExp("(?<=<h1>).*(?=</h1>)");
     const status = nullthrows(
