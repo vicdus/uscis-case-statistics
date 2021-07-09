@@ -56,7 +56,7 @@ const getCaseID = (
 
 const getStatus = async (
   url: string,
-  retry: number = 3
+  retry: number = 24
 ): Promise<{ status: string; formType: string; } | null> => {
   if (retry <= 0) {
     console.log(`Request for ${url} failed too many times`);
