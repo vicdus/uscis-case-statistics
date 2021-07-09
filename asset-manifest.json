@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/uscis-case-statistics/static/js/main.7719e7af.chunk.js",
-    "main.js.map": "/uscis-case-statistics/static/js/main.7719e7af.chunk.js.map",
-    "runtime-main.js": "/uscis-case-statistics/static/js/runtime-main.ab8d7354.js",
-    "runtime-main.js.map": "/uscis-case-statistics/static/js/runtime-main.ab8d7354.js.map",
-    "static/js/2.6d7753e5.chunk.js": "/uscis-case-statistics/static/js/2.6d7753e5.chunk.js",
-    "static/js/2.6d7753e5.chunk.js.map": "/uscis-case-statistics/static/js/2.6d7753e5.chunk.js.map",
+    "main.js": "/uscis-case-statistics/static/js/main.75253d29.chunk.js",
+    "main.js.map": "/uscis-case-statistics/static/js/main.75253d29.chunk.js.map",
+    "runtime-main.js": "/uscis-case-statistics/static/js/runtime-main.28edcbea.js",
+    "runtime-main.js.map": "/uscis-case-statistics/static/js/runtime-main.28edcbea.js.map",
+    "static/js/2.f118528b.chunk.js": "/uscis-case-statistics/static/js/2.f118528b.chunk.js",
+    "static/js/2.f118528b.chunk.js.map": "/uscis-case-statistics/static/js/2.f118528b.chunk.js.map",
     "index.html": "/uscis-case-statistics/index.html",
-    "precache-manifest.5401e0f88f39f446d5865d9d19c6b2fd.js": "/uscis-case-statistics/precache-manifest.5401e0f88f39f446d5865d9d19c6b2fd.js",
+    "precache-manifest.9e9ef9907e31f6b2669717c93be9754b.js": "/uscis-case-statistics/precache-manifest.9e9ef9907e31f6b2669717c93be9754b.js",
     "service-worker.js": "/uscis-case-statistics/service-worker.js",
-    "static/js/2.6d7753e5.chunk.js.LICENSE.txt": "/uscis-case-statistics/static/js/2.6d7753e5.chunk.js.LICENSE.txt",
+    "static/js/2.f118528b.chunk.js.LICENSE.txt": "/uscis-case-statistics/static/js/2.f118528b.chunk.js.LICENSE.txt",
     "static/media/donation_wechat.jpg": "/uscis-case-statistics/static/media/donation_wechat.84e04efe.jpg",
     "static/media/wechat_group_qr.jpg": "/uscis-case-statistics/static/media/wechat_group_qr.b70b83ac.jpg",
     "static/media/wechat_qr.jpg": "/uscis-case-statistics/static/media/wechat_qr.6a2dd925.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab8d7354.js",
-    "static/js/2.6d7753e5.chunk.js",
-    "static/js/main.7719e7af.chunk.js"
+    "static/js/runtime-main.28edcbea.js",
+    "static/js/2.f118528b.chunk.js",
+    "static/js/main.75253d29.chunk.js"
   ]
 }
