@@ -5,9 +5,10 @@ import * as Immutable from "immutable";
 import * as stringify from "json-stable-stringify";
 import * as JSON5 from "json5";
 import * as lodash from "lodash";
+import PromisePool from "@supercharge/promise-pool";
 import fetch, { FetchError } from "node-fetch";
 import nullthrows from "nullthrows";
-import PromisePool from "@supercharge/promise-pool";
+
 import Constants from "./Constants";
 
 https.globalAgent.options.rejectUnauthorized = false;
@@ -209,7 +210,6 @@ const claw = async (
     // await Promise.all(
     //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
     // );
-
     await PromisePool.withConcurrency(5000).for(Constants.CENTER_NAMES).process(async name => claw(name, 21, d, 9, 'center-year-code-day-serial'));
 
     // await Promise.all(
