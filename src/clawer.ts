@@ -5,7 +5,9 @@ import * as Immutable from "immutable";
 import * as stringify from "json-stable-stringify";
 import * as JSON5 from "json5";
 import * as lodash from "lodash";
-import PromisePool from "@supercharge/promise-pool";
+
+//@ts-ignore
+import * as PromisePool from "@supercharge/promise-pool";
 import fetch, { FetchError } from "node-fetch";
 import nullthrows from "nullthrows";
 
@@ -153,20 +155,27 @@ const claw = async (
   }
 
   console.log(`Loading ${last} entires for ${center_name} day ${day}`);
-  const results = (
-    await Promise.all(
-      lodash
-        .range(1, last + 1)
-        .map((case_number) =>
-          getStatus(
-            BASE_URL +
-            getCaseID(center_name, two_digit_yr, day, code, case_number, format)
-          )
-        )
-    )
-  )
+  const results = (await PromisePool.withConcurrency(1000).for(lodash
+    .range(1, last + 1))
+    .process(case_number => getStatus(BASE_URL + getCaseID(center_name, two_digit_yr, day, code, case_number, format))))
+    .results
     .filter(Boolean)
     .map((x) => nullthrows(x));
+
+  // const results = (
+  //   await Promise.all(
+  //     lodash
+  //       .range(1, last + 1)
+  //       .map((case_number) =>
+  //         getStatus(
+  //           BASE_URL +
+  //           getCaseID(center_name, two_digit_yr, day, code, case_number, format)
+  //         )
+  //       )
+  //   )
+  // )
+  // .filter(Boolean)
+  // .map((x) => nullthrows(x));
 
   const counter = results
     .reduce((counter, res) => {
@@ -210,10 +219,9 @@ const claw = async (
     // await Promise.all(
     //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
     // );
-    await PromisePool.withConcurrency(5000).for(Constants.CENTER_NAMES).process(async name => claw(name, 21, d, 9, 'center-year-code-day-serial'));
 
-    // await Promise.all(
-    //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
-    // );
+    await Promise.all(
+      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
+    );
   }
 })();
