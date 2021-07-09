@@ -7,7 +7,7 @@ import * as JSON5 from "json5";
 import * as lodash from "lodash";
 import fetch, { FetchError } from "node-fetch";
 import nullthrows from "nullthrows";
-
+import PromisePool from "@supercharge/promise-pool";
 import Constants from "./Constants";
 
 https.globalAgent.options.rejectUnauthorized = false;
@@ -210,15 +210,10 @@ const claw = async (
     //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
     // );
 
-    await (new PromisePool()).all(
-      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
-    );
+    await PromisePool.withConcurrency(5000).for(Constants.CENTER_NAMES).process(async name => claw(name, 21, d, 9, 'center-year-code-day-serial'));
+
+    // await Promise.all(
+    //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
+    // );
   }
 })();
-
-
-class PromisePool {
-  async all<T>(values: readonly (T | PromiseLike<T>)[], r: number = 10): Promise<T[]> {
-    return await Promise.all(values);
-  }
-}
