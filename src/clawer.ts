@@ -12,23 +12,44 @@ import Constants from "./Constants";
 
 https.globalAgent.options.rejectUnauthorized = false;
 
-const DATA_FILE_PATH = __dirname + "/data.json5";
+// const DATA_FILE_PATH = __dirname + "/data.json5";
 const BASE_URL =
   "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=";
 const today = Math.floor((new Date().getTime() - 3600 * 1000 * 7) / 86400000);
+
+// 4 digit serial number
+type CaseNumberFormat = "center-year-day-code-serial"  // i-797
+  | "center-year-code-day-serial"; // i-485
+
+const DATA_FILE_PATH: Map<CaseNumberFormat, string> = new Map([
+  ["center-year-day-code-serial", __dirname + "/data.json5"],
+  ["center-year-code-day-serial", __dirname + "/data485.json5"],
+]);
 
 const getCaseID = (
   center_name: string,
   two_digit_yr: number,
   day: number,
   code: number,
-  case_serial_numbers: number
-) =>
-  center_name +
-  two_digit_yr.toString() +
-  day.toString().padStart(3, "0") +
-  code.toString() +
-  case_serial_numbers.toString().padStart(4, "0");
+  case_serial_numbers: number,
+  case_number_format: CaseNumberFormat
+): string => {
+  switch (case_number_format) {
+    case "center-year-code-day-serial":
+      return center_name +
+        two_digit_yr.toString() +
+        code.toString() +
+        day.toString().padStart(3, "0") +
+        case_serial_numbers.toString().padStart(4, "0");
+    case "center-year-day-code-serial":
+      return center_name +
+        two_digit_yr.toString() +
+        day.toString().padStart(3, "0") +
+        code.toString() +
+        case_serial_numbers.toString().padStart(4, "0");
+  }
+};
+
 
 const getStatus = async (
   url: string,
@@ -69,33 +90,34 @@ const getLastCaseNumber = async (
   center_name: string,
   two_digit_yr: number,
   day: number,
-  code: number
+  code: number,
+  case_number_format: CaseNumberFormat
 ): Promise<number> => {
   let [low, high] = [1, 1];
   while (
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high, case_number_format)
     )) ||
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 1)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 1, case_number_format)
     )) ||
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 2)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 2, case_number_format)
     )) ||
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 3)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 3, case_number_format)
     )) ||
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 4)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 4, case_number_format)
     )) ||
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 5)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 5, case_number_format)
     )) ||
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 6)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 6, case_number_format)
     )) ||
     (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 7)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 7, case_number_format)
     ))
   ) {
     [low, high] = [high, high * 2];
@@ -104,7 +126,7 @@ const getLastCaseNumber = async (
   while (low < high) {
     const mid = Math.floor((low + high) / 2);
     const result = await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, mid)
+      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, mid, case_number_format)
     );
     if (result) {
       low = mid + 1;
@@ -119,9 +141,11 @@ const claw = async (
   center_name: string,
   two_digit_yr: number,
   day: number,
-  code: number
+  code: number,
+  format: CaseNumberFormat
 ): Promise<void> => {
-  const last = await getLastCaseNumber(center_name, two_digit_yr, day, code);
+  const path = DATA_FILE_PATH.get(format)!;
+  const last = await getLastCaseNumber(center_name, two_digit_yr, day, code, format);
   if (last <= 0) {
     console.log(`No entires for ${center_name} day ${day}`);
     return;
@@ -135,7 +159,7 @@ const claw = async (
         .map((case_number) =>
           getStatus(
             BASE_URL +
-            getCaseID(center_name, two_digit_yr, day, code, case_number)
+            getCaseID(center_name, two_digit_yr, day, code, case_number, format)
           )
         )
     )
@@ -152,7 +176,7 @@ const claw = async (
     .toObject();
 
   const json5_obj = JSON5.parse(
-    fs.readFileSync(DATA_FILE_PATH, { encoding: "utf8" })
+    fs.readFileSync(path, { encoding: "utf8" })
   );
 
   const new_json5_obj = { ...json5_obj };
@@ -169,7 +193,7 @@ const claw = async (
   });
 
   fs.writeFileSync(
-    DATA_FILE_PATH,
+    path,
     // @ts-ignore: solve export issue for json stable stringify
     JSON5.stringify(JSON5.parse(stringify(new_json5_obj)), {
       space: 2,
@@ -182,8 +206,12 @@ const claw = async (
 
 (async () => {
   for (const d of lodash.range(1, 350)) {
+    // await Promise.all(
+    //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
+    // );
+
     await Promise.all(
-      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5))
+      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
     );
   }
 })();
