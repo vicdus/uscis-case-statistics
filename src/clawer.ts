@@ -155,27 +155,13 @@ const claw = async (
   }
 
   console.log(`Loading ${last} entires for ${center_name} day ${day}`);
-  const results = (await PromisePool.withConcurrency(1000).for(lodash
-    .range(1, last + 1))
+  const results = (await PromisePool
+    .withConcurrency(1000)
+    .for(lodash.range(1, last + 1))
     .process(case_number => getStatus(BASE_URL + getCaseID(center_name, two_digit_yr, day, code, case_number, format))))
     .results
     .filter(Boolean)
     .map((x) => nullthrows(x));
-
-  // const results = (
-  //   await Promise.all(
-  //     lodash
-  //       .range(1, last + 1)
-  //       .map((case_number) =>
-  //         getStatus(
-  //           BASE_URL +
-  //           getCaseID(center_name, two_digit_yr, day, code, case_number, format)
-  //         )
-  //       )
-  //   )
-  // )
-  // .filter(Boolean)
-  // .map((x) => nullthrows(x));
 
   const counter = results
     .reduce((counter, res) => {
@@ -216,10 +202,9 @@ const claw = async (
 
 (async () => {
   for (const d of lodash.range(1, 350)) {
-    // await Promise.all(
-    //   Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
-    // );
-
+    await Promise.all(
+      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
+    );
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
     );
