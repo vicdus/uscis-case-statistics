@@ -236,8 +236,8 @@ const claw = async (
     await Promise.all(
       Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
     );
-    for (const name of Constants.CENTER_NAMES) {
-      await claw(name, 21, d, 9, 'center-year-code-day-serial');
-    }
+    // for (const name of Constants.CENTER_NAMES) {
+    //   await claw(name, 21, d, 9, 'center-year-code-day-serial');
+    // }
   }
 })();
