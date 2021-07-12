@@ -79,14 +79,6 @@ const getCaseID = (
 let sent = 0;
 let inQueue = 0;
 let recevied = 0;
-// const report = () => {
-//   setTimeout(() => {
-//     const v = report();
-//     console.log("Requests sent: " + sent + " Received: " + recevied + " inQueue: " + inQueue);
-//   }, 1000);
-//   return "async function return";
-// };
-
 
 const getStatus = async (
   url: string,
@@ -233,11 +225,14 @@ const claw = async (
 
 (async () => {
   for (const d of lodash.range(1, 350)) {
-    await Promise.all(
-      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
-    );
-    for (const name of Constants.CENTER_NAMES) {
-      await claw(name, 21, d, 9, 'center-year-code-day-serial');
+    if (process.argv.includes("485")) {
+      for (const name of Constants.CENTER_NAMES) {
+        await claw(name, 21, d, 9, 'center-year-code-day-serial');
+      }
+    } else {
+      await Promise.all(
+        Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
+      );
     }
   }
 })();
