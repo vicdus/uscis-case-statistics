@@ -8,7 +8,7 @@ git pull
 
 tsc clawer.ts Constants.ts
 
-node clawer.js
+node clawer.js "$@"
 
 git add -A
 
