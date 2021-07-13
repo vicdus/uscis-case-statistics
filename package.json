@@ -19,6 +19,8 @@
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
     "@types/recharts": "^1.8.10",
+    "@types/single-line-log": "^1.1.0",
+    "ansi-escapes": "^5.0.0",
     "cheerio": "^1.0.0-rc.3",
     "color-hash": "^1.0.3",
     "immutable": "^4.0.0-rc.12",
@@ -33,6 +35,7 @@
     "react-facebook": "^8.1.4",
     "react-scripts": "3.4.1",
     "recharts": "^1.8.5",
+    "single-line-log": "^1.1.2",
     "typescript": "^3.9.3"
   },
   "scripts": {
