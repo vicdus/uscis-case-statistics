@@ -12,17 +12,11 @@ import {
   BarChart,
   CartesianGrid,
   ContentRenderer,
-  Pie,
-  PieChart,
-  PieLabelRenderProps,
-  Sector,
   Tooltip,
   XAxis,
   YAxis,
-  Cell,
   TooltipProps,
 } from "recharts";
-
 import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
@@ -30,15 +24,15 @@ import Grid from "@material-ui/core/Grid";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
-import Button from "@material-ui/core/Button";
 
 import WeChatDonation from "./donation_wechat.jpg";
 import WechatGroupQR from "./wechat_group_qr.jpg";
 import WechatQR from "./wechat_qr.jpg";
-import { TextField } from "@material-ui/core";
 
 const JSON5_URL =
   "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
+const JSON5_485_URL =
+  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data485.json5";
 
 const statusMap = new Map([
   ["Case Was Approved And My Decision Was Emailed", "Case Was Approved"],
@@ -68,16 +62,12 @@ const App: React.FC<{}> = () => {
     new URL(window.location.href).searchParams.get("form") ?? "I-129";
   const selectedCenter =
     new URL(window.location.href).searchParams.get("center") ?? "WAC";
-  const workday = Number.parseInt(
-    new URL(window.location.href).searchParams.get("workday") ?? "0"
-  );
-
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
   );
   const [caseData, setCaseData] = useState<Object>({});
-  const [activeStatus, setActiveStatus] = useState<number>(0);
-  const [caseID, setCaseID] = useState<string>("");
+
+  const mode = ["I-485", "I-140"].includes(selectedForm) ? '485' : 'normal';
 
   const setSearchParam = (key: string, value: string) => {
     const url = new URL(window.location.href);
@@ -97,7 +87,7 @@ const App: React.FC<{}> = () => {
       if (!url.searchParams.get("center")) {
         setSearchParam("center", "WAC");
       }
-      setCaseData(JSON5.parse(await (await fetch(JSON5_URL)).text()));
+      setCaseData(JSON5.parse(await (await fetch(mode === '485' ? JSON5_485_URL : JSON5_URL)).text()));
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -164,15 +154,6 @@ const App: React.FC<{}> = () => {
     [selectedEntriesAllDate]
   );
 
-  const countValueForAllDays = useMemo(
-    () =>
-      selectedEntriesAllDate
-        .map((e) => e.count)
-        .toSet()
-        .toList()
-        .sort(),
-    [selectedEntriesAllDate]
-  );
 
   const latestUpdateDay = useMemo(
     () => selectedEntriesAllDate.map((e) => Number.parseInt(e.updateDay)).max(),
@@ -289,143 +270,11 @@ const App: React.FC<{}> = () => {
     [exisitDays, dataset]
   );
 
-  const caseIDInput = (
-    <div>
-      <div style={{ width: "600px", display: "inline", float: "left" }}>
-        <TextField
-          id="standard-basic"
-          label="也可输入你的Case ID来查询你的号段下所有status的比例, 例如 WAC2117150172"
-          fullWidth={true}
-          onChange={(v) => setCaseID(v.target.value)}
-        />
-      </div>
-      <div style={{ width: "100px", display: "inline", float: "left" }}>
-        <Button
-          variant="contained"
-          color="primary"
-          disabled={!Boolean(caseID.match(/^\w{3}\d{5}5\d{4}$/))}
-          onClick={() => setSearchParam("workday", caseID.substr(5, 3))}
-        >
-          {(() =>
-            caseID.match(/^\w{3}\d{5}5\d{4}$/)
-              ? "查询号段" + caseID.substr(5, 3)
-              : "Case ID invalid")()}
-        </Button>
-      </div>
-    </div>
+  const maxBarHeight = useMemo(
+    () =>
+      todayCount.valueSeq().map(v => lodash.sum(v.valueSeq().toArray())).max(),
+    [todayCount]
   );
-
-  const renderActiveShape: ContentRenderer<PieLabelRenderProps> = (props) => {
-    const RADIAN = Math.PI / 180;
-    const {
-      cx,
-      cy,
-      name,
-      midAngle,
-      innerRadius,
-      outerRadius,
-      startAngle,
-      endAngle,
-      fill,
-      payload,
-      percent,
-      value,
-    } = props;
-    const sin = Math.sin(-RADIAN * (midAngle as number));
-    const cos = Math.cos(-RADIAN * (midAngle as number));
-    const sx = (cx as number) + ((outerRadius as number) + 10) * cos;
-    const sy = (cy as number) + ((outerRadius as number) + 10) * sin;
-    const mx = (cx as number) + ((outerRadius as number) + 30) * cos;
-    const my = (cy as number) + ((outerRadius as number) + 30) * sin;
-    const ex = mx + (cos >= 0 ? 1 : -1) * 22;
-    const ey = my;
-    const textAnchor = cos >= 0 ? "start" : "end";
-
-    return (
-      <g>
-        <text x={cx} y={cy} dy={8} textAnchor="middle" fill={fill}>
-          {payload.name}
-        </text>
-        <Sector
-          cx={cx as number}
-          cy={cy as number}
-          innerRadius={innerRadius as number}
-          outerRadius={outerRadius as number}
-          startAngle={startAngle as number}
-          endAngle={endAngle as number}
-          fill={fill}
-        />
-        <Sector
-          cx={cx as number}
-          cy={cy as number}
-          startAngle={startAngle as number}
-          endAngle={endAngle as number}
-          innerRadius={(outerRadius as number) + 6}
-          outerRadius={(outerRadius as number) + 10}
-          fill={fill}
-        />
-        <path
-          d={`M${sx},${sy}L${mx},${my}L${ex},${ey}`}
-          stroke={fill}
-          fill="none"
-        />
-        <circle cx={ex} cy={ey} r={2} fill={fill} stroke="none" />
-        <text
-          x={ex + (cos >= 0 ? 1 : -1) * 12}
-          y={ey}
-          textAnchor={textAnchor}
-          fill="#333"
-        >{`${name}`}</text>
-        <text
-          x={ex + (cos >= 0 ? 1 : -1) * 12}
-          y={ey}
-          dy={18}
-          textAnchor={textAnchor}
-          fill="#999"
-        >
-          {`${value} cases, ${((percent as number) * 100).toFixed(2)}%`}
-        </text>
-      </g>
-    );
-  };
-
-  const pieChart = useMemo(() => {
-    if (!workday) {
-      return null;
-    }
-    const pieData = Object.entries(
-      datasetWithBackfill.find((e) => Number.parseInt(e.day) === workday) ?? {}
-    )
-      .map(([key, val]) => ({ name: key, value: Number.parseInt(val) }))
-      .filter((v) => v.name !== "day")
-      .sort((v) => v.value);
-
-    return (
-      <div style={{ display: "block" }}>
-        <PieChart width={800} height={800}>
-          <Pie
-            activeIndex={activeStatus}
-            activeShape={renderActiveShape}
-            dataKey="value"
-            isAnimationActive={false}
-            data={pieData}
-            cx={400}
-            cy={400}
-            outerRadius={200}
-            innerRadius={165}
-            onMouseEnter={(data, index) => setActiveStatus(index)}
-            fill="#8884d8"
-          >
-            {pieData.map((entry, index) => (
-              <Cell key={index} fill={getColor(entry.name)} />
-            ))}
-          </Pie>
-          <Tooltip offset={100} />
-        </PieChart>
-        <h2>以上饼图：号段{selectedCenter + "21" + workday + "5XXXX"}</h2>
-      </div>
-    );
-  }, [activeStatus, datasetWithBackfill, workday, selectedCenter]);
 
   const barChart = useMemo(() => {
     const CustomTooltip: ContentRenderer<TooltipProps> = ({
@@ -476,13 +325,13 @@ const App: React.FC<{}> = () => {
         <XAxis
           type="number"
           dataKey="day"
-          domain={[0, countValueForAllDays.max() ?? 1]}
+          domain={[0, maxBarHeight ?? 1]}
         />
         <YAxis
           type="category"
           dataKey="day"
           width={150}
-          tickFormatter={day => selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
+          tickFormatter={day => mode === '485' ? selectedCenter + "219" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
           domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
           tick={{ fontSize: "x-small" }}
           interval={0}
@@ -507,7 +356,7 @@ const App: React.FC<{}> = () => {
         ))}
       </BarChart>
     );
-  }, [datasetWithBackfill, countValueForAllDays, exisitDays, existStatus, todayCount, previousDayCount, selectedCenter]);
+  }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, selectedCenter, mode]);
 
   const introduction = (
     <div>
@@ -683,8 +532,6 @@ const App: React.FC<{}> = () => {
       {introduction}
       {formTypeSelector}
       {centerSelector}
-      {caseIDInput}
-      {pieChart}
       {updateDayPicker}
       {barChart}
       {updateDayPicker}
