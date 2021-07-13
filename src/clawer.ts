@@ -5,12 +5,9 @@ import * as Immutable from "immutable";
 import * as stringify from "json-stable-stringify";
 import * as JSON5 from "json5";
 import * as lodash from "lodash";
-
-//@ts-ignore
-import * as PromisePool from "@supercharge/promise-pool";
+import type { Response, RequestInfo, RequestInit } from "node-fetch";
 import fetch, { FetchError } from "node-fetch";
 import nullthrows from "nullthrows";
-
 import Constants from "./Constants";
 
 https.globalAgent.options.rejectUnauthorized = false;
@@ -53,18 +50,17 @@ const getCaseID = (
   }
 };
 
-
 const getStatus = async (
   url: string,
-  retry: number = 3
+  retry: number = 6
 ): Promise<{ status: string; formType: string; } | null> => {
   if (retry <= 0) {
     console.log(`Request for ${url} failed too many times`);
     return null;
   }
   try {
-    // 60 seconds timeout. always retry if timetout
-    const f = await fetch(url, { timeout: 1000 * 60 });
+    // 30 seconds timeout. always retry if timetout
+    const f = await fetch(url, { timeout: 1000 * 30 });
     const t = await f.text();
     const status_regexp = new RegExp("(?<=<h1>).*(?=</h1>)");
     const status = nullthrows(
@@ -79,7 +75,7 @@ const getStatus = async (
           "unknown form type",
       };
   } catch (e) {
-    if (e instanceof FetchError && e.message.includes('timeout')) {
+    if (e instanceof FetchError && (e.message.includes('timeout') || e.message.includes('EADDRNOTAVAIL'))) {
       console.log('timeout! ' + url);
       return getStatus(url, retry - 1);
     } else {
@@ -97,32 +93,7 @@ const getLastCaseNumber = async (
   case_number_format: CaseNumberFormat
 ): Promise<number> => {
   let [low, high] = [1, 1];
-  while (
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high, case_number_format)
-    )) ||
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 1, case_number_format)
-    )) ||
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 2, case_number_format)
-    )) ||
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 3, case_number_format)
-    )) ||
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 4, case_number_format)
-    )) ||
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 5, case_number_format)
-    )) ||
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 6, case_number_format)
-    )) ||
-    (await getStatus(
-      BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high + 7, case_number_format)
-    ))
-  ) {
+  while (await getStatus(BASE_URL + getCaseID(center_name, two_digit_yr, day, code, high, case_number_format))) {
     [low, high] = [high, high * 2];
   }
 
@@ -155,11 +126,26 @@ const claw = async (
   }
 
   console.log(`Loading ${last} entires for ${center_name} day ${day}`);
-  const results = (await PromisePool
-    .withConcurrency(1000)
-    .for(lodash.range(1, last + 1))
-    .process(async case_number => await getStatus(BASE_URL + getCaseID(center_name, two_digit_yr, day, code, case_number, format))))
-    .results
+  // const results = (await PromisePool
+  //   .withConcurrency(1000)
+  //   .for(lodash.range(1, last + 1))
+  //   .process(async case_number => await getStatus(BASE_URL + getCaseID(center_name, two_digit_yr, day, code, case_number, format))))
+  //   .results
+  //   .filter(Boolean)
+  //   .map((x) => nullthrows(x));
+
+  const results = (
+    await Promise.all(
+      lodash
+        .range(1, last + 1)
+        .map((case_number) =>
+          getStatus(
+            BASE_URL +
+            getCaseID(center_name, two_digit_yr, day, code, case_number, format)
+          )
+        )
+    )
+  )
     .filter(Boolean)
     .map((x) => nullthrows(x));
 
@@ -202,11 +188,14 @@ const claw = async (
 
 (async () => {
   for (const d of lodash.range(1, 350)) {
-    await Promise.all(
-      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
-    );
-    await Promise.all(
-      Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 9, 'center-year-code-day-serial'))
-    );
+    if (process.argv.includes("485")) {
+      for (const name of Constants.CENTER_NAMES) {
+        await claw(name, 21, d, 9, 'center-year-code-day-serial');
+      }
+    } else {
+      await Promise.all(
+        Constants.CENTER_NAMES.map((name) => claw(name, 21, d, 5, 'center-year-day-code-serial'))
+      );
+    }
   }
 })();
