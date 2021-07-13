@@ -26,30 +26,6 @@ const DATA_FILE_PATH: Map<CaseNumberFormat, string> = new Map([
   ["center-year-code-day-serial", __dirname + "/data485.json5"],
 ]);
 
-class FetchPool {
-  concurrency: number;
-  running: number;
-  constructor(concurrency: number) {
-    this.concurrency = concurrency;
-    this.running = 0;
-  }
-
-  async fetch(url: RequestInfo, init?: RequestInit): Promise<Response> {
-    if (this.running > this.concurrency) {
-      await this.sleep(Math.random() * 3000);
-      return this.fetch(url, init);
-    } else {
-      this.running++;
-      const result = fetch(url, init);
-      this.running--;
-      return result;
-    }
-  }
-
-  sleep(waitTimeInMs: number) { new Promise(resolve => setTimeout(resolve, waitTimeInMs)); };
-}
-const fetchPool = new FetchPool(1000);
-
 const getCaseID = (
   center_name: string,
   two_digit_yr: number,
