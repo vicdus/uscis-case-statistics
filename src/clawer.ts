@@ -9,8 +9,6 @@ import type { Response, RequestInfo, RequestInit } from "node-fetch";
 import fetch, { FetchError } from "node-fetch";
 import nullthrows from "nullthrows";
 import Constants from "./Constants";
-const slog = require('single-line-log').stdout;
-
 
 https.globalAgent.options.rejectUnauthorized = false;
 
@@ -76,26 +74,17 @@ const getCaseID = (
   }
 };
 
-let sent = 0;
-let inQueue = 0;
-let recevied = 0;
-
 const getStatus = async (
   url: string,
-  retry: number = 24
+  retry: number = 6
 ): Promise<{ status: string; formType: string; } | null> => {
   if (retry <= 0) {
     console.log(`Request for ${url} failed too many times`);
     return null;
   }
   try {
-    // 60 seconds timeout. always retry if timetout
-    slog("Requests sent: " + sent + " Received: " + recevied + " inQueue: " + inQueue + "\n");
-    sent += 1;
-    inQueue += 1;
+    // 30 seconds timeout. always retry if timetout
     const f = await fetch(url, { timeout: 1000 * 30 });
-    recevied += 1;
-    inQueue -= 1;
     const t = await f.text();
     const status_regexp = new RegExp("(?<=<h1>).*(?=</h1>)");
     const status = nullthrows(
@@ -110,8 +99,6 @@ const getStatus = async (
           "unknown form type",
       };
   } catch (e) {
-    recevied += 1;
-    inQueue -= 1;
     if (e instanceof FetchError && (e.message.includes('timeout') || e.message.includes('EADDRNOTAVAIL'))) {
       console.log('timeout! ' + url);
       return getStatus(url, retry - 1);
