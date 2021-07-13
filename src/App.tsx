@@ -67,6 +67,7 @@ const App: React.FC<{}> = () => {
   );
   const [caseData, setCaseData] = useState<Object>({});
 
+  const mode = ["I-485", "I-140"].includes(selectedForm) ? '485' : 'normal';
 
   const setSearchParam = (key: string, value: string) => {
     const url = new URL(window.location.href);
@@ -86,7 +87,7 @@ const App: React.FC<{}> = () => {
       if (!url.searchParams.get("center")) {
         setSearchParam("center", "WAC");
       }
-      setCaseData(JSON5.parse(await (await fetch(selectedForm === "I-485" ? JSON5_485_URL : JSON5_URL)).text()));
+      setCaseData(JSON5.parse(await (await fetch(mode === '485' ? JSON5_485_URL : JSON5_URL)).text()));
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -330,7 +331,7 @@ const App: React.FC<{}> = () => {
           type="category"
           dataKey="day"
           width={150}
-          tickFormatter={day => selectedForm === "I-485" ? selectedCenter + "219" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
+          tickFormatter={day => mode === '485' ? selectedCenter + "219" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
           domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
           tick={{ fontSize: "x-small" }}
           interval={0}
@@ -355,7 +356,7 @@ const App: React.FC<{}> = () => {
         ))}
       </BarChart>
     );
-  }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, selectedCenter, selectedForm]);
+  }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, selectedCenter, mode]);
 
   const introduction = (
     <div>
