@@ -3,14 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/PuerkitoBio/goquery"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
 	"strings"
 	"time"
-
-	"github.com/PuerkitoBio/goquery"
 )
 
 var CENTER_NAMES = []string{
@@ -75,10 +73,13 @@ const (
 )
 
 func get(url string) Result {
-	res, _ := http.Get(url)
+	res, err := http.Get(url)
+	if err != nil {
+		return Result{"", ""}
+	}
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
-		log.Fatal(err)
+		return Result{"", ""}
 	}
 	body := doc.Find(".rows").First()
 	bodyText := body.Text()
@@ -88,14 +89,20 @@ func get(url string) Result {
 			return Result{status, form}
 		}
 	}
-	return Result{"", ""}
+	if status != "" {
+		return Result{"I-485", status}
+	} else {
+		return Result{"", ""}
+	}
 }
 
-func toURL(center string, two_digit_yr int, day int, code int, case_serial_numbers int) string {
-	if case_serial_numbers == center_year_day_code_serial {
-		return fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%03d%d%04d", center, two_digit_yr, day, code, case_serial_numbers)
+func toURL(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) string {
+	if format == center_year_day_code_serial {
+		res := fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%03d%d%04d", center, two_digit_yr, day, code, case_serial_numbers)
+		return res
 	} else {
-		return fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%d%03d%04d", center, two_digit_yr, code, day, case_serial_numbers)
+		res := fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%d%03d%04d", center, two_digit_yr, code, day, case_serial_numbers)
+		return res
 	}
 }
 
@@ -104,7 +111,7 @@ func clawAsync(center string, two_digit_yr int, day int, code int, case_serial_n
 }
 
 func claw(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) Result {
-	return get(toURL(center, two_digit_yr, day, code, case_serial_numbers))
+	return get(toURL(center, two_digit_yr, day, code, case_serial_numbers, format))
 }
 
 func getLastCaseNumber(center string, two_digit_yr int, day int, code int, format int) int {
@@ -121,7 +128,7 @@ func getLastCaseNumber(center string, two_digit_yr int, day int, code int, forma
 			high = mid
 		}
 	}
-	return low
+	return low - 1
 }
 
 func all(center string, two_digit_yr int, day int, code int, format int, report_c chan int) {
@@ -189,7 +196,7 @@ func main() {
 
 		report_c_center_year_code_day_serial := make(chan int)
 		for _, name := range CENTER_NAMES {
-			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_code_day_serial)
+			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
 		}
 		for i := 0; i < len(CENTER_NAMES); i++ {
 			<-report_c_center_year_code_day_serial
