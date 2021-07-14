@@ -88,22 +88,26 @@ func get(url string) Result {
 			return Result{status, form}
 		}
 	}
-	return Result{status, "unknown"}
+	return Result{"", ""}
 }
 
 func toURL(center string, two_digit_yr int, day int, code int, case_serial_numbers int) string {
-	return fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%03d%d%04d", center, two_digit_yr, day, code, case_serial_numbers)
+	if case_serial_numbers == center_year_day_code_serial {
+		return fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%03d%d%04d", center, two_digit_yr, day, code, case_serial_numbers)
+	} else {
+		return fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%d%03d%04d", center, two_digit_yr, code, day, case_serial_numbers)
+	}
 }
 
-func clawAsync(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format string, c chan Result) {
+func clawAsync(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int, c chan Result) {
 	c <- claw(center, two_digit_yr, day, code, case_serial_numbers, format)
 }
 
-func claw(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format string) Result {
+func claw(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) Result {
 	return get(toURL(center, two_digit_yr, day, code, case_serial_numbers))
 }
 
-func getLastCaseNumber(center string, two_digit_yr int, day int, code int, format string) int {
+func getLastCaseNumber(center string, two_digit_yr int, day int, code int, format int) int {
 	low := 1
 	high := 1
 	for claw(center, two_digit_yr, day, code, high, format).Status != "" && high < 10000 {
@@ -120,18 +124,30 @@ func getLastCaseNumber(center string, two_digit_yr int, day int, code int, forma
 	return low
 }
 
-func all(center string, two_digit_yr int, day int, code int, format string) {
-	const url = "./data_go.json"
+func all(center string, two_digit_yr int, day int, code int, format int, report_c chan int) {
+	dir, _ := os.Getwd()
+	var url string
+
+	if format == center_year_day_code_serial {
+		url = dir + "/data_center_year_day_code_serial.json"
+	} else {
+		url = dir + "/data_center_year_code_day_serial.json"
+	}
+
 	last := getLastCaseNumber(center, two_digit_yr, day, code, format)
 	fmt.Printf("loading %s total of %d at day %d\n", center, last, day)
 	c := make(chan Result)
 	epoch_day := time.Now().Unix() / 86400
 	for i := 1; i < last; i++ {
-		go clawAsync(center, two_digit_yr, day, code, i, "", c)
+		go clawAsync(center, two_digit_yr, day, code, i, format, c)
 	}
 	counter := make(map[string]map[int64]int)
 	for i := 1; i < last; i++ {
 		cur := <-c
+		if cur.Status == "" || cur.Form == "" {
+			continue
+		}
+
 		key := fmt.Sprintf("%s|%d|%d|%d|%s|%s", center, two_digit_yr, day, code, cur.Form, cur.Status)
 
 		if counter[key] == nil {
@@ -147,6 +163,7 @@ func all(center string, two_digit_yr int, day int, code int, format string) {
 	b, _ := json.MarshalIndent(existingCounter, "", "  ")
 	ioutil.WriteFile(url, b, 0666)
 	fmt.Printf("Done %s total of %d at day %d\n", center, last, day)
+	report_c <- 0
 }
 
 func getMerged(m1, m2 map[string]map[int64]int) {
@@ -162,9 +179,17 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 }
 
 func main() {
-	for day := 1; day < 356; day++ {
-		for _, name := range CENTER_NAMES {
-			all(name, 21, day, 5, "")
-		}
-	}
+
+	println(path)
+
+	// for day := 1; day < 356; day++ {
+	// 	report_c_center_year_day_code_serial := make(chan int)
+	// 	for _, name := range CENTER_NAMES {
+	// 		go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
+	// 	}
+	// 	report_c_center_year_code_day_serial := make(chan int)
+	// 	for _, name := range CENTER_NAMES {
+	// 		go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_code_day_serial)
+	// 	}
+	// }
 }
