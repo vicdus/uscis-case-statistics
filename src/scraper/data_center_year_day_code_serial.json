@@ -13382,6 +13382,18 @@
   "LIN|21|180|5|I-765|Response To USCIS' Request For Evidence Was Received": {
     "18822": 4
   },
+  "LIN|21|1|5|Card Was Delivered To Me By The Post Office|I-485": {
+    "18822": 3
+  },
+  "LIN|21|1|5|I-539|Case Was Received": {
+    "18822": 1
+  },
+  "LIN|21|1|5|I-751|Case Was Received": {
+    "18822": 7
+  },
+  "LIN|21|1|5|I-751|Fees Were Waived": {
+    "18822": 1
+  },
   "LIN|21|74|5|I-539|Case Was Approved": {
     "18822": 1
   },
@@ -19126,6 +19138,111 @@
   },
   "MSC|21|180|5|I-751|Fees Were Waived": {
     "18822": 5
+  },
+  "MSC|21|1|5|Card Was Delivered To Me By The Post Office|I-485": {
+    "18822": 11
+  },
+  "MSC|21|1|5|Case Was Received|I-485": {
+    "18822": 3
+  },
+  "MSC|21|1|5|Case Was Transferred And A New Office Has Jurisdiction|I-485": {
+    "18822": 1
+  },
+  "MSC|21|1|5|Document Was Mailed To Me|I-485": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-131|Advance Parole Document Was Produced": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-131|Case Was Approved": {
+    "18822": 13
+  },
+  "MSC|21|1|5|I-131|Case Was Denied": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-131|Case Was Received At Another USCIS Office": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18822": 16
+  },
+  "MSC|21|1|5|I-131|Date of Birth Was Updated": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-131|Duplicate Notice Was Mailed": {
+    "18822": 2
+  },
+  "MSC|21|1|5|I-131|Fees Were Waived": {
+    "18822": 9
+  },
+  "MSC|21|1|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-212|Case Was Approved": {
+    "18822": 25
+  },
+  "MSC|21|1|5|I-212|Case Was Denied": {
+    "18822": 7
+  },
+  "MSC|21|1|5|I-212|Case Was Received": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-212|Case Was Received At Another USCIS Office": {
+    "18822": 13
+  },
+  "MSC|21|1|5|I-212|Duplicate Notice Was Mailed": {
+    "18822": 2
+  },
+  "MSC|21|1|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-485|Case Was Approved": {
+    "18822": 51
+  },
+  "MSC|21|1|5|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18822": 2
+  },
+  "MSC|21|1|5|I-485|Fees Were Waived": {
+    "18822": 21
+  },
+  "MSC|21|1|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18822": 7
+  },
+  "MSC|21|1|5|I-751|Case Was Received": {
+    "18822": 101
+  },
+  "MSC|21|1|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18822": 8
+  },
+  "MSC|21|1|5|I-751|Fees Were Waived": {
+    "18822": 6
+  },
+  "MSC|21|1|5|I-765|Card Was Mailed To Me": {
+    "18822": 20
+  },
+  "MSC|21|1|5|I-765|Case Closed Benefit Received By Other Means": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-765|Case Was Denied": {
+    "18822": 15
+  },
+  "MSC|21|1|5|I-765|Case Was Received At Another USCIS Office": {
+    "18822": 2
+  },
+  "MSC|21|1|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18822": 12
+  },
+  "MSC|21|1|5|I-765|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18822": 2
+  },
+  "MSC|21|1|5|I-765|Notice Explaining USCIS Actions Was Mailed": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18822": 1
+  },
+  "MSC|21|1|5|I-765|Request for Additional Evidence Was Sent": {
+    "18822": 1
   },
   "MSC|21|74|5|Card Was Delivered To Me By The Post Office|I-485": {
     "18822": 13
@@ -40261,6 +40378,30 @@
   },
   "YSC|21|180|5|I-751|Name Was Updated": {
     "18822": 1
+  },
+  "YSC|21|1|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18822": 6
+  },
+  "YSC|21|1|5|I-539|Case Was Approved": {
+    "18822": 14
+  },
+  "YSC|21|1|5|I-539|Case Was Received": {
+    "18822": 11
+  },
+  "YSC|21|1|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18822": 4
+  },
+  "YSC|21|1|5|I-539|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18822": 1
+  },
+  "YSC|21|1|5|I-751|Case Was Received": {
+    "18822": 76
+  },
+  "YSC|21|1|5|I-751|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18822": 1
+  },
+  "YSC|21|1|5|I-751|Fees Were Waived": {
+    "18822": 2
   },
   "YSC|21|73|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
     "18822": 1
