@@ -23,3 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 src/clawer.js
 src/Constants.js
+src/scraper/main
