@@ -4,11 +4,13 @@ scriptdir=`dirname "$BASH_SOURCE"`
 
 pushd $scriptdir
 
+cd scraper
+
+go run main.go
+
+cd ..
+
 git pull
-
-tsc clawer.ts Constants.ts
-
-node clawer.js "$@"
 
 git add -A
 
