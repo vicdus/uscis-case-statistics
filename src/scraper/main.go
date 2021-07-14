@@ -127,7 +127,6 @@ func getLastCaseNumber(center string, two_digit_yr int, day int, code int, forma
 func all(center string, two_digit_yr int, day int, code int, format int, report_c chan int) {
 	dir, _ := os.Getwd()
 	var url string
-
 	if format == center_year_day_code_serial {
 		url = dir + "/data_center_year_day_code_serial.json"
 	} else {
@@ -179,17 +178,21 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 }
 
 func main() {
+	for day := 1; day < 356; day++ {
+		report_c_center_year_day_code_serial := make(chan int)
+		for _, name := range CENTER_NAMES {
+			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
+		}
+		for i := 0; i < len(CENTER_NAMES); i++ {
+			<-report_c_center_year_day_code_serial
+		}
 
-	println(path)
-
-	// for day := 1; day < 356; day++ {
-	// 	report_c_center_year_day_code_serial := make(chan int)
-	// 	for _, name := range CENTER_NAMES {
-	// 		go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
-	// 	}
-	// 	report_c_center_year_code_day_serial := make(chan int)
-	// 	for _, name := range CENTER_NAMES {
-	// 		go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_code_day_serial)
-	// 	}
-	// }
+		report_c_center_year_code_day_serial := make(chan int)
+		for _, name := range CENTER_NAMES {
+			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_code_day_serial)
+		}
+		for i := 0; i < len(CENTER_NAMES); i++ {
+			<-report_c_center_year_code_day_serial
+		}
+	}
 }
