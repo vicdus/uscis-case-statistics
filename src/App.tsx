@@ -1,6 +1,5 @@
 import ColorHash from "color-hash";
 import Immutable from "immutable";
-import JSON5 from "json5";
 import nullthrows from "nullthrows";
 import React, { useEffect, useState, useMemo } from "react";
 import * as lodash from "lodash";
@@ -29,10 +28,10 @@ import WeChatDonation from "./donation_wechat.jpg";
 import WechatGroupQR from "./wechat_group_qr.jpg";
 import WechatQR from "./wechat_qr.jpg";
 
-const JSON5_URL =
-  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data.json5";
-const JSON5_485_URL =
-  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/data485.json5";
+const JSON_URL =
+  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/scraper/data_center_year_day_code_serial.json";
+const JSON_485_URL =
+  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/scraper/data_center_year_code_day_serial.json";
 
 const statusMap = new Map([
   ["Case Was Approved And My Decision Was Emailed", "Case Was Approved"],
@@ -87,7 +86,7 @@ const App: React.FC<{}> = () => {
       if (!url.searchParams.get("center")) {
         setSearchParam("center", "WAC");
       }
-      setCaseData(JSON5.parse(await (await fetch(mode === '485' ? JSON5_485_URL : JSON5_URL)).text()));
+      setCaseData(JSON.parse(await (await fetch(mode === '485' ? JSON_485_URL : JSON_URL)).text()));
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -169,7 +168,7 @@ const App: React.FC<{}> = () => {
     [selectedEntriesAllDate, selectedUpdateDay, latestUpdateDay]
   );
 
-  const formTypes = useMemo(() => entries.map((e) => e.form).toSet(), [
+  const formTypes = useMemo(() => entries.map((e) => e.form).filter(e => e.startsWith("I-")).toSet(), [
     entries,
   ]);
   const centerNames = useMemo(() => entries.map((e) => e.center).toSet(), [

@@ -93,7 +93,7 @@ func get(url string) Result {
 		}
 	}
 	if status != "" {
-		return Result{"I-485", status}
+		return Result{status, "I-485"}
 	} else {
 		return Result{"", ""}
 	}
