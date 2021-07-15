@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
@@ -72,6 +72,8 @@ const (
 	center_year_day_code_serial = iota
 	center_year_code_day_serial
 )
+
+var mutex sync.Mutex
 
 func get(url string) Result {
 	res, err := http.Get(url)
@@ -162,13 +164,14 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 		}
 		counter[key][epoch_day] += 1
 	}
+	mutex.Lock()
 	existingCounter := make(map[string]map[int64]int)
 	jsonFile, _ := os.ReadFile(url)
 	json.Unmarshal([]byte(jsonFile), &existingCounter)
-
 	getMerged(existingCounter, counter)
 	b, _ := json.MarshalIndent(existingCounter, "", "  ")
-	ioutil.WriteFile(url, b, 0666)
+	os.WriteFile(url, b, 0666)
+	mutex.Unlock()
 	fmt.Printf("Done %s total of %d at day %d\n", center, last, day)
 	report_c <- 0
 }
