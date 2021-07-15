@@ -3,12 +3,13 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/PuerkitoBio/goquery"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/PuerkitoBio/goquery"
 )
 
 var CENTER_NAMES = []string{
@@ -185,7 +186,7 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 }
 
 func main() {
-	for day := 1; day < 356; day++ {
+	for day := 1; day < 3; day++ {
 		report_c_center_year_day_code_serial := make(chan int)
 		for _, name := range CENTER_NAMES {
 			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
