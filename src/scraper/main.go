@@ -93,7 +93,7 @@ func get(url string) Result {
 		}
 	}
 	if status != "" {
-		return Result{status, "I-485"}
+		return Result{status, "unknown"}
 	} else {
 		return Result{"", ""}
 	}
@@ -125,7 +125,11 @@ func getLastCaseNumber(center string, two_digit_yr int, day int, code int, forma
 	}
 	for low < high {
 		mid := (low + high) / 2
-		if claw(center, two_digit_yr, day, code, mid, format).Status != "" {
+		if claw(center, two_digit_yr, day, code, mid, format).Status != "" ||
+			claw(center, two_digit_yr, day, code, mid+1, format).Status != "" ||
+			claw(center, two_digit_yr, day, code, mid+2, format).Status != "" ||
+			claw(center, two_digit_yr, day, code, mid+3, format).Status != "" ||
+			claw(center, two_digit_yr, day, code, mid+4, format).Status != "" {
 			low = mid + 1
 		} else {
 			high = mid
