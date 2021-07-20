@@ -76,12 +76,17 @@ const (
 var mutex sync.Mutex
 
 func get(url string) Result {
-	res, err := http.Get(url)
+	client := http.Client{
+		Timeout: 15 * time.Second,
+	}
+	res, err := client.Get(url)
 	if err != nil {
+		fmt.Println("error! " + err.Error())
 		return Result{"", ""}
 	}
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
+		fmt.Println("error! " + err.Error())
 		return Result{"", ""}
 	}
 	body := doc.Find(".rows").First()
@@ -120,7 +125,11 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 func getLastCaseNumber(center string, two_digit_yr int, day int, code int, format int) int {
 	low := 1
 	high := 1
-	for claw(center, two_digit_yr, day, code, high, format).Status != "" && high < 10000 {
+	for (claw(center, two_digit_yr, day, code, high, format).Status != "" ||
+		claw(center, two_digit_yr, day, code, high+1, format).Status != "" ||
+		claw(center, two_digit_yr, day, code, high+2, format).Status != "" ||
+		claw(center, two_digit_yr, day, code, high+3, format).Status != "" ||
+		claw(center, two_digit_yr, day, code, high+4, format).Status != "") && high < 10000 {
 		high *= 2
 	}
 	for low < high {
