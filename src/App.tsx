@@ -168,7 +168,7 @@ const App: React.FC<{}> = () => {
     [selectedEntriesAllDate, selectedUpdateDay, latestUpdateDay]
   );
 
-  const formTypes = useMemo(() => entries.map((e) => e.form).filter(e => e.startsWith("I-")).toSet(), [
+  const formTypes = useMemo(() => entries.map((e) => e.form).toSet(), [
     entries,
   ]);
   const centerNames = useMemo(() => entries.map((e) => e.center).toSet(), [
