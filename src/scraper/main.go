@@ -79,7 +79,11 @@ func get(url string) Result {
 	client := http.Client{
 		Timeout: 15 * time.Second,
 	}
-	res, err := client.Get(url)
+
+	req, _ := http.NewRequest("GET", url, nil)
+	req.Close = true
+	res, err := client.Do(req)
+
 	if err != nil {
 		fmt.Println("error! " + err.Error())
 		return Result{"", ""}
