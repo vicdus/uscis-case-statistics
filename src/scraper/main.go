@@ -75,7 +75,7 @@ const (
 
 var mutex sync.Mutex
 
-func get(url string) Result {
+func get(url string, retry int) Result {
 	client := http.Client{
 		Timeout: 10 * time.Second,
 	}
@@ -86,14 +86,25 @@ func get(url string) Result {
 
 	if err != nil {
 		fmt.Println("error 1! " + err.Error())
-		return Result{"", ""}
+		if retry > 0 {
+			fmt.Printf("Retry %d %s", retry, url)
+			return get(url, retry-1)
+		} else {
+			return Result{"", ""}
+		}
 	}
+	defer res.Body.Close()
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
 		fmt.Println("error 2! " + err.Error())
-		return Result{"", ""}
+		if retry > 0 {
+			fmt.Printf("Retry %d %s", retry, url)
+			return get(url, retry-1)
+		} else {
+			return Result{"", ""}
+		}
 	}
-	defer res.Body.Close()
+
 	body := doc.Find(".rows").First()
 	bodyText := body.Text()
 	status := body.Find("h1").Text()
@@ -124,7 +135,7 @@ func clawAsync(center string, two_digit_yr int, day int, code int, case_serial_n
 }
 
 func claw(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) Result {
-	return get(toURL(center, two_digit_yr, day, code, case_serial_numbers, format))
+	return get(toURL(center, two_digit_yr, day, code, case_serial_numbers, format), 5)
 }
 
 func getLastCaseNumber(center string, two_digit_yr int, day int, code int, format int) int {
