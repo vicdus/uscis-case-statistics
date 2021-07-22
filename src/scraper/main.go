@@ -77,7 +77,7 @@ var mutex sync.Mutex
 
 func get(url string) Result {
 	client := http.Client{
-		Timeout: 15 * time.Second,
+		Timeout: 10 * time.Second,
 	}
 
 	req, _ := http.NewRequest("GET", url, nil)
@@ -85,14 +85,15 @@ func get(url string) Result {
 	res, err := client.Do(req)
 
 	if err != nil {
-		fmt.Println("error! " + err.Error())
+		fmt.Println("error 1! " + err.Error())
 		return Result{"", ""}
 	}
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
-		fmt.Println("error! " + err.Error())
+		fmt.Println("error 2! " + err.Error())
 		return Result{"", ""}
 	}
+	defer res.Body.Close()
 	body := doc.Find(".rows").First()
 	bodyText := body.Text()
 	status := body.Find("h1").Text()
