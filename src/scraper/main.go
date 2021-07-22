@@ -230,8 +230,6 @@ func main() {
 		report_c_center_year_code_day_serial := make(chan int)
 		for _, name := range CENTER_NAMES {
 			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
-		}
-		for i := 0; i < len(CENTER_NAMES); i++ {
 			<-report_c_center_year_code_day_serial
 		}
 	}
