@@ -77,7 +77,7 @@ var mutex sync.Mutex
 
 func get(url string, retry int) Result {
 	client := http.Client{
-		Timeout: 10 * time.Second,
+		Timeout: 30 * time.Second,
 	}
 
 	req, _ := http.NewRequest("GET", url, nil)
@@ -212,6 +212,15 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 		} else {
 			for day, count := range counter {
 				m1[key][day] = count
+			}
+		}
+	}
+
+	epoch_day := time.Now().Unix() / 86400
+	for _, counter := range m1 {
+		for day := range counter {
+			if epoch_day-day > 7 {
+				delete(counter, day)
 			}
 		}
 	}
