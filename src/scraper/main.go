@@ -76,7 +76,7 @@ const (
 
 var mutex sync.Mutex
 
-var sem = semaphore.NewWeighted(999)
+var sem = semaphore.NewWeighted(2000)
 
 func get(url string, retry int) Result {
 	client := http.Client{
