@@ -176,7 +176,7 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	}
 
 	last := getLastCaseNumber(center, two_digit_yr, day, code, format)
-	fmt.Printf("loading %s total of %d at day %d of format %d", center, last, day, format)
+	fmt.Printf("loading %s total of %d at day %d of format %d\n", center, last, day, format)
 	c := make(chan Result)
 	epoch_day := time.Now().Unix() / 86400
 	for i := 1; i < last; i++ {
@@ -204,7 +204,7 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	b, _ := json.MarshalIndent(existingCounter, "", "  ")
 	os.WriteFile(url, b, 0666)
 	mutex.Unlock()
-	fmt.Printf("Done %s total of %d at day %d\n", center, last, day)
+	fmt.Printf("Done %s total of %d at day %d of format %d\n", center, last, day, format)
 	report_c <- 0
 }
 
