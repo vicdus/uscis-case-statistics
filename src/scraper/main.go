@@ -10,6 +10,7 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
+	"golang.org/x/sync/semaphore"
 )
 
 var CENTER_NAMES = []string{
@@ -75,15 +76,17 @@ const (
 
 var mutex sync.Mutex
 
+var sem = semaphore.NewWeighted(999)
+
 func get(url string, retry int) Result {
 	client := http.Client{
 		Timeout: 30 * time.Second,
 	}
-
 	req, _ := http.NewRequest("GET", url, nil)
+	sem.Acquire(req.Context(), 1)
 	req.Close = true
 	res, err := client.Do(req)
-
+	defer sem.Release(1)
 	if err != nil {
 		fmt.Println("error 1! " + err.Error())
 		if retry > 0 {
