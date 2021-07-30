@@ -76,7 +76,7 @@ const (
 
 var mutex sync.Mutex
 
-var sem = semaphore.NewWeighted(999)
+var sem = semaphore.NewWeighted(2000)
 
 func get(url string, retry int) Result {
 	client := http.Client{
@@ -176,7 +176,7 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	}
 
 	last := getLastCaseNumber(center, two_digit_yr, day, code, format)
-	fmt.Printf("loading %s total of %d at day %d\n", center, last, day)
+	fmt.Printf("loading %s total of %d at day %d of format %d\n", center, last, day, format)
 	c := make(chan Result)
 	epoch_day := time.Now().Unix() / 86400
 	for i := 1; i < last; i++ {
@@ -204,7 +204,7 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	b, _ := json.MarshalIndent(existingCounter, "", "  ")
 	os.WriteFile(url, b, 0666)
 	mutex.Unlock()
-	fmt.Printf("Done %s total of %d at day %d\n", center, last, day)
+	fmt.Printf("Done %s total of %d at day %d of format %d\n", center, last, day, format)
 	report_c <- 0
 }
 
@@ -232,16 +232,13 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 func main() {
 	for day := 1; day < 365; day++ {
 		report_c_center_year_day_code_serial := make(chan int)
+		report_c_center_year_code_day_serial := make(chan int)
 		for _, name := range CENTER_NAMES {
 			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
+			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
 		}
 		for i := 0; i < len(CENTER_NAMES); i++ {
 			<-report_c_center_year_day_code_serial
-		}
-
-		report_c_center_year_code_day_serial := make(chan int)
-		for _, name := range CENTER_NAMES {
-			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
 			<-report_c_center_year_code_day_serial
 		}
 	}
