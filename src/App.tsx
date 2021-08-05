@@ -31,6 +31,7 @@ import WechatQR from "./wechat_qr.jpg";
 const statusMap = new Map([
   ["Case Was Approved And My Decision Was Emailed", "Case Was Approved"],
   ["Case Was Received and A Receipt Notice Was Emailed", "Case Was Received"],
+  ["Case Was Received and A Receipt Notice Was Sent", "Case Was Received"],
   [
     "Request for Initial Evidence Was Sent",
     "Request for Additional Evidence Was Sent",
@@ -86,7 +87,7 @@ const App: React.FC<{}> = () => {
         setSearchParam("center", "WAC");
       }
       if (!url.searchParams.get("mode") && url.searchParams.get("form")) {
-        setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_day_code_serial" : "data_center_year_code_day_serial");
+        setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
 
       if (mode === 'data_center_year_code_day_serial') {
