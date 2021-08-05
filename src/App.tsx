@@ -85,11 +85,12 @@ const App: React.FC<{}> = () => {
       if (!url.searchParams.get("mode") && url.searchParams.get("form")) {
         setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
-
-      if (mode === 'data_center_year_code_day_serial') {
-        setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
-      } else {
-        setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
+      if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
+        if (mode === 'data_center_year_code_day_serial') {
+          setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
+        } else {
+          setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
+        }
       }
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -172,10 +173,12 @@ const App: React.FC<{}> = () => {
     [selectedEntriesAllDate, selectedUpdateDay, latestUpdateDay]
   );
 
-  const formTypes = useMemo(() => entries.map((e) => e.form).toSet(), [
+  const formTypes = useMemo(() => entries.map((e) => e.form).toSet()
+    .filter(e => e && e.length > 0), [
     entries,
   ]);
-  const centerNames = useMemo(() => entries.map((e) => e.center).toSet(), [
+  const centerNames = useMemo(() => entries.map((e) => e.center).toSet()
+    .filter(e => e && e.length > 0 && e !== 'default'), [
     entries,
   ]);
 
@@ -485,7 +488,7 @@ const App: React.FC<{}> = () => {
 
   const formTypeSelector = (
     <FormControl fullWidth={true} component="fieldset">
-      <FormLabel component="legend">Form Type</FormLabel>
+      <FormLabel component="legend">Form Type  <p style={{ color: 'red' }}><strong> (Note: Check 'unknown' type for card-mailed I-485/I-765 case 已发卡的I-485/I-765 会被归类为unknwon 由于发卡后无法从USCIS得知表格类型)   </strong></p>  </FormLabel>
       <RadioGroup
         aria-label="form"
         name="form"
@@ -511,7 +514,7 @@ const App: React.FC<{}> = () => {
 
   const modeSelector = (
     <FormControl fullWidth={true} component="fieldset">
-      <FormLabel component="legend"><p style={{color:'red'}}><strong>Format of case number(Try both if your case number format looks different 如果case number格式看起来不对请尝试改变此选项)</strong></p> </FormLabel>
+      <FormLabel component="legend"><p style={{ color: 'red' }}><strong>Format of case number(Try both if your case number format looks different 如果case number格式看起来不对请尝试改变此选项)</strong></p> </FormLabel>
       <RadioGroup
         aria-label="form"
         name="form"
