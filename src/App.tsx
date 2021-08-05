@@ -28,11 +28,6 @@ import WeChatDonation from "./donation_wechat.jpg";
 import WechatGroupQR from "./wechat_group_qr.jpg";
 import WechatQR from "./wechat_qr.jpg";
 
-const JSON_URL =
-  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/scraper/data_center_year_day_code_serial.json";
-const JSON_485_URL =
-  "https://raw.githubusercontent.com/vicdus/uscis-case-statistics/master/src/scraper/data_center_year_code_day_serial.json";
-
 const statusMap = new Map([
   ["Case Was Approved And My Decision Was Emailed", "Case Was Approved"],
   ["Case Was Received and A Receipt Notice Was Emailed", "Case Was Received"],
@@ -86,7 +81,11 @@ const App: React.FC<{}> = () => {
       if (!url.searchParams.get("center")) {
         setSearchParam("center", "WAC");
       }
-      setCaseData(JSON.parse(await (await fetch(mode === '485' ? JSON_485_URL : JSON_URL)).text()));
+      if (mode === '485') {
+        setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
+      } else {
+        setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
+      }
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -292,12 +291,12 @@ const App: React.FC<{}> = () => {
       return (
         <div style={{ backgroundColor: "#F0F8FF" }}>
           <p>{`${label}`}</p>
-          {(payload ?? []).map((p) => {
+          {(payload ?? []).map((p, ind) => {
             const prevDay = (previousDayCount
               .get(label as string)
               ?.get(p.dataKey as string) ?? 0) as number;
             return (
-              <p style={{ color: p.fill, marginBottom: "3px" }}>{`${p.dataKey
+              <p key={ind} style={{ color: p.fill, marginBottom: "3px" }}>{`${p.dataKey
                 }: ${p.value} of ${todayTotal} (${(
                   (100 * (p.value as number)) /
                   todayTotal
