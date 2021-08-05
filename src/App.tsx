@@ -85,11 +85,12 @@ const App: React.FC<{}> = () => {
       if (!url.searchParams.get("mode") && url.searchParams.get("form")) {
         setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
-
-      if (mode === 'data_center_year_code_day_serial') {
-        setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
-      } else {
-        setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
+      if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
+        if (mode === 'data_center_year_code_day_serial') {
+          setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
+        } else {
+          setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
+        }
       }
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
