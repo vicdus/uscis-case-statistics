@@ -51,17 +51,21 @@ function getColor(s: string): string {
   );
 }
 
+
+type Mode = "data_center_year_day_code_serial"  // for others
+  | "data_center_year_code_day_serial"; // for 485;
+
 const App: React.FC<{}> = () => {
   const selectedForm =
     new URL(window.location.href).searchParams.get("form") ?? "I-129";
   const selectedCenter =
     new URL(window.location.href).searchParams.get("center") ?? "WAC";
+  const mode = new URL(window.location.href).searchParams.get("mode") ?? "data_center_year_code_day_serial";
+
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
   );
   const [caseData, setCaseData] = useState<Object>({});
-
-  const mode = ["I-485", "I-140"].includes(selectedForm) ? '485' : 'normal';
 
   const setSearchParam = (key: string, value: string) => {
     const url = new URL(window.location.href);
@@ -81,7 +85,11 @@ const App: React.FC<{}> = () => {
       if (!url.searchParams.get("center")) {
         setSearchParam("center", "WAC");
       }
-      if (mode === '485') {
+      if (!url.searchParams.get("mode") && url.searchParams.get("form")) {
+        setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_day_code_serial" : "data_center_year_code_day_serial");
+      }
+
+      if (mode === 'data_center_year_code_day_serial') {
         setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
       } else {
         setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
@@ -329,7 +337,7 @@ const App: React.FC<{}> = () => {
           type="category"
           dataKey="day"
           width={150}
-          tickFormatter={day => mode === '485' ? selectedCenter + "219" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
+          tickFormatter={day => mode === 'data_center_year_code_day_serial' ? selectedCenter + "219" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
           domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
           tick={{ fontSize: "x-small" }}
           interval={0}
@@ -361,7 +369,10 @@ const App: React.FC<{}> = () => {
       <h1>USCIS case progress tracker</h1>
       <p>
         Current Form: <strong>{selectedForm}</strong>,<br /> location:{" "}
-        <strong>{selectedCenter}</strong> ,<br /> Last Update for this form and
+        <strong>{selectedCenter}</strong>,
+        <br />
+        Case number mode: <strong>{mode}</strong>
+        <br /> Last Update for this form and
         location:
         <strong>
           {latestUpdateDay
@@ -500,6 +511,30 @@ const App: React.FC<{}> = () => {
     </FormControl>
   );
 
+
+  const modeSelector = (
+    <FormControl fullWidth={true} component="fieldset">
+      <FormLabel component="legend"><p style={{color:'red'}}><strong>Format of case number(Try both if your case number format looks different 如果case number格式看起来不对请尝试改变此选项)</strong></p> </FormLabel>
+      <RadioGroup
+        aria-label="form"
+        name="form"
+        value={mode}
+        onChange={(e) => setSearchParam("mode", e.target.value)}
+        row={true}
+      >
+        {['data_center_year_day_code_serial', 'data_center_year_code_day_serial']
+          .map((v, ind) => (
+            <FormControlLabel
+              key={ind}
+              value={v}
+              control={<Radio />}
+              label={v}
+            />
+          ))}
+      </RadioGroup>
+    </FormControl>
+  );
+
   const centerSelector = (
     <FormControl fullWidth={true} component="fieldset">
       <FormLabel component="legend">Center</FormLabel>
@@ -530,6 +565,7 @@ const App: React.FC<{}> = () => {
       {introduction}
       {formTypeSelector}
       {centerSelector}
+      {modeSelector}
       {updateDayPicker}
       {barChart}
       {updateDayPicker}
