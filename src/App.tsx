@@ -52,10 +52,6 @@ function getColor(s: string): string {
   );
 }
 
-
-type Mode = "data_center_year_day_code_serial"  // for others
-  | "data_center_year_code_day_serial"; // for 485;
-
 const App: React.FC<{}> = () => {
   const selectedForm =
     new URL(window.location.href).searchParams.get("form") ?? "I-129";
