@@ -3,6 +3,7 @@ import Immutable from "immutable";
 import nullthrows from "nullthrows";
 import React, { useEffect, useState, useMemo } from "react";
 import * as lodash from "lodash";
+import pako from "pako";
 
 // @ts-ignore
 import { Comments, FacebookProvider } from "react-facebook";
@@ -86,11 +87,13 @@ const App: React.FC<{}> = () => {
         setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
       if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
+        let casedata_b64: string;
         if (mode === 'data_center_year_code_day_serial') {
-          setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
+          casedata_b64 = (await import('./scraper/data_center_year_code_day_serial-compressed.json')).content;
         } else {
-          setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
+          casedata_b64 = (await import('./scraper/data_center_year_day_code_serial-compressed.json')).content;
         }
+        setCaseData(JSON.parse(pako.inflate(new Uint8Array(atob(casedata_b64).split('').map(x => x.charCodeAt(0))), { to: 'string' })));
       }
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
