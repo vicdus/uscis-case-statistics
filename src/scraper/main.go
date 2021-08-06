@@ -75,7 +75,7 @@ const (
 )
 
 var mutex sync.Mutex
-
+var epoch_day = time.Now().Unix() / 86400
 var sem = semaphore.NewWeighted(2000)
 
 func get(url string, retry int) Result {
@@ -178,7 +178,6 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	last := getLastCaseNumber(center, two_digit_yr, day, code, format)
 	fmt.Printf("loading %s total of %d at day %d of format %d\n", center, last, day, format)
 	c := make(chan Result)
-	epoch_day := time.Now().Unix() / 86400
 	for i := 1; i < last; i++ {
 		go clawAsync(center, two_digit_yr, day, code, i, format, c)
 	}
@@ -219,7 +218,6 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 		}
 	}
 
-	epoch_day := time.Now().Unix() / 86400
 	for _, counter := range m1 {
 		for day := range counter {
 			if epoch_day-day > 7 {
