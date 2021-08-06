@@ -24,3 +24,5 @@ yarn-error.log*
 src/clawer.js
 src/Constants.js
 src/scraper/main
+# src/scraper/data_center_year_code_day_serial.json
+# src/scraper/data_center_year_day_code_serial.json
