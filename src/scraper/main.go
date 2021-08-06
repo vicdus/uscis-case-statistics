@@ -1,7 +1,11 @@
 package main
 
 import (
+	"bytes"
+	"compress/zlib"
+	"encoding/base64"
 	"encoding/json"
+
 	"fmt"
 	"net/http"
 	"os"
@@ -168,11 +172,14 @@ func getLastCaseNumber(center string, two_digit_yr int, day int, code int, forma
 
 func all(center string, two_digit_yr int, day int, code int, format int, report_c chan int) {
 	dir, _ := os.Getwd()
-	var url string
+	var path string
+	var path_compressed string
 	if format == center_year_day_code_serial {
-		url = dir + "/data_center_year_day_code_serial.json"
+		path = dir + "/data_center_year_day_code_serial.json"
+		path_compressed = dir + "/data_center_year_day_code_serial-compressed.json"
 	} else {
-		url = dir + "/data_center_year_code_day_serial.json"
+		path = dir + "/data_center_year_code_day_serial.json"
+		path_compressed = dir + "/data_center_year_code_day_serial-compressed.json"
 	}
 
 	last := getLastCaseNumber(center, two_digit_yr, day, code, format)
@@ -197,11 +204,22 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	}
 	mutex.Lock()
 	existingCounter := make(map[string]map[int64]int)
-	jsonFile, _ := os.ReadFile(url)
+	jsonFile, _ := os.ReadFile(path)
 	json.Unmarshal([]byte(jsonFile), &existingCounter)
 	getMerged(existingCounter, counter)
 	b, _ := json.MarshalIndent(existingCounter, "", "  ")
-	os.WriteFile(url, b, 0666)
+	os.WriteFile(path, b, 0666)
+
+	b_compressed := new(bytes.Buffer)
+	w_compressed := zlib.NewWriter(b_compressed)
+	w_compressed.Write(b)
+	w_compressed.Close()
+	content_compressed := base64.StdEncoding.EncodeToString((b_compressed.Bytes()))
+	b_compressed.Reset()
+	compressed_json := map[string]string{"content": content_compressed}
+	bb, _ := json.Marshal(compressed_json)
+	os.WriteFile(path_compressed, bb, 0666)
+
 	mutex.Unlock()
 	fmt.Printf("Done %s total of %d at day %d of format %d\n", center, last, day, format)
 	report_c <- 0
