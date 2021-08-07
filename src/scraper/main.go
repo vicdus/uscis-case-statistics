@@ -89,9 +89,9 @@ func get(url string, retry int) Result {
 	res, err := client.Do(req)
 	defer sem.Release(1)
 	if err != nil {
-		fmt.Println("error 1! " + err.Error())
+		fmt.Println("error 1! " + err.Error() + "\n")
 		if retry > 0 {
-			fmt.Printf("Retry %d %s", retry, url)
+			fmt.Printf("Retry %d %s\n", retry, url)
 			return get(url, retry-1)
 		} else {
 			return Result{"", ""}
@@ -100,9 +100,9 @@ func get(url string, retry int) Result {
 	defer res.Body.Close()
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
-		fmt.Println("error 2! " + err.Error())
+		fmt.Println("error 2! " + err.Error() + "\n")
 		if retry > 0 {
-			fmt.Printf("Retry %d %s", retry, url)
+			fmt.Printf("Retry %d %s\n", retry, url)
 			return get(url, retry-1)
 		} else {
 			return Result{"", ""}
