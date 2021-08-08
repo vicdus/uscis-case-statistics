@@ -6,14 +6,20 @@ import WeChatDonation from "./donation_wechat.jpg";
 import WechatGroupQR from "./wechat_group_qr.jpg";
 import WechatQR from "./wechat_qr.jpg";
 import Monetization from './monetization.jpg';
+import Venmo from './venmo.png';
 
 const Comments: React.FC<{}> = () => {
     const QA = (
         <div>
             <h2>广告和捐赠是维持这个项目运营的唯一收入来源🙏</h2>
             <img
+                src={Venmo}
+                alt="venmo"
+                style={{ width: "350px", height: "350px" }}
+            />
+            <img
                 src={Monetization}
-                alt="wechat_donation"
+                alt="none"
                 style={{ width: "486px", height: "303px" }}
             />
             <h3>Q and A</h3>
