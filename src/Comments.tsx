@@ -5,10 +5,17 @@ import { Comments as FBComments, FacebookProvider } from "react-facebook";
 import WeChatDonation from "./donation_wechat.jpg";
 import WechatGroupQR from "./wechat_group_qr.jpg";
 import WechatQR from "./wechat_qr.jpg";
+import Monetization from './monetization.jpg';
 
 const Comments: React.FC<{}> = () => {
     const QA = (
         <div>
+            <h2>广告和捐赠是维持这个项目运营的唯一收入来源🙏</h2>
+            <img
+                src={Monetization}
+                alt="wechat_donation"
+                style={{ width: "486px", height: "303px" }}
+            />
             <h3>Q and A</h3>
             <h4>Q: 怎么用？</h4>
             <p>A: 横坐标是号段，纵坐标是状态对应的数量。</p>
@@ -22,8 +29,6 @@ const Comments: React.FC<{}> = () => {
             <p>A: 我今年抽中了h1b, 在等approve</p>
             <h4>Q: 数据来源？</h4>
             <p>A: 枚举号段下所有可能的case number并爬取USCIS, 保存成文件</p>
-            <h4>Q: 没有我的号段的数据？</h4>
-            <p>A: 可能需要地里大家一起来爬并更新，稍后放出步骤</p>
             <h4>Q: 一般什么时候更新数据？</h4>
             <p>
                 A:
@@ -71,8 +76,6 @@ const Comments: React.FC<{}> = () => {
             <FBComments href="https://vicdus.github.io/uscis-case-statistics/" />
         </FacebookProvider>
     );
-
-
 
     return (
         <div>
