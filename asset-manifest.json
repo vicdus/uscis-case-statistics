@@ -2,16 +2,16 @@
   "files": {
     "main.js": "/uscis-case-statistics/static/js/main.32f2690c.chunk.js",
     "main.js.map": "/uscis-case-statistics/static/js/main.32f2690c.chunk.js.map",
-    "runtime-main.js": "/uscis-case-statistics/static/js/runtime-main.b66d7371.js",
-    "runtime-main.js.map": "/uscis-case-statistics/static/js/runtime-main.b66d7371.js.map",
+    "runtime-main.js": "/uscis-case-statistics/static/js/runtime-main.b127ee3d.js",
+    "runtime-main.js.map": "/uscis-case-statistics/static/js/runtime-main.b127ee3d.js.map",
     "static/js/2.1db68223.chunk.js": "/uscis-case-statistics/static/js/2.1db68223.chunk.js",
     "static/js/2.1db68223.chunk.js.map": "/uscis-case-statistics/static/js/2.1db68223.chunk.js.map",
-    "static/js/3.0b34845d.chunk.js": "/uscis-case-statistics/static/js/3.0b34845d.chunk.js",
-    "static/js/3.0b34845d.chunk.js.map": "/uscis-case-statistics/static/js/3.0b34845d.chunk.js.map",
-    "static/js/4.b042ef4b.chunk.js": "/uscis-case-statistics/static/js/4.b042ef4b.chunk.js",
-    "static/js/4.b042ef4b.chunk.js.map": "/uscis-case-statistics/static/js/4.b042ef4b.chunk.js.map",
+    "static/js/3.f076c7d2.chunk.js": "/uscis-case-statistics/static/js/3.f076c7d2.chunk.js",
+    "static/js/3.f076c7d2.chunk.js.map": "/uscis-case-statistics/static/js/3.f076c7d2.chunk.js.map",
+    "static/js/4.baf4bd37.chunk.js": "/uscis-case-statistics/static/js/4.baf4bd37.chunk.js",
+    "static/js/4.baf4bd37.chunk.js.map": "/uscis-case-statistics/static/js/4.baf4bd37.chunk.js.map",
     "index.html": "/uscis-case-statistics/index.html",
-    "precache-manifest.98214e9962d8807b5da4e63d1ef05152.js": "/uscis-case-statistics/precache-manifest.98214e9962d8807b5da4e63d1ef05152.js",
+    "precache-manifest.951774371c3dcb15454516b065473303.js": "/uscis-case-statistics/precache-manifest.951774371c3dcb15454516b065473303.js",
     "service-worker.js": "/uscis-case-statistics/service-worker.js",
     "static/js/2.1db68223.chunk.js.LICENSE.txt": "/uscis-case-statistics/static/js/2.1db68223.chunk.js.LICENSE.txt",
     "static/media/donation_wechat.jpg": "/uscis-case-statistics/static/media/donation_wechat.84e04efe.jpg",
@@ -21,7 +21,7 @@
     "static/media/wechat_qr.jpg": "/uscis-case-statistics/static/media/wechat_qr.6a2dd925.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b66d7371.js",
+    "static/js/runtime-main.b127ee3d.js",
     "static/js/2.1db68223.chunk.js",
     "static/js/main.32f2690c.chunk.js"
   ]
