@@ -6,6 +6,8 @@ scriptdir=`dirname "$BASH_SOURCE"`
 
 pushd $scriptdir
 
+git pull
+
 cd scraper
 
 go run main.go
