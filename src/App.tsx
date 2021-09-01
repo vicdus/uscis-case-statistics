@@ -272,6 +272,22 @@ const App: React.FC<{}> = () => {
     [exisitDays, dataset]
   );
 
+  const totalCountToday: Map<String, number> = new Map();
+  for (const cnt of datasetWithBackfill) {
+    for (const [k, v] of Object.entries(cnt)) {
+      if (k === 'day') continue;
+      totalCountToday.set(k, Number.parseInt(v) + (totalCountToday.get(k) ?? 0));
+    }
+  }
+
+  const TotalCountToday = <div>
+    <h3>Total for today {selectedCenter} and {selectedForm}</h3>
+    {Array.from(totalCountToday).sort((a, b) => b[1] - a[1]).map(([k, v]) => <div style={{ color: getColor(k as string) }}>
+      {k} : {v}
+    </div>)}
+  </div>;
+
+
   const maxBarHeight = useMemo(
     () =>
       todayCount.valueSeq().map(v => lodash.sum(v.valueSeq().toArray())).max(),
@@ -335,7 +351,7 @@ const App: React.FC<{}> = () => {
           width={150}
           tickFormatter={day => mode === 'data_center_year_code_day_serial' ? selectedCenter + "219" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
           domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
-          tick={{ fontSize: "6"}}
+          tick={{ fontSize: "6" }}
           interval={0}
           allowDecimals={true}
           ticks={exisitDays.toArray()}
@@ -501,6 +517,7 @@ const App: React.FC<{}> = () => {
       {updateDayPicker}
       {barChart}
       {updateDayPicker}
+      {TotalCountToday}
     </div>
   );
 };
