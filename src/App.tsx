@@ -280,11 +280,13 @@ const App: React.FC<{}> = () => {
     }
   }
 
+  const sumToday = lodash.sum(Array.from(totalCountToday.values()));
   const TotalCountToday = <div>
-    <h3>Total for today {selectedCenter} and {selectedForm}</h3>
+    <h3>Total for {selectedCenter} and {selectedForm} on your selected date</h3>
     {Array.from(totalCountToday).sort((a, b) => b[1] - a[1]).map(([k, v]) => <div style={{ color: getColor(k as string) }}>
-      {k} : {v}
+      {k} : {v}, {(v * 100 / sumToday).toFixed(2)}%
     </div>)}
+    <div><b>Total: {sumToday}</b></div>
   </div>;
 
 
