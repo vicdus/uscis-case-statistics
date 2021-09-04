@@ -14,6 +14,5 @@ You will also see any lint errors in the console.
 
 ## Run clawer
 
-1. Install typescript compiler and nodejs
-2. `npm install; tsc ./src/*.ts; node ./src/clawer.js` and will generate a `data.json5`
-3. submit pull request for generated `data.json5`
+1. Install golang and gomod in your machine
+2. `./src/run.sh`
