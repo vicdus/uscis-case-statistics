@@ -5,13 +5,14 @@ import { Comments as FBComments, FacebookProvider } from "react-facebook";
 import WeChatDonation from "./donation_wechat.jpg";
 import WechatGroupQR from "./wechat_group_qr.jpg";
 import WechatQR from "./wechat_qr.jpg";
+import CaseNumberFormat from "./case_number_format.png";
 import Monetization from './monetization.jpg';
 import Venmo from './venmo.png';
 
 const Comments: React.FC<{}> = () => {
     const QA = (
         <div>
-            <h2>广告和捐赠是维持这个项目运营的唯一收入来源🙏</h2>
+            <h2>捐赠是维持这个项目运营的唯一收入来源🙏</h2>
             <img
                 src={Venmo}
                 alt="venmo"
@@ -28,8 +29,9 @@ const Comments: React.FC<{}> = () => {
             <h4>Q: 什么是号段？</h4>
             <p>A: 这张图里的working day number</p>
             <img
-                alt="day-explain"
-                src="https://www.am22tech.com/wp-content/uploads/2018/12/uscis-receipt-number-status-i797-notice-truvisa.jpg"
+                src={CaseNumberFormat}
+                alt="wechat_donation"
+                style={{ width: "472px", height: "200px" }}
             />
             <h4>Q: 你是谁？</h4>
             <p>A: 我今年抽中了h1b, 在等approve</p>
