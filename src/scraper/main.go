@@ -3,6 +3,8 @@ package main
 import (
 	"encoding/json"
 
+	"bytes"
+	"encoding/gob"
 	"fmt"
 	"net/http"
 	"os"
@@ -70,12 +72,17 @@ type Result struct {
 	Form   string
 }
 
+var case_status_store = make(map[string]Result)
+var case_status_index_store = make(map[Result]int)
+var case_status_index = 0
+
 const (
 	center_year_day_code_serial = iota
 	center_year_code_day_serial
 )
 
 var mutex sync.Mutex
+var case_status_store_mutex sync.Mutex
 var epoch_day = time.Now().Unix() / 86400
 var sem = semaphore.NewWeighted(2000)
 
@@ -139,7 +146,22 @@ func clawAsync(center string, two_digit_yr int, day int, code int, case_serial_n
 }
 
 func claw(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) Result {
-	return get(toURL(center, two_digit_yr, day, code, case_serial_numbers, format), 5)
+	url := toURL(center, two_digit_yr, day, code, case_serial_numbers, format)
+	case_id := strings.ReplaceAll(url, "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=", "")
+	res := get(url, 5)
+	case_status_store_mutex.Lock()
+
+	if _, has := case_status_index_store[res]; !has {
+		case_status_index_store[res] = case_status_index
+		case_status_index++
+		fmt.Println("add " + res.Form + res.Status)
+	} else {
+		fmt.Println("found " + res.Form + res.Status)
+	}
+
+	case_status_store[case_id] = res
+	case_status_store_mutex.Unlock()
+	return res
 }
 
 func getLastCaseNumber(center string, two_digit_yr int, day int, code int, format int) int {
@@ -241,5 +263,13 @@ func main() {
 			<-report_c_center_year_day_code_serial
 			<-report_c_center_year_code_day_serial
 		}
+		buffer := new(bytes.Buffer)
+		e := gob.NewEncoder(buffer)
+		err := e.Encode(case_status_store)
+		if err != nil {
+			panic(err)
+		}
+
+		os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
 	}
 }
