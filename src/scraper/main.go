@@ -72,8 +72,13 @@ type Result struct {
 	Form   string
 }
 
-var case_status_store = make(map[string]Result)
-var case_status_index_store = make(map[Result]int)
+type RawStorage struct {
+	index  map[Result]int16
+	status map[string]int16
+}
+
+var case_status_store = make(map[string]int16)
+var case_status_index_store = make(map[Result]int16)
 var case_status_index = 0
 
 const (
@@ -152,15 +157,13 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 
 	if res.Status != "" {
 		case_status_store_mutex.Lock()
-
-		if _, has := case_status_index_store[res]; !has {
+		ind, has := case_status_index_store[res]
+		if !has {
 			case_status_index_store[res] = case_status_index
+			ind = case_status_index
 			case_status_index++
-			fmt.Println("add " + res.Form + res.Status)
-		} else {
-			fmt.Println("found " + res.Form + res.Status)
 		}
-		case_status_store[case_id] = res
+		case_status_store[case_id] = ind
 		case_status_store_mutex.Unlock()
 	}
 
@@ -268,7 +271,7 @@ func main() {
 		}
 		buffer := new(bytes.Buffer)
 		e := gob.NewEncoder(buffer)
-		err := e.Encode(case_status_store)
+		err := e.Encode(RawStorage{case_status_index_store, case_status_store})
 		if err != nil {
 			panic(err)
 		}
