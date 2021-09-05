@@ -24,4 +24,4 @@ yarn-error.log*
 src/clawer.js
 src/Constants.js
 src/scraper/main
-
+src/scraper/nocommit/*.bytes
