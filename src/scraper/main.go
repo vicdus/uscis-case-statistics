@@ -73,8 +73,8 @@ type Result struct {
 }
 
 type RawStorage struct {
-	index  map[Result]int
-	status map[string]int
+	Index  map[Result]int
+	Status map[string]int
 }
 
 var case_status_store = make(map[string]int)
