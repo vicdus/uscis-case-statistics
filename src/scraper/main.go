@@ -149,18 +149,21 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 	url := toURL(center, two_digit_yr, day, code, case_serial_numbers, format)
 	case_id := strings.ReplaceAll(url, "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=", "")
 	res := get(url, 5)
-	case_status_store_mutex.Lock()
 
-	if _, has := case_status_index_store[res]; !has {
-		case_status_index_store[res] = case_status_index
-		case_status_index++
-		fmt.Println("add " + res.Form + res.Status)
-	} else {
-		fmt.Println("found " + res.Form + res.Status)
+	if res.Status != "" {
+		case_status_store_mutex.Lock()
+
+		if _, has := case_status_index_store[res]; !has {
+			case_status_index_store[res] = case_status_index
+			case_status_index++
+			fmt.Println("add " + res.Form + res.Status)
+		} else {
+			fmt.Println("found " + res.Form + res.Status)
+		}
+		case_status_store[case_id] = res
+		case_status_store_mutex.Unlock()
 	}
 
-	case_status_store[case_id] = res
-	case_status_store_mutex.Unlock()
 	return res
 }
 
