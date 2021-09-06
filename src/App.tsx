@@ -59,7 +59,7 @@ const App: React.FC<{}> = () => {
     null
   );
   const [caseData, setCaseData] = useState<Object>({});
-  const [transitioningData, setTransitioningData] = useState<{ [index: string]: number; }>({});
+  const [transitioningData, setTransitioningData] = useState<{ [day: string]: { [index: string]: number; }; }>({});
 
 
   const setSearchParam = (key: string, value: string) => {
@@ -283,9 +283,8 @@ const App: React.FC<{}> = () => {
     }
   }
 
-
   const processedTransitioningData = Object.entries(lodash.groupBy(Object
-    .entries(transitioningData)
+    .entries(transitioningData[(selectedUpdateDay ?? latestUpdateDay) ?? ""] ?? {})
     .map(([key, count]) => {
       const [format, form, center, year, code, day, from, to] = key.split("|");
       return { format, form, center, year, code, day, from, to, count };
