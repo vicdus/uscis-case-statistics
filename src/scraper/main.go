@@ -256,31 +256,75 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 	}
 }
 
-func pending() {
-	b, _ := os.Open("./nocommit/18875.bytes")
-	d := gob.NewDecoder(b)
-	var rawold RawStorage
-	if err := d.Decode(&rawold); err != nil {
+func build_transitioning_map() {
+	b_old, err1 := os.Open(fmt.Sprintf("./nocommit/%d.bytes", epoch_day-1))
+	b_new, err2 := os.Open(fmt.Sprintf("./nocommit/%d.bytes", epoch_day))
+	if err1 != nil || err2 != nil {
+		return
+	}
+
+	d_old := gob.NewDecoder(b_old)
+	d_new := gob.NewDecoder(b_new)
+
+	var raw_old RawStorage
+	if err := d_old.Decode(&raw_old); err != nil {
+		panic(err)
+	}
+	var raw_new RawStorage
+	if err := d_new.Decode(&raw_new); err != nil {
 		panic(err)
 	}
 
-	reverse_map := make(map[int]Result)
-
-	for key, value := range rawold.Index {
-		reverse_map[value] = key
+	reverse_map_old := make(map[int]Result)
+	for key, value := range raw_old.Index {
+		reverse_map_old[value] = key
+	}
+	reverse_map_new := make(map[int]Result)
+	for key, value := range raw_new.Index {
+		reverse_map_new[value] = key
 	}
 
-	rawnew := rawold
-	for caseid, case_status_index_new := range rawnew.Status {
-		case_status_new := reverse_map[case_status_index_new]
-		case_status_index_old := rawold.Status[caseid]
-		case_status_old := reverse_map[case_status_index_old]
-		fmt.Printf("%s %s %s -> %s\n", caseid, case_status_old.Form, case_status_old.Status, case_status_new.Status)
+	// center_year_day_code_serial|form|center|year|day|code|from|to -> count
+	// center_year_code_day_serial|form|center|year|code|day|from|to -> count
+	transitioning_map := make(map[string]int)
+	for caseid, case_status_index_new := range raw_new.Status {
+		case_status_new := reverse_map_new[case_status_index_new]
+		case_status_old, ok := reverse_map_old[raw_old.Status[caseid]]
+		if !ok {
+			case_status_old = Result{"NEW_CASE", case_status_new.Form}
+		}
+		if case_status_new != case_status_old {
+			var center, year, day, code, serial, count_key string
+			if caseid[3:6] == "219" {
+				fmt.Sscanf(caseid, "%3s%2s%1s%3s%4s", &center, &year, &code, &day, &serial)
+				count_key = fmt.Sprintf("%s|%s|%s|%s|%s|%s|%s|%s", "center_year_code_day_serial", case_status_old.Form, center, year, code, day, case_status_old.Status, case_status_new.Status)
+			} else {
+				fmt.Sscanf(caseid, "%3s%2s%3s%1s%4s", &center, &year, &day, &code, &serial)
+				count_key = fmt.Sprintf("%s|%s|%s|%s|%s|%s|%s|%s", "center_year_day_code_serial", case_status_old.Form, center, year, code, day, case_status_old.Status, case_status_new.Status)
+			}
+
+			if _, ok := transitioning_map[count_key]; !ok {
+				transitioning_map[count_key] = 0
+			}
+			transitioning_map[count_key] = 1 + transitioning_map[count_key]
+		}
 	}
+	dir, _ := os.Getwd()
+	path := dir + "/transitioning.json"
+	b_json, _ := json.MarshalIndent(transitioning_map, "", "  ")
+	os.WriteFile(path, b_json, 0666)
+
+	existingTransitioningMap := make(map[int]map[string]int)
+	jsonFile, _ := os.ReadFile(path)
+	json.Unmarshal([]byte(jsonFile), &existingTransitioningMap)
+	existingTransitioningMap[int(epoch_day)] = transitioning_map
+
+	b, _ := json.MarshalIndent(existingTransitioningMap, "", "  ")
+	os.WriteFile(path, b, 0666)
+
 }
 
 func main() {
-	// pending()
 	for day := 1; day < 365; day++ {
 		report_c_center_year_day_code_serial := make(chan int)
 		report_c_center_year_code_day_serial := make(chan int)
@@ -301,4 +345,5 @@ func main() {
 
 		os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
 	}
+	build_transitioning_map()
 }

@@ -59,6 +59,8 @@ const App: React.FC<{}> = () => {
     null
   );
   const [caseData, setCaseData] = useState<Object>({});
+  const [transitioningData, setTransitioningData] = useState<{ [index: string]: number; }>({});
+
 
   const setSearchParam = (key: string, value: string) => {
     const url = new URL(window.location.href);
@@ -82,6 +84,7 @@ const App: React.FC<{}> = () => {
         setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
       if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
+        setTransitioningData((await (await import('./scraper/transitioning.json')).default));
         if (mode === 'data_center_year_code_day_serial') {
           setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
         } else {
@@ -280,10 +283,41 @@ const App: React.FC<{}> = () => {
     }
   }
 
+
+  const processedTransitioningData = Object.entries(lodash.groupBy(Object
+    .entries(transitioningData)
+    .map(([key, count]) => {
+      const [format, form, center, year, code, day, from, to] = key.split("|");
+      return { format, form, center, year, code, day, from, to, count };
+    })
+    .filter(trans => trans.center === selectedCenter && trans.form === selectedForm && ("data_" + trans.format) === url.searchParams.get("mode")), v => v.from)).map(([k, v]) => {
+      return {
+        from: v[0].from,
+        to: v[0].to,
+        count: lodash.sumBy(v, vv => vv.count)
+      };
+    });
+
+  const Transitioning = <div>
+    {processedTransitioningData
+      .map((trans, i) => {
+        return <div key={i}>
+          <div style={{ color: getColor(trans.from), display: 'inline' }}>{trans.from}</div>
+          <b>{" => "}</b>
+          <div style={{ color: getColor(trans.to), display: 'inline' }}>{trans.to}</div>
+          <b>{" : " + trans.count}</b></div>;
+      })}
+  </div>;
+
+
   const sumToday = lodash.sum(Array.from(totalCountToday.values()));
   const TotalCountToday = <div>
     <h3>Total for {selectedCenter} and {selectedForm} on your selected date</h3>
-    {Array.from(totalCountToday).sort((a, b) => b[1] - a[1]).map(([k, v]) => <div style={{ color: getColor(k as string) }}>
+    <h4>Transitioning</h4>
+    {Transitioning}
+    <br />
+    <h4>Total Counts:</h4>
+    {Array.from(totalCountToday).sort((a, b) => b[1] - a[1]).map(([k, v], i) => <div key={i} style={{ color: getColor(k as string) }}>
       {k} : {v}, {(v * 100 / sumToday).toFixed(2)}%
     </div>)}
     <div><b>Total: {sumToday}</b></div>
