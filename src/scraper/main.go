@@ -311,39 +311,37 @@ func build_transitioning_map() {
 	}
 	dir, _ := os.Getwd()
 	path := dir + "/transitioning.json"
-	b_json, _ := json.MarshalIndent(transitioning_map, "", "  ")
-	os.WriteFile(path, b_json, 0666)
-
 	existingTransitioningMap := make(map[int]map[string]int)
 	jsonFile, _ := os.ReadFile(path)
 	json.Unmarshal([]byte(jsonFile), &existingTransitioningMap)
 	existingTransitioningMap[int(epoch_day)] = transitioning_map
-
 	b, _ := json.MarshalIndent(existingTransitioningMap, "", "  ")
 	os.WriteFile(path, b, 0666)
-
 }
 
 func main() {
-	for day := 1; day < 365; day++ {
-		report_c_center_year_day_code_serial := make(chan int)
-		report_c_center_year_code_day_serial := make(chan int)
-		for _, name := range CENTER_NAMES {
-			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
-			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
-		}
-		for i := 0; i < len(CENTER_NAMES); i++ {
-			<-report_c_center_year_day_code_serial
-			<-report_c_center_year_code_day_serial
-		}
-		buffer := new(bytes.Buffer)
-		e := gob.NewEncoder(buffer)
-		err := e.Encode(RawStorage{case_status_index_store, case_status_store})
-		if err != nil {
-			panic(err)
-		}
+	if false {
+		for day := 1; day < 365; day++ {
+			report_c_center_year_day_code_serial := make(chan int)
+			report_c_center_year_code_day_serial := make(chan int)
+			for _, name := range CENTER_NAMES {
+				go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
+				go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
+			}
+			for i := 0; i < len(CENTER_NAMES); i++ {
+				<-report_c_center_year_day_code_serial
+				<-report_c_center_year_code_day_serial
+			}
+			buffer := new(bytes.Buffer)
+			e := gob.NewEncoder(buffer)
+			err := e.Encode(RawStorage{case_status_index_store, case_status_store})
+			if err != nil {
+				panic(err)
+			}
 
-		os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
+			os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
+		}
 	}
+
 	build_transitioning_map()
 }
