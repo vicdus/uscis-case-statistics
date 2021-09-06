@@ -1,10 +1,9 @@
 package main
 
 import (
-	"encoding/json"
-
 	"bytes"
 	"encoding/gob"
+	"encoding/json"
 	"fmt"
 	"net/http"
 	"os"
@@ -257,7 +256,31 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 	}
 }
 
+func pending() {
+	b, _ := os.Open("./nocommit/18875.bytes")
+	d := gob.NewDecoder(b)
+	var rawold RawStorage
+	if err := d.Decode(&rawold); err != nil {
+		panic(err)
+	}
+
+	reverse_map := make(map[int]Result)
+
+	for key, value := range rawold.Index {
+		reverse_map[value] = key
+	}
+
+	rawnew := rawold
+	for caseid, case_status_index_new := range rawnew.Status {
+		case_status_new := reverse_map[case_status_index_new]
+		case_status_index_old := rawold.Status[caseid]
+		case_status_old := reverse_map[case_status_index_old]
+		fmt.Printf("%s %s %s -> %s\n", caseid, case_status_old.Form, case_status_old.Status, case_status_new.Status)
+	}
+}
+
 func main() {
+	// pending()
 	for day := 1; day < 365; day++ {
 		report_c_center_year_day_code_serial := make(chan int)
 		report_c_center_year_code_day_serial := make(chan int)
