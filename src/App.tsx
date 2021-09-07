@@ -58,7 +58,7 @@ const App: React.FC<{}> = () => {
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
   );
-  const [caseData, setCaseData] = useState<Object>({});
+  const [caseData, setCaseData] = useState<{ [key: string]: { [day: string]: number; }; }>({});
   const [transitioningData, setTransitioningData] = useState<{ [day: string]: { [index: string]: number; }; }>({});
 
 
@@ -86,9 +86,11 @@ const App: React.FC<{}> = () => {
       if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
         setTransitioningData((await (await import('./scraper/transitioning.json')).default));
         if (mode === 'data_center_year_code_day_serial') {
-          setCaseData(await import('./scraper/data_center_year_code_day_serial.json'));
+          // @ts-ignore
+          setCaseData(((await import('./scraper/data_center_year_code_day_serial.json')).default));
         } else {
-          setCaseData(await import('./scraper/data_center_year_day_code_serial.json'));
+          // @ts-ignore
+          setCaseData(((await import('./scraper/data_center_year_day_code_serial.json')).default));
         }
       }
     })();
