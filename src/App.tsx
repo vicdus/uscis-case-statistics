@@ -234,7 +234,7 @@ const App: React.FC<{}> = () => {
         .filter(
           (v) =>
             v.updateDay ===
-            availableUpdateDays.get(availableUpdateDays.size - 2)?.toString()
+            (Number.parseInt((selectedUpdateDay ?? latestUpdateDay)?.toString() ?? "0") - 1).toString()
         )
         .groupBy((v) => v.day)
         .map((v) =>
@@ -243,7 +243,7 @@ const App: React.FC<{}> = () => {
             v.map((x) => [x.status.toString(), x.count]).toArray()
           )
         ),
-    [availableUpdateDays, selectedEntriesAllDate]
+    [selectedEntriesAllDate, selectedUpdateDay, latestUpdateDay]
   );
 
   const todayCount = useMemo(
@@ -251,8 +251,7 @@ const App: React.FC<{}> = () => {
       selectedEntriesAllDate
         .filter(
           (v) =>
-            v.updateDay ===
-            availableUpdateDays.get(availableUpdateDays.size - 1)?.toString()
+            v.updateDay === (selectedUpdateDay ?? latestUpdateDay)?.toString()
         )
         .groupBy((v) => v.day)
         .map((v) =>
@@ -261,7 +260,7 @@ const App: React.FC<{}> = () => {
             v.map((x) => [x.status.toString(), x.count]).toArray()
           )
         ),
-    [availableUpdateDays, selectedEntriesAllDate]
+    [selectedEntriesAllDate, selectedUpdateDay, latestUpdateDay]
   );
 
   const datasetWithBackfill = useMemo(
