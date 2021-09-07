@@ -121,10 +121,9 @@ func get(url string, retry int) Result {
 	}
 
 	body := doc.Find(".rows").First()
-	bodyText := body.Text()
 	status := body.Find("h1").Text()
 	for _, form := range FORM_TYPES {
-		if strings.Contains(bodyText, form) {
+		if strings.Contains(doc.Text(), form) {
 			return Result{status, form}
 		}
 	}
