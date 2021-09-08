@@ -319,10 +319,10 @@ func build_transitioning_map() {
 }
 
 func main() {
-	for day := 1; day < 365; day++ {
+	for _, name := range CENTER_NAMES {
 		report_c_center_year_day_code_serial := make(chan int)
 		report_c_center_year_code_day_serial := make(chan int)
-		for _, name := range CENTER_NAMES {
+		for day := 1; day < 365; day++ {
 			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
 			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
 		}
@@ -330,13 +330,14 @@ func main() {
 			<-report_c_center_year_day_code_serial
 			<-report_c_center_year_code_day_serial
 		}
-		buffer := new(bytes.Buffer)
-		e := gob.NewEncoder(buffer)
-		err := e.Encode(RawStorage{case_status_index_store, case_status_store})
-		if err != nil {
-			panic(err)
-		}
-		os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
 	}
+
+	buffer := new(bytes.Buffer)
+	e := gob.NewEncoder(buffer)
+	err := e.Encode(RawStorage{case_status_index_store, case_status_store})
+	if err != nil {
+		panic(err)
+	}
+	os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
 	build_transitioning_map()
 }
