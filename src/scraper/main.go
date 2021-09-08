@@ -79,6 +79,7 @@ type RawStorage struct {
 var case_status_store = make(map[string]int)
 var case_status_index_store = make(map[Result]int)
 var case_status_index = 0
+var report_freq int64 = 10000
 
 const (
 	center_year_day_code_serial = iota
@@ -165,10 +166,12 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 			case_status_index++
 		}
 		case_status_store[case_id] = ind
-		if len(case_status_store) > 0 && len(case_status_store)%10000 == 0 {
+		if len(case_status_store) > 0 && len(case_status_store)%int(report_freq) == 0 {
 			now := time.Now().Unix()
-			fmt.Printf("\t\t\tQPS for previous 10000: %d\n", 10000/(now-last_record))
-			last_record = now
+			if now != last_record {
+				fmt.Printf("\t\t\tQPS for previous %d: %d\n", report_freq, report_freq/(now-last_record))
+				last_record = now
+			}
 		}
 		case_status_store_mutex.Unlock()
 	}
@@ -330,11 +333,11 @@ func main() {
 	for _, name := range CENTER_NAMES {
 		report_c_center_year_day_code_serial := make(chan int)
 		report_c_center_year_code_day_serial := make(chan int)
-		for day := 1; day < 365; day++ {
+		for day := 0; day <= 365; day++ {
 			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
 			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
 		}
-		for i := 0; i < len(CENTER_NAMES); i++ {
+		for i := 0; i <= 365; i++ {
 			<-report_c_center_year_day_code_serial
 			<-report_c_center_year_code_day_serial
 		}
