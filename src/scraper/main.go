@@ -90,6 +90,9 @@ var case_status_store_mutex sync.Mutex
 var epoch_day = time.Now().Unix() / 86400
 var sem = semaphore.NewWeighted(2000)
 
+var start_epoch = time.Now().Unix()
+var last_record = start_epoch
+
 func get(url string, retry int) Result {
 	client := http.Client{
 		Timeout: 30 * time.Second,
@@ -162,6 +165,11 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 			case_status_index++
 		}
 		case_status_store[case_id] = ind
+		if len(case_status_store) > 0 && len(case_status_store)%10000 == 0 {
+			now := time.Now().Unix()
+			fmt.Printf("\t\t\tQPS for previous 10000: %d\n", 10000/(now-last_record))
+			last_record = now
+		}
 		case_status_store_mutex.Unlock()
 	}
 
