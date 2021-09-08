@@ -205,6 +205,7 @@ func getLastCaseNumber(center string, two_digit_yr int, day int, code int, forma
 }
 
 func all(center string, two_digit_yr int, day int, code int, format int, report_c chan int) {
+	defer func() { report_c <- 0 }()
 	dir, _ := os.Getwd()
 	var path string
 	if format == center_year_day_code_serial {
@@ -243,7 +244,6 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 
 	mutex.Unlock()
 	fmt.Printf("Done %s total of %d at day %d of format %d\n", center, last, day, format)
-	report_c <- 0
 }
 
 func getMerged(m1, m2 map[string]map[int64]int) {
