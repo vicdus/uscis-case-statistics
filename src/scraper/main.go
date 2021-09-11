@@ -305,12 +305,17 @@ func build_transitioning_map() {
 		}
 		if case_status_new != case_status_old {
 			var center, year, day, code, serial, count_key string
+
+			var case_form = case_status_old.Form
+			if case_form == "NEW_CASE" {
+				case_form = case_status_new.Form
+			}
 			if caseid[3:6] == "219" {
 				fmt.Sscanf(caseid, "%3s%2s%1s%3s%4s", &center, &year, &code, &day, &serial)
-				count_key = fmt.Sprintf("%s|%s|%s|%s|%s|%s|%s|%s", "center_year_code_day_serial", case_status_old.Form, center, year, code, day, case_status_old.Status, case_status_new.Status)
+				count_key = fmt.Sprintf("%s|%s|%s|%s|%s|%s|%s|%s", "center_year_code_day_serial", case_form, center, year, code, day, case_status_old.Status, case_status_new.Status)
 			} else {
 				fmt.Sscanf(caseid, "%3s%2s%3s%1s%4s", &center, &year, &day, &code, &serial)
-				count_key = fmt.Sprintf("%s|%s|%s|%s|%s|%s|%s|%s", "center_year_day_code_serial", case_status_old.Form, center, year, code, day, case_status_old.Status, case_status_new.Status)
+				count_key = fmt.Sprintf("%s|%s|%s|%s|%s|%s|%s|%s", "center_year_day_code_serial", case_form, center, year, code, day, case_status_old.Status, case_status_new.Status)
 			}
 
 			if _, ok := transitioning_map[count_key]; !ok {
