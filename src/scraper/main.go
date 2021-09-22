@@ -179,11 +179,10 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 		if res.Form != "unknown" {
 			case_form_type_global_cache[case_id] = res.Form
 		}
+		if form, ok := case_form_type_global_cache[case_id]; ok {
+			res.Form = form
+		}
 		case_status_store_mutex.Unlock()
-	}
-
-	if form, ok := case_form_type_global_cache[case_id]; ok {
-		res.Form = form
 	}
 
 	return res
