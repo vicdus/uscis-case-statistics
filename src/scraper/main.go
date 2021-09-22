@@ -31,11 +31,17 @@ var CENTER_NAMES = []string{
 }
 
 var FORM_TYPES = []string{
+	"I-129CW",
+	"I-129F",
+	"I-600A",
+	"I-601A",
+	"I-765V",
+	"I-485J",
+	"I-800A",
+	"I-821D",
 	"I-90",
 	"I-102",
 	"I-129",
-	"I-129CW",
-	"I-129F",
 	"I-130",
 	"I-131",
 	"I-140",
@@ -45,19 +51,14 @@ var FORM_TYPES = []string{
 	"I-526",
 	"I-539",
 	"I-600",
-	"I-600A",
 	"I-601",
-	"I-601A",
 	"I-612",
 	"I-730",
 	"I-751",
 	"I-765",
-	"I-765V",
 	"I-800",
-	"I-800A",
 	"I-817",
 	"I-821",
-	"I-821D",
 	"I-824",
 	"I-829",
 	"I-914",
@@ -78,6 +79,7 @@ type RawStorage struct {
 
 var case_status_store = make(map[string]int)
 var case_status_index_store = make(map[Result]int)
+var case_form_type_global_cache = make(map[string]string)
 var case_status_index = 0
 var report_freq int64 = 10000
 
@@ -173,7 +175,15 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 				last_record = now
 			}
 		}
+
+		if res.Form != "unknown" {
+			case_form_type_global_cache[case_id] = res.Form
+		}
 		case_status_store_mutex.Unlock()
+	}
+
+	if form, ok := case_form_type_global_cache[case_id]; ok {
+		res.Form = form
 	}
 
 	return res
@@ -330,24 +340,54 @@ func build_transitioning_map() {
 	jsonFile, _ := os.ReadFile(path)
 	json.Unmarshal([]byte(jsonFile), &existingTransitioningMap)
 	existingTransitioningMap[int(epoch_day)] = transitioning_map
+
+	for day := range existingTransitioningMap {
+		if int(epoch_day)-day > 7 {
+			delete(existingTransitioningMap, day)
+		}
+	}
+
 	b, _ := json.MarshalIndent(existingTransitioningMap, "", "  ")
 	os.WriteFile(path, b, 0666)
 }
 
+func load_case_cache() {
+	b, err := os.Open("./case_form_type_global_cache.bytes")
+	if err != nil {
+		return
+	}
+	d := gob.NewDecoder(b)
+	if err := d.Decode(&case_form_type_global_cache); err != nil {
+		panic(err)
+	}
+}
+
+func persist_case_cache() {
+	buffer := new(bytes.Buffer)
+	e := gob.NewEncoder(buffer)
+	err := e.Encode(case_form_type_global_cache)
+	if err != nil {
+		panic(err)
+	}
+	os.WriteFile("./case_form_type_global_cache.bytes", buffer.Bytes(), 0666)
+}
+
 func main() {
-	for _, name := range CENTER_NAMES {
-		report_c_center_year_day_code_serial := make(chan int)
-		report_c_center_year_code_day_serial := make(chan int)
-		for day := 0; day <= 365; day++ {
-			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
-			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
-		}
-		for i := 0; i <= 365; i++ {
-			<-report_c_center_year_day_code_serial
-			<-report_c_center_year_code_day_serial
+	load_case_cache()
+	if false {
+		for _, name := range CENTER_NAMES {
+			report_c_center_year_day_code_serial := make(chan int)
+			report_c_center_year_code_day_serial := make(chan int)
+			for day := 0; day <= 365; day++ {
+				go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
+				go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
+			}
+			for i := 0; i <= 365; i++ {
+				<-report_c_center_year_day_code_serial
+				<-report_c_center_year_code_day_serial
+			}
 		}
 	}
-
 	buffer := new(bytes.Buffer)
 	e := gob.NewEncoder(buffer)
 	err := e.Encode(RawStorage{case_status_index_store, case_status_store})
@@ -356,4 +396,5 @@ func main() {
 	}
 	os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
 	build_transitioning_map()
+	persist_case_cache()
 }
