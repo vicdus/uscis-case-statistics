@@ -299,7 +299,7 @@ const App: React.FC<{}> = () => {
     });
 
   const Transitioning = <div>
-    {processedTransitioningData
+    {processedTransitioningData.sort((a, b) => b.count - a.count)
       .map((trans, i) => {
         return <div key={i}>
           <div style={{ color: getColor(trans.from), display: 'inline' }}>{trans.from}</div>
