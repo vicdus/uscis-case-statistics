@@ -102,11 +102,17 @@ func get(url string, retry int) Result {
 	}
 	req, _ := http.NewRequest("GET", url, nil)
 	sem.Acquire(req.Context(), 1)
-	req.Close = true
-	res, err := client.Do(req)
 	defer sem.Release(1)
-	if err != nil {
-		fmt.Println("error 1! " + err.Error() + "\n")
+
+	req.Close = true
+	res, err1 := client.Do(req)
+	defer func() {
+		if err1 != nil {
+			res.Body.Close()
+		}
+	}()
+	if err1 != nil {
+		fmt.Println("error 1! " + err1.Error() + "\n")
 		if retry > 0 {
 			fmt.Printf("Retry %d %s\n", retry, url)
 			return get(url, retry-1)
@@ -114,16 +120,11 @@ func get(url string, retry int) Result {
 			return Result{"", ""}
 		}
 	}
-	defer res.Body.Close()
-	doc, err := goquery.NewDocumentFromReader(res.Body)
-	if err != nil {
-		fmt.Println("error 2! " + err.Error() + "\n")
-		if retry > 0 {
-			fmt.Printf("Retry %d %s\n", retry, url)
-			return get(url, retry-1)
-		} else {
-			return Result{"", ""}
-		}
+
+	doc, err2 := goquery.NewDocumentFromReader(res.Body)
+	if err2 != nil {
+		fmt.Println("error 2! " + err2.Error() + "\n")
+		return Result{"", ""}
 	}
 
 	body := doc.Find(".rows").First()
