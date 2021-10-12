@@ -104,10 +104,9 @@ func get(url string, retry int) Result {
 	sem.Acquire(req.Context(), 1)
 	defer sem.Release(1)
 
-	req.Close = true
 	res, err1 := client.Do(req)
 	defer func() {
-		if err1 != nil {
+		if err1 == nil {
 			res.Body.Close()
 		}
 	}()
