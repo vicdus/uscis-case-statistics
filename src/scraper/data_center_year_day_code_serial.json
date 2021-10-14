@@ -1,1 +1,6623 @@
-{}
+{
+  "MSC|21|101|5|I-131|Case Was Approved": {
+    "18914": 15
+  },
+  "MSC|21|101|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 6
+  },
+  "MSC|21|101|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|101|5|I-131|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|101|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|101|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|101|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|101|5|I-212|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|101|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|101|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 2
+  },
+  "MSC|21|101|5|I-485J|Case Was Approved": {
+    "18914": 112
+  },
+  "MSC|21|101|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|101|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 5
+  },
+  "MSC|21|101|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|101|5|I-485J|Fees Were Waived": {
+    "18914": 23
+  },
+  "MSC|21|101|5|I-539|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|101|5|I-751|Case Was Received": {
+    "18914": 47
+  },
+  "MSC|21|101|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|101|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|101|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|101|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 10
+  },
+  "MSC|21|101|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|101|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|101|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|101|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-131|Case Was Approved": {
+    "18914": 23
+  },
+  "MSC|21|104|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|104|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-131|Fees Were Waived": {
+    "18914": 7
+  },
+  "MSC|21|104|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 2
+  },
+  "MSC|21|104|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|104|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|104|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|104|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-485J|Case Was Approved": {
+    "18914": 73
+  },
+  "MSC|21|104|5|I-485J|Fees Were Waived": {
+    "18914": 17
+  },
+  "MSC|21|104|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-485J|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 5
+  },
+  "MSC|21|104|5|I-539|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|104|5|I-539|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 6
+  },
+  "MSC|21|104|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-751|Case Was Received": {
+    "18914": 127
+  },
+  "MSC|21|104|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|104|5|I-751|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|104|5|I-751|Name Was Updated": {
+    "18914": 4
+  },
+  "MSC|21|104|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 4
+  },
+  "MSC|21|104|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|117|5|I-131|Case Was Approved": {
+    "18914": 24
+  },
+  "MSC|21|117|5|I-131|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|117|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 8
+  },
+  "MSC|21|117|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 4
+  },
+  "MSC|21|117|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|117|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-212|Case Was Approved": {
+    "18914": 5
+  },
+  "MSC|21|117|5|I-212|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|117|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|117|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-485J|Case Was Approved": {
+    "18914": 51
+  },
+  "MSC|21|117|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-485J|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|117|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|117|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|117|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 18
+  },
+  "MSC|21|117|5|I-751|Case Was Received": {
+    "18914": 117
+  },
+  "MSC|21|117|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 7
+  },
+  "MSC|21|117|5|I-751|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|117|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 9
+  },
+  "MSC|21|117|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|117|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|117|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|117|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|117|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 3
+  },
+  "MSC|21|119|5|I-131|Case Was Approved": {
+    "18914": 32
+  },
+  "MSC|21|119|5|I-131|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|119|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 38
+  },
+  "MSC|21|119|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-131|Fees Were Waived": {
+    "18914": 11
+  },
+  "MSC|21|119|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|119|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|119|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|119|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-485J|Case Was Approved": {
+    "18914": 111
+  },
+  "MSC|21|119|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|119|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-485J|Fees Were Waived": {
+    "18914": 26
+  },
+  "MSC|21|119|5|I-485J|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|119|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 10
+  },
+  "MSC|21|119|5|I-751|Case Was Received": {
+    "18914": 16
+  },
+  "MSC|21|119|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|119|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 3
+  },
+  "MSC|21|119|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|119|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 2
+  },
+  "MSC|21|126|5|I-131|Case Was Approved": {
+    "18914": 16
+  },
+  "MSC|21|126|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|126|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 9
+  },
+  "MSC|21|126|5|I-131|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|126|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|126|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|126|5|I-131|Withdrawal Acknowledgement Notice Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|126|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|126|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|126|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|126|5|I-485J|Case Was Approved": {
+    "18914": 70
+  },
+  "MSC|21|126|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|126|5|I-485J|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|126|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|126|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|126|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 9
+  },
+  "MSC|21|126|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 3
+  },
+  "MSC|21|126|5|I-751|Case Was Received": {
+    "18914": 79
+  },
+  "MSC|21|126|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|126|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|126|5|I-765|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|126|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 12
+  },
+  "MSC|21|126|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-131|Case Was Approved": {
+    "18914": 20
+  },
+  "MSC|21|131|5|I-131|Case Was Denied": {
+    "18914": 5
+  },
+  "MSC|21|131|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 14
+  },
+  "MSC|21|131|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|131|5|I-131|Fees Were Waived": {
+    "18914": 16
+  },
+  "MSC|21|131|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 3
+  },
+  "MSC|21|131|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 3
+  },
+  "MSC|21|131|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|131|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|131|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|131|5|I-485J|Case Was Approved": {
+    "18914": 64
+  },
+  "MSC|21|131|5|I-485J|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|131|5|I-485|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-539|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 10
+  },
+  "MSC|21|131|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-751|Case Was Received": {
+    "18914": 75
+  },
+  "MSC|21|131|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 9
+  },
+  "MSC|21|131|5|I-751|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|131|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|131|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|131|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 5
+  },
+  "MSC|21|131|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|131|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|131|5|unknown|Termination Notice Sent": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-131|Case Was Approved": {
+    "18914": 34
+  },
+  "MSC|21|143|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 13
+  },
+  "MSC|21|143|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-131|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|143|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|143|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 3
+  },
+  "MSC|21|143|5|I-212|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|143|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|143|5|I-212|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|143|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|143|5|I-212|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-485J|Case Was Approved": {
+    "18914": 26
+  },
+  "MSC|21|143|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-485J|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|143|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|143|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 2
+  },
+  "MSC|21|143|5|I-751|Case Was Received": {
+    "18914": 96
+  },
+  "MSC|21|143|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 3
+  },
+  "MSC|21|143|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|143|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|143|5|I-765|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|143|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 21
+  },
+  "MSC|21|143|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|143|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|143|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|144|5|I-131|Case Was Approved": {
+    "18914": 22
+  },
+  "MSC|21|144|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|144|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 8
+  },
+  "MSC|21|144|5|I-131|Case Was Reopened": {
+    "18914": 2
+  },
+  "MSC|21|144|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 26
+  },
+  "MSC|21|144|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 2
+  },
+  "MSC|21|144|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|144|5|I-131|Fees Were Waived": {
+    "18914": 27
+  },
+  "MSC|21|144|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|144|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|144|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|144|5|I-485J|Case Was Approved": {
+    "18914": 27
+  },
+  "MSC|21|144|5|I-485J|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|144|5|I-539|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|144|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 13
+  },
+  "MSC|21|144|5|I-751|Case Was Received": {
+    "18914": 110
+  },
+  "MSC|21|144|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|144|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|144|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|144|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 21
+  },
+  "MSC|21|144|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|144|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|144|5|unknown|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|144|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|144|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|146|5|I-131|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|146|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|146|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 13
+  },
+  "MSC|21|146|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|146|5|I-131|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|146|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|146|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|146|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|146|5|I-212|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|146|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|146|5|I-485J|Case Was Approved": {
+    "18914": 68
+  },
+  "MSC|21|146|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|146|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|146|5|I-485J|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|146|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|146|5|I-485|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|146|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 6
+  },
+  "MSC|21|146|5|I-751|Case Was Received": {
+    "18914": 122
+  },
+  "MSC|21|146|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|146|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|146|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 2
+  },
+  "MSC|21|146|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|146|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 9
+  },
+  "MSC|21|146|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|146|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-131|Case Was Approved": {
+    "18914": 16
+  },
+  "MSC|21|14|5|I-131|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|14|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|14|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 11
+  },
+  "MSC|21|14|5|I-131|Fees Were Waived": {
+    "18914": 13
+  },
+  "MSC|21|14|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|14|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-212|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-212|Case Was Approved": {
+    "18914": 18
+  },
+  "MSC|21|14|5|I-212|Case Was Denied": {
+    "18914": 5
+  },
+  "MSC|21|14|5|I-212|Case Was Received": {
+    "18914": 6
+  },
+  "MSC|21|14|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|14|5|I-212|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-485J|Case Was Approved": {
+    "18914": 58
+  },
+  "MSC|21|14|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-485J|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|14|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-539|Case Was Approved": {
+    "18914": 13
+  },
+  "MSC|21|14|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-751|Case Was Received": {
+    "18914": 67
+  },
+  "MSC|21|14|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|14|5|I-751|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|14|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|14|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|14|5|unknown|Case Was Received": {
+    "18914": 12
+  },
+  "MSC|21|14|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|14|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-131|Case Was Approved": {
+    "18914": 34
+  },
+  "MSC|21|151|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|151|5|I-131|Case Was Reopened": {
+    "18914": 2
+  },
+  "MSC|21|151|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 6
+  },
+  "MSC|21|151|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 2
+  },
+  "MSC|21|151|5|I-131|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|151|5|I-131|Name Was Updated": {
+    "18914": 4
+  },
+  "MSC|21|151|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-212|Case Was Approved": {
+    "18914": 11
+  },
+  "MSC|21|151|5|I-212|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|151|5|I-212|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|151|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-485J|Case Was Approved": {
+    "18914": 70
+  },
+  "MSC|21|151|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|151|5|I-485J|Fees Were Waived": {
+    "18914": 14
+  },
+  "MSC|21|151|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-485|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-539|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|151|5|I-539|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|151|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 20
+  },
+  "MSC|21|151|5|I-751|Case Was Received": {
+    "18914": 32
+  },
+  "MSC|21|151|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 8
+  },
+  "MSC|21|151|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|151|5|I-765|Case Closed Benefit Received By Other Means": {
+    "18914": 4
+  },
+  "MSC|21|151|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 22
+  },
+  "MSC|21|151|5|unknown|Case Was Received": {
+    "18914": 6
+  },
+  "MSC|21|151|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|151|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|153|5|I-131|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|153|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 12
+  },
+  "MSC|21|153|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 7
+  },
+  "MSC|21|153|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|153|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|153|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-485J|Case Was Approved": {
+    "18914": 57
+  },
+  "MSC|21|153|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-485J|Fees Were Waived": {
+    "18914": 11
+  },
+  "MSC|21|153|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 6
+  },
+  "MSC|21|153|5|I-751|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-751|Case Was Received": {
+    "18914": 9
+  },
+  "MSC|21|153|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 6
+  },
+  "MSC|21|153|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|153|5|I-765|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|153|5|I-765|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|153|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 20
+  },
+  "MSC|21|153|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|153|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|153|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|157|5|I-131|Case Was Approved": {
+    "18914": 36
+  },
+  "MSC|21|157|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 7
+  },
+  "MSC|21|157|5|I-131|Continuation Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-131|Fees Were Waived": {
+    "18914": 13
+  },
+  "MSC|21|157|5|I-131|Name Was Updated": {
+    "18914": 4
+  },
+  "MSC|21|157|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-212|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|157|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|157|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|157|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|157|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-485J|Case Was Approved": {
+    "18914": 58
+  },
+  "MSC|21|157|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-485J|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-485J|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|157|5|I-485J|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-485|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 10
+  },
+  "MSC|21|157|5|I-751|Case Rejected For Incorrect Fee And Incorrect Form Version": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-751|Case Was Received": {
+    "18914": 150
+  },
+  "MSC|21|157|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 14
+  },
+  "MSC|21|157|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|157|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|157|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 3
+  },
+  "MSC|21|157|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|157|5|unknown|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|157|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|157|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|158|5|I-131|Case Was Approved": {
+    "18914": 33
+  },
+  "MSC|21|158|5|I-131|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|158|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 9
+  },
+  "MSC|21|158|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 18
+  },
+  "MSC|21|158|5|I-131|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|158|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|158|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|158|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|158|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|158|5|I-485J|Case Was Approved": {
+    "18914": 73
+  },
+  "MSC|21|158|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|158|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|158|5|I-485J|Fees Were Waived": {
+    "18914": 9
+  },
+  "MSC|21|158|5|I-539|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|158|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|158|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 2
+  },
+  "MSC|21|158|5|I-751|Case Was Received": {
+    "18914": 85
+  },
+  "MSC|21|158|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 2
+  },
+  "MSC|21|158|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 9
+  },
+  "MSC|21|158|5|I-751|Fees Were Waived": {
+    "18914": 16
+  },
+  "MSC|21|158|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|158|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 10
+  },
+  "MSC|21|158|5|unknown|Case Was Received": {
+    "18914": 7
+  },
+  "MSC|21|158|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|158|5|unknown|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|158|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|158|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-131|Case Was Approved": {
+    "18914": 15
+  },
+  "MSC|21|159|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 17
+  },
+  "MSC|21|159|5|I-131|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|159|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|159|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|159|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|159|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-212|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-485J|Case Was Approved": {
+    "18914": 90
+  },
+  "MSC|21|159|5|I-485J|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|159|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-485J|Fees Were Waived": {
+    "18914": 20
+  },
+  "MSC|21|159|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 2
+  },
+  "MSC|21|159|5|I-485|Card Was Returned To USCIS": {
+    "18914": 1
+  },
+  "MSC|21|159|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 6
+  },
+  "MSC|21|159|5|I-751|Case Was Received": {
+    "18914": 58
+  },
+  "MSC|21|159|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|159|5|I-751|Fees Were Waived": {
+    "18914": 12
+  },
+  "MSC|21|159|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|159|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|159|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|159|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|159|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|159|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|180|5|I-131|Case Was Approved": {
+    "18914": 14
+  },
+  "MSC|21|180|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|180|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|180|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 4
+  },
+  "MSC|21|180|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|180|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|180|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|180|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|180|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|180|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|180|5|I-485J|Case Was Approved": {
+    "18914": 41
+  },
+  "MSC|21|180|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|180|5|I-485J|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|180|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|180|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 19
+  },
+  "MSC|21|180|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 3
+  },
+  "MSC|21|180|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18914": 2
+  },
+  "MSC|21|180|5|I-751|Case Was Received": {
+    "18914": 115
+  },
+  "MSC|21|180|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 13
+  },
+  "MSC|21|180|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|180|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 18
+  },
+  "MSC|21|180|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|180|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|180|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|180|5|unknown|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|180|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 7
+  },
+  "MSC|21|183|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 20
+  },
+  "MSC|21|183|5|I-131|Case Was Approved": {
+    "18914": 28
+  },
+  "MSC|21|183|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 25
+  },
+  "MSC|21|183|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-131|Fees Were Waived": {
+    "18914": 22
+  },
+  "MSC|21|183|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|183|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|183|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-485J|Case Was Approved": {
+    "18914": 72
+  },
+  "MSC|21|183|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-485J|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|183|5|I-485J|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|183|5|I-751|Case Rejected For Incorrect Fee And Incorrect Form Version": {
+    "18914": 4
+  },
+  "MSC|21|183|5|I-751|Case Was Received": {
+    "18914": 128
+  },
+  "MSC|21|183|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 2
+  },
+  "MSC|21|183|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|183|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|183|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 9
+  },
+  "MSC|21|183|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|186|5|I-131|Case Was Approved": {
+    "18914": 35
+  },
+  "MSC|21|186|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|186|5|I-131|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|186|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|186|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|186|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|186|5|I-212|Case Was Denied And My Decision Notice Mailed": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-212|Case Was Received": {
+    "18914": 8
+  },
+  "MSC|21|186|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|186|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|186|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-485J|Case Was Approved": {
+    "18914": 110
+  },
+  "MSC|21|186|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|186|5|I-485J|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|186|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-751|Case Rejected For Incorrect Fee And Incorrect Form Version": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-751|Case Was Received": {
+    "18914": 76
+  },
+  "MSC|21|186|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|186|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 2
+  },
+  "MSC|21|186|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|186|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 10
+  },
+  "MSC|21|186|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 4
+  },
+  "MSC|21|186|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|186|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 2
+  },
+  "MSC|21|186|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-131|Case Was Approved": {
+    "18914": 18
+  },
+  "MSC|21|198|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 15
+  },
+  "MSC|21|198|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 13
+  },
+  "MSC|21|198|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 4
+  },
+  "MSC|21|198|5|I-131|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|198|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 3
+  },
+  "MSC|21|198|5|I-131|Withdrawal Acknowledgement Notice Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|198|5|I-212|Case Was Denied": {
+    "18914": 6
+  },
+  "MSC|21|198|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|198|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|198|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-485J|Case Was Approved": {
+    "18914": 268
+  },
+  "MSC|21|198|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-485J|Fees Were Waived": {
+    "18914": 33
+  },
+  "MSC|21|198|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|198|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 2
+  },
+  "MSC|21|198|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 11
+  },
+  "MSC|21|198|5|I-751|Case Was Received": {
+    "18914": 101
+  },
+  "MSC|21|198|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 6
+  },
+  "MSC|21|198|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|198|5|unknown|Appeal Was Terminated and A Notice Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|198|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 5
+  },
+  "MSC|21|198|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|198|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|198|5|unknown|Document Was Mailed To Me": {
+    "18914": 4
+  },
+  "MSC|21|198|5|unknown|Fingerprint and Biometrics Appointment Was Scheduled": {
+    "18914": 1
+  },
+  "MSC|21|198|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-131|Case Was Approved": {
+    "18914": 25
+  },
+  "MSC|21|204|5|I-131|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|204|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|204|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|204|5|I-131|Fees Were Waived": {
+    "18914": 11
+  },
+  "MSC|21|204|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|204|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|204|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-212|Case Was Received": {
+    "18914": 10
+  },
+  "MSC|21|204|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|204|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-485J|Case Was Approved": {
+    "18914": 290
+  },
+  "MSC|21|204|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-485J|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|204|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|204|5|I-485J|Fees Were Waived": {
+    "18914": 41
+  },
+  "MSC|21|204|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-485J|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|204|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 38
+  },
+  "MSC|21|204|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 2
+  },
+  "MSC|21|204|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18914": 5
+  },
+  "MSC|21|204|5|I-751|Case Was Received": {
+    "18914": 63
+  },
+  "MSC|21|204|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|204|5|unknown|Case Was Received": {
+    "18914": 8
+  },
+  "MSC|21|204|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|204|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|204|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-130|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-131|Case Was Approved": {
+    "18914": 36
+  },
+  "MSC|21|206|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 12
+  },
+  "MSC|21|206|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|206|5|I-131|Fees Were Waived": {
+    "18914": 24
+  },
+  "MSC|21|206|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|206|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 3
+  },
+  "MSC|21|206|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 3
+  },
+  "MSC|21|206|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|206|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|206|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-485J|Case Was Approved": {
+    "18914": 286
+  },
+  "MSC|21|206|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|206|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|206|5|I-485J|Fees Were Waived": {
+    "18914": 35
+  },
+  "MSC|21|206|5|I-485J|Name Was Updated": {
+    "18914": 5
+  },
+  "MSC|21|206|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 7
+  },
+  "MSC|21|206|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 3
+  },
+  "MSC|21|206|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18914": 1
+  },
+  "MSC|21|206|5|I-751|Case Was Received": {
+    "18914": 106
+  },
+  "MSC|21|206|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 21
+  },
+  "MSC|21|206|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|206|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|206|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 13
+  },
+  "MSC|21|206|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|206|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|206|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|206|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|206|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-131|Case Was Approved": {
+    "18914": 16
+  },
+  "MSC|21|214|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 12
+  },
+  "MSC|21|214|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 5
+  },
+  "MSC|21|214|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|214|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-212|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|214|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|214|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-485J|Case Was Approved": {
+    "18914": 154
+  },
+  "MSC|21|214|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|214|5|I-485J|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|214|5|I-485J|Fees Were Waived": {
+    "18914": 29
+  },
+  "MSC|21|214|5|I-485J|Interview Was Rescheduled": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-539|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 2
+  },
+  "MSC|21|214|5|I-751|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-751|Case Was Received": {
+    "18914": 54
+  },
+  "MSC|21|214|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 2
+  },
+  "MSC|21|214|5|I-751|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|214|5|I-751|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|214|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 3
+  },
+  "MSC|21|214|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|214|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|214|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|214|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-131|Case Was Approved": {
+    "18914": 28
+  },
+  "MSC|21|219|5|I-131|Case Was Denied": {
+    "18914": 6
+  },
+  "MSC|21|219|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|219|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 7
+  },
+  "MSC|21|219|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|219|5|I-131|Expedite Request Received": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-131|Fees Were Waived": {
+    "18914": 19
+  },
+  "MSC|21|219|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|219|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|219|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 4
+  },
+  "MSC|21|219|5|I-212|Case Was Received": {
+    "18914": 6
+  },
+  "MSC|21|219|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|219|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-485J|Case Was Approved": {
+    "18914": 293
+  },
+  "MSC|21|219|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|219|5|I-485J|Fees Were Waived": {
+    "18914": 58
+  },
+  "MSC|21|219|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-485J|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 13
+  },
+  "MSC|21|219|5|I-751|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-751|Case Was Received": {
+    "18914": 84
+  },
+  "MSC|21|219|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|219|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|219|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|219|5|unknown|Case Was Received": {
+    "18914": 6
+  },
+  "MSC|21|219|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|219|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-131|Case Was Approved": {
+    "18914": 15
+  },
+  "MSC|21|21|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 9
+  },
+  "MSC|21|21|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|21|5|I-212|Case Was Approved": {
+    "18914": 19
+  },
+  "MSC|21|21|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-212|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|21|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|21|5|I-212|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-212|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-485J|Case Was Approved": {
+    "18914": 81
+  },
+  "MSC|21|21|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-485J|Fees Were Waived": {
+    "18914": 11
+  },
+  "MSC|21|21|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-539|Case Was Approved": {
+    "18914": 12
+  },
+  "MSC|21|21|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|21|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-751|Case Was Received": {
+    "18914": 73
+  },
+  "MSC|21|21|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 3
+  },
+  "MSC|21|21|5|I-751|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|21|5|I-751|New Card Is Being Produced": {
+    "18914": 2
+  },
+  "MSC|21|21|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 7
+  },
+  "MSC|21|21|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|21|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|21|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|221|5|I-131|Case Was Approved": {
+    "18914": 44
+  },
+  "MSC|21|221|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|221|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|221|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 8
+  },
+  "MSC|21|221|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|221|5|I-131|Fees Were Waived": {
+    "18914": 32
+  },
+  "MSC|21|221|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|221|5|I-212|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|221|5|I-212|Case Was Denied": {
+    "18914": 4
+  },
+  "MSC|21|221|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|221|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|221|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|221|5|I-485J|Case Was Approved": {
+    "18914": 291
+  },
+  "MSC|21|221|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|221|5|I-485J|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|221|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|221|5|I-485J|Fees Were Waived": {
+    "18914": 56
+  },
+  "MSC|21|221|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|221|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|221|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 5
+  },
+  "MSC|21|221|5|I-751|Case Was Received": {
+    "18914": 44
+  },
+  "MSC|21|221|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|221|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 7
+  },
+  "MSC|21|221|5|I-751|Expedite Request Received": {
+    "18914": 2
+  },
+  "MSC|21|221|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|221|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 18
+  },
+  "MSC|21|221|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|221|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|221|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|221|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-131|Case Was Approved": {
+    "18914": 16
+  },
+  "MSC|21|225|5|I-131|Case Was Denied": {
+    "18914": 4
+  },
+  "MSC|21|225|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 8
+  },
+  "MSC|21|225|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 8
+  },
+  "MSC|21|225|5|I-131|Continuation Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|225|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-131|Fees Were Waived": {
+    "18914": 23
+  },
+  "MSC|21|225|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 3
+  },
+  "MSC|21|225|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|225|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|225|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-485J|Case Was Approved": {
+    "18914": 390
+  },
+  "MSC|21|225|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 6
+  },
+  "MSC|21|225|5|I-485J|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-485J|Expedite Request Received": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-485J|Fees Were Waived": {
+    "18914": 60
+  },
+  "MSC|21|225|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-751|Case Was Received": {
+    "18914": 104
+  },
+  "MSC|21|225|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-751|Expedite Request Denied": {
+    "18914": 1
+  },
+  "MSC|21|225|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|225|5|I-765|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|225|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|225|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-130|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-131|Case Was Approved": {
+    "18914": 35
+  },
+  "MSC|21|226|5|I-131|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|226|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|226|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 11
+  },
+  "MSC|21|226|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-131|Fees Were Waived": {
+    "18914": 22
+  },
+  "MSC|21|226|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|226|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|226|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|226|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 3
+  },
+  "MSC|21|226|5|I-485J|Case Was Approved": {
+    "18914": 421
+  },
+  "MSC|21|226|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-485J|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 5
+  },
+  "MSC|21|226|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 5
+  },
+  "MSC|21|226|5|I-485J|Fees Were Waived": {
+    "18914": 74
+  },
+  "MSC|21|226|5|I-485J|Name Was Updated": {
+    "18914": 3
+  },
+  "MSC|21|226|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|226|5|I-751|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 3
+  },
+  "MSC|21|226|5|I-751|Case Was Received": {
+    "18914": 142
+  },
+  "MSC|21|226|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 3
+  },
+  "MSC|21|226|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-765|Card Was Returned To USCIS": {
+    "18914": 4
+  },
+  "MSC|21|226|5|I-765|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|226|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|226|5|I-765|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|226|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 16
+  },
+  "MSC|21|226|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|226|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-130|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-131|Case Was Approved": {
+    "18914": 35
+  },
+  "MSC|21|227|5|I-131|Case Was Denied": {
+    "18914": 5
+  },
+  "MSC|21|227|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|227|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 24
+  },
+  "MSC|21|227|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-131|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|227|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|227|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|227|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|227|5|I-485J|Case Was Approved": {
+    "18914": 244
+  },
+  "MSC|21|227|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 5
+  },
+  "MSC|21|227|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|227|5|I-485J|Fees Were Waived": {
+    "18914": 44
+  },
+  "MSC|21|227|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|227|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 21
+  },
+  "MSC|21|227|5|I-751|Case Rejected For Incorrect Fee And Incorrect Form Version": {
+    "18914": 4
+  },
+  "MSC|21|227|5|I-751|Case Was Received": {
+    "18914": 113
+  },
+  "MSC|21|227|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 11
+  },
+  "MSC|21|227|5|I-751|Case is Ready to Be Scheduled for An Interview": {
+    "18914": 1
+  },
+  "MSC|21|227|5|I-751|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|227|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|227|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 9
+  },
+  "MSC|21|227|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 4
+  },
+  "MSC|21|227|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|227|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|228|5|I-130|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|228|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|228|5|I-131|Case Was Approved": {
+    "18914": 38
+  },
+  "MSC|21|228|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 14
+  },
+  "MSC|21|228|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 12
+  },
+  "MSC|21|228|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|228|5|I-131|Fees Were Waived": {
+    "18914": 26
+  },
+  "MSC|21|228|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|228|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|228|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|228|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|228|5|I-212|Case Was Approved": {
+    "18914": 5
+  },
+  "MSC|21|228|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|228|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|228|5|I-485J|Case Was Approved": {
+    "18914": 235
+  },
+  "MSC|21|228|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|228|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 6
+  },
+  "MSC|21|228|5|I-485J|Fees Were Waived": {
+    "18914": 42
+  },
+  "MSC|21|228|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|228|5|I-485J|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|228|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 4
+  },
+  "MSC|21|228|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|228|5|I-751|Case Was Received": {
+    "18914": 140
+  },
+  "MSC|21|228|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|228|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 3
+  },
+  "MSC|21|228|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|228|5|I-824|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|228|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|228|5|unknown|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|228|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|228|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|228|5|unknown|Document Was Mailed To Me": {
+    "18914": 3
+  },
+  "MSC|21|235|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|235|5|I-131|Case Was Approved": {
+    "18914": 35
+  },
+  "MSC|21|235|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|235|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 17
+  },
+  "MSC|21|235|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|235|5|I-131|Fees Were Waived": {
+    "18914": 25
+  },
+  "MSC|21|235|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|235|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|235|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|235|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|235|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|235|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|235|5|I-212|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|235|5|I-485J|Case Was Approved": {
+    "18914": 366
+  },
+  "MSC|21|235|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|235|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|235|5|I-485J|Fees Were Waived": {
+    "18914": 63
+  },
+  "MSC|21|235|5|I-485J|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|235|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|235|5|I-539|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|235|5|I-751|Case Was Received": {
+    "18914": 100
+  },
+  "MSC|21|235|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 7
+  },
+  "MSC|21|235|5|I-751|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|235|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|235|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|235|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|238|5|I-131|Case Was Approved": {
+    "18914": 32
+  },
+  "MSC|21|238|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 8
+  },
+  "MSC|21|238|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-131|Fees Were Waived": {
+    "18914": 17
+  },
+  "MSC|21|238|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 4
+  },
+  "MSC|21|238|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|238|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|238|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 2
+  },
+  "MSC|21|238|5|I-485J|Case Was Approved": {
+    "18914": 284
+  },
+  "MSC|21|238|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|238|5|I-485J|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|238|5|I-485J|Fees Were Waived": {
+    "18914": 36
+  },
+  "MSC|21|238|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-485J|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 16
+  },
+  "MSC|21|238|5|I-751|Case Was Received": {
+    "18914": 159
+  },
+  "MSC|21|238|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 2
+  },
+  "MSC|21|238|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|238|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|238|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 4
+  },
+  "MSC|21|238|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|238|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|238|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|238|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|238|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|238|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-131|Case Was Approved": {
+    "18914": 41
+  },
+  "MSC|21|240|5|I-131|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|240|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 8
+  },
+  "MSC|21|240|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 4
+  },
+  "MSC|21|240|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-131|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-131|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|240|5|I-131|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|240|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|240|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 3
+  },
+  "MSC|21|240|5|I-212|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|240|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|240|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|240|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-485J|Case Was Approved": {
+    "18914": 239
+  },
+  "MSC|21|240|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-485J|Fees Were Waived": {
+    "18914": 45
+  },
+  "MSC|21|240|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 3
+  },
+  "MSC|21|240|5|I-751|Case Was Received": {
+    "18914": 88
+  },
+  "MSC|21|240|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-751|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|240|5|I-765|Card Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|240|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|240|5|unknown|Biometrics Appointment Was Scheduled": {
+    "18914": 1
+  },
+  "MSC|21|240|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 11
+  },
+  "MSC|21|240|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|240|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|240|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|240|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|240|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|240|5|unknown|Termination Notice Sent": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-131|Case Was Approved": {
+    "18914": 17
+  },
+  "MSC|21|245|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 27
+  },
+  "MSC|21|245|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-131|Fees Were Waived": {
+    "18914": 13
+  },
+  "MSC|21|245|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|245|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|245|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-212|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 2
+  },
+  "MSC|21|245|5|I-485J|Case Transferred To Another Office": {
+    "18914": 2
+  },
+  "MSC|21|245|5|I-485J|Case Was Approved": {
+    "18914": 323
+  },
+  "MSC|21|245|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|245|5|I-485J|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 4
+  },
+  "MSC|21|245|5|I-485J|Fees Were Waived": {
+    "18914": 61
+  },
+  "MSC|21|245|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|245|5|I-485|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|245|5|I-539|Case Was Approved": {
+    "18914": 17
+  },
+  "MSC|21|245|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|245|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 19
+  },
+  "MSC|21|245|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 4
+  },
+  "MSC|21|245|5|I-751|Case Was Received": {
+    "18914": 110
+  },
+  "MSC|21|245|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|245|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|245|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-765|Card Was Returned To USCIS": {
+    "18914": 1
+  },
+  "MSC|21|245|5|I-765|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|245|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 3
+  },
+  "MSC|21|245|5|unknown|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|245|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|245|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|245|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|245|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-131|Case Was Approved": {
+    "18914": 18
+  },
+  "MSC|21|246|5|I-131|Case Was Denied": {
+    "18914": 5
+  },
+  "MSC|21|246|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 12
+  },
+  "MSC|21|246|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|246|5|I-131|Fees Were Waived": {
+    "18914": 20
+  },
+  "MSC|21|246|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|246|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|246|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-485J|Case Was Approved": {
+    "18914": 273
+  },
+  "MSC|21|246|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|246|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 4
+  },
+  "MSC|21|246|5|I-485J|Fees Were Waived": {
+    "18914": 68
+  },
+  "MSC|21|246|5|I-485J|Interview Was Rescheduled": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-485J|Name Was Updated": {
+    "18914": 4
+  },
+  "MSC|21|246|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|246|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|246|5|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
+    "18914": 1
+  },
+  "MSC|21|246|5|I-751|Case Was Received": {
+    "18914": 96
+  },
+  "MSC|21|246|5|I-751|Fees Were Waived": {
+    "18914": 13
+  },
+  "MSC|21|246|5|I-765|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|246|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 5
+  },
+  "MSC|21|246|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|246|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|246|5|unknown|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|246|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|246|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|246|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-131|Case Was Approved": {
+    "18914": 36
+  },
+  "MSC|21|247|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 5
+  },
+  "MSC|21|247|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-131|Fees Were Waived": {
+    "18914": 32
+  },
+  "MSC|21|247|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|247|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 3
+  },
+  "MSC|21|247|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 3
+  },
+  "MSC|21|247|5|I-212|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|247|5|I-212|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|247|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|247|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-485J|Case Was Approved": {
+    "18914": 333
+  },
+  "MSC|21|247|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 6
+  },
+  "MSC|21|247|5|I-485J|Fees Were Waived": {
+    "18914": 72
+  },
+  "MSC|21|247|5|I-539|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|247|5|I-751|Case Accepted By The USCIS Lockbox": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 6
+  },
+  "MSC|21|247|5|I-751|Case Was Received": {
+    "18914": 75
+  },
+  "MSC|21|247|5|I-751|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|247|5|I-751|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|247|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|247|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|247|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 7
+  },
+  "MSC|21|247|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|247|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|247|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|247|5|unknown|Document Was Mailed To Me": {
+    "18914": 3
+  },
+  "MSC|21|247|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-131|Case Was Approved": {
+    "18914": 14
+  },
+  "MSC|21|251|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 15
+  },
+  "MSC|21|251|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-131|Fees Were Waived": {
+    "18914": 23
+  },
+  "MSC|21|251|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|251|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|251|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|251|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|251|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|251|5|I-212|Notice Explaining USCIS Actions Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-485J|Case Was Approved": {
+    "18914": 310
+  },
+  "MSC|21|251|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 6
+  },
+  "MSC|21|251|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|251|5|I-485J|Fees Were Waived": {
+    "18914": 61
+  },
+  "MSC|21|251|5|I-485J|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|251|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 3
+  },
+  "MSC|21|251|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-751|Case Was Received": {
+    "18914": 92
+  },
+  "MSC|21|251|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|251|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|251|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|251|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 13
+  },
+  "MSC|21|251|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|251|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|251|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|251|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|251|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|251|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-131|Case Was Approved": {
+    "18914": 25
+  },
+  "MSC|21|252|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 16
+  },
+  "MSC|21|252|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-131|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-131|Expedite Request Received": {
+    "18914": 2
+  },
+  "MSC|21|252|5|I-131|Fees Were Waived": {
+    "18914": 33
+  },
+  "MSC|21|252|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|252|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|252|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 4
+  },
+  "MSC|21|252|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|252|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|252|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|252|5|I-212|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-212|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 3
+  },
+  "MSC|21|252|5|I-485J|Case Was Approved": {
+    "18914": 244
+  },
+  "MSC|21|252|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|252|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-485J|Fees Were Waived": {
+    "18914": 56
+  },
+  "MSC|21|252|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|252|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|252|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 2
+  },
+  "MSC|21|252|5|I-751|Case Rejected For Incorrect Fee And Incorrect Form Version": {
+    "18914": 4
+  },
+  "MSC|21|252|5|I-751|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|252|5|I-751|Case Was Received": {
+    "18914": 65
+  },
+  "MSC|21|252|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 14
+  },
+  "MSC|21|252|5|I-751|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|252|5|I-765|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|252|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 13
+  },
+  "MSC|21|252|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|252|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|252|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-130|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-131|Case Was Approved": {
+    "18914": 26
+  },
+  "MSC|21|253|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|253|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|253|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-131|Fees Were Waived": {
+    "18914": 53
+  },
+  "MSC|21|253|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|253|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 4
+  },
+  "MSC|21|253|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|253|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|253|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-212|Case Was Received": {
+    "18914": 6
+  },
+  "MSC|21|253|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-212|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 2
+  },
+  "MSC|21|253|5|I-485J|Case Was Approved": {
+    "18914": 306
+  },
+  "MSC|21|253|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-485J|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|253|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 6
+  },
+  "MSC|21|253|5|I-485J|Fees Were Waived": {
+    "18914": 49
+  },
+  "MSC|21|253|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-485J|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|253|5|I-751|Case Transferred To Another Office": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-751|Case Was Received": {
+    "18914": 79
+  },
+  "MSC|21|253|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 13
+  },
+  "MSC|21|253|5|I-751|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|253|5|I-765|Card Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|253|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|253|5|unknown|Appeal Was Dismissed": {
+    "18914": 2
+  },
+  "MSC|21|253|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 17
+  },
+  "MSC|21|253|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|253|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|253|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-131|Case Was Approved": {
+    "18914": 59
+  },
+  "MSC|21|266|5|I-131|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|266|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|266|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 13
+  },
+  "MSC|21|266|5|I-131|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|266|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-212|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|266|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|266|5|I-485J|Case Was Approved": {
+    "18914": 232
+  },
+  "MSC|21|266|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|266|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-485J|Fees Were Waived": {
+    "18914": 57
+  },
+  "MSC|21|266|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-485J|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-601|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|266|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|266|5|I-751|Case Was Received": {
+    "18914": 91
+  },
+  "MSC|21|266|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|266|5|I-751|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|266|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|266|5|I-765|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|266|5|unknown|Appeal Was Dismissed": {
+    "18914": 1
+  },
+  "MSC|21|266|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 7
+  },
+  "MSC|21|266|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|268|5|I-131|Case Was Approved": {
+    "18914": 39
+  },
+  "MSC|21|268|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|268|5|I-131|Fees Were Waived": {
+    "18914": 40
+  },
+  "MSC|21|268|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 5
+  },
+  "MSC|21|268|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-212|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|268|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|268|5|I-212|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 2
+  },
+  "MSC|21|268|5|I-485J|Case Was Approved": {
+    "18914": 236
+  },
+  "MSC|21|268|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|268|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|268|5|I-485J|Fees Were Waived": {
+    "18914": 49
+  },
+  "MSC|21|268|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 3
+  },
+  "MSC|21|268|5|I-751|Case Was Received": {
+    "18914": 66
+  },
+  "MSC|21|268|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|268|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 2
+  },
+  "MSC|21|268|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|268|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|268|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-131|Case Was Approved": {
+    "18914": 22
+  },
+  "MSC|21|273|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 13
+  },
+  "MSC|21|273|5|I-131|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-131|Fees Were Waived": {
+    "18914": 16
+  },
+  "MSC|21|273|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|273|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 3
+  },
+  "MSC|21|273|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|273|5|I-212|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-212|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|273|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-485J|Case Was Approved": {
+    "18914": 270
+  },
+  "MSC|21|273|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|273|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|273|5|I-485J|Fees Were Waived": {
+    "18914": 87
+  },
+  "MSC|21|273|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|273|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 3
+  },
+  "MSC|21|273|5|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-751|Case Was Received": {
+    "18914": 73
+  },
+  "MSC|21|273|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|273|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|273|5|I-765|New Card Is Being Produced": {
+    "18914": 1
+  },
+  "MSC|21|273|5|unknown|Biometrics Appointment Was Scheduled": {
+    "18914": 1
+  },
+  "MSC|21|273|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 3
+  },
+  "MSC|21|279|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-131|Case Was Approved": {
+    "18914": 42
+  },
+  "MSC|21|279|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|279|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 4
+  },
+  "MSC|21|279|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 3
+  },
+  "MSC|21|279|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|279|5|I-131|Fees Were Waived": {
+    "18914": 16
+  },
+  "MSC|21|279|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|279|5|I-212|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|279|5|I-212|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|279|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-212|Fees Were Waived": {
+    "18914": 7
+  },
+  "MSC|21|279|5|I-212|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-212|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-485J|Case Was Approved": {
+    "18914": 444
+  },
+  "MSC|21|279|5|I-485J|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-485J|Case Was Reopened": {
+    "18914": 2
+  },
+  "MSC|21|279|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 8
+  },
+  "MSC|21|279|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|279|5|I-485J|Fees Were Waived": {
+    "18914": 158
+  },
+  "MSC|21|279|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 13
+  },
+  "MSC|21|279|5|I-751|Case Was Received": {
+    "18914": 41
+  },
+  "MSC|21|279|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|279|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|279|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|279|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 11
+  },
+  "MSC|21|279|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|279|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|287|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|287|5|I-131|Case Was Approved": {
+    "18914": 41
+  },
+  "MSC|21|287|5|I-131|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|287|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|287|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|287|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 2
+  },
+  "MSC|21|287|5|I-131|Fees Were Waived": {
+    "18914": 34
+  },
+  "MSC|21|287|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|287|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 4
+  },
+  "MSC|21|287|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|287|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|287|5|I-212|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|287|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|287|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|287|5|I-485J|Case Was Approved": {
+    "18914": 393
+  },
+  "MSC|21|287|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|287|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 8
+  },
+  "MSC|21|287|5|I-485J|Fees Were Waived": {
+    "18914": 184
+  },
+  "MSC|21|287|5|I-485J|Name Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|287|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|287|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 18
+  },
+  "MSC|21|287|5|I-751|Case Was Received": {
+    "18914": 60
+  },
+  "MSC|21|287|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 3
+  },
+  "MSC|21|287|5|I-751|Fees Were Waived": {
+    "18914": 6
+  },
+  "MSC|21|287|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|287|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|287|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 9
+  },
+  "MSC|21|287|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|287|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|287|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|288|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|288|5|I-131|Case Was Approved": {
+    "18914": 11
+  },
+  "MSC|21|288|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 16
+  },
+  "MSC|21|288|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|288|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|288|5|I-131|Fees Were Waived": {
+    "18914": 52
+  },
+  "MSC|21|288|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|288|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|288|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|288|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|288|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|288|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|288|5|I-485J|Case Was Approved": {
+    "18914": 305
+  },
+  "MSC|21|288|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|288|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|288|5|I-485J|Fees Were Waived": {
+    "18914": 136
+  },
+  "MSC|21|288|5|I-539|Case Was Approved": {
+    "18914": 10
+  },
+  "MSC|21|288|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 5
+  },
+  "MSC|21|288|5|I-751|Case Was Received": {
+    "18914": 34
+  },
+  "MSC|21|288|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 3
+  },
+  "MSC|21|288|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|288|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|288|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 7
+  },
+  "MSC|21|288|5|unknown|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|288|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|288|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|288|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|288|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-130|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-131|Case Was Approved": {
+    "18914": 9
+  },
+  "MSC|21|28|5|I-131|Case Was Denied": {
+    "18914": 6
+  },
+  "MSC|21|28|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 45
+  },
+  "MSC|21|28|5|I-131|Date of Birth Was Updated": {
+    "18914": 2
+  },
+  "MSC|21|28|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|28|5|I-131|Fees Were Waived": {
+    "18914": 12
+  },
+  "MSC|21|28|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 2
+  },
+  "MSC|21|28|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-212|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|28|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|28|5|I-485J|Case Was Approved": {
+    "18914": 43
+  },
+  "MSC|21|28|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-485J|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|28|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-539|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|28|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|28|5|I-751|Case Accepted By The USCIS Lockbox": {
+    "18914": 1
+  },
+  "MSC|21|28|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|28|5|I-751|Case Was Received": {
+    "18914": 61
+  },
+  "MSC|21|28|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 2
+  },
+  "MSC|21|28|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 12
+  },
+  "MSC|21|28|5|I-751|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|28|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 17
+  },
+  "MSC|21|300|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-131|Case Was Approved": {
+    "18914": 47
+  },
+  "MSC|21|300|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|300|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-131|Fees Were Waived": {
+    "18914": 28
+  },
+  "MSC|21|300|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|300|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|300|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|300|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-485J|Case Was Approved": {
+    "18914": 307
+  },
+  "MSC|21|300|5|I-485J|Case Was Not Revoked or Cancelled By USCIS": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|300|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|300|5|I-485J|Fees Were Waived": {
+    "18914": 138
+  },
+  "MSC|21|300|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-751|Case Was Received": {
+    "18914": 57
+  },
+  "MSC|21|300|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 3
+  },
+  "MSC|21|300|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-765|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-765|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|300|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-765|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|300|5|I-765|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|300|5|unknown|Appeal Was Dismissed": {
+    "18914": 1
+  },
+  "MSC|21|300|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 12
+  },
+  "MSC|21|300|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|300|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|300|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-131|Case Was Approved": {
+    "18914": 46
+  },
+  "MSC|21|302|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|302|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 9
+  },
+  "MSC|21|302|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|302|5|I-131|Fees Were Waived": {
+    "18914": 17
+  },
+  "MSC|21|302|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-212|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|302|5|I-212|Case Was Received": {
+    "18914": 6
+  },
+  "MSC|21|302|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|302|5|I-485J|Case Was Approved": {
+    "18914": 204
+  },
+  "MSC|21|302|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 9
+  },
+  "MSC|21|302|5|I-485J|Fees Were Waived": {
+    "18914": 118
+  },
+  "MSC|21|302|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-539|Case Was Approved": {
+    "18914": 14
+  },
+  "MSC|21|302|5|I-751|Case Was Received": {
+    "18914": 69
+  },
+  "MSC|21|302|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|302|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|302|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|302|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|302|5|unknown|Appeal Was Dismissed": {
+    "18914": 9
+  },
+  "MSC|21|302|5|unknown|Biometrics Appointment Was Scheduled": {
+    "18914": 1
+  },
+  "MSC|21|302|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|302|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|302|5|unknown|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|302|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|302|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|302|5|unknown|Withdrawal Of My Appeal Was Acknowledged": {
+    "18914": 1
+  },
+  "MSC|21|303|5|I-131|Case Was Approved": {
+    "18914": 28
+  },
+  "MSC|21|303|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|303|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 5
+  },
+  "MSC|21|303|5|I-131|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|303|5|I-131|Fees Were Waived": {
+    "18914": 26
+  },
+  "MSC|21|303|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|303|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|303|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|303|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|303|5|I-485J|Case Was Approved": {
+    "18914": 211
+  },
+  "MSC|21|303|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|303|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|303|5|I-485J|Fees Were Waived": {
+    "18914": 149
+  },
+  "MSC|21|303|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|303|5|I-485J|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|303|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|303|5|I-751|Case Was Received": {
+    "18914": 47
+  },
+  "MSC|21|303|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|303|5|I-751|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|303|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|303|5|unknown|Appeal Was Dismissed": {
+    "18914": 2
+  },
+  "MSC|21|303|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 4
+  },
+  "MSC|21|303|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|303|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|303|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|303|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|303|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|306|5|I-131|Case Was Approved": {
+    "18914": 33
+  },
+  "MSC|21|306|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|306|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|306|5|I-131|Fees Were Waived": {
+    "18914": 22
+  },
+  "MSC|21|306|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|306|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|306|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|306|5|I-212|Case Was Received": {
+    "18914": 7
+  },
+  "MSC|21|306|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|306|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|306|5|I-485J|Case Transferred To Another Office": {
+    "18914": 1
+  },
+  "MSC|21|306|5|I-485J|Case Was Approved": {
+    "18914": 236
+  },
+  "MSC|21|306|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|306|5|I-485J|Fees Were Waived": {
+    "18914": 143
+  },
+  "MSC|21|306|5|I-485J|Name Was Updated": {
+    "18914": 3
+  },
+  "MSC|21|306|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|306|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 8
+  },
+  "MSC|21|306|5|I-751|Case Was Received": {
+    "18914": 68
+  },
+  "MSC|21|306|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|306|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|306|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|306|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 4
+  },
+  "MSC|21|306|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|306|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|306|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|306|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-131|Case Was Approved": {
+    "18914": 39
+  },
+  "MSC|21|307|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|307|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 7
+  },
+  "MSC|21|307|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|307|5|I-131|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|307|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 4
+  },
+  "MSC|21|307|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|307|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|307|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|307|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-212|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-360|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-485J|Case Was Approved": {
+    "18914": 303
+  },
+  "MSC|21|307|5|I-485J|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|307|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|307|5|I-485J|Fees Were Waived": {
+    "18914": 186
+  },
+  "MSC|21|307|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-485J|Name Was Updated": {
+    "18914": 3
+  },
+  "MSC|21|307|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|307|5|I-485J|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-485|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 17
+  },
+  "MSC|21|307|5|I-751|Case Was Received": {
+    "18914": 52
+  },
+  "MSC|21|307|5|I-751|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|307|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|307|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 2
+  },
+  "MSC|21|307|5|unknown|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|307|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|307|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|307|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|308|5|I-131|Case Was Approved": {
+    "18914": 33
+  },
+  "MSC|21|308|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|308|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 6
+  },
+  "MSC|21|308|5|I-131|Fees Were Waived": {
+    "18914": 22
+  },
+  "MSC|21|308|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|308|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|308|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|308|5|I-212|Case Was Received": {
+    "18914": 6
+  },
+  "MSC|21|308|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|308|5|I-485J|Case Was Approved": {
+    "18914": 234
+  },
+  "MSC|21|308|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|308|5|I-485J|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|308|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|308|5|I-485J|Fees Were Waived": {
+    "18914": 152
+  },
+  "MSC|21|308|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|308|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|308|5|I-485|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|308|5|I-751|Case Was Received": {
+    "18914": 43
+  },
+  "MSC|21|308|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 7
+  },
+  "MSC|21|308|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|308|5|I-765|Case Was Approved": {
+    "18914": 5
+  },
+  "MSC|21|308|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 13
+  },
+  "MSC|21|308|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|308|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|308|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|308|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|314|5|I-131|Case Was Approved": {
+    "18914": 39
+  },
+  "MSC|21|314|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 13
+  },
+  "MSC|21|314|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-131|Fees Were Waived": {
+    "18914": 32
+  },
+  "MSC|21|314|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|314|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-212|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-212|Case Was Received": {
+    "18914": 10
+  },
+  "MSC|21|314|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|314|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-485J|Case Was Approved": {
+    "18914": 210
+  },
+  "MSC|21|314|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|314|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|314|5|I-485J|Fees Were Waived": {
+    "18914": 179
+  },
+  "MSC|21|314|5|I-485J|Interview Was Rescheduled": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-485J|Request for Initial Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|314|5|I-539|Case Was Approved": {
+    "18914": 18
+  },
+  "MSC|21|314|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 13
+  },
+  "MSC|21|314|5|I-751|Case Was Received": {
+    "18914": 54
+  },
+  "MSC|21|314|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|314|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|314|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 5
+  },
+  "MSC|21|314|5|unknown|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|314|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|314|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-131|Case Was Approved": {
+    "18914": 30
+  },
+  "MSC|21|315|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|315|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 5
+  },
+  "MSC|21|315|5|I-131|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-131|Fees Were Waived": {
+    "18914": 11
+  },
+  "MSC|21|315|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 4
+  },
+  "MSC|21|315|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|315|5|I-212|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|315|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-485J|Case Was Approved": {
+    "18914": 225
+  },
+  "MSC|21|315|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|315|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|315|5|I-485J|Fees Were Waived": {
+    "18914": 210
+  },
+  "MSC|21|315|5|I-485J|Interview Was Rescheduled": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|315|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 2
+  },
+  "MSC|21|315|5|I-751|Case Was Received": {
+    "18914": 60
+  },
+  "MSC|21|315|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|315|5|I-751|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-765|Card Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|315|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|315|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 10
+  },
+  "MSC|21|315|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|315|5|unknown|Document Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|316|5|I-131|Case Was Approved": {
+    "18914": 55
+  },
+  "MSC|21|316|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|316|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 9
+  },
+  "MSC|21|316|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|316|5|I-131|Fees Were Waived": {
+    "18914": 36
+  },
+  "MSC|21|316|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 4
+  },
+  "MSC|21|316|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|316|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|316|5|I-485J|Case Was Approved": {
+    "18914": 181
+  },
+  "MSC|21|316|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-485J|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 4
+  },
+  "MSC|21|316|5|I-485J|Fees Were Waived": {
+    "18914": 170
+  },
+  "MSC|21|316|5|I-485J|Name Was Updated": {
+    "18914": 3
+  },
+  "MSC|21|316|5|I-485J|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-485|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 3
+  },
+  "MSC|21|316|5|I-751|Case Was Received": {
+    "18914": 51
+  },
+  "MSC|21|316|5|I-751|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|316|5|I-751|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-751|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|316|5|I-765|Card Was Delivered To Me By The Post Office": {
+    "18914": 2
+  },
+  "MSC|21|316|5|I-765|Card Was Mailed To Me": {
+    "18914": 4
+  },
+  "MSC|21|316|5|I-765|Case Closed Benefit Received By Other Means": {
+    "18914": 2
+  },
+  "MSC|21|316|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|316|5|I-765|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|316|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|316|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|316|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|316|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|316|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-131|Case Was Approved": {
+    "18914": 34
+  },
+  "MSC|21|320|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 9
+  },
+  "MSC|21|320|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-131|Fees Were Waived": {
+    "18914": 9
+  },
+  "MSC|21|320|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-212|Case Was Approved": {
+    "18914": 5
+  },
+  "MSC|21|320|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|320|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|320|5|I-485J|Case Was Approved": {
+    "18914": 189
+  },
+  "MSC|21|320|5|I-485J|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|320|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 6
+  },
+  "MSC|21|320|5|I-485J|Fees Were Waived": {
+    "18914": 220
+  },
+  "MSC|21|320|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|320|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 7
+  },
+  "MSC|21|320|5|I-751|Case Was Received": {
+    "18914": 61
+  },
+  "MSC|21|320|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 2
+  },
+  "MSC|21|320|5|I-765|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|320|5|unknown|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|320|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|320|5|unknown|Request Was Processed": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-131|Case Was Approved": {
+    "18914": 28
+  },
+  "MSC|21|322|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 13
+  },
+  "MSC|21|322|5|I-131|Fees Were Waived": {
+    "18914": 28
+  },
+  "MSC|21|322|5|I-131|Name Was Updated": {
+    "18914": 4
+  },
+  "MSC|21|322|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 3
+  },
+  "MSC|21|322|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|322|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-485J|Case Was Approved": {
+    "18914": 193
+  },
+  "MSC|21|322|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|322|5|I-485J|Document Was Mailed To Me": {
+    "18914": 3
+  },
+  "MSC|21|322|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|322|5|I-485J|Fees Were Waived": {
+    "18914": 243
+  },
+  "MSC|21|322|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|322|5|I-485J|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-485|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 3
+  },
+  "MSC|21|322|5|I-751|Case Was Received": {
+    "18914": 85
+  },
+  "MSC|21|322|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 7
+  },
+  "MSC|21|322|5|I-751|Fees Were Waived": {
+    "18914": 7
+  },
+  "MSC|21|322|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|322|5|I-765|Card Was Returned To USCIS": {
+    "18914": 1
+  },
+  "MSC|21|322|5|unknown|Card Is Being Returned to USCIS by Post Office": {
+    "18914": 1
+  },
+  "MSC|21|322|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 4
+  },
+  "MSC|21|322|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|322|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|322|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-131|Biometrics Appointment Was Scheduled": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-131|Case Was Approved": {
+    "18914": 28
+  },
+  "MSC|21|328|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 13
+  },
+  "MSC|21|328|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 8
+  },
+  "MSC|21|328|5|I-131|Fees Were Waived": {
+    "18914": 13
+  },
+  "MSC|21|328|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|328|5|I-212|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|328|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-485J|Case Was Approved": {
+    "18914": 81
+  },
+  "MSC|21|328|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-485J|Document Was Mailed To Me": {
+    "18914": 3
+  },
+  "MSC|21|328|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|328|5|I-485J|Fees Were Waived": {
+    "18914": 105
+  },
+  "MSC|21|328|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-539|Case Was Approved": {
+    "18914": 28
+  },
+  "MSC|21|328|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 12
+  },
+  "MSC|21|328|5|I-751|Case Was Received": {
+    "18914": 70
+  },
+  "MSC|21|328|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 6
+  },
+  "MSC|21|328|5|I-751|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-751|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|328|5|I-765|Card Was Mailed To Me": {
+    "18914": 4
+  },
+  "MSC|21|328|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|328|5|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|328|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|328|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|329|5|I-131|Case Was Approved": {
+    "18914": 24
+  },
+  "MSC|21|329|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 20
+  },
+  "MSC|21|329|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 18
+  },
+  "MSC|21|329|5|I-131|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-131|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-131|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|329|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 4
+  },
+  "MSC|21|329|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-212|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-212|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|329|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|329|5|I-485J|Case Was Approved": {
+    "18914": 70
+  },
+  "MSC|21|329|5|I-485J|Document Was Mailed To Me": {
+    "18914": 3
+  },
+  "MSC|21|329|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|329|5|I-485J|Expedite Request Received": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-485J|Fees Were Waived": {
+    "18914": 66
+  },
+  "MSC|21|329|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 5
+  },
+  "MSC|21|329|5|I-751|Case Was Received": {
+    "18914": 79
+  },
+  "MSC|21|329|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|329|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|329|5|I-765|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|329|5|I-765|Card Was Mailed To Me": {
+    "18914": 2
+  },
+  "MSC|21|329|5|I-765|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|329|5|I-765|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|329|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 5
+  },
+  "MSC|21|329|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 4
+  },
+  "MSC|21|329|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|329|5|unknown|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-131|Case Was Approved": {
+    "18914": 33
+  },
+  "MSC|21|335|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|335|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 14
+  },
+  "MSC|21|335|5|I-131|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-131|Fees Were Waived": {
+    "18914": 33
+  },
+  "MSC|21|335|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|335|5|I-212|Case Was Received": {
+    "18914": 5
+  },
+  "MSC|21|335|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|335|5|I-212|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-485J|Case Was Approved": {
+    "18914": 73
+  },
+  "MSC|21|335|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-485J|Fees Were Waived": {
+    "18914": 48
+  },
+  "MSC|21|335|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-751|Case Was Received": {
+    "18914": 52
+  },
+  "MSC|21|335|5|I-751|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|335|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|335|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|335|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 4
+  },
+  "MSC|21|335|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|335|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 9
+  },
+  "MSC|21|336|5|I-131|Case Was Approved": {
+    "18914": 40
+  },
+  "MSC|21|336|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|336|5|I-131|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-131|Expedite Request Received": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-131|Fees Were Waived": {
+    "18914": 62
+  },
+  "MSC|21|336|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|336|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-212|Case Was Received": {
+    "18914": 14
+  },
+  "MSC|21|336|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|336|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|336|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-485J|Case Was Approved": {
+    "18914": 46
+  },
+  "MSC|21|336|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|336|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-485J|Fees Were Waived": {
+    "18914": 48
+  },
+  "MSC|21|336|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-539|Case Was Approved": {
+    "18914": 8
+  },
+  "MSC|21|336|5|I-751|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-751|Case Was Received": {
+    "18914": 57
+  },
+  "MSC|21|336|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|336|5|I-765|Card Was Delivered To Me By The Post Office": {
+    "18914": 3
+  },
+  "MSC|21|336|5|I-765|Card Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-765|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|336|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|336|5|I-765|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|336|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 2
+  },
+  "MSC|21|336|5|unknown|Card Was Received By USCIS Along With My Letter": {
+    "18914": 1
+  },
+  "MSC|21|336|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|336|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|336|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|348|5|I-131|Case Was Approved": {
+    "18914": 40
+  },
+  "MSC|21|348|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|348|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|348|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|348|5|I-131|Fees Were Waived": {
+    "18914": 17
+  },
+  "MSC|21|348|5|I-212|Case Was Received": {
+    "18914": 10
+  },
+  "MSC|21|348|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 7
+  },
+  "MSC|21|348|5|I-212|Case Was Sent To The Department of State": {
+    "18914": 1
+  },
+  "MSC|21|348|5|I-485J|Case Was Approved": {
+    "18914": 61
+  },
+  "MSC|21|348|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|348|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|348|5|I-485J|Fees Were Waived": {
+    "18914": 51
+  },
+  "MSC|21|348|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 24
+  },
+  "MSC|21|348|5|I-751|Case Was Received": {
+    "18914": 66
+  },
+  "MSC|21|348|5|I-751|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|348|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 7
+  },
+  "MSC|21|348|5|I-765|Card Was Delivered To Me By The Post Office": {
+    "18914": 2
+  },
+  "MSC|21|348|5|I-765|Card Was Mailed To Me": {
+    "18914": 4
+  },
+  "MSC|21|348|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|354|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|354|5|I-131|Case Was Approved": {
+    "18914": 10
+  },
+  "MSC|21|354|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 18
+  },
+  "MSC|21|354|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|354|5|I-131|Fees Were Waived": {
+    "18914": 39
+  },
+  "MSC|21|354|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|354|5|I-485J|Case Was Approved": {
+    "18914": 58
+  },
+  "MSC|21|354|5|I-485J|Fees Were Waived": {
+    "18914": 68
+  },
+  "MSC|21|354|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 2
+  },
+  "MSC|21|354|5|I-751|Case Was Received": {
+    "18914": 35
+  },
+  "MSC|21|354|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "MSC|21|354|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|354|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|354|5|I-765|Card Was Picked Up By The United States Postal Service": {
+    "18914": 6
+  },
+  "MSC|21|354|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 6
+  },
+  "MSC|21|354|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-131|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|55|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 12
+  },
+  "MSC|21|55|5|I-131|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-131|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|55|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|55|5|I-212|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|55|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|55|5|I-485J|Case Was Approved": {
+    "18914": 135
+  },
+  "MSC|21|55|5|I-485J|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|55|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|55|5|I-485J|Fees Were Waived": {
+    "18914": 16
+  },
+  "MSC|21|55|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-485J|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 2
+  },
+  "MSC|21|55|5|I-485|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-485|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-485|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-539|Case Was Approved": {
+    "18914": 59
+  },
+  "MSC|21|55|5|I-539|Case Was Denied": {
+    "18914": 7
+  },
+  "MSC|21|55|5|I-539|Case Was Received": {
+    "18914": 39
+  },
+  "MSC|21|55|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 18
+  },
+  "MSC|21|55|5|I-539|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-539|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-539|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 5
+  },
+  "MSC|21|55|5|I-751|Case Was Received": {
+    "18914": 9
+  },
+  "MSC|21|55|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|55|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|55|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 7
+  },
+  "MSC|21|55|5|unknown|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|55|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-131|Case Was Approved": {
+    "18914": 8
+  },
+  "MSC|21|5|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|5|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 11
+  },
+  "MSC|21|5|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 2
+  },
+  "MSC|21|5|5|I-131|Fees Were Waived": {
+    "18914": 9
+  },
+  "MSC|21|5|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-212|Case Was Approved": {
+    "18914": 23
+  },
+  "MSC|21|5|5|I-212|Case Was Denied": {
+    "18914": 3
+  },
+  "MSC|21|5|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-212|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|5|5|I-212|Fee Will Be Refunded": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-212|Notice Explaining USCIS Actions Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-485J|Case Was Approved": {
+    "18914": 89
+  },
+  "MSC|21|5|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|5|5|I-485J|Fees Were Waived": {
+    "18914": 10
+  },
+  "MSC|21|5|5|I-539|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "MSC|21|5|5|I-751|Case Was Received": {
+    "18914": 34
+  },
+  "MSC|21|5|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|5|5|I-765|Card Was Mailed To Me": {
+    "18914": 9
+  },
+  "MSC|21|5|5|I-765|Case Was Denied": {
+    "18914": 24
+  },
+  "MSC|21|5|5|I-765|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|5|5|I-765|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|5|5|I-765|Notice Explaining USCIS Actions Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|5|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 11
+  },
+  "MSC|21|5|5|unknown|Case Was Received": {
+    "18914": 56
+  },
+  "MSC|21|5|5|unknown|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|5|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|5|5|unknown|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|5|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 4
+  },
+  "MSC|21|62|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-131|Case Was Approved": {
+    "18914": 9
+  },
+  "MSC|21|62|5|I-131|Case Was Denied": {
+    "18914": 4
+  },
+  "MSC|21|62|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|62|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-131|Fees Were Waived": {
+    "18914": 8
+  },
+  "MSC|21|62|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-212|Case Was Approved": {
+    "18914": 8
+  },
+  "MSC|21|62|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|62|5|I-212|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|62|5|I-485J|Case Was Approved": {
+    "18914": 97
+  },
+  "MSC|21|62|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|62|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-485J|Fees Were Waived": {
+    "18914": 17
+  },
+  "MSC|21|62|5|I-485J|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-485|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-539|Case Was Approved": {
+    "18914": 6
+  },
+  "MSC|21|62|5|I-539|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-539|Case Was Received": {
+    "18914": 42
+  },
+  "MSC|21|62|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 25
+  },
+  "MSC|21|62|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-539|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 1
+  },
+  "MSC|21|62|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 8
+  },
+  "MSC|21|62|5|I-751|Case Was Received": {
+    "18914": 12
+  },
+  "MSC|21|62|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|62|5|I-751|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|62|5|I-765|Card Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|62|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 10
+  },
+  "MSC|21|62|5|unknown|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|62|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|62|5|unknown|Withdrawal Of My Appeal Was Acknowledged": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-131|Case Was Approved": {
+    "18914": 18
+  },
+  "MSC|21|67|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|67|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 10
+  },
+  "MSC|21|67|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|67|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|67|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|67|5|I-212|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|67|5|I-212|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|67|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-485J|Case Was Approved": {
+    "18914": 100
+  },
+  "MSC|21|67|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 5
+  },
+  "MSC|21|67|5|I-485J|Fees Were Waived": {
+    "18914": 9
+  },
+  "MSC|21|67|5|I-485J|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-539|Case Was Approved": {
+    "18914": 9
+  },
+  "MSC|21|67|5|I-539|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|67|5|I-539|Case Was Received": {
+    "18914": 20
+  },
+  "MSC|21|67|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 18
+  },
+  "MSC|21|67|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 7
+  },
+  "MSC|21|67|5|I-751|Case Was Received": {
+    "18914": 44
+  },
+  "MSC|21|67|5|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18914": 1
+  },
+  "MSC|21|67|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|67|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 2
+  },
+  "MSC|21|67|5|unknown|Case Was Received": {
+    "18914": 8
+  },
+  "MSC|21|67|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-131|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-131|Case Was Approved": {
+    "18914": 16
+  },
+  "MSC|21|74|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|74|5|I-131|Case Was Reopened": {
+    "18914": 2
+  },
+  "MSC|21|74|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 6
+  },
+  "MSC|21|74|5|I-131|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-131|Fees Were Waived": {
+    "18914": 11
+  },
+  "MSC|21|74|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|74|5|I-212|Case Was Approved": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|74|5|I-485J|Case Was Approved": {
+    "18914": 127
+  },
+  "MSC|21|74|5|I-485J|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|74|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|74|5|I-485J|Fees Were Waived": {
+    "18914": 18
+  },
+  "MSC|21|74|5|I-485J|Interview Was Rescheduled": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-751|Case Was Received": {
+    "18914": 68
+  },
+  "MSC|21|74|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-751|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|74|5|I-751|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|74|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 13
+  },
+  "MSC|21|74|5|unknown|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|74|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|74|5|unknown|Certified Denial Of My Case Was Affirmed By Appellate Authority": {
+    "18914": 1
+  },
+  "MSC|21|75|5|I-131|Advance Parole Document Was Produced": {
+    "18914": 1
+  },
+  "MSC|21|75|5|I-131|Case Was Approved": {
+    "18914": 23
+  },
+  "MSC|21|75|5|I-131|Case Was Denied": {
+    "18914": 2
+  },
+  "MSC|21|75|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 9
+  },
+  "MSC|21|75|5|I-131|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|75|5|I-212|Case Was Approved": {
+    "18914": 4
+  },
+  "MSC|21|75|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|75|5|I-212|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|75|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|75|5|I-212|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|75|5|I-485J|Case Was Approved": {
+    "18914": 88
+  },
+  "MSC|21|75|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|75|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|75|5|I-485J|Fees Were Waived": {
+    "18914": 19
+  },
+  "MSC|21|75|5|I-485J|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|75|5|I-485J|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 2
+  },
+  "MSC|21|75|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 10
+  },
+  "MSC|21|75|5|I-539|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|75|5|I-539|Case Was Received": {
+    "18914": 3
+  },
+  "MSC|21|75|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|75|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 6
+  },
+  "MSC|21|75|5|I-751|Case Was Received": {
+    "18914": 64
+  },
+  "MSC|21|75|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 12
+  },
+  "MSC|21|75|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|75|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 16
+  },
+  "MSC|21|75|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 5
+  },
+  "MSC|21|75|5|unknown|Case Was Received": {
+    "18914": 2
+  },
+  "MSC|21|75|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-131|Case Was Approved": {
+    "18914": 12
+  },
+  "MSC|21|76|5|I-131|Case Was Denied": {
+    "18914": 7
+  },
+  "MSC|21|76|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 14
+  },
+  "MSC|21|76|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-131|Fees Were Waived": {
+    "18914": 12
+  },
+  "MSC|21|76|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-131|Name Was Updated": {
+    "18914": 4
+  },
+  "MSC|21|76|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|76|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-212|Case Was Approved": {
+    "18914": 5
+  },
+  "MSC|21|76|5|I-485J|Case Was Approved": {
+    "18914": 124
+  },
+  "MSC|21|76|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 5
+  },
+  "MSC|21|76|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|76|5|I-485J|Fees Were Waived": {
+    "18914": 17
+  },
+  "MSC|21|76|5|I-485J|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "MSC|21|76|5|I-485|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-539|Case Was Approved": {
+    "18914": 8
+  },
+  "MSC|21|76|5|I-539|Case Was Received": {
+    "18914": 8
+  },
+  "MSC|21|76|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 4
+  },
+  "MSC|21|76|5|I-539|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|76|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 8
+  },
+  "MSC|21|76|5|I-751|Case Was Received": {
+    "18914": 24
+  },
+  "MSC|21|76|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "MSC|21|76|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|76|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 6
+  },
+  "MSC|21|76|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|76|5|unknown|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|76|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|76|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|76|5|unknown|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|76|5|unknown|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "MSC|21|77|5|I-131|Case Was Approved": {
+    "18914": 13
+  },
+  "MSC|21|77|5|I-131|Case Was Denied": {
+    "18914": 6
+  },
+  "MSC|21|77|5|I-131|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 5
+  },
+  "MSC|21|77|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|77|5|I-131|Interview Was Completed And My Case Must Be Reviewed": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-212|Case Was Approved": {
+    "18914": 7
+  },
+  "MSC|21|77|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 3
+  },
+  "MSC|21|77|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-485J|Case Closed Benefit Received By Other Means": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-485J|Case Was Approved": {
+    "18914": 112
+  },
+  "MSC|21|77|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|77|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|77|5|I-485J|Fees Were Waived": {
+    "18914": 17
+  },
+  "MSC|21|77|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|77|5|I-539|Case Was Approved": {
+    "18914": 3
+  },
+  "MSC|21|77|5|I-539|Case Was Received": {
+    "18914": 19
+  },
+  "MSC|21|77|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 8
+  },
+  "MSC|21|77|5|I-751|Case Was Received": {
+    "18914": 19
+  },
+  "MSC|21|77|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "MSC|21|77|5|I-751|Fees Were Waived": {
+    "18914": 11
+  },
+  "MSC|21|77|5|I-765|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|77|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 15
+  },
+  "MSC|21|77|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 1
+  },
+  "MSC|21|77|5|unknown|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|77|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|8|5|I-131|Case Was Approved": {
+    "18914": 22
+  },
+  "MSC|21|8|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 2
+  },
+  "MSC|21|8|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 4
+  },
+  "MSC|21|8|5|I-131|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|8|5|I-131|Expedite Request Received": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|8|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-131|Request for Additional Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 2
+  },
+  "MSC|21|8|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-212|Case Was Approved": {
+    "18914": 32
+  },
+  "MSC|21|8|5|I-212|Case Was Denied": {
+    "18914": 7
+  },
+  "MSC|21|8|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-212|Case Was Received At Another USCIS Office": {
+    "18914": 4
+  },
+  "MSC|21|8|5|I-212|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-212|Date of Birth Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-212|Duplicate Notice Was Mailed": {
+    "18914": 3
+  },
+  "MSC|21|8|5|I-212|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-212|Withdrawal Acknowledgement Notice Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-485J|Case Was Approved": {
+    "18914": 83
+  },
+  "MSC|21|8|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 4
+  },
+  "MSC|21|8|5|I-485J|Fees Were Waived": {
+    "18914": 13
+  },
+  "MSC|21|8|5|I-485|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-751|Card Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 4
+  },
+  "MSC|21|8|5|I-751|Case Was Approved": {
+    "18914": 2
+  },
+  "MSC|21|8|5|I-751|Case Was Received": {
+    "18914": 86
+  },
+  "MSC|21|8|5|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 12
+  },
+  "MSC|21|8|5|I-751|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|8|5|I-751|Fees Were Waived": {
+    "18914": 4
+  },
+  "MSC|21|8|5|I-765|Card Was Mailed To Me": {
+    "18914": 3
+  },
+  "MSC|21|8|5|unknown|Appeal Was Dismissed": {
+    "18914": 2
+  },
+  "MSC|21|8|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 2
+  },
+  "MSC|21|8|5|unknown|Card Was Picked Up By The United States Postal Service": {
+    "18914": 2
+  },
+  "MSC|21|8|5|unknown|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|8|5|unknown|Case Was Received": {
+    "18914": 25
+  },
+  "MSC|21|8|5|unknown|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|8|5|unknown|Case Was Reopened": {
+    "18914": 1
+  },
+  "MSC|21|8|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 3
+  },
+  "MSC|21|8|5|unknown|Document Was Mailed To Me": {
+    "18914": 1
+  },
+  "MSC|21|8|5|unknown|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|8|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "MSC|21|8|5|unknown|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-131|Case Was Approved": {
+    "18914": 24
+  },
+  "MSC|21|98|5|I-131|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-131|Case Was Received At Another USCIS Office": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-131|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 7
+  },
+  "MSC|21|98|5|I-131|Duplicate Notice Was Mailed": {
+    "18914": 2
+  },
+  "MSC|21|98|5|I-131|Fees Were Waived": {
+    "18914": 5
+  },
+  "MSC|21|98|5|I-131|Name Was Updated": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-131|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-131|Request for Initial Evidence Was Sent": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-131|Response To USCIS' Request For Evidence Was Received": {
+    "18914": 2
+  },
+  "MSC|21|98|5|I-212|Case Was Approved": {
+    "18914": 5
+  },
+  "MSC|21|98|5|I-212|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-212|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-485J|Case Was Approved": {
+    "18914": 18
+  },
+  "MSC|21|98|5|I-485J|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-485J|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-485J|Fees Were Waived": {
+    "18914": 2
+  },
+  "MSC|21|98|5|I-485|Case Was Denied": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-539|Case Was Received": {
+    "18914": 1
+  },
+  "MSC|21|98|5|I-751|Case Was Received": {
+    "18914": 44
+  },
+  "MSC|21|98|5|unknown|Case Was Received": {
+    "18914": 4
+  },
+  "MSC|21|98|5|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
+    "18914": 2
+  },
+  "MSC|21|98|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "YSC|21|125|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "YSC|21|125|5|I-539|Case Was Received": {
+    "18914": 6
+  },
+  "YSC|21|125|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 12
+  },
+  "YSC|21|125|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "YSC|21|125|5|I-751|Case Was Received": {
+    "18914": 103
+  },
+  "YSC|21|125|5|I-751|Petition/Application Was Rejected For Insufficient Funds": {
+    "18914": 3
+  },
+  "YSC|21|125|5|unknown|Card Was Delivered To Me By The Post Office": {
+    "18914": 1
+  },
+  "YSC|21|188|5|I-539|Case Was Approved": {
+    "18914": 6
+  },
+  "YSC|21|188|5|I-539|Case Was Received": {
+    "18914": 3
+  },
+  "YSC|21|188|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 3
+  },
+  "YSC|21|188|5|I-539|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "YSC|21|188|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "YSC|21|188|5|I-751|Case Transferred To Another Office": {
+    "18914": 1
+  },
+  "YSC|21|188|5|I-751|Case Was Received": {
+    "18914": 102
+  },
+  "YSC|21|188|5|I-751|Fees Were Waived": {
+    "18914": 4
+  },
+  "YSC|21|188|5|I-751|Name Was Updated": {
+    "18914": 1
+  },
+  "YSC|21|188|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 5
+  },
+  "YSC|21|194|5|I-539|Case Was Approved": {
+    "18914": 2
+  },
+  "YSC|21|194|5|I-539|Case Was Received": {
+    "18914": 10
+  },
+  "YSC|21|194|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 2
+  },
+  "YSC|21|194|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 6
+  },
+  "YSC|21|194|5|I-539|Name Was Updated": {
+    "18914": 2
+  },
+  "YSC|21|194|5|I-751|Case Was Received": {
+    "18914": 103
+  },
+  "YSC|21|194|5|I-751|Name Was Updated": {
+    "18914": 1
+  },
+  "YSC|21|194|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 2
+  },
+  "YSC|21|211|5|I-539|Case Rejected Because I Sent An Incorrect Fee": {
+    "18914": 1
+  },
+  "YSC|21|211|5|I-539|Case Was Received": {
+    "18914": 3
+  },
+  "YSC|21|211|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "YSC|21|211|5|I-751|Case Transferred To Another Office": {
+    "18914": 1
+  },
+  "YSC|21|211|5|I-751|Case Was Received": {
+    "18914": 118
+  },
+  "YSC|21|211|5|I-751|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "YSC|21|211|5|I-751|Fees Were Waived": {
+    "18914": 1
+  },
+  "YSC|21|240|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 2
+  },
+  "YSC|21|240|5|I-539|Case Was Approved": {
+    "18914": 2
+  },
+  "YSC|21|240|5|I-539|Case Was Received": {
+    "18914": 14
+  },
+  "YSC|21|240|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 4
+  },
+  "YSC|21|240|5|I-539|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "YSC|21|240|5|I-539|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 2
+  },
+  "YSC|21|240|5|I-751|Case Was Received": {
+    "18914": 234
+  },
+  "YSC|21|240|5|I-751|Case Was Transferred To Schedule An Interview": {
+    "18914": 2
+  },
+  "YSC|21|240|5|I-751|Duplicate Notice Was Mailed": {
+    "18914": 1
+  },
+  "YSC|21|240|5|I-751|Name Was Updated": {
+    "18914": 1
+  },
+  "YSC|21|240|5|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
+    "18914": 4
+  },
+  "YSC|21|294|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 1
+  },
+  "YSC|21|294|5|I-539|Case Was Received": {
+    "18914": 23
+  },
+  "YSC|21|294|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "YSC|21|294|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 6
+  },
+  "YSC|21|294|5|I-751|Case Transferred To Another Office": {
+    "18914": 1
+  },
+  "YSC|21|294|5|I-751|Case Was Received": {
+    "18914": 92
+  },
+  "YSC|21|294|5|I-751|Correspondence Was Received And USCIS Is Reviewing It": {
+    "18914": 1
+  },
+  "YSC|21|294|5|I-751|Fees Were Waived": {
+    "18914": 3
+  },
+  "YSC|21|294|5|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
+    "18914": 1
+  },
+  "YSC|21|298|5|I-539|Case Was Received": {
+    "18914": 3
+  },
+  "YSC|21|298|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 2
+  },
+  "YSC|21|298|5|I-751|Case Was Received": {
+    "18914": 122
+  },
+  "YSC|21|298|5|I-751|Name Was Updated": {
+    "18914": 3
+  },
+  "YSC|21|310|5|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18914": 1
+  },
+  "YSC|21|310|5|I-539|Case Was Received": {
+    "18914": 12
+  },
+  "YSC|21|310|5|I-539|Case Was Rejected Because It Was Improperly Filed": {
+    "18914": 1
+  },
+  "YSC|21|310|5|I-539|Case Was Updated To Show Fingerprints Were Taken": {
+    "18914": 6
+  },
+  "YSC|21|310|5|I-539|Fees Were Waived": {
+    "18914": 1
+  },
+  "YSC|21|310|5|I-751|Case Was Received": {
+    "18914": 108
+  }
+}
