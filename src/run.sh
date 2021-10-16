@@ -2,6 +2,8 @@
 
 ulimit -n 2048 # max file opened
 
+ulimit -n
+
 scriptdir=`dirname "$BASH_SOURCE"`
 
 pushd $scriptdir
