@@ -85,7 +85,7 @@ const (
 var mutex sync.Mutex
 var case_status_store_mutex sync.Mutex
 var epoch_day = time.Now().Unix() / 86400
-var sem = semaphore.NewWeighted(2000)
+var sem = semaphore.NewWeighted(1000)
 
 var start_epoch = time.Now().Unix()
 var last_record = start_epoch
