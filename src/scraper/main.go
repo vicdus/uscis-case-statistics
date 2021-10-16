@@ -379,11 +379,11 @@ func main() {
 	for _, name := range CENTER_NAMES {
 		report_c_center_year_day_code_serial := make(chan int)
 		report_c_center_year_code_day_serial := make(chan int)
-		for day := 0; day <= 365; day++ {
+		for day := 1; day <= 365; day++ {
 			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
 			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
 		}
-		for i := 0; i <= 365; i++ {
+		for i := 1; i <= 365; i++ {
 			<-report_c_center_year_day_code_serial
 			<-report_c_center_year_code_day_serial
 		}
