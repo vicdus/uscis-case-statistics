@@ -92,6 +92,14 @@ var start_epoch = time.Now().Unix()
 var last_record = start_epoch
 
 func get(url string, retry int) Result {
+	errcontext := sem.Acquire(context.Background(), 1)
+	if errcontext != nil {
+		fmt.Println("error context! " + errcontext.Error() + "\n")
+		fmt.Printf("Retry %d %s\n", retry, url)
+		return get(url, retry+1)
+	}
+	defer sem.Release(1)
+
 	client := http.Client{
 		Timeout: 30 * time.Second,
 	}
@@ -101,15 +109,6 @@ func get(url string, retry int) Result {
 		fmt.Printf("Retry %d %s\n", retry, url)
 		return get(url, retry+1)
 	}
-
-	errcontext := sem.Acquire(context.Background(), 1)
-	if errcontext != nil {
-		fmt.Println("error context! " + errcontext.Error() + "\n")
-		fmt.Printf("Retry %d %s\n", retry, url)
-		return get(url, retry+1)
-	}
-
-	defer sem.Release(1)
 
 	res, err1 := client.Do(req)
 	defer func() {
