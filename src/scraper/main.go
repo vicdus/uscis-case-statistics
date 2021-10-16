@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"context"
 	"encoding/gob"
 	"encoding/json"
 	"fmt"
@@ -101,7 +102,7 @@ func get(url string, retry int) Result {
 		return get(url, retry+1)
 	}
 
-	errcontext := sem.Acquire(req.Context(), 1)
+	errcontext := sem.Acquire(context.Background(), 1)
 	if errcontext != nil {
 		fmt.Println("error context! " + errcontext.Error() + "\n")
 		fmt.Printf("Retry %d %s\n", retry, url)
