@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ulimit -n 2048 # max file opened
+ulimit -n 1000 # max file opened
 
 scriptdir=`dirname "$BASH_SOURCE"`
 
