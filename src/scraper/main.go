@@ -18,16 +18,10 @@ import (
 var CENTER_NAMES = []string{
 	"WAC",
 	"EAC",
-	"VSC",
-	"CSC",
-	"LIN",
-	"NSC",
-	"SRC",
-	"TSC",
 	"MSC",
-	"NBC",
-	"IOE",
-	"YSC",
+	"LIN",
+	"SRC",
+	// "YSC",
 }
 
 var FORM_TYPES = []string{
@@ -100,8 +94,20 @@ func get(url string, retry int) Result {
 	client := http.Client{
 		Timeout: 30 * time.Second,
 	}
-	req, _ := http.NewRequest("GET", url, nil)
-	sem.Acquire(req.Context(), 1)
+	req, err0 := http.NewRequest("GET", url, nil)
+	if err0 != nil {
+		fmt.Println("error 0! " + err0.Error() + "\n")
+		fmt.Printf("Retry %d %s\n", retry, url)
+		return get(url, retry+1)
+	}
+
+	errcontext := sem.Acquire(req.Context(), 1)
+	if errcontext != nil {
+		fmt.Println("error context! " + errcontext.Error() + "\n")
+		fmt.Printf("Retry %d %s\n", retry, url)
+		return get(url, retry+1)
+	}
+
 	defer sem.Release(1)
 
 	res, err1 := client.Do(req)
