@@ -90,19 +90,11 @@ var sem = semaphore.NewWeighted(1000)
 
 var start_epoch = time.Now().Unix()
 var last_record = start_epoch
+var client = http.Client{
+	Timeout: 30 * time.Second,
+}
 
 func get(url string, retry int) Result {
-	errcontext := sem.Acquire(context.Background(), 1)
-	if errcontext != nil {
-		fmt.Println("error context! " + errcontext.Error() + "\n")
-		fmt.Printf("Retry %d %s\n", retry, url)
-		return get(url, retry+1)
-	}
-	defer sem.Release(1)
-
-	client := http.Client{
-		Timeout: 30 * time.Second,
-	}
 	req, err0 := http.NewRequest("GET", url, nil)
 	if err0 != nil {
 		fmt.Println("error 0! " + err0.Error() + "\n")
@@ -110,7 +102,10 @@ func get(url string, retry int) Result {
 		return get(url, retry+1)
 	}
 
+	sem.Acquire(context.Background(), 1)
 	res, err1 := client.Do(req)
+	sem.Release(1)
+
 	defer func() {
 		if err1 == nil {
 			res.Body.Close()
