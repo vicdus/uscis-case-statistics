@@ -243,14 +243,31 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	}
 	mutex.Lock()
 	existingCounter := make(map[string]map[int64]int)
-	jsonFile, _ := os.ReadFile(path)
+	jsonFile := readF(path)
 	json.Unmarshal([]byte(jsonFile), &existingCounter)
 	getMerged(existingCounter, counter)
 	b, _ := json.MarshalIndent(existingCounter, "", "  ")
-	os.WriteFile(path, b, 0666)
+	writeF(path, b)
 
 	mutex.Unlock()
 	fmt.Printf("Done %s total of %d at day %d of format %d\n", center, last, day, format)
+}
+
+func readF(path string) []byte {
+	f, err := os.ReadFile(path)
+	for err != nil {
+		fmt.Println("error read! " + err.Error() + "\n")
+		f, err = os.ReadFile(path)
+	}
+	return f
+}
+
+func writeF(path string, content []byte) {
+	err := os.WriteFile(path, content, 0666)
+	for err != nil {
+		fmt.Println("error write! " + err.Error() + "\n")
+		err = os.WriteFile(path, content, 0666)
+	}
 }
 
 func getMerged(m1, m2 map[string]map[int64]int) {
@@ -334,7 +351,7 @@ func build_transitioning_map() {
 	dir, _ := os.Getwd()
 	path := dir + "/transitioning.json"
 	existingTransitioningMap := make(map[int]map[string]int)
-	jsonFile, _ := os.ReadFile(path)
+	jsonFile := readF(path)
 	json.Unmarshal([]byte(jsonFile), &existingTransitioningMap)
 	existingTransitioningMap[int(epoch_day)] = transitioning_map
 
@@ -345,7 +362,7 @@ func build_transitioning_map() {
 	}
 
 	b, _ := json.MarshalIndent(existingTransitioningMap, "", "  ")
-	os.WriteFile(path, b, 0666)
+	writeF(path, b)
 }
 
 func load_case_cache() {
@@ -366,7 +383,8 @@ func persist_case_cache() {
 	if err != nil {
 		panic(err)
 	}
-	os.WriteFile("./case_form_type_global_cache.bytes", buffer.Bytes(), 0666)
+
+	writeF("./case_form_type_global_cache.bytes", buffer.Bytes())
 }
 
 func main() {
@@ -389,7 +407,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	os.WriteFile(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes(), 0666)
+	writeF(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes())
 	build_transitioning_map()
 	persist_case_cache()
 }
