@@ -2,18 +2,18 @@
   "files": {
     "main.js": "/uscis-case-statistics/static/js/main.0b92ec9c.chunk.js",
     "main.js.map": "/uscis-case-statistics/static/js/main.0b92ec9c.chunk.js.map",
-    "runtime-main.js": "/uscis-case-statistics/static/js/runtime-main.b08dd259.js",
-    "runtime-main.js.map": "/uscis-case-statistics/static/js/runtime-main.b08dd259.js.map",
+    "runtime-main.js": "/uscis-case-statistics/static/js/runtime-main.e1a69c5c.js",
+    "runtime-main.js.map": "/uscis-case-statistics/static/js/runtime-main.e1a69c5c.js.map",
     "static/js/2.6478feae.chunk.js": "/uscis-case-statistics/static/js/2.6478feae.chunk.js",
     "static/js/2.6478feae.chunk.js.map": "/uscis-case-statistics/static/js/2.6478feae.chunk.js.map",
-    "static/js/3.5f188cb5.chunk.js": "/uscis-case-statistics/static/js/3.5f188cb5.chunk.js",
-    "static/js/3.5f188cb5.chunk.js.map": "/uscis-case-statistics/static/js/3.5f188cb5.chunk.js.map",
-    "static/js/4.b945c5fb.chunk.js": "/uscis-case-statistics/static/js/4.b945c5fb.chunk.js",
-    "static/js/4.b945c5fb.chunk.js.map": "/uscis-case-statistics/static/js/4.b945c5fb.chunk.js.map",
-    "static/js/5.ef8cf8cc.chunk.js": "/uscis-case-statistics/static/js/5.ef8cf8cc.chunk.js",
-    "static/js/5.ef8cf8cc.chunk.js.map": "/uscis-case-statistics/static/js/5.ef8cf8cc.chunk.js.map",
+    "static/js/3.8c5a9883.chunk.js": "/uscis-case-statistics/static/js/3.8c5a9883.chunk.js",
+    "static/js/3.8c5a9883.chunk.js.map": "/uscis-case-statistics/static/js/3.8c5a9883.chunk.js.map",
+    "static/js/4.6edc7f3a.chunk.js": "/uscis-case-statistics/static/js/4.6edc7f3a.chunk.js",
+    "static/js/4.6edc7f3a.chunk.js.map": "/uscis-case-statistics/static/js/4.6edc7f3a.chunk.js.map",
+    "static/js/5.35311b2f.chunk.js": "/uscis-case-statistics/static/js/5.35311b2f.chunk.js",
+    "static/js/5.35311b2f.chunk.js.map": "/uscis-case-statistics/static/js/5.35311b2f.chunk.js.map",
     "index.html": "/uscis-case-statistics/index.html",
-    "precache-manifest.57045ea26d6ba876d2f14f565a062b51.js": "/uscis-case-statistics/precache-manifest.57045ea26d6ba876d2f14f565a062b51.js",
+    "precache-manifest.987d428d657570cd237218e8c37f1cdf.js": "/uscis-case-statistics/precache-manifest.987d428d657570cd237218e8c37f1cdf.js",
     "service-worker.js": "/uscis-case-statistics/service-worker.js",
     "static/js/2.6478feae.chunk.js.LICENSE.txt": "/uscis-case-statistics/static/js/2.6478feae.chunk.js.LICENSE.txt",
     "static/media/case_number_format.png": "/uscis-case-statistics/static/media/case_number_format.e778d75a.png",
@@ -24,7 +24,7 @@
     "static/media/wechat_qr.jpg": "/uscis-case-statistics/static/media/wechat_qr.6a2dd925.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b08dd259.js",
+    "static/js/runtime-main.e1a69c5c.js",
     "static/js/2.6478feae.chunk.js",
     "static/js/main.0b92ec9c.chunk.js"
   ]
