@@ -22,7 +22,7 @@ var CENTER_NAMES = []string{
 	"MSC",
 	"LIN",
 	"SRC",
-	// "YSC",
+	// "YSC" seems nobody cares,
 }
 
 var FORM_TYPES = []string{
