@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56dd20671e5588adce81ed56ece415b8",
+    "revision": "8aca32e6b0bf2dcafec170fa7861ff0e",
     "url": "/uscis-case-statistics/index.html"
   },
   {
-    "revision": "cd3aa3fec8abe56c0f92",
-    "url": "/uscis-case-statistics/static/js/2.6478feae.chunk.js"
+    "revision": "5aa2d87477347c73a179",
+    "url": "/uscis-case-statistics/static/js/2.9e6f5e09.chunk.js"
   },
   {
     "revision": "fd8cd4627438764e51f3ee3f549a67df",
-    "url": "/uscis-case-statistics/static/js/2.6478feae.chunk.js.LICENSE.txt"
+    "url": "/uscis-case-statistics/static/js/2.9e6f5e09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9047aaf9156ac094b0d9",
-    "url": "/uscis-case-statistics/static/js/3.7d89e55f.chunk.js"
+    "revision": "ddf4fddd15e9e7a0b5c8",
+    "url": "/uscis-case-statistics/static/js/3.0dcfcb45.chunk.js"
   },
   {
-    "revision": "0c7c94b1dd9a8501f51a",
-    "url": "/uscis-case-statistics/static/js/4.9dcebc23.chunk.js"
+    "revision": "edecfc87e4173df68e79",
+    "url": "/uscis-case-statistics/static/js/4.44234adf.chunk.js"
   },
   {
-    "revision": "d9db09022c32adf35070",
-    "url": "/uscis-case-statistics/static/js/5.404681d8.chunk.js"
+    "revision": "6b136e68aca102cb06b3",
+    "url": "/uscis-case-statistics/static/js/5.e64370b6.chunk.js"
   },
   {
-    "revision": "3828165f7143e5399a93",
-    "url": "/uscis-case-statistics/static/js/main.0b92ec9c.chunk.js"
+    "revision": "a7aab42a99e2420bed3f",
+    "url": "/uscis-case-statistics/static/js/6.82ab4fc2.chunk.js"
   },
   {
-    "revision": "ef90d409ac502d1aaff0",
-    "url": "/uscis-case-statistics/static/js/runtime-main.a7f80dad.js"
+    "revision": "d3de4087993c5ec70787",
+    "url": "/uscis-case-statistics/static/js/7.d4363b61.chunk.js"
+  },
+  {
+    "revision": "aa7e9e25e48e833c1897",
+    "url": "/uscis-case-statistics/static/js/main.8bfe6f9e.chunk.js"
+  },
+  {
+    "revision": "56b7e638c75995cb556c",
+    "url": "/uscis-case-statistics/static/js/runtime-main.36da1aba.js"
   },
   {
     "revision": "e778d75a8e35422f3c7aaf943ada6e5c",
