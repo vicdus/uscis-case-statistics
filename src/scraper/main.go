@@ -62,6 +62,11 @@ var FORM_TYPES = []string{
 	"I-929",
 }
 
+var FYs = []int{
+	21,
+	22,
+}
+
 type Result struct {
 	Status string
 	Form   string
@@ -389,18 +394,22 @@ func persist_case_cache() {
 
 func main() {
 	load_case_cache()
-	for _, name := range CENTER_NAMES {
-		report_c_center_year_day_code_serial := make(chan int)
-		report_c_center_year_code_day_serial := make(chan int)
-		for day := 1; day <= 365; day++ {
-			go all(name, 21, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
-			go all(name, 21, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
-		}
-		for i := 1; i <= 365; i++ {
-			<-report_c_center_year_day_code_serial
-			<-report_c_center_year_code_day_serial
+
+	for _, fy := range FYs {
+		for _, name := range CENTER_NAMES {
+			report_c_center_year_day_code_serial := make(chan int)
+			report_c_center_year_code_day_serial := make(chan int)
+			for day := 1; day <= 365; day++ {
+				go all(name, fy, day, 5, center_year_day_code_serial, report_c_center_year_day_code_serial)
+				go all(name, fy, day, 9, center_year_code_day_serial, report_c_center_year_code_day_serial)
+			}
+			for i := 1; i <= 365; i++ {
+				<-report_c_center_year_day_code_serial
+				<-report_c_center_year_code_day_serial
+			}
 		}
 	}
+
 	buffer := new(bytes.Buffer)
 	e := gob.NewEncoder(buffer)
 	err := e.Encode(RawStorage{case_status_index_store, case_status_store})

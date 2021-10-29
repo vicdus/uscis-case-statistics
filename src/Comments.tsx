@@ -81,7 +81,7 @@ const Comments: React.FC<{}> = () => {
 
     const facebookCommentPlugin = (
         <FacebookProvider appId="185533902045623">
-            <FBComments href="https://vicdus.github.io/uscis-case-statistics/" />
+            <FBComments orderBy="reverse_time" href="https://vicdus.github.io/uscis-case-statistics/" />
         </FacebookProvider>
     );
 
