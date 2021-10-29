@@ -216,9 +216,9 @@ func all(center string, two_digit_yr int, day int, code int, format int, report_
 	dir, _ := os.Getwd()
 	var path string
 	if format == center_year_day_code_serial {
-		path = dir + "/data_center_year_day_code_serial.json"
+		path = fmt.Sprintf("%s/data_center_year_day_code_serial_%d.json", dir, two_digit_yr)
 	} else {
-		path = dir + "/data_center_year_code_day_serial.json"
+		path = fmt.Sprintf("%s/data_center_year_code_day_serial_%d.json", dir, two_digit_yr)
 	}
 
 	last := getLastCaseNumber(center, two_digit_yr, day, code, format)

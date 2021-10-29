@@ -24,6 +24,7 @@ import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
 
 
+type FY = "20" | "21";
 const statusMap = new Map([
   ["Case Was Approved And My Decision Was Emailed", "Case Was Approved"],
   ["Case Was Received and A Receipt Notice Was Emailed", "Case Was Received"],
@@ -54,6 +55,7 @@ const App: React.FC<{}> = () => {
   const selectedCenter =
     new URL(window.location.href).searchParams.get("center") ?? "WAC";
   const mode = new URL(window.location.href).searchParams.get("mode") ?? "data_center_year_code_day_serial";
+  const selectedFy = new URL(window.location.href).searchParams.get("fy");
 
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(
     null
@@ -74,6 +76,9 @@ const App: React.FC<{}> = () => {
 
   useEffect(() => {
     (async () => {
+      if (!url.searchParams.get("fy")) {
+        setSearchParam("fy", "21");
+      }
       if (!url.searchParams.get("form")) {
         setSearchParam("form", "I-129");
       }
@@ -86,16 +91,13 @@ const App: React.FC<{}> = () => {
       if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
         setTransitioningData((await (await import('./scraper/transitioning.json')).default));
         if (mode === 'data_center_year_code_day_serial') {
-          // @ts-ignore
-          setCaseData(((await import('./scraper/data_center_year_code_day_serial.json')).default));
+          setCaseData(((await import('./scraper/data_center_year_code_day_serial_' + selectedFy + '.json')).default));
         } else {
-          // @ts-ignore
-          setCaseData(((await import('./scraper/data_center_year_day_code_serial.json')).default));
+          setCaseData(((await import('./scraper/data_center_year_day_code_serial_' + selectedFy + '.json')).default));
         }
       }
     })();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [mode, selectedFy, url.searchParams]);
 
   const entries = useMemo(() => {
     return Immutable.List(
@@ -140,6 +142,7 @@ const App: React.FC<{}> = () => {
       })
       .toList();
   }, [caseData]);
+
 
   const selectedEntriesAllDate = useMemo(
     () =>
@@ -544,9 +547,33 @@ const App: React.FC<{}> = () => {
     </FormControl>
   );
 
+  const fySelector = (
+    <FormControl fullWidth={true} component="fieldset">
+      <FormLabel component="legend">Fiscal Year</FormLabel>
+      <RadioGroup
+        aria-label="fy"
+        name="fy"
+        value={selectedFy}
+        onChange={(e) => setSearchParam("fy", e.target.value)}
+        row={true}
+      >
+        {["21", "22"]
+          .map((f, ind) => (
+            <FormControlLabel
+              key={ind}
+              value={f}
+              control={<Radio />}
+              label={f}
+            />
+          ))}
+      </RadioGroup>
+    </FormControl>
+  );
+
   return (
     <div>
       {introduction}
+      {fySelector}
       {formTypeSelector}
       {centerSelector}
       {modeSelector}
