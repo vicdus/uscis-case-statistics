@@ -388,7 +388,7 @@ const App: React.FC<{}> = () => {
           type="category"
           dataKey="day"
           width={150}
-          tickFormatter={day => mode === 'data_center_year_code_day_serial' ? selectedCenter + "219" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + "21" + day.toString().padStart(3, "0") + "5XXXX"}
+          tickFormatter={day => mode === 'data_center_year_code_day_serial' ? selectedCenter + selectedFy + "9" + day.toString().padStart(3, "0") + "XXXX" : selectedCenter + selectedFy + day.toString().padStart(3, "0") + "5XXXX"}
           domain={[(exisitDays.min() ?? 0) - 1, (exisitDays.max() ?? 1) + 1]}
           tick={{ fontSize: "6" }}
           interval={0}
