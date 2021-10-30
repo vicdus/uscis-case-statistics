@@ -293,7 +293,7 @@ const App: React.FC<{}> = () => {
       const [format, form, center, year, code, day, from, to] = key.split("|");
       return { format, form, center, year, code, day, from, to, count };
     })
-    .filter(trans => trans.center === selectedCenter && trans.form === selectedForm && ("data_" + trans.format) === url.searchParams.get("mode")), v => v.from)).map(([k, v]) => {
+    .filter(trans => trans.year === selectedFy && trans.center === selectedCenter && trans.form === selectedForm && ("data_" + trans.format) === url.searchParams.get("mode")), v => v.from)).map(([k, v]) => {
       return {
         from: v[0].from,
         to: v[0].to,
