@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c5b362cbc4ab4c003e54d95ba0fd163",
+    "revision": "12ce657ceefa28e7c28b7605bc5e6b71",
     "url": "/uscis-case-statistics/index.html"
   },
   {
@@ -12,32 +12,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uscis-case-statistics/static/js/2.9e6f5e09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "168dd36a4639fd6265aa",
-    "url": "/uscis-case-statistics/static/js/3.64034046.chunk.js"
+    "revision": "ec3f9038c12869a0abdc",
+    "url": "/uscis-case-statistics/static/js/3.d5fe5b77.chunk.js"
   },
   {
-    "revision": "1b579febba6dd28a75c7",
-    "url": "/uscis-case-statistics/static/js/4.dceeb73b.chunk.js"
+    "revision": "3ff7e5c22cef654982de",
+    "url": "/uscis-case-statistics/static/js/4.0d21f11e.chunk.js"
   },
   {
-    "revision": "69d7db2fa54e13194ec5",
-    "url": "/uscis-case-statistics/static/js/5.6ec778f5.chunk.js"
+    "revision": "bc312a587acbb738e784",
+    "url": "/uscis-case-statistics/static/js/5.1189bfcb.chunk.js"
   },
   {
-    "revision": "336f6dc1c95f7213bc05",
-    "url": "/uscis-case-statistics/static/js/6.67a40f17.chunk.js"
+    "revision": "129ff0c31d035a9aff07",
+    "url": "/uscis-case-statistics/static/js/6.2d52f168.chunk.js"
   },
   {
-    "revision": "999ee7baa94435b74874",
-    "url": "/uscis-case-statistics/static/js/7.e001005d.chunk.js"
+    "revision": "876e7eaed849860ba478",
+    "url": "/uscis-case-statistics/static/js/7.326acdc9.chunk.js"
   },
   {
-    "revision": "6e41f557c42d81044610",
-    "url": "/uscis-case-statistics/static/js/main.08e22236.chunk.js"
+    "revision": "8f5b061b16f3a22d128a",
+    "url": "/uscis-case-statistics/static/js/main.d105b825.chunk.js"
   },
   {
-    "revision": "9a12431e64900de0e7b0",
-    "url": "/uscis-case-statistics/static/js/runtime-main.4ed7a1dc.js"
+    "revision": "105f117ab29a51bdf1f3",
+    "url": "/uscis-case-statistics/static/js/runtime-main.00e6a7a5.js"
   },
   {
     "revision": "e778d75a8e35422f3c7aaf943ada6e5c",
