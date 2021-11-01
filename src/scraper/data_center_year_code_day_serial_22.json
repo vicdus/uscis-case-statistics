@@ -1,1224 +1,1528 @@
 {
+  "EAC|22|1|9|I-102|Case Was Received": {
+    "18932": 3
+  },
+  "EAC|22|1|9|I-129F|Case Was Received": {
+    "18932": 2
+  },
+  "EAC|22|1|9|I-360|Case Was Received": {
+    "18932": 1
+  },
+  "EAC|22|1|9|I-539|Case Was Received": {
+    "18932": 2
+  },
+  "EAC|22|1|9|I-539|Fingerprint Fee Was Received": {
+    "18932": 3
+  },
+  "EAC|22|1|9|I-751|Case Rejected Because I Sent An Incorrect Fee": {
+    "18932": 6
+  },
+  "EAC|22|1|9|I-751|Case Was Received": {
+    "18932": 52
+  },
+  "EAC|22|1|9|I-751|Case Was Rejected Because It Was Improperly Filed": {
+    "18932": 5
+  },
+  "EAC|22|1|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
+    "18932": 1
+  },
+  "EAC|22|1|9|I-765|Case Was Received": {
+    "18932": 70
+  },
+  "EAC|22|1|9|I-824|Case Was Received": {
+    "18932": 4
+  },
   "LIN|22|1|9|I-102|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-102|Case Was Received": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|1|9|I-129F|Case Was Received": {
     "18929": 17,
     "18930": 17,
-    "18931": 17
+    "18931": 17,
+    "18932": 17
   },
   "LIN|22|1|9|I-130|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 80,
     "18930": 80,
-    "18931": 80
+    "18931": 80,
+    "18932": 80
   },
   "LIN|22|1|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "LIN|22|1|9|I-131|Case Was Received": {
     "18929": 1432,
     "18930": 1432,
-    "18931": 1432
+    "18931": 1432,
+    "18932": 1432
   },
   "LIN|22|1|9|I-131|Case Was Received At Another USCIS Office": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-131|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 17,
     "18930": 17,
-    "18931": 17
+    "18931": 17,
+    "18932": 17
   },
   "LIN|22|1|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 22,
     "18930": 22,
-    "18931": 22
+    "18931": 22,
+    "18932": 22
   },
   "LIN|22|1|9|I-131|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 1024,
     "18930": 1024,
-    "18931": 1024
+    "18931": 1024,
+    "18932": 1024
   },
   "LIN|22|1|9|I-131|Fingerprint Fee Was Received": {
     "18929": 332,
     "18930": 332,
-    "18931": 332
+    "18931": 332,
+    "18932": 332
   },
   "LIN|22|1|9|I-131|Petition/Application Was Rejected For Insufficient Funds": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-140|Case Was Received": {
     "18929": 1230,
     "18930": 1230,
-    "18931": 1230
+    "18931": 1230,
+    "18932": 1226
   },
   "LIN|22|1|9|I-140|Case Was Received and A Receipt Notice Was Sent": {
     "18929": 8,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 9
   },
   "LIN|22|1|9|I-140|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|1|9|I-140|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 18,
     "18930": 18,
-    "18931": 18
+    "18931": 18,
+    "18932": 18
   },
   "LIN|22|1|9|I-140|Request For Premium Processing Services Was Received": {
-    "18929": 1
+    "18929": 1,
+    "18932": 3
   },
   "LIN|22|1|9|I-212|Case Was Received": {
     "18929": 67,
     "18930": 67,
-    "18931": 67
+    "18931": 67,
+    "18932": 67
   },
   "LIN|22|1|9|I-360|Case Was Received": {
     "18929": 17,
     "18930": 17,
-    "18931": 17
+    "18931": 17,
+    "18932": 17
   },
   "LIN|22|1|9|I-485|Case Was Received": {
     "18929": 186,
     "18930": 186,
-    "18931": 186
+    "18931": 186,
+    "18932": 186
   },
   "LIN|22|1|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|1|9|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 22,
     "18930": 22,
-    "18931": 22
+    "18931": 22,
+    "18932": 22
   },
   "LIN|22|1|9|I-485|Fingerprint Fee Was Received": {
     "18929": 857,
     "18930": 857,
-    "18931": 857
+    "18931": 857,
+    "18932": 857
   },
   "LIN|22|1|9|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "LIN|22|1|9|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|1|9|I-539|Case Was Received": {
     "18929": 61,
     "18930": 61,
-    "18931": 61
+    "18931": 61,
+    "18932": 61
   },
   "LIN|22|1|9|I-539|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|1|9|I-539|Fingerprint Fee Was Received": {
     "18929": 274,
     "18930": 274,
-    "18931": 274
+    "18931": 274,
+    "18932": 274
   },
   "LIN|22|1|9|I-539|Petition/Application Was Rejected For Insufficient Funds": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-601A|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 11,
     "18930": 11,
-    "18931": 11
+    "18931": 11,
+    "18932": 11
   },
   "LIN|22|1|9|I-601A|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|1|9|I-601A|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 97,
     "18930": 97,
-    "18931": 97
+    "18931": 97,
+    "18932": 97
   },
   "LIN|22|1|9|I-601A|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 124,
     "18930": 124,
-    "18931": 124
+    "18931": 124,
+    "18932": 124
   },
   "LIN|22|1|9|I-601A|Fingerprint Fee Was Received": {
     "18929": 858,
     "18930": 858,
-    "18931": 858
+    "18931": 858,
+    "18932": 858
   },
   "LIN|22|1|9|I-601A|Petition/Application Was Rejected For Insufficient Funds": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|1|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|1|9|I-601|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|1|9|I-601|Case Was Received": {
     "18929": 187,
     "18930": 185,
-    "18931": 185
+    "18931": 185,
+    "18932": 185
   },
   "LIN|22|1|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 8,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "LIN|22|1|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|1|9|I-601|Expedite Request Approved": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-601|Expedite Request Denied": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-601|Name Was Updated": {
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|1|9|I-601|Petition/Application Was Rejected For Insufficient Funds": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-601|Request for Additional Evidence Was Sent": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-751|Case Was Received": {
     "18929": 614,
     "18930": 613,
-    "18931": 613
+    "18931": 613,
+    "18932": 613
   },
   "LIN|22|1|9|I-751|Fees Were Waived": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|1|9|I-751|Name Was Updated": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-751|Petition/Application Was Rejected For Insufficient Funds": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|1|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 61,
     "18930": 61,
-    "18931": 61
+    "18931": 61,
+    "18932": 61
   },
   "LIN|22|1|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|1|9|I-765|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "LIN|22|1|9|I-765|Case Was Received": {
     "18929": 1336,
     "18930": 1336,
-    "18931": 1336
+    "18931": 1336,
+    "18932": 1336
   },
   "LIN|22|1|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "LIN|22|1|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 27,
     "18930": 27,
-    "18931": 27
+    "18931": 27,
+    "18932": 27
   },
   "LIN|22|1|9|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 765,
     "18930": 765,
-    "18931": 765
+    "18931": 765,
+    "18932": 765
   },
   "LIN|22|1|9|I-765|Fees Were Waived": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "LIN|22|1|9|I-765|Fingerprint Fee Was Received": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|1|9|I-765|Petition/Application Was Rejected For Insufficient Funds": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|1|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|I-824|Case Was Received": {
     "18929": 48,
     "18930": 48,
-    "18931": 48
+    "18931": 48,
+    "18932": 48
   },
   "LIN|22|1|9|unknown|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|1|9|unknown|Case Was Received": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "LIN|22|1|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 63,
     "18930": 63,
-    "18931": 63
+    "18931": 63,
+    "18932": 63
   },
   "LIN|22|2|9|I-102|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|2|9|I-102|Case Was Received": {
     "18929": 12,
     "18930": 12,
-    "18931": 12
+    "18931": 12,
+    "18932": 12
   },
   "LIN|22|2|9|I-102|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|I-129F|Case Was Received": {
     "18929": 18,
     "18930": 18,
-    "18931": 18
+    "18931": 18,
+    "18932": 18
   },
   "LIN|22|2|9|I-130|Case Was Received": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|2|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 131,
     "18930": 131,
-    "18931": 131
+    "18931": 131,
+    "18932": 131
   },
   "LIN|22|2|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|2|9|I-131|Case Was Received": {
     "18929": 1453,
     "18930": 1453,
-    "18931": 1453
+    "18931": 1453,
+    "18932": 1453
   },
   "LIN|22|2|9|I-131|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 15,
     "18930": 15,
-    "18931": 15
+    "18931": 15,
+    "18932": 15
   },
   "LIN|22|2|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 24,
     "18930": 24,
-    "18931": 24
+    "18931": 24,
+    "18932": 24
   },
   "LIN|22|2|9|I-131|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 13,
     "18930": 13,
-    "18931": 13
+    "18931": 13,
+    "18932": 13
   },
   "LIN|22|2|9|I-131|Fingerprint Fee Was Received": {
     "18929": 1320,
     "18930": 1320,
-    "18931": 1320
+    "18931": 1320,
+    "18932": 1320
   },
   "LIN|22|2|9|I-140|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "LIN|22|2|9|I-140|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|2|9|I-140|Case Was Received": {
     "18929": 1200,
     "18930": 1200,
-    "18931": 1200
+    "18931": 1200,
+    "18932": 1200
   },
   "LIN|22|2|9|I-140|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|I-140|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 19,
     "18930": 19,
-    "18931": 19
+    "18931": 19,
+    "18932": 19
   },
   "LIN|22|2|9|I-212|Case Was Received": {
     "18929": 61,
     "18930": 61,
-    "18931": 61
+    "18931": 61,
+    "18932": 61
   },
   "LIN|22|2|9|I-212|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|2|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|I-360|Case Was Received": {
     "18929": 18,
     "18930": 18,
-    "18931": 18
+    "18931": 18,
+    "18932": 18
   },
   "LIN|22|2|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "LIN|22|2|9|I-485|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|2|9|I-485|Case Was Received": {
     "18929": 106,
     "18930": 106,
-    "18931": 106
+    "18931": 106,
+    "18932": 106
   },
   "LIN|22|2|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|2|9|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|I-485|Fingerprint Fee Was Received": {
     "18929": 682,
     "18930": 682,
-    "18931": 682
+    "18931": 682,
+    "18932": 682
   },
   "LIN|22|2|9|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 16,
     "18930": 16,
-    "18931": 16
+    "18931": 16,
+    "18932": 16
   },
   "LIN|22|2|9|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|2|9|I-539|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|2|9|I-539|Case Was Received": {
     "18929": 94,
     "18930": 94,
-    "18931": 94
+    "18931": 94,
+    "18932": 94
   },
   "LIN|22|2|9|I-539|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|2|9|I-539|Fingerprint Fee Was Received": {
     "18929": 292,
     "18930": 292,
-    "18931": 292
+    "18931": 292,
+    "18932": 292
   },
   "LIN|22|2|9|I-601A|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "LIN|22|2|9|I-601A|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
+  },
+  "LIN|22|2|9|I-601A|Case Transferred And New Office Has Jurisdiction": {
+    "18932": 8
   },
   "LIN|22|2|9|I-601A|Case Was Received": {
     "18929": 26,
     "18930": 26,
-    "18931": 26
+    "18931": 26,
+    "18932": 26
   },
   "LIN|22|2|9|I-601A|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "LIN|22|2|9|I-601A|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 98,
     "18930": 98,
-    "18931": 98
+    "18931": 98,
+    "18932": 98
   },
   "LIN|22|2|9|I-601A|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|I-601A|Fingerprint Fee Was Received": {
     "18929": 977,
     "18930": 977,
-    "18931": 977
+    "18931": 977,
+    "18932": 969
   },
   "LIN|22|2|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "LIN|22|2|9|I-601|Case Was Received": {
     "18929": 208,
     "18930": 208,
-    "18931": 208
+    "18931": 208,
+    "18932": 208
   },
   "LIN|22|2|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 9,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "LIN|22|2|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "LIN|22|2|9|I-601|Name Was Updated": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|2|9|I-751|Case Was Received": {
     "18929": 712,
     "18930": 712,
-    "18931": 712
+    "18931": 712,
+    "18932": 712
   },
   "LIN|22|2|9|I-751|Fees Were Waived": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|2|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 75,
     "18930": 75,
-    "18931": 75
+    "18931": 75,
+    "18932": 75
   },
   "LIN|22|2|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|I-765|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|2|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|2|9|I-765|Case Was Received": {
     "18929": 1663,
     "18930": 1663,
-    "18931": 1663
+    "18931": 1663,
+    "18932": 1663
   },
   "LIN|22|2|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|2|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "LIN|22|2|9|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 385,
     "18930": 385,
-    "18931": 385
+    "18931": 385,
+    "18932": 385
   },
   "LIN|22|2|9|I-765|Fees Were Waived": {
     "18929": 79,
     "18930": 79,
-    "18931": 79
+    "18931": 79,
+    "18932": 79
   },
   "LIN|22|2|9|I-765|Fingerprint Fee Was Received": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "LIN|22|2|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|2|9|I-824|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
+  },
+  "LIN|22|2|9|I-824|Case Transferred And New Office Has Jurisdiction": {
+    "18932": 1
   },
   "LIN|22|2|9|I-824|Case Was Received": {
     "18929": 61,
     "18930": 61,
-    "18931": 61
+    "18931": 61,
+    "18932": 60
   },
   "LIN|22|2|9|I-824|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|2|9|I-824|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|2|9|unknown|Case Was Received": {
     "18929": 14,
     "18930": 14,
-    "18931": 14
+    "18931": 14,
+    "18932": 14
   },
   "LIN|22|2|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 71,
     "18930": 71,
-    "18931": 71
+    "18931": 71,
+    "18932": 71
   },
   "LIN|22|3|9|I-102|Case Was Received": {
     "18929": 4,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 6
   },
   "LIN|22|3|9|I-129F|Case Was Received": {
     "18929": 2,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 5
   },
   "LIN|22|3|9|I-130|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|3|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 22,
     "18930": 35,
-    "18931": 38
+    "18931": 38,
+    "18932": 43
   },
   "LIN|22|3|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 6
   },
   "LIN|22|3|9|I-131|Case Was Received": {
     "18929": 130,
     "18930": 305,
-    "18931": 319
+    "18931": 319,
+    "18932": 426
   },
   "LIN|22|3|9|I-131|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 9
   },
   "LIN|22|3|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 11,
-    "18931": 11
+    "18931": 11,
+    "18932": 16
   },
   "LIN|22|3|9|I-131|Fingerprint Fee Was Received": {
     "18929": 267,
     "18930": 452,
-    "18931": 469
+    "18931": 469,
+    "18932": 618
   },
   "LIN|22|3|9|I-140|Case Rejected Because I Sent An Incorrect Fee": {
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|3|9|I-140|Case Was Received": {
     "18929": 220,
     "18930": 323,
-    "18931": 335
+    "18931": 335,
+    "18932": 481
   },
   "LIN|22|3|9|I-140|Case Was Rejected Because I Did Not Sign My Form": {
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 5
   },
   "LIN|22|3|9|I-140|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 5
   },
   "LIN|22|3|9|I-212|Case Was Received": {
     "18929": 12,
     "18930": 14,
-    "18931": 17
+    "18931": 17,
+    "18932": 21
+  },
+  "LIN|22|3|9|I-212|Case Was Rejected Because I Did Not Sign My Form": {
+    "18932": 1
   },
   "LIN|22|3|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
+  },
+  "LIN|22|3|9|I-360|Case Was Received": {
+    "18932": 2
   },
   "LIN|22|3|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "LIN|22|3|9|I-485|Case Was Received": {
     "18929": 15,
     "18930": 29,
-    "18931": 32
+    "18931": 32,
+    "18932": 36
   },
   "LIN|22|3|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 6
   },
   "LIN|22|3|9|I-485|Fingerprint Fee Was Received": {
     "18929": 51,
     "18930": 109,
-    "18931": 116
+    "18931": 116,
+    "18932": 142
   },
   "LIN|22|3|9|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|3|9|I-539|Case Was Received": {
     "18929": 26,
     "18930": 34,
-    "18931": 41
+    "18931": 41,
+    "18932": 47
   },
   "LIN|22|3|9|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "LIN|22|3|9|I-539|Fingerprint Fee Was Received": {
     "18929": 48,
     "18930": 80,
-    "18931": 93
+    "18931": 93,
+    "18932": 99
   },
   "LIN|22|3|9|I-601A|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|3|9|I-601A|Case Was Rejected Because I Did Not Sign My Form": {
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "LIN|22|3|9|I-601A|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 8,
     "18930": 16,
-    "18931": 17
+    "18931": 17,
+    "18932": 25
   },
   "LIN|22|3|9|I-601A|Fingerprint Fee Was Received": {
     "18929": 121,
     "18930": 152,
-    "18931": 159
+    "18931": 159,
+    "18932": 183
   },
   "LIN|22|3|9|I-601|Case Was Received": {
     "18929": 30,
     "18930": 40,
-    "18931": 68
+    "18931": 68,
+    "18932": 83
   },
   "LIN|22|3|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 3,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 7
   },
   "LIN|22|3|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|3|9|I-751|Case Was Received": {
     "18929": 125,
     "18930": 229,
-    "18931": 249
+    "18931": 249,
+    "18932": 318
   },
   "LIN|22|3|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 15,
     "18930": 24,
-    "18931": 27
+    "18931": 27,
+    "18932": 31
   },
   "LIN|22|3|9|I-765|Case Rejected For Form Not Signed And Incorrect Form Version": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|3|9|I-765|Case Was Received": {
     "18929": 254,
     "18930": 481,
-    "18931": 504
+    "18931": 504,
+    "18932": 648
   },
   "LIN|22|3|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "LIN|22|3|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 4,
     "18930": 10,
-    "18931": 10
+    "18931": 10,
+    "18932": 12
   },
   "LIN|22|3|9|I-765|Fees Were Waived": {
     "18929": 5,
     "18930": 18,
-    "18931": 18
+    "18931": 18,
+    "18932": 20
   },
   "LIN|22|3|9|I-765|Fingerprint Fee Was Received": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
+  },
+  "LIN|22|3|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
+    "18932": 1
   },
   "LIN|22|3|9|I-824|Case Was Received": {
     "18929": 5,
     "18930": 8,
-    "18931": 10
+    "18931": 10,
+    "18932": 15
   },
   "LIN|22|3|9|unknown|Case Was Received": {
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "LIN|22|3|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 8,
     "18930": 15,
-    "18931": 15
+    "18931": 15,
+    "18932": 18
   },
   "MSC|22|1|9|I-102|Case Was Approved": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|I-102|Case Was Received": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "MSC|22|1|9|I-102|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|I-129F|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-130|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-130|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|1|9|I-130|Case Was Received": {
     "18929": 41,
     "18930": 41,
-    "18931": 41
+    "18931": 41,
+    "18932": 41
   },
   "MSC|22|1|9|I-130|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-130|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 22,
     "18930": 22,
-    "18931": 22
+    "18931": 22,
+    "18932": 22
   },
   "MSC|22|1|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 9,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "MSC|22|1|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|1|9|I-131|Case Was Received": {
     "18929": 1110,
     "18930": 1110,
-    "18931": 1110
+    "18931": 1110,
+    "18932": 1109
   },
   "MSC|22|1|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 56,
     "18930": 56,
-    "18931": 56
+    "18931": 56,
+    "18932": 56
+  },
+  "MSC|22|1|9|I-131|Case Was Reopened For Reconsideration": {
+    "18932": 1
   },
   "MSC|22|1|9|I-131|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "MSC|22|1|9|I-131|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 36,
     "18930": 36,
-    "18931": 36
+    "18931": 36,
+    "18932": 36
   },
   "MSC|22|1|9|I-131|Expedite Request Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-140|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-212|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|1|9|I-212|Case Was Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|1|9|I-212|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-212|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|1|9|I-360|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|1|9|I-360|Case Was Approved": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-360|Case Was Received": {
     "18929": 424,
     "18930": 424,
-    "18931": 424
+    "18931": 424,
+    "18932": 424
   },
   "MSC|22|1|9|I-360|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|1|9|I-360|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 10,
     "18930": 10,
-    "18931": 10
+    "18931": 10,
+    "18932": 10
   },
   "MSC|22|1|9|I-360|Fees Were Waived": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 35,
     "18930": 35,
-    "18931": 35
+    "18931": 35,
+    "18932": 35
   },
   "MSC|22|1|9|I-485|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 8,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "MSC|22|1|9|I-485|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|I-485|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "MSC|22|1|9|I-485|Case Rejected For Incorrect Fee, Payment Not Signed And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-485|Case Transferred To Another Office": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
+  },
+  "MSC|22|1|9|I-485|Case Was Denied": {
+    "18932": 1
   },
   "MSC|22|1|9|I-485|Case Was Received": {
     "18929": 212,
     "18930": 212,
-    "18931": 212
+    "18931": 212,
+    "18932": 212
   },
   "MSC|22|1|9|I-485|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 8,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "MSC|22|1|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 132,
     "18930": 132,
-    "18931": 132
+    "18931": 132,
+    "18932": 132
   },
   "MSC|22|1|9|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 153,
     "18930": 153,
-    "18931": 153
+    "18931": 153,
+    "18932": 153
   },
   "MSC|22|1|9|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 569,
     "18930": 569,
-    "18931": 569
+    "18931": 569,
+    "18932": 569
   },
   "MSC|22|1|9|I-485|Case is Ready to Be Scheduled for An Interview": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|1|9|I-485|Duplicate Notice Was Mailed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-485|Fees Were Waived": {
     "18929": 65,
     "18930": 65,
-    "18931": 65
+    "18931": 65,
+    "18932": 65
   },
   "MSC|22|1|9|I-485|Fingerprint Fee Was Received": {
     "18929": 936,
     "18930": 936,
-    "18931": 936
+    "18931": 936,
+    "18932": 935
   },
   "MSC|22|1|9|I-485|Interview Was Scheduled": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-485|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|1|9|I-485|Request for Initial Evidence Was Sent": {
     "18929": 36,
     "18930": 36,
-    "18931": 36
+    "18931": 36,
+    "18932": 36
   },
   "MSC|22|1|9|I-485|Response To USCIS' Request For Evidence Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-601|Case Was Approved": {
     "18929": 5,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|1|9|I-601|Case Was Received": {
     "18929": 94,
     "18930": 92,
-    "18931": 92
+    "18931": 92,
+    "18932": 92
   },
   "MSC|22|1|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|1|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|1|9|I-601|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|1|9|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 9,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "MSC|22|1|9|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-751|Case Was Received": {
     "18929": 322,
     "18930": 322,
-    "18931": 322
+    "18931": 322,
+    "18932": 322
   },
   "MSC|22|1|9|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|1|9|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 13,
     "18930": 13,
-    "18931": 13
+    "18931": 13,
+    "18932": 13
   },
   "MSC|22|1|9|I-751|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 42,
     "18930": 42,
-    "18931": 42
+    "18931": 42,
+    "18932": 42
   },
   "MSC|22|1|9|I-751|Fees Were Waived": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|1|9|I-751|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 164,
     "18930": 164,
-    "18931": 164
+    "18931": 164,
+    "18932": 164
   },
   "MSC|22|1|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 14,
     "18930": 14,
-    "18931": 14
+    "18931": 14,
+    "18932": 14
   },
   "MSC|22|1|9|I-765|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|1|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 8,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "MSC|22|1|9|I-765|Case Rejected For Incorrect Fee, Payment Not Signed And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-765|Case Was Received": {
     "18929": 2230,
     "18930": 2230,
-    "18931": 2230
+    "18931": 2230,
+    "18932": 2230
   },
   "MSC|22|1|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 18,
     "18930": 18,
-    "18931": 18
+    "18931": 18,
+    "18932": 18
   },
   "MSC|22|1|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 274,
     "18930": 274,
-    "18931": 274
+    "18931": 274,
+    "18932": 274
+  },
+  "MSC|22|1|9|I-765|Case Was Reopened For Reconsideration": {
+    "18932": 1
   },
   "MSC|22|1|9|I-765|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|1|9|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 2330,
     "18930": 2329,
-    "18931": 2329
+    "18931": 2329,
+    "18932": 2329
   },
   "MSC|22|1|9|I-765|Duplicate Notice Was Mailed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|I-765|Expedite Request Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|1|9|I-765|Fees Were Waived": {
     "18929": 362,
     "18930": 362,
-    "18931": 362
+    "18931": 362,
+    "18932": 362
   },
   "MSC|22|1|9|I-765|Fingerprint Fee Was Received": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|I-765|New Card Is Being Produced": {
     "18930": 1,
@@ -1227,422 +1531,506 @@
   "MSC|22|1|9|I-765|Notice Was Returned To USCIS Because The Post Office Could Not Deliver It": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-765|Request for Initial Evidence Was Sent": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-824|Case Transferred To Another Office": {
     "18929": 1
   },
   "MSC|22|1|9|I-824|Case Was Approved": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-824|Case Was Received": {
     "18929": 21,
     "18930": 20,
-    "18931": 20
+    "18931": 20,
+    "18932": 20
   },
   "MSC|22|1|9|I-824|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|I-824|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|unknown|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|unknown|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|1|9|unknown|Case Was Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|1|9|unknown|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|unknown|Date of Birth Was Updated": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|1|9|unknown|Document Was Mailed To Me": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|1|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 46,
     "18930": 46,
-    "18931": 46
+    "18931": 46,
+    "18932": 46
   },
   "MSC|22|1|9|unknown|Name Was Updated": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|2|9|I-102|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|I-102|Case Was Received": {
     "18929": 13,
     "18930": 13,
-    "18931": 13
+    "18931": 13,
+    "18932": 13
   },
   "MSC|22|2|9|I-102|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|2|9|I-130|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-130|Case Was Received": {
     "18929": 43,
     "18930": 43,
-    "18931": 43
+    "18931": 43,
+    "18932": 43
   },
   "MSC|22|2|9|I-130|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|I-130|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 28,
     "18930": 28,
-    "18931": 28
+    "18931": 28,
+    "18932": 28
   },
   "MSC|22|2|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 9,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "MSC|22|2|9|I-131|Case Transferred To Another Office": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-131|Case Was Approved": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|I-131|Case Was Received": {
     "18929": 1820,
     "18930": 1819,
-    "18931": 1819
+    "18931": 1819,
+    "18932": 1819
   },
   "MSC|22|2|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 32,
     "18930": 32,
-    "18931": 32
+    "18931": 32,
+    "18932": 32
   },
   "MSC|22|2|9|I-131|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|2|9|I-131|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 19,
     "18930": 19,
-    "18931": 19
+    "18931": 19,
+    "18932": 19
   },
   "MSC|22|2|9|I-131|Expedite Request Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|2|9|I-140|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-212|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|I-212|Case Was Received": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|2|9|I-212|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-360|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-360|Case Was Received": {
     "18929": 291,
     "18930": 291,
-    "18931": 291
+    "18931": 291,
+    "18932": 291
   },
   "MSC|22|2|9|I-360|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-360|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|I-360|Date of Birth Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 34,
     "18930": 34,
-    "18931": 34
+    "18931": 34,
+    "18932": 34
   },
   "MSC|22|2|9|I-485|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-485|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|2|9|I-485|Case Was Received": {
     "18929": 197,
     "18930": 197,
-    "18931": 197
+    "18931": 197,
+    "18932": 197
   },
   "MSC|22|2|9|I-485|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|2|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 78,
     "18930": 78,
-    "18931": 78
+    "18931": 78,
+    "18932": 78
   },
   "MSC|22|2|9|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 222,
     "18930": 222,
-    "18931": 222
+    "18931": 222,
+    "18932": 222
   },
   "MSC|22|2|9|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 313,
     "18930": 313,
-    "18931": 313
+    "18931": 313,
+    "18932": 313
   },
   "MSC|22|2|9|I-485|Date of Birth Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-485|Fees Were Waived": {
     "18929": 95,
     "18930": 95,
-    "18931": 95
+    "18931": 95,
+    "18932": 95
   },
   "MSC|22|2|9|I-485|Fingerprint Fee Was Received": {
     "18929": 1589,
     "18930": 1587,
-    "18931": 1587
+    "18931": 1587,
+    "18932": 1587
   },
   "MSC|22|2|9|I-485|Request for Initial Evidence Was Sent": {
     "18929": 39,
     "18930": 41,
-    "18931": 41
+    "18931": 41,
+    "18932": 41
   },
   "MSC|22|2|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|2|9|I-601|Case Was Received": {
     "18929": 66,
     "18930": 66,
-    "18931": 66
+    "18931": 66,
+    "18932": 66
   },
   "MSC|22|2|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-601|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|2|9|I-601|Fees Were Waived": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 32,
     "18930": 32,
-    "18931": 32
+    "18931": 32,
+    "18932": 32
   },
   "MSC|22|2|9|I-751|Case Was Received": {
     "18929": 183,
     "18930": 183,
-    "18931": 183
+    "18931": 183,
+    "18932": 183
   },
   "MSC|22|2|9|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 29,
     "18930": 29,
-    "18931": 29
+    "18931": 29,
+    "18932": 29
   },
   "MSC|22|2|9|I-751|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "MSC|22|2|9|I-751|Fees Were Waived": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 84,
     "18930": 84,
-    "18931": 84
+    "18931": 84,
+    "18932": 84
   },
   "MSC|22|2|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|2|9|I-765|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|2|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|2|9|I-765|Case Transferred To Another Office": {
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|I-765|Case Was Received": {
     "18929": 2620,
     "18930": 2619,
-    "18931": 2619
+    "18931": 2619,
+    "18932": 2619
   },
   "MSC|22|2|9|I-765|Case Was Received At Another USCIS Office": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 9,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "MSC|22|2|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 219,
     "18930": 219,
-    "18931": 219
+    "18931": 219,
+    "18932": 219
   },
   "MSC|22|2|9|I-765|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|2|9|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 1492,
     "18930": 1491,
-    "18931": 1491
+    "18931": 1491,
+    "18932": 1491
   },
   "MSC|22|2|9|I-765|Expedite Request Received": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|2|9|I-765|Fees Were Waived": {
     "18929": 235,
     "18930": 235,
-    "18931": 235
+    "18931": 235,
+    "18932": 235
   },
   "MSC|22|2|9|I-765|Fingerprint Fee Was Received": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|2|9|I-765|Name Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-824|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-824|Case Was Denied": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|I-824|Case Was Received": {
     "18929": 29,
     "18930": 29,
-    "18931": 29
+    "18931": 29,
+    "18932": 29
   },
   "MSC|22|2|9|unknown|Card Was Delivered To Me By The Post Office": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|unknown|Case Transferred And New Office Has Jurisdiction": {
     "18929": 1
@@ -1650,404 +2038,488 @@
   "MSC|22|2|9|unknown|Case Was Received": {
     "18929": 12,
     "18930": 12,
-    "18931": 12
+    "18931": 12,
+    "18932": 12
   },
   "MSC|22|2|9|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 3,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|2|9|unknown|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|2|9|unknown|Date of Birth Was Updated": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|2|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 30,
     "18930": 30,
-    "18931": 30
+    "18931": 30,
+    "18932": 30
   },
   "MSC|22|2|9|unknown|Name Was Updated": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-102|Case Was Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|3|9|I-130|Case Was Received": {
     "18929": 38,
     "18930": 38,
-    "18931": 38
+    "18931": 38,
+    "18932": 38
   },
   "MSC|22|3|9|I-130|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-130|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 14,
     "18930": 14,
-    "18931": 14
+    "18931": 14,
+    "18932": 14
   },
   "MSC|22|3|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|3|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|3|9|I-131|Case Was Received": {
     "18929": 1627,
     "18930": 1627,
-    "18931": 1627
+    "18931": 1627,
+    "18932": 1626
   },
   "MSC|22|3|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 44,
     "18930": 44,
-    "18931": 44
+    "18931": 44,
+    "18932": 44
   },
   "MSC|22|3|9|I-131|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 20,
     "18930": 20,
-    "18931": 20
+    "18931": 20,
+    "18932": 20
   },
   "MSC|22|3|9|I-131|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
+  },
+  "MSC|22|3|9|I-131|Expedite Request Received": {
+    "18932": 1
   },
   "MSC|22|3|9|I-131|Fingerprint Fee Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-212|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|3|9|I-360|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|3|9|I-360|Case Was Received": {
     "18929": 293,
     "18930": 293,
-    "18931": 293
+    "18931": 293,
+    "18932": 293
   },
   "MSC|22|3|9|I-360|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|3|9|I-360|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|3|9|I-360|Name Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 29,
     "18930": 29,
-    "18931": 29
+    "18931": 29,
+    "18932": 29
   },
   "MSC|22|3|9|I-485|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|3|9|I-485|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|3|9|I-485|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-485|Case Transferred To Another Office": {
     "18929": 11,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-485|Case Was Received": {
     "18929": 231,
     "18930": 231,
-    "18931": 231
+    "18931": 231,
+    "18932": 231
   },
   "MSC|22|3|9|I-485|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 93,
     "18930": 93,
-    "18931": 93
+    "18931": 93,
+    "18932": 93
   },
   "MSC|22|3|9|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 208,
     "18930": 218,
-    "18931": 218
+    "18931": 218,
+    "18932": 218
   },
   "MSC|22|3|9|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 313,
     "18930": 310,
-    "18931": 310
+    "18931": 310,
+    "18932": 308
   },
   "MSC|22|3|9|I-485|Fees Were Waived": {
     "18929": 88,
     "18930": 88,
-    "18931": 88
+    "18931": 88,
+    "18932": 88
   },
   "MSC|22|3|9|I-485|Fingerprint Fee Was Received": {
     "18929": 1393,
     "18930": 1382,
-    "18931": 1382
+    "18931": 1382,
+    "18932": 1379
   },
   "MSC|22|3|9|I-485|Request for Initial Evidence Was Sent": {
     "18929": 22,
     "18930": 36,
-    "18931": 36
+    "18931": 36,
+    "18932": 41
   },
   "MSC|22|3|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-601|Case Was Received": {
     "18929": 93,
     "18930": 93,
-    "18931": 93
+    "18931": 93,
+    "18932": 93
   },
   "MSC|22|3|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|3|9|I-601|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|3|9|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 12,
     "18930": 12,
-    "18931": 12
+    "18931": 12,
+    "18932": 12
   },
   "MSC|22|3|9|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-751|Case Was Received": {
     "18929": 204,
     "18930": 204,
-    "18931": 204
+    "18931": 204,
+    "18932": 204
   },
   "MSC|22|3|9|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "MSC|22|3|9|I-751|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 23,
     "18930": 23,
-    "18931": 23
+    "18931": 23,
+    "18932": 23
   },
   "MSC|22|3|9|I-751|Fees Were Waived": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|3|9|I-765|Case Closed Benefit Received By Other Means": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 146,
     "18930": 146,
-    "18931": 146
+    "18931": 146,
+    "18932": 146
   },
   "MSC|22|3|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|3|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|3|9|I-765|Case Transferred To Another Office": {
     "18929": 1,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|3|9|I-765|Case Was Received": {
     "18929": 2536,
     "18930": 2536,
-    "18931": 2536
+    "18931": 2536,
+    "18932": 2535
   },
   "MSC|22|3|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 9,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "MSC|22|3|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 227,
     "18930": 227,
-    "18931": 227
+    "18931": 227,
+    "18932": 227
   },
   "MSC|22|3|9|I-765|Case Was Transferred And A New Office Has Jurisdiction": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 1786,
     "18930": 1782,
-    "18931": 1782
+    "18931": 1782,
+    "18932": 1782
   },
   "MSC|22|3|9|I-765|Expedite Request Received": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 8
   },
   "MSC|22|3|9|I-765|Fees Were Waived": {
     "18929": 343,
     "18930": 341,
-    "18931": 341
+    "18931": 341,
+    "18932": 341
   },
   "MSC|22|3|9|I-765|Fingerprint Fee Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|3|9|I-824|Case Was Received": {
     "18929": 23,
     "18930": 23,
-    "18931": 23
+    "18931": 23,
+    "18932": 23
   },
   "MSC|22|3|9|I-824|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-824|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|I-824|Name Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|unknown|Case Rejected For Form Not Signed And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|unknown|Case Was Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 4
   },
   "MSC|22|3|9|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|3|9|unknown|Date of Birth Was Updated": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 3
   },
   "MSC|22|3|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 43,
     "18930": 43,
-    "18931": 43
+    "18931": 43,
+    "18932": 43
   },
   "MSC|22|4|9|I-102|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-102|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-102|Case Was Received": {
     "18929": 13,
     "18930": 13,
-    "18931": 13
+    "18931": 13,
+    "18932": 13
   },
   "MSC|22|4|9|I-130|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-130|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-130|Case Was Received": {
     "18929": 58,
     "18930": 58,
-    "18931": 58
+    "18931": 58,
+    "18932": 58
   },
   "MSC|22|4|9|I-130|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-130|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 20,
     "18930": 20,
-    "18931": 20
+    "18931": 20,
+    "18932": 20
   },
   "MSC|22|4|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 15,
     "18930": 15,
-    "18931": 15
+    "18931": 15,
+    "18932": 15
   },
   "MSC|22|4|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|4|9|I-131|Case Transferred To Another Office": {
     "18929": 26
@@ -2055,22 +2527,26 @@
   "MSC|22|4|9|I-131|Case Was Received": {
     "18929": 1951,
     "18930": 1951,
-    "18931": 1951
+    "18931": 1951,
+    "18932": 1951
   },
   "MSC|22|4|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 53,
     "18930": 53,
-    "18931": 53
+    "18931": 53,
+    "18932": 53
   },
   "MSC|22|4|9|I-131|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 9,
     "18930": 35,
-    "18931": 35
+    "18931": 35,
+    "18932": 35
   },
   "MSC|22|4|9|I-140|Case Was Received": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|4|9|I-212|Case Transferred To Another Office": {
     "18929": 1
@@ -2078,565 +2554,678 @@
   "MSC|22|4|9|I-212|Case Was Received": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|4|9|I-212|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-212|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-212|Case Was Transferred And A New Office Has Jurisdiction": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|4|9|I-360|Case Transferred To Another Office": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-360|Case Was Received": {
     "18929": 225,
     "18930": 224,
-    "18931": 224
+    "18931": 224,
+    "18932": 224
   },
   "MSC|22|4|9|I-360|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|4|9|I-360|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|4|9|I-360|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|4|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 57,
     "18930": 57,
-    "18931": 57
+    "18931": 57,
+    "18932": 57
   },
   "MSC|22|4|9|I-485|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|4|9|I-485|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-485|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|4|9|I-485|Case Transferred To Another Office": {
     "18929": 59,
     "18930": 20,
-    "18931": 20
+    "18931": 20,
+    "18932": 20
   },
   "MSC|22|4|9|I-485|Case Was Received": {
     "18929": 210,
     "18930": 210,
-    "18931": 210
+    "18931": 210,
+    "18932": 210
   },
   "MSC|22|4|9|I-485|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "MSC|22|4|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 91,
     "18930": 91,
-    "18931": 91
+    "18931": 91,
+    "18932": 91
   },
   "MSC|22|4|9|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 149,
     "18930": 188,
-    "18931": 188
+    "18931": 188,
+    "18932": 188
   },
   "MSC|22|4|9|I-485|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 352,
     "18930": 352,
-    "18931": 352
+    "18931": 352,
+    "18932": 352
   },
   "MSC|22|4|9|I-485|Fees Were Waived": {
     "18929": 191,
     "18930": 191,
-    "18931": 191
+    "18931": 191,
+    "18932": 191
   },
   "MSC|22|4|9|I-485|Fingerprint Fee Was Received": {
     "18929": 1728,
     "18930": 1728,
-    "18931": 1728
+    "18931": 1728,
+    "18932": 1728
   },
   "MSC|22|4|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-601|Case Was Received": {
     "18929": 70,
     "18930": 70,
-    "18931": 70
+    "18931": 70,
+    "18932": 70
   },
   "MSC|22|4|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|4|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|4|9|I-601|Fees Were Waived": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 25,
     "18930": 25,
-    "18931": 25
+    "18931": 25,
+    "18932": 25
   },
   "MSC|22|4|9|I-751|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-751|Case Was Received": {
     "18929": 203,
     "18930": 203,
-    "18931": 203
+    "18931": 203,
+    "18932": 203
   },
   "MSC|22|4|9|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 10,
     "18930": 10,
-    "18931": 10
+    "18931": 10,
+    "18932": 10
   },
   "MSC|22|4|9|I-751|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 23,
     "18930": 23,
-    "18931": 23
+    "18931": 23,
+    "18932": 23
   },
   "MSC|22|4|9|I-751|Fees Were Waived": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "MSC|22|4|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 86,
     "18930": 86,
-    "18931": 86
+    "18931": 86,
+    "18932": 86
   },
   "MSC|22|4|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|4|9|I-765|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 10,
     "18930": 10,
-    "18931": 10
+    "18931": 10,
+    "18932": 10
   },
   "MSC|22|4|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|4|9|I-765|Case Was Received": {
     "18929": 2478,
     "18930": 2478,
-    "18931": 2478
+    "18931": 2478,
+    "18932": 2478
   },
   "MSC|22|4|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 11,
     "18930": 11,
-    "18931": 11
+    "18931": 11,
+    "18932": 11
   },
   "MSC|22|4|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 195,
     "18930": 195,
-    "18931": 195
+    "18931": 195,
+    "18932": 195
   },
   "MSC|22|4|9|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 1277,
     "18930": 1277,
-    "18931": 1277
+    "18931": 1277,
+    "18932": 1277
   },
   "MSC|22|4|9|I-765|Fees Were Waived": {
     "18929": 225,
     "18930": 225,
-    "18931": 225
+    "18931": 225,
+    "18932": 225
   },
   "MSC|22|4|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-824|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|I-824|Case Was Received": {
     "18929": 22,
     "18930": 22,
-    "18931": 22
+    "18931": 22,
+    "18932": 22
   },
   "MSC|22|4|9|I-824|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|4|9|I-824|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|unknown|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|4|9|unknown|Case Was Received": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|4|9|unknown|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|unknown|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|4|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 62,
     "18930": 62,
-    "18931": 62
+    "18931": 62,
+    "18932": 62
   },
   "MSC|22|4|9|unknown|Name Was Updated": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|5|9|I-102|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|5|9|I-102|Case Was Received": {
     "18929": 14,
     "18930": 14,
-    "18931": 14
+    "18931": 14,
+    "18932": 14
   },
   "MSC|22|5|9|I-102|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-129F|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-130|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|5|9|I-130|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|5|9|I-130|Case Was Received": {
     "18929": 48,
     "18930": 48,
-    "18931": 48
+    "18931": 48,
+    "18932": 48
   },
   "MSC|22|5|9|I-130|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-130|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "MSC|22|5|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 26,
     "18930": 26,
-    "18931": 26
+    "18931": 26,
+    "18932": 26
   },
   "MSC|22|5|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 19,
     "18930": 19,
-    "18931": 19
+    "18931": 19,
+    "18932": 19
   },
   "MSC|22|5|9|I-131|Case Transferred To Another Office": {
     "18929": 9,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 21
   },
   "MSC|22|5|9|I-131|Case Was Received": {
     "18929": 1262,
     "18930": 1262,
-    "18931": 1262
+    "18931": 1262,
+    "18932": 1249
   },
   "MSC|22|5|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 75,
     "18930": 75,
-    "18931": 75
+    "18931": 75,
+    "18932": 75
   },
   "MSC|22|5|9|I-131|Case Was Transferred And A New Office Has Jurisdiction": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-131|Fingerprint Fee Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-212|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|5|9|I-212|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-212|Case Was Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|5|9|I-212|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-212|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|5|9|I-360|Case Was Received": {
     "18929": 355,
     "18930": 355,
-    "18931": 355
+    "18931": 355,
+    "18932": 355
   },
   "MSC|22|5|9|I-360|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|5|9|I-360|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|5|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 96,
     "18930": 96,
-    "18931": 96
+    "18931": 96,
+    "18932": 96
   },
   "MSC|22|5|9|I-485|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|5|9|I-485|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|5|9|I-485|Case Transferred To Another Office": {
     "18929": 44,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 22
   },
   "MSC|22|5|9|I-485|Case Was Received": {
     "18929": 306,
     "18930": 305,
-    "18931": 305
+    "18931": 305,
+    "18932": 301
   },
   "MSC|22|5|9|I-485|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "MSC|22|5|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 159,
     "18930": 159,
-    "18931": 159
+    "18931": 159,
+    "18932": 159
   },
   "MSC|22|5|9|I-485|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 1,
     "18930": 45,
-    "18931": 45
+    "18931": 45,
+    "18932": 45
   },
   "MSC|22|5|9|I-485|Fees Were Waived": {
     "18929": 295,
     "18930": 295,
-    "18931": 295
+    "18931": 295,
+    "18932": 295
   },
   "MSC|22|5|9|I-485|Fingerprint Fee Was Received": {
     "18929": 1458,
     "18930": 1450,
-    "18931": 1450
+    "18931": 1450,
+    "18932": 1441
   },
   "MSC|22|5|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 7,
     "18930": 7,
-    "18931": 7
+    "18931": 7,
+    "18932": 7
   },
   "MSC|22|5|9|I-601|Case Was Received": {
     "18929": 87,
     "18930": 87,
-    "18931": 87
+    "18931": 87,
+    "18932": 87
   },
   "MSC|22|5|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|5|9|I-601|Fees Were Waived": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 13,
     "18930": 13,
-    "18931": 13
+    "18931": 13,
+    "18932": 13
   },
   "MSC|22|5|9|I-751|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-751|Case Was Received": {
     "18929": 251,
     "18930": 251,
-    "18931": 251
+    "18931": 251,
+    "18932": 251
   },
   "MSC|22|5|9|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 18,
     "18930": 18,
-    "18931": 18
+    "18931": 18,
+    "18932": 18
   },
   "MSC|22|5|9|I-751|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-751|Fees Were Waived": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "MSC|22|5|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 149,
     "18930": 149,
-    "18931": 149
+    "18931": 149,
+    "18932": 149
   },
   "MSC|22|5|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|5|9|I-765|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 28,
     "18930": 28,
-    "18931": 28
+    "18931": 28,
+    "18932": 28
   },
   "MSC|22|5|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 15,
     "18930": 15,
-    "18931": 15
+    "18931": 15,
+    "18932": 15
   },
   "MSC|22|5|9|I-765|Case Was Denied": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-765|Case Was Received": {
     "18929": 4100,
     "18930": 4100,
-    "18931": 4100
+    "18931": 4100,
+    "18932": 4100
   },
   "MSC|22|5|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 9,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "MSC|22|5|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 394,
     "18930": 394,
-    "18931": 394
+    "18931": 394,
+    "18932": 394
   },
   "MSC|22|5|9|I-765|Fees Were Waived": {
     "18929": 442,
     "18930": 442,
-    "18931": 442
+    "18931": 442,
+    "18932": 442
   },
   "MSC|22|5|9|I-765|Fingerprint Fee Was Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|5|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|5|9|I-824|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-824|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|I-824|Case Transferred To Another Office": {
     "18929": 1
@@ -2644,761 +3233,944 @@
   "MSC|22|5|9|I-824|Case Was Received": {
     "18929": 38,
     "18930": 38,
-    "18931": 38
+    "18931": 38,
+    "18932": 38
   },
   "MSC|22|5|9|I-824|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|5|9|I-824|Case Was Transferred And A New Office Has Jurisdiction": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|unknown|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|unknown|Case Transferred To Another Office": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|5|9|unknown|Case Was Received": {
     "18929": 31,
     "18930": 28,
-    "18931": 28
+    "18931": 28,
+    "18932": 27
   },
   "MSC|22|5|9|unknown|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|5|9|unknown|Date of Birth Was Updated": {
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|5|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 121,
     "18930": 121,
-    "18931": 121
+    "18931": 121,
+    "18932": 121
+  },
+  "MSC|22|5|9|unknown|Request for Initial Evidence Was Sent": {
+    "18932": 1
   },
   "MSC|22|6|9|I-102|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|6|9|I-102|Case Was Received": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 3
   },
   "MSC|22|6|9|I-102|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-102|Case Was Rejected Because It Was Improperly Filed": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 2
   },
   "MSC|22|6|9|I-130|Case Was Received": {
     "18929": 10,
     "18930": 12,
-    "18931": 14
+    "18931": 14,
+    "18932": 17
   },
   "MSC|22|6|9|I-130|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-130|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 6,
     "18930": 8,
-    "18931": 10
+    "18931": 10,
+    "18932": 11
   },
   "MSC|22|6|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|6|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "MSC|22|6|9|I-131|Case Was Received": {
     "18929": 239,
     "18930": 543,
-    "18931": 603
+    "18931": 603,
+    "18932": 826
   },
   "MSC|22|6|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 19,
-    "18931": 20
+    "18931": 20,
+    "18932": 21
   },
   "MSC|22|6|9|I-140|Case Was Received": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-212|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|6|9|I-212|Case Was Received": {
     "18930": 5,
-    "18931": 6
+    "18931": 6,
+    "18932": 8
+  },
+  "MSC|22|6|9|I-212|Case Was Rejected Because I Did Not Sign My Form": {
+    "18932": 1
+  },
+  "MSC|22|6|9|I-212|Case Was Rejected Because It Was Improperly Filed": {
+    "18932": 1
   },
   "MSC|22|6|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-360|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-360|Case Was Received": {
     "18929": 53,
     "18930": 124,
-    "18931": 157
+    "18931": 157,
+    "18932": 196
   },
   "MSC|22|6|9|I-360|Case Was Rejected Because It Was Improperly Filed": {
     "18930": 4,
-    "18931": 5
+    "18931": 5,
+    "18932": 6
   },
   "MSC|22|6|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 5,
     "18930": 11,
-    "18931": 11
+    "18931": 11,
+    "18932": 13
   },
   "MSC|22|6|9|I-485|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 2,
     "18930": 2,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|6|9|I-485|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|6|9|I-485|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 3,
     "18930": 4,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|6|9|I-485|Case Was Received": {
     "18929": 54,
     "18930": 103,
-    "18931": 109
+    "18931": 109,
+    "18932": 142
   },
   "MSC|22|6|9|I-485|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 2
   },
   "MSC|22|6|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 11,
     "18930": 37,
-    "18931": 41
+    "18931": 41,
+    "18932": 45
   },
   "MSC|22|6|9|I-485|Fees Were Waived": {
     "18929": 20,
     "18930": 60,
-    "18931": 69
+    "18931": 69,
+    "18932": 78
   },
   "MSC|22|6|9|I-485|Fingerprint Fee Was Received": {
     "18929": 215,
     "18930": 546,
-    "18931": 605
+    "18931": 605,
+    "18932": 844
   },
   "MSC|22|6|9|I-539|Case Was Received": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-601|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-601|Case Was Received": {
     "18929": 4,
     "18930": 28,
-    "18931": 34
+    "18931": 34,
+    "18932": 41
   },
   "MSC|22|6|9|I-601|Case Was Rejected Because I Did Not Sign My Form": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-601|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 3
   },
   "MSC|22|6|9|I-751|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 4,
     "18930": 10,
-    "18931": 10
+    "18931": 10,
+    "18932": 13
   },
   "MSC|22|6|9|I-751|Case Was Received": {
     "18929": 33,
     "18930": 104,
-    "18931": 116
+    "18931": 116,
+    "18932": 158
   },
   "MSC|22|6|9|I-751|Case Was Rejected Because I Did Not Sign My Form": {
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "MSC|22|6|9|I-751|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 2,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 8
   },
   "MSC|22|6|9|I-751|Fees Were Waived": {
     "18929": 1,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "MSC|22|6|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 16,
     "18930": 38,
-    "18931": 38
+    "18931": 38,
+    "18932": 39
   },
   "MSC|22|6|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18930": 1,
-    "18931": 2
+    "18931": 2,
+    "18932": 5
   },
   "MSC|22|6|9|I-765|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18930": 2,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "MSC|22|6|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-765|Case Was Received": {
     "18929": 640,
     "18930": 1629,
-    "18931": 1889
+    "18931": 1889,
+    "18932": 2526
   },
   "MSC|22|6|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18930": 2,
-    "18931": 3
+    "18931": 3,
+    "18932": 4
   },
   "MSC|22|6|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 28,
     "18930": 93,
-    "18931": 107
+    "18931": 107,
+    "18932": 123
   },
   "MSC|22|6|9|I-765|Fees Were Waived": {
     "18929": 20,
     "18930": 136,
-    "18931": 145
+    "18931": 145,
+    "18932": 146
+  },
+  "MSC|22|6|9|I-765|Fingerprint Fee Was Received": {
+    "18932": 1
   },
   "MSC|22|6|9|I-824|Case Rejected Because I Sent An Incorrect Fee": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|I-824|Case Was Received": {
     "18929": 5,
     "18930": 14,
-    "18931": 16
+    "18931": 16,
+    "18932": 21
   },
   "MSC|22|6|9|unknown|Case Was Received": {
     "18929": 1,
     "18930": 6,
-    "18931": 9
+    "18931": 9,
+    "18932": 12
   },
   "MSC|22|6|9|unknown|Case Was Rejected Because It Was Improperly Filed": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "MSC|22|6|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 35,
     "18930": 47,
-    "18931": 49
+    "18931": 49,
+    "18932": 63
   },
   "SRC|22|1|9|I-102|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "SRC|22|1|9|I-102|Case Was Received": {
     "18929": 18,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 23
   },
   "SRC|22|1|9|I-129F|Case Was Received": {
     "18929": 38,
     "18930": 39,
-    "18931": 39
+    "18931": 39,
+    "18932": 43
   },
   "SRC|22|1|9|I-130|Case Was Received": {
     "18929": 11,
     "18930": 11,
-    "18931": 11
+    "18931": 11,
+    "18932": 11
   },
   "SRC|22|1|9|I-131|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 39,
     "18930": 39,
-    "18931": 39
+    "18931": 39,
+    "18932": 39
   },
   "SRC|22|1|9|I-131|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 5,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "SRC|22|1|9|I-131|Case Was Received": {
     "18929": 1660,
     "18930": 1780,
-    "18931": 1793
+    "18931": 1793,
+    "18932": 1917
   },
   "SRC|22|1|9|I-131|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-131|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 14,
     "18930": 16,
-    "18931": 16
+    "18931": 16,
+    "18932": 17
   },
   "SRC|22|1|9|I-131|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 130,
     "18930": 130,
-    "18931": 130
+    "18931": 130,
+    "18932": 130
   },
   "SRC|22|1|9|I-131|Date of Birth Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-131|Expedite Request Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-131|Name Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-140|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 8,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "SRC|22|1|9|I-140|Case Was Received": {
     "18929": 1280,
     "18930": 1349,
-    "18931": 1359
+    "18931": 1359,
+    "18932": 1460
   },
   "SRC|22|1|9|I-140|Case Was Received and A Receipt Notice Was Sent": {
     "18929": 1,
     "18930": 2,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "SRC|22|1|9|I-140|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 7,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "SRC|22|1|9|I-140|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 26,
     "18930": 30,
-    "18931": 30
+    "18931": 30,
+    "18932": 32
   },
   "SRC|22|1|9|I-140|Date of Birth Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-140|Name Was Updated": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 4
   },
   "SRC|22|1|9|I-140|Request For Premium Processing Services Was Received": {
     "18929": 1,
-    "18930": 1
+    "18930": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-485|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "SRC|22|1|9|I-485|Case Was Received": {
     "18929": 188,
     "18930": 192,
-    "18931": 192
+    "18931": 192,
+    "18932": 202
   },
   "SRC|22|1|9|I-485|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 14,
     "18930": 17,
-    "18931": 17
+    "18931": 17,
+    "18932": 18
+  },
+  "SRC|22|1|9|I-485|Date of Birth Was Updated": {
+    "18932": 1
   },
   "SRC|22|1|9|I-485|Fingerprint Fee Was Received": {
     "18929": 864,
     "18930": 908,
-    "18931": 915
+    "18931": 915,
+    "18932": 964
   },
   "SRC|22|1|9|I-485|Name Was Updated": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 2
   },
   "SRC|22|1|9|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 21,
     "18930": 21,
-    "18931": 21
+    "18931": 21,
+    "18932": 21
   },
   "SRC|22|1|9|I-539|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "SRC|22|1|9|I-539|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-539|Case Was Denied": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-539|Case Was Received": {
     "18929": 127,
     "18930": 139,
-    "18931": 147
+    "18931": 147,
+    "18932": 155
   },
   "SRC|22|1|9|I-539|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 6,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "SRC|22|1|9|I-539|Fingerprint Fee Was Received": {
     "18929": 270,
     "18930": 290,
-    "18931": 307
+    "18931": 307,
+    "18932": 313
+  },
+  "SRC|22|1|9|I-539|Name Was Updated": {
+    "18932": 1
   },
   "SRC|22|1|9|I-601A|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 13,
     "18930": 14,
-    "18931": 15
+    "18931": 15,
+    "18932": 16
   },
   "SRC|22|1|9|I-601|Case Was Received": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-751|Case Was Received": {
     "18929": 1079,
     "18930": 1202,
-    "18931": 1223
+    "18931": 1223,
+    "18932": 1319
   },
   "SRC|22|1|9|I-751|Fees Were Waived": {
     "18929": 8,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "SRC|22|1|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 34,
     "18930": 36,
-    "18931": 36
+    "18931": 36,
+    "18932": 36
   },
   "SRC|22|1|9|I-765|Case Rejected For Incorrect Fee And Incorrect Form Version": {
     "18929": 6,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "SRC|22|1|9|I-765|Case Was Received": {
     "18929": 1438,
     "18930": 1543,
-    "18931": 1558
+    "18931": 1558,
+    "18932": 1663
   },
   "SRC|22|1|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "SRC|22|1|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 31,
     "18930": 33,
-    "18931": 33
+    "18931": 33,
+    "18932": 34
   },
   "SRC|22|1|9|I-765|Case Was Updated To Show Fingerprints Were Taken": {
     "18929": 189,
     "18930": 189,
-    "18931": 189
+    "18931": 189,
+    "18932": 189
   },
   "SRC|22|1|9|I-765|Fees Were Waived": {
     "18929": 3,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "SRC|22|1|9|I-765|Fingerprint Fee Was Received": {
     "18929": 4,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "SRC|22|1|9|I-817|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-817|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|I-817|Fingerprint Fee Was Received": {
     "18929": 10,
     "18930": 11,
-    "18931": 12
+    "18931": 12,
+    "18932": 12
   },
   "SRC|22|1|9|I-824|Case Was Received": {
     "18929": 55,
     "18930": 57,
-    "18931": 58
+    "18931": 58,
+    "18932": 63
   },
   "SRC|22|1|9|I-824|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "SRC|22|1|9|unknown|Case Transferred And New Office Has Jurisdiction": {
     "18929": 2,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "SRC|22|1|9|unknown|Case Was Received": {
     "18929": 10,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 6
   },
   "SRC|22|1|9|unknown|Case Was Transferred And A New Office Has Jurisdiction": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "SRC|22|1|9|unknown|Document Was Mailed To Me": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "SRC|22|1|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 55,
     "18930": 56,
-    "18931": 57
+    "18931": 57,
+    "18932": 57
   },
   "WAC|22|1|9|I-102|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-102|Case Was Received": {
     "18929": 5,
     "18930": 5,
-    "18931": 6
+    "18931": 6,
+    "18932": 12
   },
   "WAC|22|1|9|I-129F|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 14,
     "18930": 18,
-    "18931": 18
+    "18931": 18,
+    "18932": 18
   },
   "WAC|22|1|9|I-129F|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 4,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "WAC|22|1|9|I-129F|Case Was Received": {
     "18929": 548,
     "18930": 689,
-    "18931": 695
+    "18931": 695,
+    "18932": 758
   },
   "WAC|22|1|9|I-129F|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 6,
     "18930": 8,
-    "18931": 8
+    "18931": 8,
+    "18932": 8
   },
   "WAC|22|1|9|I-129F|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 10,
     "18930": 12,
-    "18931": 12
+    "18931": 12,
+    "18932": 12
   },
   "WAC|22|1|9|I-129F|Date of Birth Was Updated": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-130|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-130|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "WAC|22|1|9|I-130|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 9,
-    "18931": 9
+    "18931": 9,
+    "18932": 9
   },
   "WAC|22|1|9|I-131|Case Was Received": {
     "18929": 15,
     "18930": 22,
-    "18931": 22
+    "18931": 22,
+    "18932": 22
   },
   "WAC|22|1|9|I-360|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "WAC|22|1|9|I-360|Case Rejected For Incorrect Fee And Form Not Signed": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "WAC|22|1|9|I-360|Case Was Received": {
     "18929": 25,
     "18930": 31,
-    "18931": 33
+    "18931": 33,
+    "18932": 38
+  },
+  "WAC|22|1|9|I-360|Case Was Rejected Because I Did Not Sign My Form": {
+    "18932": 1
   },
   "WAC|22|1|9|I-485|Case Was Received": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-485|Fingerprint Fee Was Received": {
     "18929": 2,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "WAC|22|1|9|I-526|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-526|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-526|Case Was Received": {
     "18929": 4,
     "18930": 5,
-    "18931": 5
+    "18931": 5,
+    "18932": 5
   },
   "WAC|22|1|9|I-539|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 9,
     "18930": 14,
-    "18931": 14
+    "18931": 14,
+    "18932": 14
   },
   "WAC|22|1|9|I-539|Case Was Received": {
     "18929": 85,
     "18930": 96,
-    "18931": 108
+    "18931": 108,
+    "18932": 124
   },
   "WAC|22|1|9|I-539|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "WAC|22|1|9|I-539|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 6
   },
   "WAC|22|1|9|I-539|Fingerprint Fee Was Received": {
     "18929": 110,
     "18930": 159,
-    "18931": 170
+    "18931": 170,
+    "18932": 178
   },
   "WAC|22|1|9|I-601|Case Was Received": {
     "18929": 4,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "WAC|22|1|9|I-751|Case Was Received": {
     "18929": 320,
     "18930": 414,
-    "18931": 444
+    "18931": 444,
+    "18932": 537
+  },
+  "WAC|22|1|9|I-751|Case Was Rejected Because I Did Not Sign My Form": {
+    "18932": 1
   },
   "WAC|22|1|9|I-751|Fees Were Waived": {
     "18929": 3,
     "18930": 4,
-    "18931": 4
+    "18931": 4,
+    "18932": 4
   },
   "WAC|22|1|9|I-765|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 3,
     "18930": 3,
-    "18931": 3
+    "18931": 3,
+    "18932": 3
   },
   "WAC|22|1|9|I-765|Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 2
   },
   "WAC|22|1|9|I-765|Case Was Received": {
     "18929": 345,
     "18930": 418,
-    "18931": 446
+    "18931": 446,
+    "18932": 518
   },
   "WAC|22|1|9|I-765|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 3
   },
   "WAC|22|1|9|I-765|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 5,
     "18930": 6,
-    "18931": 6
+    "18931": 6,
+    "18932": 7
   },
   "WAC|22|1|9|I-765|Fees Were Waived": {
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-824|Case Was Received": {
     "18929": 24,
     "18930": 32,
-    "18931": 33
+    "18931": 33,
+    "18932": 36
   },
   "WAC|22|1|9|I-824|Case Was Rejected Because I Did Not Sign My Form": {
     "18929": 2,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 3
   },
   "WAC|22|1|9|I-824|Case Was Rejected Because It Was Improperly Filed": {
     "18929": 1,
     "18930": 1,
-    "18931": 1
+    "18931": 1,
+    "18932": 1
   },
   "WAC|22|1|9|I-829|Case Rejected Because I Sent An Incorrect Fee": {
     "18929": 1,
     "18930": 2,
-    "18931": 2
+    "18931": 2,
+    "18932": 2
   },
   "WAC|22|1|9|I-829|Case Was Received": {
     "18929": 33,
     "18930": 45,
-    "18931": 45
+    "18931": 45,
+    "18932": 51
+  },
+  "WAC|22|1|9|unknown|Case Transferred And New Office Has Jurisdiction": {
+    "18932": 4
   },
   "WAC|22|1|9|unknown|Case Was Received": {
     "18929": 30,
     "18930": 40,
-    "18931": 40
+    "18931": 40,
+    "18932": 42
   },
   "WAC|22|1|9|unknown|Form G-28 Was Rejected Because It Was Improperly Filed": {
     "18929": 10,
     "18930": 11,
-    "18931": 11
+    "18931": 11,
+    "18932": 15
   }
 }
