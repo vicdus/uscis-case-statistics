@@ -339,7 +339,7 @@ func build_transitioning_map() {
 			if case_form == "NEW_CASE" {
 				case_form = case_status_new.Form
 			}
-			if caseid[3:6] == "219" {
+			if caseid[5:6] == "9" {
 				fmt.Sscanf(caseid, "%3s%2s%1s%3s%4s", &center, &year, &code, &day, &serial)
 				count_key = fmt.Sprintf("%s|%s|%s|%s|%s|%s|%s|%s", "center_year_code_day_serial", case_form, center, year, code, day, case_status_old.Status, case_status_new.Status)
 			} else {
