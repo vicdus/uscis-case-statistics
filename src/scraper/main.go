@@ -131,13 +131,20 @@ func get(url string, retry int) Result {
 
 	body := doc.Find(".rows").First()
 	status := body.Find("h1").Text()
+	case_id := strings.ReplaceAll(url, "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=", "")
 	for _, form := range FORM_TYPES {
 		if strings.Contains(doc.Text(), form) {
+			case_form_type_global_cache[case_id] = form
 			return Result{status, form}
 		}
 	}
 	if status != "" {
-		return Result{status, "unknown"}
+		cachedForm, ok := case_form_type_global_cache[case_id]
+		if ok {
+			return Result{status, cachedForm}
+		} else {
+			return Result{status, "unknown"}
+		}
 	} else {
 		return Result{"", ""}
 	}
@@ -176,15 +183,6 @@ func claw(center string, two_digit_yr int, day int, code int, case_serial_number
 			if now != last_record {
 				fmt.Printf("\t\t\tQPS for previous %d: %d\n", report_freq, report_freq/(now-last_record))
 				last_record = now
-			}
-		}
-
-		if res.Form != "unknown" {
-			cachedForm, ok := case_form_type_global_cache[case_id]
-			if !ok {
-				case_form_type_global_cache[case_id] = res.Form
-			} else {
-				res.Form = cachedForm
 			}
 		}
 		case_status_store_mutex.Unlock()
