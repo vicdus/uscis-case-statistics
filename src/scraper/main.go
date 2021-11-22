@@ -142,7 +142,9 @@ func get(url string, retry int) Result {
 		}
 	}
 	if status != "" {
+		case_form_store_mutex.Lock()
 		cachedForm, ok := case_form_type_global_cache[case_id]
+		case_form_store_mutex.Unlock()
 		if ok {
 			return Result{status, cachedForm}
 		} else {
