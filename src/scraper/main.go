@@ -90,6 +90,7 @@ const (
 
 var mutex sync.Mutex
 var case_status_store_mutex sync.Mutex
+var case_form_store_mutex sync.Mutex
 var epoch_day = time.Now().Unix() / 86400
 var sem = semaphore.NewWeighted(900)
 
@@ -134,7 +135,9 @@ func get(url string, retry int) Result {
 	case_id := strings.ReplaceAll(url, "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=", "")
 	for _, form := range FORM_TYPES {
 		if strings.Contains(doc.Text(), form) {
+			case_form_store_mutex.Lock()
 			case_form_type_global_cache[case_id] = form
+			case_form_store_mutex.Unlock()
 			return Result{status, form}
 		}
 	}
