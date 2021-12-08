@@ -22,6 +22,7 @@ var CENTER_NAMES = []string{
 	"MSC",
 	"LIN",
 	"SRC",
+	"IOE",
 	// "YSC" seems nobody cares,
 }
 
