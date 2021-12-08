@@ -22,6 +22,7 @@ import Grid from "@material-ui/core/Grid";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import Slider from "@material-ui/core/Slider";
+import { transform } from "lodash";
 
 
 type FY = "20" | "21";
@@ -89,7 +90,7 @@ const App: React.FC<{}> = () => {
         setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
       if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
-        setTransitioningData((await (await import('./scraper/transitioning.json')).default));
+        setTransitioningData((await (await import('./scraper/transitioning_1.json')).default));
         if (mode === 'data_center_year_code_day_serial') {
           setCaseData(((await import('./scraper/data_center_year_code_day_serial_' + selectedFy + '.json')).default));
         } else {
@@ -287,19 +288,28 @@ const App: React.FC<{}> = () => {
     }
   }
 
-  const processedTransitioningData = Object.entries(lodash.groupBy(Object
-    .entries(transitioningData[(selectedUpdateDay ?? latestUpdateDay) ?? ""] ?? {})
+  const all = false;
+  const processedTransitioningData = Immutable.List(all ?
+    Object.values(transitioningData).map(v => Object.entries(v)).flat() :
+    Object.entries(transitioningData[(selectedUpdateDay ?? latestUpdateDay) ?? ""] ?? {}))
     .map(([key, count]) => {
       const [format, form, center, year, code, day, from, to] = key.split("|");
       return { format, form, center, year, code, day, from, to, count };
     })
-    .filter(trans => trans.year === selectedFy && trans.center === selectedCenter && trans.form === selectedForm && ("data_" + trans.format) === url.searchParams.get("mode")), v => v.from)).map(([k, v]) => {
+    .filter(trans => trans.year === selectedFy && trans.center === selectedCenter && trans.form === selectedForm && ("data_" + trans.format) === url.searchParams.get("mode"))
+    .groupBy(trans => trans.from + trans.to)
+    .toMap()
+    .map(v => v.valueSeq().toList())
+    .valueSeq()
+    .toList()
+    .map(trans => {
       return {
-        from: v[0].from,
-        to: v[0].to,
-        count: lodash.sumBy(v, vv => vv.count)
+        from: trans.get(0)!.from,
+        to: trans.get(0)!.to,
+        count: lodash.sumBy(trans.toArray(), t => t.count)
       };
-    });
+    })
+    .toArray();
 
   const Transitioning = <div>
     {processedTransitioningData.sort((a, b) => b.count - a.count)
@@ -413,7 +423,7 @@ const App: React.FC<{}> = () => {
         ))}
       </BarChart>
     );
-  }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, selectedCenter, mode]);
+  }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, mode, selectedCenter, selectedFy]);
 
   const introduction = (
     <div>

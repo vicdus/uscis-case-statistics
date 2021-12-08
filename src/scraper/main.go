@@ -300,8 +300,8 @@ func getMerged(m1, m2 map[string]map[int64]int) {
 	}
 }
 
-func build_transitioning_map() {
-	b_old, err1 := os.Open(fmt.Sprintf("./nocommit/%d.bytes", epoch_day-1))
+func build_transitioning_map(delta int) {
+	b_old, err1 := os.Open(fmt.Sprintf("./nocommit/%d.bytes", epoch_day-int64(delta)))
 	b_new, err2 := os.Open(fmt.Sprintf("./nocommit/%d.bytes", epoch_day))
 	if err1 != nil || err2 != nil {
 		return
@@ -359,7 +359,7 @@ func build_transitioning_map() {
 		}
 	}
 	dir, _ := os.Getwd()
-	path := dir + "/transitioning.json"
+	path := fmt.Sprintf("%s/transitioning_%d.json", dir, delta)
 	existingTransitioningMap := make(map[int]map[string]int)
 	jsonFile := readF(path)
 	json.Unmarshal([]byte(jsonFile), &existingTransitioningMap)
@@ -422,6 +422,7 @@ func main() {
 		panic(err)
 	}
 	writeF(fmt.Sprintf("./nocommit/%d.bytes", epoch_day), buffer.Bytes())
-	build_transitioning_map()
+	build_transitioning_map(1)
+	build_transitioning_map(7)
 	persist_case_cache()
 }
