@@ -90,11 +90,7 @@ const App: React.FC<{}> = () => {
         setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
       if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
-<<<<<<< HEAD
-        setTransitioningData((await (await import('./scraper/transitioning.json')).default));
-=======
         setTransitioningData((await (await import('./scraper/transitioning_1.json')).default));
->>>>>>> 8ef57f531d5775cb14f34bf87ea7531f9c2ffedd
         if (mode === 'data_center_year_code_day_serial') {
           setCaseData(((await import('./scraper/data_center_year_code_day_serial_' + selectedFy + '.json')).default));
         } else {
@@ -171,7 +167,6 @@ const App: React.FC<{}> = () => {
   const latestUpdateDay = useMemo(
     () => selectedEntriesAllDate.map((e) => Number.parseInt(e.updateDay)).max(),
     [selectedEntriesAllDate]
-<<<<<<< HEAD
   );
 
   const selectedEntries = useMemo(
@@ -183,19 +178,6 @@ const App: React.FC<{}> = () => {
     [selectedEntriesAllDate, selectedUpdateDay, latestUpdateDay]
   );
 
-=======
-  );
-
-  const selectedEntries = useMemo(
-    () =>
-      selectedEntriesAllDate.filter(
-        (e) =>
-          e.updateDay === (selectedUpdateDay ?? latestUpdateDay)?.toString()
-      ),
-    [selectedEntriesAllDate, selectedUpdateDay, latestUpdateDay]
-  );
-
->>>>>>> 8ef57f531d5775cb14f34bf87ea7531f9c2ffedd
   const formTypes = useMemo(() => entries.map((e) => e.form).toSet()
     .filter(e => e && e.length > 0), [
     entries,
@@ -306,28 +288,14 @@ const App: React.FC<{}> = () => {
     }
   }
 
-<<<<<<< HEAD
-  const processedTransitioningData = Object.entries(lodash.groupBy(Object
-    .entries(transitioningData[(selectedUpdateDay ?? latestUpdateDay) ?? ""] ?? {})
-=======
   const all = false;
   const processedTransitioningData = Immutable.List(all ?
     Object.values(transitioningData).map(v => Object.entries(v)).flat() :
     Object.entries(transitioningData[(selectedUpdateDay ?? latestUpdateDay) ?? ""] ?? {}))
->>>>>>> 8ef57f531d5775cb14f34bf87ea7531f9c2ffedd
     .map(([key, count]) => {
       const [format, form, center, year, code, day, from, to] = key.split("|");
       return { format, form, center, year, code, day, from, to, count };
     })
-<<<<<<< HEAD
-    .filter(trans => trans.year === selectedFy && trans.center === selectedCenter && trans.form === selectedForm && ("data_" + trans.format) === url.searchParams.get("mode")), v => v.from)).map(([k, v]) => {
-      return {
-        from: v[0].from,
-        to: v[0].to,
-        count: lodash.sumBy(v, vv => vv.count)
-      };
-    });
-=======
     .filter(trans => trans.year === selectedFy && trans.center === selectedCenter && trans.form === selectedForm && ("data_" + trans.format) === url.searchParams.get("mode"))
     .groupBy(trans => trans.from + trans.to)
     .toMap()
@@ -342,7 +310,6 @@ const App: React.FC<{}> = () => {
       };
     })
     .toArray();
->>>>>>> 8ef57f531d5775cb14f34bf87ea7531f9c2ffedd
 
   const Transitioning = <div>
     {processedTransitioningData.sort((a, b) => b.count - a.count)
@@ -456,11 +423,7 @@ const App: React.FC<{}> = () => {
         ))}
       </BarChart>
     );
-<<<<<<< HEAD
-  }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, selectedCenter, mode]);
-=======
   }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, mode, selectedCenter, selectedFy]);
->>>>>>> 8ef57f531d5775cb14f34bf87ea7531f9c2ffedd
 
   const introduction = (
     <div>
