@@ -90,7 +90,11 @@ const App: React.FC<{}> = () => {
         setSearchParam("mode", ["I-485", "I-140"].includes(url.searchParams.get("form")!) ? "data_center_year_code_day_serial" : "data_center_year_day_code_serial");
       }
       if (url.searchParams.get("form") && url.searchParams.get("center") && url.searchParams.get("mode")) {
-        setTransitioningData((await (await import('./scraper/transitioning_1.json')).default));
+        if (url.searchParams.get("t_delta") === "7") {
+          setTransitioningData((await (await import('./scraper/transitioning_7.json')).default));
+        } else {
+          setTransitioningData((await (await import('./scraper/transitioning_1.json')).default));
+        }
         if (mode === 'data_center_year_code_day_serial') {
           setCaseData(((await import('./scraper/data_center_year_code_day_serial_' + selectedFy + '.json')).default));
         } else {
