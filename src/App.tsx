@@ -41,8 +41,8 @@ const App: React.FC<{}> = () => {
 
   const [filter, setFilter] = useState<string>("");
   const [selectedUpdateDay, setSelectedUpdateDay] = useState<string | null>(null);
-  const [caseData, setCaseData] = useState<{ [key: string]: { [day: string]: number } }>({});
-  const [transitioningData, setTransitioningData] = useState<{ [day: string]: { [index: string]: number } }>({});
+  const [caseData, setCaseData] = useState<{ [key: string]: { [day: string]: number; }; }>({});
+  const [transitioningData, setTransitioningData] = useState<{ [day: string]: { [index: string]: number; }; }>({});
 
   const setSearchParam = (key: string, value: string) => {
     const url = new URL(window.location.href);
@@ -56,9 +56,6 @@ const App: React.FC<{}> = () => {
 
   const filterByDay = (obj: any) => {
     if (!obj) return true;
-    console.log({
-      obj,
-    });
     const format =
       mode === "data_center_year_code_day_serial"
         ? selectedCenter + selectedFy + "9" + obj.day.toString().padStart(3, "0") + "XXXX"
@@ -257,8 +254,8 @@ const App: React.FC<{}> = () => {
   const processedTransitioningData = Immutable.List(
     all
       ? Object.values(transitioningData)
-          .map((v) => Object.entries(v))
-          .flat()
+        .map((v) => Object.entries(v))
+        .flat()
       : Object.entries(transitioningData[selectedUpdateDay ?? latestUpdateDay ?? ""] ?? {})
   )
     .map(([key, count]) => {
@@ -376,6 +373,62 @@ const App: React.FC<{}> = () => {
       </BarChart>
     );
   }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, mode, selectedCenter, selectedFy, filter]);
+
+
+
+  const existTransition: Set<string> = new Set();
+  const transitioningDataForBarChart = Immutable.List(Object.entries(transitioningData[selectedUpdateDay ?? latestUpdateDay ?? ""] ?? {})
+    .map(([key, count]) => {
+      const [mode, form, center, year, code, day, from, to] = key.split("|");
+      return { mode, form, center, year, code, day, from, to, count };
+    })
+    .filter(v => v.center === selectedCenter && v.form === selectedForm && "data_" + v.mode === mode)
+    .map(v => ({ day: v.day, from: v.from, to: v.to, count: v.count })))
+    .groupBy(v => v.day)
+    .map(v => v.toList().toArray())
+    .toList()
+    .map(v => {
+      const day = v[0].day;
+      const map: Map<string, number> = new Map();
+      map.set("day", Number.parseInt(day));
+      v.forEach(e => {
+        existTransition.add(e.from + " => " + e.to);
+        map.set(e.from + " => " + e.to, e.count);
+      });
+      return Object.fromEntries(map);
+    })
+    .toArray();
+
+  exisitDays.forEach(existDay => {
+    if (transitioningDataForBarChart.findIndex(data => data.day === existDay) === -1) {
+      transitioningDataForBarChart.push({ day: existDay });
+    }
+  });
+  transitioningDataForBarChart.sort((a, b) => a.day - b.day);
+
+  const barChartForTransition = <BarChart height={1440} width={810} data={transitioningDataForBarChart} layout="vertical">
+    <CartesianGrid strokeDasharray="3 3" />
+    <XAxis type="number" dataKey="day" domain={[0, 60]} />
+    <YAxis
+      type="category"
+      dataKey="day"
+      width={150}
+      tickFormatter={(day) =>
+        mode === "data_center_year_code_day_serial"
+          ? selectedCenter + selectedFy + "9" + day.toString().padStart(3, "0") + "XXXX"
+          : selectedCenter + selectedFy + day.toString().padStart(3, "0") + "5XXXX"
+      }
+      tick={{ fontSize: "6" }}
+      interval={0}
+      allowDecimals={true}
+      ticks={exisitDays.toArray()}
+    />
+    <Tooltip offset={100} />
+    {Array.from(existTransition.keys()).map((s, ind) => (
+      <Bar key={ind} isAnimationActive={false} dataKey={s} stackId="b" fill={getColor(s)} />
+    ))}
+  </BarChart>;
+
 
   const introduction = (
     <div>
@@ -499,6 +552,7 @@ const App: React.FC<{}> = () => {
       <FilterBox></FilterBox>
       {updateDayPicker}
       {barChart}
+      {barChartForTransition}
       {updateDayPicker}
       {TotalCountToday}
     </div>
