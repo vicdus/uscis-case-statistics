@@ -375,7 +375,7 @@ const App: React.FC<{}> = () => {
   }, [datasetWithBackfill, maxBarHeight, exisitDays, existStatus, todayCount, previousDayCount, mode, selectedCenter, selectedFy, filter]);
 
 
-
+  let maxTransitionCount = 1;
   const existTransition: Set<string> = new Set();
   const transitioningDataForBarChart = Immutable.List(Object.entries(transitioningData[selectedUpdateDay ?? latestUpdateDay ?? ""] ?? {})
     .map(([key, count]) => {
@@ -395,6 +395,7 @@ const App: React.FC<{}> = () => {
         existTransition.add(e.from + " => " + e.to);
         map.set(e.from + " => " + e.to, e.count);
       });
+      maxTransitionCount = Math.max(lodash.sumBy(v, e => e.count), maxTransitionCount)
       return Object.fromEntries(map);
     })
     .toArray();
@@ -406,9 +407,10 @@ const App: React.FC<{}> = () => {
   });
   transitioningDataForBarChart.sort((a, b) => a.day - b.day);
 
+
   const barChartForTransition = <BarChart height={1440} width={810} data={transitioningDataForBarChart} layout="vertical">
     <CartesianGrid strokeDasharray="3 3" />
-    <XAxis type="number" dataKey="day" domain={[0, 60]} />
+    <XAxis type="number" dataKey="day" domain={[0, maxTransitionCount]} allowDataOverflow={true} />
     <YAxis
       type="category"
       dataKey="day"
@@ -425,7 +427,7 @@ const App: React.FC<{}> = () => {
     />
     <Tooltip offset={100} />
     {Array.from(existTransition.keys()).map((s, ind) => (
-      <Bar key={ind} isAnimationActive={false} dataKey={s} stackId="b" fill={getColor(s)} />
+      <Bar key={ind} isAnimationActive={false} dataKey={s} stackId="b" fill={getColor(s.split("=>")[1].trim())} />
     ))}
   </BarChart>;
 
