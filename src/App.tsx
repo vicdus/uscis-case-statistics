@@ -553,7 +553,9 @@ const App: React.FC<{}> = () => {
       {modeSelector}
       <FilterBox></FilterBox>
       {updateDayPicker}
+      <h2>Current State</h2>
       {barChart}
+      <h2>State Transition in previous day</h2>
       {barChartForTransition}
       {updateDayPicker}
       {TotalCountToday}
