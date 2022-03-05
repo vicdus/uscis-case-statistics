@@ -382,7 +382,7 @@ const App: React.FC<{}> = () => {
       const [mode, form, center, year, code, day, from, to] = key.split("|");
       return { mode, form, center, year, code, day, from, to, count };
     })
-    .filter(v => v.center === selectedCenter && v.form === selectedForm && "data_" + v.mode === mode)
+    .filter(v => v.center === selectedCenter && v.form === selectedForm && "data_" + v.mode === mode && v.year === selectedFy)
     .map(v => ({ day: v.day, from: v.from, to: v.to, count: v.count })))
     .groupBy(v => v.day)
     .map(v => v.toList().toArray())
