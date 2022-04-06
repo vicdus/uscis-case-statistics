@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/uscis-case-statistics/precache-manifest.64efc6f4043d21e600773d6075fd7e50.js"
+  "/uscis-case-statistics/precache-manifest.6ecb688861d8748a6fee00425129a7be.js"
 );
 
 self.addEventListener('message', (event) => {
