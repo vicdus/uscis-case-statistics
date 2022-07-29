@@ -25,3 +25,11 @@ src/clawer.js
 src/Constants.js
 src/scraper/main
 src/scraper/nocommit/*.bytes
+src/scraper/transitioning_7.json
+src/scraper/transitioning_1.json
+src/scraper/transitioning.json
+src/scraper/data_center_year_day_code_serial_22.json
+src/scraper/data_center_year_day_code_serial_21.json
+src/scraper/data_center_year_code_day_serial_22.json
+src/scraper/data_center_year_code_day_serial_21.json
+src/scraper/case_form_type_global_cache.bytes
