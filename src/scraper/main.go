@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"net/url"
 	"os"
 	"strings"
 	"sync"
@@ -101,16 +102,9 @@ var client = http.Client{
 	Timeout: 30 * time.Second,
 }
 
-func get(url string, retry int) Result {
-	req, err0 := http.NewRequest("GET", url, nil)
-	if err0 != nil {
-		fmt.Println("error 0! " + err0.Error() + "\n")
-		fmt.Printf("Retry %d %s\n", retry, url)
-		return get(url, retry+1)
-	}
-
+func get(form url.Values, retry int) Result {
 	sem.Acquire(context.Background(), 1)
-	res, err1 := client.Do(req)
+	res, err1 := http.PostForm("https://egov.uscis.gov/casestatus/mycasestatus.do", form)
 	sem.Release(1)
 
 	defer func() {
@@ -120,20 +114,20 @@ func get(url string, retry int) Result {
 	}()
 	if err1 != nil {
 		fmt.Println("error 1! " + err1.Error() + "\n")
-		fmt.Printf("Retry %d %s\n", retry, url)
-		return get(url, retry+1)
+		fmt.Printf("Retry %d %s\n", retry, form)
+		return get(form, retry+1)
 	}
 
 	doc, err2 := goquery.NewDocumentFromReader(res.Body)
 	if err2 != nil {
 		fmt.Println("error 2! " + err2.Error() + "\n")
-		fmt.Printf("Retry %d %s\n", retry, url)
-		return get(url, retry+1)
+		fmt.Printf("Retry %d %s\n", retry, form)
+		return get(form, retry+1)
 	}
 
 	body := doc.Find(".rows").First()
 	status := body.Find("h1").Text()
-	case_id := strings.ReplaceAll(url, "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=", "")
+	case_id := form.Get("appReceiptNum")
 	for _, form := range FORM_TYPES {
 		if strings.Contains(doc.Text(), form) {
 			case_form_store_mutex.Lock()
@@ -156,12 +150,12 @@ func get(url string, retry int) Result {
 	}
 }
 
-func toURL(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) string {
+func toURL(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) url.Values {
 	if format == center_year_day_code_serial {
-		res := fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%03d%d%04d", center, two_digit_yr, day, code, case_serial_numbers)
+		res := url.Values{"appReceiptNum": {fmt.Sprintf("%s%d%03d%d%04d", center, two_digit_yr, day, code, case_serial_numbers)}}
 		return res
 	} else {
-		res := fmt.Sprintf("https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=%s%d%d%03d%04d", center, two_digit_yr, code, day, case_serial_numbers)
+		res := url.Values{"appReceiptNum": {fmt.Sprintf("%s%d%d%03d%04d", center, two_digit_yr, code, day, case_serial_numbers)}}
 		return res
 	}
 }
@@ -172,7 +166,7 @@ func clawAsync(center string, two_digit_yr int, day int, code int, case_serial_n
 
 func claw(center string, two_digit_yr int, day int, code int, case_serial_numbers int, format int) Result {
 	url := toURL(center, two_digit_yr, day, code, case_serial_numbers, format)
-	case_id := strings.ReplaceAll(url, "https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=", "")
+	case_id := url.Get("appReceiptNum")
 	res := get(url, 0)
 
 	if res.Status != "" {
