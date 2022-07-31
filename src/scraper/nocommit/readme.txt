@@ -1,1 +1,0 @@
-Raw case data will be saved here. Few GB for each day so won't be committed.
