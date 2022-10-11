@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"context"
+	"crypto/tls"
 	"encoding/gob"
 	"encoding/json"
 	"fmt"
@@ -98,13 +99,14 @@ var sem = semaphore.NewWeighted(900)
 
 var start_epoch = time.Now().Unix()
 var last_record = start_epoch
-var client = http.Client{
-	Timeout: 30 * time.Second,
+var client = &http.Client{
+	Transport: &http.Transport{TLSClientConfig: &tls.Config{InsecureSkipVerify: true}},
 }
 
 func get(form url.Values, retry int) Result {
 	sem.Acquire(context.Background(), 1)
-	res, err1 := http.PostForm("https://egov.uscis.gov/casestatus/mycasestatus.do", form)
+	res, err1 := client.PostForm("https://egov.uscis.gov/casestatus/mycasestatus.do", form)
+
 	sem.Release(1)
 
 	defer func() {
