@@ -1,0 +1,2 @@
+(this["webpackJsonpuscis-case-statistics"]=this["webpackJsonpuscis-case-statistics"]||[]).push([[7],{526:function(s){s.exports=JSON.parse('{"19549":{},"19550":{},"19551":{},"19552":{},"19553":{}}')}}]);
+//# sourceMappingURL=7.781621f2.chunk.js.map
