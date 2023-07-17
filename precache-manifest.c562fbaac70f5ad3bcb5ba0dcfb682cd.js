@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77d9f7433c5136074e080cbc8f895708",
+    "revision": "43a3ce9b122c688f676f1382d44fb099",
     "url": "/uscis-case-statistics/index.html"
   },
   {
@@ -28,20 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uscis-case-statistics/static/js/6.a41f60a7.chunk.js"
   },
   {
-    "revision": "9fc52a578a547b0d1035",
-    "url": "/uscis-case-statistics/static/js/7.3c0b8347.chunk.js"
+    "revision": "d573aa401cd6e213939e",
+    "url": "/uscis-case-statistics/static/js/7.ec7177bf.chunk.js"
   },
   {
-    "revision": "805b22fb215649a7f243",
-    "url": "/uscis-case-statistics/static/js/8.a6318bb3.chunk.js"
+    "revision": "1dbec79f09f955f20f1b",
+    "url": "/uscis-case-statistics/static/js/8.2ae6c858.chunk.js"
   },
   {
     "revision": "0c70bd6ff1955ddc867e",
     "url": "/uscis-case-statistics/static/js/main.9bc4863d.chunk.js"
   },
   {
-    "revision": "f5c8304255d23a00dfe6",
-    "url": "/uscis-case-statistics/static/js/runtime-main.9aac9b04.js"
+    "revision": "1c3034d4ae4eff697773",
+    "url": "/uscis-case-statistics/static/js/runtime-main.02fffd2f.js"
   },
   {
     "revision": "e778d75a8e35422f3c7aaf943ada6e5c",
